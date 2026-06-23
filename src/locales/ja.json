@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "リリース",
+    "platforms": "プラットフォーム",
+    "price": "価格",
+    "guide": "ガイド",
+    "gameplay": "ゲームプレイ",
+    "servers": "サーバー"
+  }
+}

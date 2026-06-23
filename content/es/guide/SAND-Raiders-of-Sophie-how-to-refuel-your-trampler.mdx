@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Battery, Fuel, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo repostar tu Trampler en SAND Raiders of Sophie: Guía de mantenimiento",
+  description: "Aprende a repostar tu Trampler en SAND: Raiders of Sophie. Domina la gestión del reactor, la búsqueda de combustible y la eficiencia del motor para sobrevivir en el planeta desértico.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/b8860b/fff?text=Trampler+Refueling+Guide",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie",
+  keywords: "SAND Raiders of Sophie, repostar, trampler, combustible, guía, reactor, mantenimiento"
+}
+
+<Callout type="info" title="Guía rápida">
+- **SAND Raiders of Sophie cómo repostar tu trampler**: Localiza el módulo del reactor e inserta barras o botes de combustible recolectados.
+- **Fuente de energía**: La energía es generada por los **Reactores** y consumida por los **Motores** y las armas montadas.
+- **Prioridad de recolección**: Prioriza los **PDI industriales** y los naufragios para obtener recursos de combustible de alta densidad.
+- **Consejo de mantenimiento**: Lleva siempre al menos **dos botes de combustible de repuesto** antes de entrar en una Inmersión de Tormenta (Storm Dive).
+- **Estrategia de eficiencia**: Mejora la **potencia del reactor** para reducir la frecuencia de repostaje manual durante el combate.
+</Callout>
+
+<Section icon={Sparkles} title="Comprendiendo los sistemas de energía del Trampler">
+
+En **SAND: Raiders of Sophie**, tu Trampler es más que un simple vehículo; es una fortaleza móvil que requiere una gestión constante de energía para funcionar. El núcleo de la movilidad y defensa de tu máquina reside en la interacción entre sus compartimentos de **Reactor** y **Motor**. Sin un suministro constante de combustible, tu base andante se convierte en un objetivo estático tanto para las amenazas PvE como para los asaltantes rivales.
+
+**Puntos destacados del vídeo:**
+- Descripción general del **Editor de Trampler** y la colocación del reactor.
+- Guía visual para identificar botes de combustible en el páramo.
+- Demostración de la animación y el tiempo del repostaje manual.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="Tráiler de lanzamiento de SAND: Raiders of Sophie" />
+
+El repostaje no es un proceso automatizado. Requiere que la tripulación busque activamente recursos e interactúe manualmente con los módulos internos del Trampler. Comprender los diferentes tipos de fuentes de energía y sus tasas de consumo es esencial para la supervivencia a largo plazo en el planeta Sophie.
+
+| Componente de energía | Función principal | Requisito de mantenimiento |
+| :--- | :--- | :--- |
+| **Módulo del Reactor** | Convierte el combustible bruto en energía utilizable para todos los sistemas | Requiere inserción manual de combustible y gestión de refrigeración |
+| **Compartimento del Motor** | Consume energía para mover las patas del Trampler | La eficiencia depende de la relación peso-potencia |
+| **Red Eléctrica** | Distribuye energía a torretas y escudos | Puede interrumpirse si el reactor resulta dañado |
+
+<Callout type="tip" title="Consejo profesional">
+Coloca tu módulo de Reactor en un área central y protegida de tu Trampler. Si un enemigo aborda y destruye el reactor, perderás toda la movilidad y capacidad defensiva al instante.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Cómo buscar recursos de combustible">
+
+Para dominar **cómo repostar tu trampler en SAND Raiders of Sophie**, primero debes saber dónde encontrar los recursos necesarios. El combustible no se regenera; debe ser saqueado de los restos del mundo caído. Las diferentes regiones del mapa ofrecen distintas calidades de combustible, y las zonas de mayor riesgo suelen proporcionar fuentes de energía más eficientes.
+
+El planeta Sophie está plagado de ciudades, ruinas y naufragios. Aunque se pueden encontrar recursos básicos casi en cualquier lugar, los botes de combustible de alto grado se concentran en **Puntos de Interés (PDI)** específicos.
+
+| Tipo de ubicación | Densidad de combustible | Nivel de riesgo | Botín común |
+| :--- | :--- | :--- | :--- |
+| **Ciudades abandonadas** | Media | Alto | Barras de combustible estándar, piezas de armas, munición |
+| **Ruinas industriales** | Alta | Medio | Botes de alta densidad, refrigerante de reactor |
+| **Naufragios estrellados** | Muy alta | Muy alto | Células de combustible experimentales, artefactos raros |
+| **Puestos de avanzada del desierto** | Baja | Bajo | Combustible básico de madera/carbón, recursos menores |
+
+<CardGrid cols={2}>
+  <Card title="Recolección industrial">
+    Céntrate en fábricas y almacenes. Estos lugares suelen contener **Botes de combustible refinado**, que proporcionan el tiempo de combustión más largo para las construcciones de Trampler pesadas.
+  </Card>
+  <Card title="Salvamento de naufragios">
+    Las ubicaciones más peligrosas pero gratificantes. Los naufragios suelen albergar **Células de grado militar** que pueden alimentar una máquina de guerra totalmente cargada durante toda una Inmersión de Tormenta.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia">
+Vigila siempre el indicador de combustible de tu Trampler mientras recolectas a pie. Si te alejas demasiado y el combustible se agota, tu base no podrá acudir en tu rescate si sufres una emboscada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Proceso de repostaje paso a paso">
+
+El acto de repostar implica un conjunto específico de acciones que dejan al jugador vulnerable. En **SAND: Raiders of Sophie**, no puedes repostar desde el asiento del piloto. Debes desplazarte físicamente a la sala del reactor y realizar el mantenimiento.
+
+<Steps>
+  <Step num="1" title="Localiza el combustible en el inventario">
+    Asegúrate de tener botes o barras de combustible recolectados en tu inventario personal o en el compartimento de almacenamiento del Trampler.
+  </Step>
+  <Step num="2" title="Accede al módulo del reactor">
+    Camina hasta el compartimento interno donde está instalado tu **Reactor**. Busca el indicador de interacción con la etiqueta **Abrir puerto de combustible**.
+  </Step>
+  <Step num="3" title="Inserta la fuente de combustible">
+    Arrastra el objeto de combustible desde tu inventario a la ranura del reactor. Verás que la barra de **Nivel de energía** comienza a subir inmediatamente.
+  </Step>
+  <Step num="4" title="Monitorea los niveles de calor">
+    El combustible de alto grado a veces puede causar el sobrecalentamiento del reactor. Revisa el indicador de temperatura y aplica **Refrigerante** si la barra entra en la zona roja.
+  </Step>
+  <Step num="5" title="Asegura el compartimento">
+    Cierra la interfaz del reactor y regresa al puente. Confirma el **Alcance estimado** actualizado en tu HUD antes de reanudar el viaje.
+  </Step>
+</Steps>
+
+| Tipo de combustible | Duración de combustión | Salida de energía | Peso |
+| :--- | :--- | :--- | :--- |
+| **Barra de combustible básica** | 5 minutos | Baja | 2 kg |
+| **Bote refinado** | 12 minutos | Media | 5 kg |
+| **Célula militar** | 25 minutos | Alta | 8 kg |
+| **Chatarra de biocombustible** | 2 minutos | Muy baja | 1 kg |
+
+<Callout type="success" title="Consejo para el éxito">
+En una tripulación de 4 a 6 jugadores, designa a una persona como **Ingeniero**. Su trabajo principal debe ser monitorear el combustible y la salud del reactor mientras el resto del equipo se enfoca en el combate y el saqueo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimizando la eficiencia del motor y del reactor">
+
+Repostar se vuelve menos pesado si tu Trampler está construido para la eficiencia. El **Editor de Trampler** te permite personalizar cada aspecto de tu máquina, incluyendo cómo consume la energía. Una armadura más pesada y más torretas montadas aumentan la carga sobre tus motores, lo que lleva a un consumo de combustible más rápido.
+
+Al diseñar tu construcción, considera el equilibrio entre la generación de energía y el consumo. Una fortaleza masiva con un solo reactor básico requerirá un repostaje constante, lo que la hace poco práctica para expediciones de larga distancia en el **Modo Viaje**.
+
+| Estrategia de optimización | Beneficio | Desventaja |
+| :--- | :--- | :--- |
+| **Configuración de reactor dual** | Duplica la capacidad y salida de energía | Aumenta el peso y ocupa más espacio de módulo |
+| **Patas ligeras** | Reduce el consumo de combustible durante el movimiento | Menor durabilidad y menor capacidad de carga |
+| **Derivación de energía** | Dirige la energía solo a los sistemas activos | Requiere gestión manual durante combates de alto estrés |
+| **Inyectores mejorados** | Aumenta la energía obtenida por barra de combustible | Requiere recursos raros para fabricar o comprar |
+
+<Checklist
+  id="maintenance-checklist"
+  title="Lista de verificación de mantenimiento previa a la expedición:"
+  items={[
+    "Comprobar la durabilidad del reactor y reparar cualquier grieta",
+    "Almacenar al menos 4 botes de combustible de alta densidad",
+    "Verificar que el sistema de refrigeración del motor funcione",
+    "Limpiar cualquier residuo de los pasillos internos del Trampler",
+    "Asignar un piloto de respaldo en caso de que el principal esté repostando"
+  ]}
+/>
+
+<Callout type="info" title="Importante">
+Si juegas en solitario, considera una **Construcción de sigilo y escape**. Estos Tramplers más pequeños tienen un consumo de combustible mucho menor, lo que te permite permanecer en el campo más tiempo sin necesidad de encontrar PDI industriales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate y repostaje de emergencia">
+
+El momento más peligroso para repostar es durante un encuentro PvP. Si te quedas sin energía mientras eres perseguido por otra tripulación, tu Trampler se detendrá, permitiendo que los enemigos aborden tu base con facilidad. Aprender a gestionar **cómo repostar tu trampler en SAND Raiders of Sophie** bajo presión es la marca de un asaltante de élite.
+
+Si tu reactor resulta dañado durante una pelea, su eficiencia caerá drásticamente. Es posible que el combustible se queme el doble de rápido de lo normal. En estas situaciones, debes priorizar las reparaciones sobre el movimiento.
+
+| Escenario de emergencia | Acción inmediata | Prevención |
+| :--- | :--- | :--- |
+| **Sin combustible en combate** | Desplegar granadas de humo y esconderse en la sala del reactor | Configurar una alarma de combustible bajo al 15% de capacidad |
+| **Sobrecalentamiento del reactor** | Ventilar el núcleo del reactor manualmente | Instalar rejillas de refrigeración adicionales en el editor |
+| **Parada del motor** | Comprobar daños en las patas antes de repostar | Usar placas de blindaje para proteger el chasis inferior |
+
+<Callout type="warning" title="Peligro">
+Nunca intentes repostar mientras el Trampler está siendo abordado activamente. El bloqueo de animación te convierte en un objetivo fácil para los jugadores enemigos que hayan logrado entrar en tu base.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusión y mejores prácticas">
+
+Dominar la logística de la gestión de energía es tan importante como tu puntería en **SAND: Raiders of Sophie**. Al comprender el proceso de repostaje, saber dónde buscar recursos de alta calidad y optimizar la construcción de tu Trampler, puedes asegurar que tu fortaleza móvil permanezca operativa incluso a través de las tormentas de arena más feroces.
+
+Recuerda siempre que la codicia es la principal causa de muerte en el desierto. Si tu combustible es bajo y tu almacenamiento está lleno, no intentes ir a por un naufragio más. Dirígete al punto de extracción más cercano y asegura tu progreso.
+
+<FAQ items={[
+  {
+    question: "¿Cómo sé qué combustible es mejor para mi Trampler?",
+    answer: "Consulta la estadística de 'Densidad de energía' en el objeto de combustible. Las células de grado militar son las mejores para construcciones pesadas, mientras que las barras de combustible básicas son suficientes para caminantes pequeños y aptos para jugadores en solitario."
+  },
+  {
+    question: "¿Puedo repostar mientras el Trampler está en movimiento?",
+    answer: "Sí, puedes repostar mientras el Trampler se mueve, pero debes abandonar el asiento del piloto. Es más seguro que un compañero de tripulación se encargue del repostaje mientras tú navegas."
+  },
+  {
+    question: "¿Qué sucede si me quedo completamente sin combustible?",
+    answer: "El Trampler se detendrá por completo. No podrás moverte, usar armas montadas ni activar escudos hasta que se añada al menos una fuente de combustible al reactor."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para encontrar combustible en SAND: Raiders of Sophie?",
+    answer: "Los PDI industriales y los naufragios son las fuentes más fiables de botes de combustible de alta densidad. Las ciudades abandonadas ofrecen barras estándar, pero suelen estar muy disputadas por otros jugadores."
+  }
+]} />
+
+</Section>

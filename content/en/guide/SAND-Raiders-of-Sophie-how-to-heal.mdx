@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, HeartPulse, LifeBuoy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie how to heal: Survival & Repair Guide",
+  description: "Learn how to heal your character and repair your Trampler in SAND: Raiders of Sophie. Master Repair Kits, medical supplies, and extraction survival.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/d89a2b/fff?text=Survival+and+Healing+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **SAND Raiders of Sophie how to heal** requires managing two separate health pools: the player's HP and the Trampler's structural integrity.
+- **Repair Kits** are essential S-Tier items that contain **3 charges** and are the primary method for fixing damaged walking bases.
+- **Medical Supplies** such as medkits and bandages are found in ruined cities and shipwrecks to restore player health after combat.
+- **Extraction** is the ultimate reset, as returning to the orbital station fully restores your status for the next expedition.
+- **Armor Plates** serve as a preventative measure, reducing the frequency of needed repairs during high-risk Storm Dive runs.
+</Callout>
+
+<Section icon={HeartPulse} title="Understanding Player Health and Recovery">
+
+Survival on the desert planet Sophie is a constant struggle against both environmental hazards and rival crews. Unlike traditional shooters where health might regenerate over time, SAND: Raiders of Sophie utilizes a dedicated inventory-based healing system. Knowing **SAND Raiders of Sophie how to heal** effectively can be the difference between a successful extraction and losing your entire loot haul to the dunes.
+
+Player health is displayed via a standard HP bar on the HUD. Damage can be sustained from fall damage, environmental heat, PvE enemies (the undead), and most dangerously, gunfire from other players during boarding actions. Healing is not instantaneous; most medical items require a brief channel time, leaving you vulnerable to follow-up attacks.
+
+| Item Type | Healing Amount | Use Time | Rarity | Best Use Case |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bandages** | Low (Small HoT) | Fast | Common | Stopping minor bleeds after PvE skirmishes |
+| **Medkit** | Medium (Instant) | Moderate | Uncommon | Mid-combat recovery during player encounters |
+| **Advanced Trauma Kit** | High (Instant) | Slow | Rare | Full recovery after surviving a heavy assault |
+| **Food/Rations** | Very Low (HoT) | Instant | Common | Maintaining health between major POIs |
+
+<Callout type="warning" title="Vulnerability Warning">
+Healing animations lock you out of using your primary weapon. Always ensure you are behind cover or inside the safety of your Trampler's armored compartments before attempting to use a Medkit.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Trampler Repairs and Maintenance">
+
+Your Trampler is more than just a vehicle; it is your mobile fortress, storage unit, and primary defense. Because the Trampler takes up the majority of the combat profile, it will inevitably soak up cannon fire and autocannon rounds. Repairing your walking base is just as critical as healing your own character.
+
+The primary tool for this task is the **Repair Kit**. As of the June 2026 Early Access launch, Repair Kits are balanced with **3 charges** per item. This limitation forces crews to prioritize which modules to fix first during a retreat. If a Trampler is completely destroyed, you must rely on saved Blueprints to reconstruct it, provided you have the resources.
+
+| Module Type | Repair Priority | Impact of Damage | Repair Charge Cost |
+| :--- | :--- | :--- | :--- |
+| **Legs/Drive System** | **Critical** | Reduced mobility, eventual immobilization | 1 Charge |
+| **Engine/Reactor** | **High** | Power loss, inability to fire mounted weapons | 1 Charge |
+| **Storage Units** | **Medium** | Risk of loot dropping or becoming inaccessible | 1 Charge |
+| **Armor Plates** | **Low** | Reduced damage mitigation for future hits | 1 Charge |
+| **Mounted Turrets** | **High** | Loss of offensive pressure and defense | 1 Charge |
+
+<Callout type="tip" title="Pro Repair Strategy">
+If you are under heavy fire, prioritize repairing the **Legs** first. A stationary Trampler is an easy target for boarding or concentrated cannon fire. Mobility is your best form of "healing."
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Heal: Step-by-Step Survival Process">
+
+Following a standard combat engagement, you should follow a specific protocol to ensure both your crew and your base are combat-ready for the next POI or extraction attempt.
+
+<Steps>
+  <Step num="1" title="Secure the Perimeter">
+    Before healing, ensure the threat is neutralized or you have escaped the line of sight. If in a Trampler, put the vehicle in motion toward a low-risk zone.
+  </Step>
+  <Step num="2" title="Address Player Bleeding">
+    Use bandages or medkits to restore your personal HP bar. If you are part of a crew, have one member stay on the mounted weapons while others heal.
+  </Step>
+  <Step num="3" title="Assess Trampler Integrity">
+    Inspect the internal and external modules of your walking base. Look for smoke or fire effects indicating critical module failure.
+  </Step>
+  <Step num="4" title="Execute Repairs">
+    Equip a **Repair Kit** and target the most damaged critical components (Legs or Engine). Remember that each kit only has 3 charges.
+  </Step>
+  <Step num="5" title="Restock and Extract">
+    If your supplies are low, avoid further combat. Head to the nearest extraction point to reset your health and repair kits at the orbital station.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Resource Efficiency">
+Repairing at the orbital station after extraction is "free" in terms of item usage. Avoid wasting Repair Kits near the end of a run if your Trampler can still limp to the extraction zone.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Looting Medical and Repair Supplies">
+
+To maintain your survival loop, you must constantly scavenge for supplies. Sophie is a procedurally generated world, but certain POIs (Points of Interest) have higher concentrations of medical and mechanical loot.
+
+Cities and abandoned streets are the best sources for player healing items, often found in "Medical Crates." Shipwrecks and industrial ruins are more likely to yield Repair Kits and spare parts for your Trampler.
+
+| Location Category | Primary Loot | Danger Level | Recommended Crew Size |
+| :--- | :--- | :--- | :--- |
+| **Ruined Cities** | Medkits, Bandages, Ammo | High (PvP/PvE) | 2-4 Players |
+| **Industrial Ruins** | Repair Kits, Armor Plates | Medium | 1-3 Players |
+| **Shipwrecks** | High-tier Meds, Rare Parts | Very High | 4-6 Players |
+| **Abandoned Outposts** | Food, Basic Bandages | Low | Solo Friendly |
+
+<Callout type="info" title="Loot Rarity Note">
+Rare weapons and advanced medical supplies have a higher drop chance in "Rare Weapon Crates" found deep within shipwrecks or near the Dreadnought.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Healing Strategies">
+
+In the heat of a PvPvE encounter, you won't always have the luxury of a quiet moment to fix your gear. You must integrate healing into your combat tactics.
+
+<CardGrid cols={3}>
+  <Card title="The Stealth Approach">
+    - Use **Smoke Grenades** to obscure your Trampler.
+    - Heal and repair while the enemy loses visual lock.
+    - Best for solo players or light builds.
+  </Card>
+  <Card title="The Fortress Tactic">
+    - Stack **Armor Plates** to soak damage.
+    - Rotate crew members between firing and repairing.
+    - Use heavy cannons to keep enemies at a distance.
+  </Card>
+  <Card title="The Tactical Retreat">
+    - Focus all repairs on the **Engine**.
+    - Use maximum speed to exit the combat zone.
+    - Heal player HP once out of cannon range.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Armor Plate Investment">
+Armor Plate pricing was increased in the latest 2026 patch. While they provide excellent protection, they are now a significant financial investment. Use them wisely in Storm Dive modes where the risk is highest.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Survival Checklist for Sophie">
+
+Before you deploy into either Voyage or Storm Dive mode, ensure your inventory is prepared for the inevitable damage you will take.
+
+<Checklist
+  id="healing-checklist"
+  title="Pre-Expedition Essentials:"
+  items={[
+    "At least 2 Repair Kits (Total 6 charges) for your Trampler",
+    "Minimum 3 Medkits for personal healing",
+    "A stack of bandages to handle minor PvE chip damage",
+    "Extra Armor Plates if entering a Storm Dive run",
+    "Sufficient fuel to ensure you don't stall during a repair phase"
+  ]}
+/>
+
+</Section>
+
+<Section icon={LifeBuoy} title="FAQ: Healing and Repairs">
+
+<FAQ items={[
+  {
+    question: "How do I heal my character in SAND: Raiders of Sophie?",
+    answer: "You can heal by using medical consumables like Bandages, Medkits, or Advanced Trauma Kits. These items are scavenged from cities and ruins. Each requires a short channel time to use."
+  },
+  {
+    question: "What is the best way to repair my Trampler?",
+    answer: "The most efficient way is using a Repair Kit, which contains 3 charges. Each charge can fix a specific module. For full repairs, successfully extracting to the orbital station will reset your Trampler's health."
+  },
+  {
+    question: "Can I heal while my Trampler is moving?",
+    answer: "Yes, you can heal and repair while the Trampler is in motion. However, it is difficult to target specific external modules with a Repair Kit if the vehicle is moving at high speeds or over rough terrain."
+  },
+  {
+    question: "What happens if I run out of Repair Kits?",
+    answer: "If you have no kits and your Trampler is immobilized, you may need to scavenge nearby industrial POIs on foot or, in extreme cases, abandon the vehicle and create a new character or join a different crew."
+  }
+]} />
+
+</Section>

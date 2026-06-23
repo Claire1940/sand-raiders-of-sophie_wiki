@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Steam: Guía de Lanzamiento de Acceso Anticipado",
+  description: "Domina SAND: Raiders of Sophie en Steam con nuestra guía de 2026. Explora diseños de Trampler, modos de extracción PvPvE, requisitos del sistema y estrategias de botín.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/f8fafc?text=Steam+Launch+Guide",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie",
+  keywords: "SAND Raiders of Sophie, Steam, guía, Trampler, PvPvE, extracción, requisitos del sistema"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La versión de **SAND Raiders of Sophie en Steam** se lanzó en Acceso Anticipado el 22 de junio de 2026, con un descuento de lanzamiento.
+- Los **Tramplers** son la mecánica central, funcionando como tu base móvil personalizable, almacenamiento y plataforma de armas pesadas.
+- Los **Modos PvPvE** incluyen Voyage para exploración persistente y Storm Dive para extracciones de alto riesgo al estilo battle royale.
+- El **Emparejamiento** se divide estrictamente por el tamaño de la tripulación, desde jugadores en solitario hasta equipos de seis.
+- El antitrampas **BattlEye** es obligatorio para todos los jugadores de Steam y requiere una configuración específica para usuarios de Linux/Steam Deck.
+</Callout>
+
+<Section icon={Zap} title="SAND Raiders of Sophie Steam: Lanzamiento y Precios">
+
+El lanzamiento oficial de la versión de **Steam de SAND Raiders of Sophie** el 22 de junio de 2026 marca el comienzo de una nueva era en el género de los extraction shooters. Desarrollado por Hologryph y TowerHaus y publicado por tinyBuild, este título combina la complejidad mecánica de la construcción de vehículos con la alta tensión de la supervivencia PvPvE. Los jugadores son transportados al planeta desértico Sophie, donde deben navegar por los restos de un mundo caído utilizando enormes fortalezas andantes conocidas como Tramplers.
+
+**Puntos destacados del vídeo:**
+- **Personalización del Trampler**: Un vistazo al editor modular para construir bases andantes.
+- **Combate**: Demostración de tiroteos a pie y fuego de cañones entre naves.
+- **Entorno**: Muestra de las ciudades procedimentales, ruinas y naufragios de Sophie.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="SAND: Raiders of Sophie - Tráiler de Lanzamiento" />
+
+La versión de Steam es actualmente la única versión jugable, aunque otras plataformas figuran como anunciadas. A continuación se muestra el estado de disponibilidad actual en las principales tiendas a partir de junio de 2026.
+
+| Plataforma | Estado | Características |
+| :--- | :--- | :--- |
+| **PC (Steam)** | **Disponible ahora** | Acceso anticipado, Logros, BattlEye, Préstamo familiar |
+| **PlayStation 5** | Lista de deseos | Lanzamiento por determinar, Soporte DualSense, Requiere PS Plus |
+| **Xbox Series X|S** | Ficha en la tienda | Lanzamiento por determinar, Optimizado para Series X|S, 2-90 Jugadores |
+| **Sitio Oficial** | Portal | Enlaces oficiales de Discord, Avisos de seguridad, Kit de prensa |
+
+<Callout type="success" title="Descuento de Lanzamiento">
+La versión de Steam cuenta con un descuento de lanzamiento del 21%, reduciendo el precio base de $24.99 a $19.74. Esta oferta finalizará el 6 de julio de 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Construcción de Tramplers: Guía de Diseño">
+
+El Trampler no es solo un vehículo; es tu principal almacén, protección y punto de reaparición. En la experiencia de **SAND Raiders of Sophie en Steam**, perder tu Trampler a menudo significa perder todo el progreso de tu expedición. Por lo tanto, utilizar el Editor de Tramplers para crear planos eficientes es la tarea más crítica para cualquier nuevo saqueador.
+
+<CardGrid cols={3}>
+  <Card title="Diseño Sigiloso para Solitarios">
+    - **Distribución Compacta**: Minimiza la distancia entre el pilotaje y el almacenamiento.
+    - **Ligero**: Optimizado para salidas rápidas y baja exposición visual.
+    - **Defensa**: Se centra en cortinas de humo y velocidad en lugar de armadura pesada.
+  </Card>
+  <Card title="Diseño de Fortaleza Pesada">
+    - **Armadura Máxima**: Placas apiladas para sobrevivir al fuego sostenido de cañones.
+    - **Potencia de Fuego**: Múltiples cañones de 80 mm y torretas montadas.
+    - **Sostenibilidad**: Gran capacidad de almacenamiento para Storm Dives de larga duración.
+  </Card>
+  <Card title="Diseño de Apoyo para Tripulaciones">
+    - **Multihabitación**: Incluye camarotes para tripulaciones de hasta 6 jugadores.
+    - **Redundancia**: Múltiples reactores y motores para mayor fiabilidad en batalla.
+    - **Utilidad**: Estaciones de reparación dedicadas y defensa contra abordajes.
+  </Card>
+</CardGrid>
+
+La construcción comienza con los compartimentos centrales. Cada módulo colocado afecta al peso, al consumo de energía y a la disposición física de la máquina. La arquitectura en sí se convierte en un arma; una colocación caótica de los módulos puede desorientar a los enemigos que intenten abordar tu nave durante un combate.
+
+| Tipo de Módulo | Función Principal | Componentes Clave |
+| :--- | :--- | :--- |
+| **Energía** | Generación de energía | Reactores, Bancos de baterías |
+| **Movilidad** | Movimiento | Motores, Actuadores de patas |
+| **Utilidad** | Supervivencia | Almacenamiento, Puntos de reaparición, Camarotes |
+| **Combate** | Ofensiva/Defensiva | Torretas, Placas de armadura, Cañones de riel |
+
+<Callout type="tip" title="Seguridad de los Planos">
+Guarda siempre tus diseños como planos en el editor. Si tu Trampler es destruido en la superficie de Sophie, puedes reconstruirlo rápidamente desde la estación orbital si tienes los recursos necesarios.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Modos de Juego: Comparación entre Voyage y Storm Dive">
+
+El ciclo de juego en Sophie se divide en dos estilos de expedición distintos. Comprender la diferencia entre Voyage y Storm Dive es esencial para gestionar el riesgo y la recompensa. Voyage está diseñado para la persistencia y el aprendizaje, mientras que Storm Dive es un entorno de alta presión donde el entorno es tan letal como los jugadores.
+
+| Característica | Modo Voyage | Modo Storm Dive |
+| :--- | :--- | :--- |
+| **Nivel de Riesgo** | Menor | Mayor |
+| **Perfil de Botín** | Recolección estándar | Artefactos de alto nivel |
+| **Límite de Tiempo** | Persistente / Sin temporizador | Limitado por la tormenta de arena |
+| **Extracción** | Iniciada por el jugador | Centrada en el mapa |
+| **Ideal para** | Nuevos jugadores / Probar diseños | Veteranos / Enfocado en PvP |
+
+En Storm Dive, una tormenta de arena envuelve lentamente la región, obligando a todos los Tramplers activos a dirigirse hacia el centro del mapa. Esto crea un "cuello de botella" natural donde los encuentros PvP se vuelven inevitables. Voyage, por el contrario, permite un ritmo más relajado donde las tripulaciones pueden centrarse en la recolección de recursos específicos o en completar contratos sin la presión inmediata de una tormenta que se cierra.
+
+<Callout type="warning" title="Rangos de Emparejamiento">
+El emparejamiento se basa en el tamaño de la tripulación para garantizar la justicia. Los jugadores solitarios generalmente se encontrarán con otros solitarios, mientras que las tripulaciones grandes de 4 a 6 jugadores se ubican en servidores de alta capacidad.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Clasificación de Equipo: Lista de Niveles de las Mejores Armas">
+
+Aunque los cañones del Trampler proporcionan una gran potencia de fuego, los saqueadores individuales deben estar equipados para acciones de abordaje y recolección urbana. La siguiente lista de niveles clasifica las armas y objetos de utilidad actuales disponibles en la versión de Acceso Anticipado de **SAND Raiders of Sophie en Steam** según su fiabilidad y eficacia en combate.
+
+| Nivel | Arma / Objeto | Rol | Por qué está en este nivel |
+| :--- | :--- | :--- | :--- |
+| **S** | **Kits de reparación** | Utilidad | Esenciales para mantener los Tramplers operativos en pleno combate. |
+| **S** | **Placas de armadura** | Defensa | Inversión obligatoria para sobrevivir a extracciones de alto riesgo. |
+| **A** | **Cañón de 80 mm** | Montado | El estándar de oro para el fuego decisivo entre Tramplers. |
+| **A** | **Cañones de escopeta** | Montados | Excelentes para defenderse contra intentos de abordaje agresivos. |
+| **B** | **Cañones automáticos** | Montados | Fuego sostenido fiable pero con menor potencial de ráfaga que los cañones. |
+| **B** | **Granadas de humo** | Arrojadizo | Vitales para romper la línea de visión durante extracciones fallidas. |
+| **C** | **Bomba WOK** | Especial | Extremadamente potente pero rara; solo se encuentra en el Dreadnought. |
+
+<Callout type="success" title="Recompensa de Server Slam">
+Los jugadores que participaron en las pruebas oficiales de Server Slam en junio de 2026 son elegibles para el aspecto exclusivo de la recámara M1866/9 "Einzel" al comprar el juego en Steam.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Bucle de Extracción: Guía de Supervivencia">
+
+El éxito en SAND se define por lo que logras traer de vuelta a la estación orbital. El proceso de extracción es la parte más peligrosa de cualquier incursión, ya que señala tu ubicación a las tripulaciones cercanas que podrían estar buscando un robo fácil.
+
+<Steps>
+  <Step num="1" title="Preparación">
+    Asegúrate de que tus compartimentos de almacenamiento estén organizados y tu Trampler esté completamente reparado antes de dirigirte a un punto de extracción.
+  </Step>
+  <Step num="2" title="Navegación">
+    Evita las dunas abiertas donde eres fácilmente detectado. Usa las ruinas de las ciudades y los naufragios como cobertura visual mientras te mueves.
+  </Step>
+  <Step num="3" title="Escaneo">
+    Revisa el horizonte en busca de humo o movimiento distante. En Storm Dive, vigila de cerca la proximidad de la tormenta de arena.
+  </Step>
+  <Step num="4" title="Extracción">
+    Inicia la secuencia de extracción en un punto designado. Prepárate para defender tu Trampler contra amenazas PvE y jugadores oportunistas durante la duración del temporizador.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Gestión de la Codicia">
+Los saqueadores más inteligentes saben cuándo retirarse. Si tu Trampler está muy dañado o tu almacenamiento está lleno de recursos valiosos, no tomes "un último desvío" a un naufragio. Extrae de inmediato.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Especificaciones Técnicas: Requisitos del Sistema">
+
+Para garantizar una experiencia estable en el planeta desértico Sophie, los jugadores deben verificar su hardware con los requisitos oficiales. SAND utiliza el antitrampas de nivel de núcleo BattlEye, que está integrado en la versión de Steam.
+
+<Checklist
+  id="system-requirements"
+  title="Lista de verificación de configuración de PC:"
+  items={[
+    "Sistema operativo Windows 10/11 de 64 bits",
+    "Intel Core i5 (13.ª gen) o AMD Ryzen 5 (serie 7000) para juego recomendado",
+    "Mínimo 16 GB de RAM (32 GB recomendados)",
+    "NVIDIA GeForce RTX 3080 o AMD Radeon RX 6800 XT para ajustes altos",
+    "11 GB de almacenamiento SSD disponible",
+    "Conexión a internet de banda ancha para servidores de 90 jugadores"
+  ]}
+/>
+
+Para los jugadores en Linux o Steam Deck, se requieren pasos específicos para garantizar la compatibilidad con el sistema antitrampas. Debes instalar el **Proton BattlEye Runtime** desde tu biblioteca de Steam antes de iniciar el juego.
+
+| Requisito | Mínimo | Recomendado |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 | Windows 11 |
+| **CPU** | i5 (8.ª gen) / Ryzen 5 (2000) | i5 (13.ª gen) / Ryzen 5 (7000) |
+| **GPU** | GTX 1650 / RX 570 | RTX 3080 / RX 6800 XT |
+| **DirectX** | Versión 11 | Versión 11 |
+
+<Callout type="info" title="Aviso de Antitrampas">
+Si desinstalas el juego, BattlEye puede permanecer en tu sistema. La documentación oficial sugiere eliminar manualmente la carpeta BattlEye si no tienes la intención de jugar a otros juegos protegidos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es jugable la versión de Steam de SAND Raiders of Sophie en Steam Deck?",
+    answer: "Sí, pero primero debes instalar el Proton BattlEye Runtime desde tu biblioteca de Steam para pasar la verificación antitrampas."
+  },
+  {
+    question: "¿Qué pasa si mi Trampler es destruido?",
+    answer: "Pierdes el vehículo físico y cualquier botín almacenado en su interior. Sin embargo, si guardaste el diseño como un plano, puedes reconstruirlo en la estación orbital utilizando recursos."
+  },
+  {
+    question: "¿Puedo jugar solo en SAND Raiders of Sophie?",
+    answer: "Sí. El juego admite el juego en solitario y utiliza un sistema de emparejamiento que coloca a los jugadores solitarios en servidores con un límite de 15 jugadores para garantizar una experiencia justa."
+  },
+  {
+    question: "¿Hay códigos de canje activos para Steam?",
+    answer: "A partir de junio de 2026, no hay un sistema público de códigos de canje. Las recompensas como el aspecto de Server Slam están vinculadas directamente a la participación de la cuenta y a las compras en la plataforma."
+  }
+]} />
+
+</Section>

@@ -10,7 +10,14 @@
       "twitterDescription": "SAND: Raiders of Sophie Wiki covers Trampler builds, loot routes, weapons, PvPvE survival, extraction, maps, and the latest updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "price": "Price",
+    "guide": "Guide",
+    "gameplay": "Gameplay",
+    "servers": "Servers"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -661,5 +668,127 @@
     "copyrightNotice": "Copyright",
     "copyright": "© 2026 SAND Raiders of Sophie Wiki. Not affiliated with the developers of SAND: Raiders of Sophie.",
     "disclaimer": "Unofficial fan-made resource website."
+  },
+  "pages": {
+    "release": {
+      "title": "SAND Raiders of Sophie Release Date",
+      "description": "Track the SAND Raiders of Sophie release date, Steam Early Access launch, PlayStation 5 and Xbox Series X|S availability, and any delays or roadmap updates.",
+      "metaTitle": "SAND Raiders of Sophie Release Date - Steam, PS5 & Xbox Launch",
+      "metaDescription": "SAND Raiders of Sophie launched into Steam Early Access on June 22, 2026. Track the PS5 and Xbox release dates, launch price, and roadmap updates here.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is the release date?",
+      "whatIsDescription": "SAND: Raiders of Sophie entered Steam Early Access on June 22, 2026. The PlayStation 5 and Xbox Series X|S store pages are live for wishlisting, with their exact console release dates still to be determined.",
+      "why": "Why follow the release?",
+      "whySteps": {
+        "step1Title": "Steam Early Access is live",
+        "step1Description": "Buy, download, and play the Steam Early Access build right now, including Online PvP, Steam achievements, and Family Sharing.",
+        "step2Title": "PS5 and Xbox are wishlistable",
+        "step2Description": "Wishlist the official PlayStation 5 and Xbox Series X|S store pages so you are notified the moment console release dates are locked in.",
+        "step3Title": "Track delays and roadmap",
+        "step3Description": "Follow the Early Access roadmap and any schedule changes so you know what content is coming and when each platform goes live."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Release"
+    },
+    "platforms": {
+      "title": "SAND Raiders of Sophie Platforms",
+      "description": "Find SAND Raiders of Sophie on Steam, PlayStation 5, Xbox Series X|S, Linux, and Steam Deck. Compare store pages, languages, anti-cheat, and platform differences.",
+      "metaTitle": "SAND Raiders of Sophie Platforms - Steam, PS5, Xbox & Linux",
+      "metaDescription": "SAND Raiders of Sophie is available on Steam Early Access with PS5, Xbox Series X|S, Linux, and Steam Deck support. Compare store pages, player counts, and anti-cheat across platforms.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What platforms is it on?",
+      "whatIsDescription": "SAND: Raiders of Sophie is playable on PC through Steam Early Access, with official store pages for PlayStation 5 and Xbox Series X|S. It also runs on Linux and Steam Deck through the Proton BattlEye Runtime.",
+      "why": "Why check platforms?",
+      "whySteps": {
+        "step1Title": "Pick the right store",
+        "step1Description": "Use the official Steam, PlayStation, and Xbox store links to buy or wishlist the correct version for your hardware.",
+        "step2Title": "Know the player limits",
+        "step2Description": "Each platform lists its online player caps, from solo servers up to 90-player multiplayer, so you can plan your crew size.",
+        "step3Title": "Check Linux and Steam Deck",
+        "step3Description": "Install the Proton BattlEye Runtime before playing on Linux or Steam Deck, since the game uses BattlEye kernel-level anti-cheat."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Platforms"
+    },
+    "price": {
+      "title": "SAND Raiders of Sophie Price",
+      "description": "Check the SAND Raiders of Sophie price across Steam, PS5, and Xbox, including launch discounts, regional pricing, and free-to-play details.",
+      "metaTitle": "SAND Raiders of Sophie Price - Steam, PS5 & Xbox Cost",
+      "metaDescription": "The SAND Raiders of Sophie Steam price starts with a launch discount. See the cost on Steam, PS5, and Xbox, plus regional pricing and free-to-play details.",
+      "categoryLabel": "PRICE",
+      "whatIs": "How much does it cost?",
+      "whatIsDescription": "SAND: Raiders of Sophie is a paid game on Steam Early Access with an introductory launch discount. It is not free to play, and PlayStation 5 and Xbox Series X|S prices are listed on their official store pages.",
+      "why": "Why check the price?",
+      "whySteps": {
+        "step1Title": "Catch the launch discount",
+        "step1Description": "The Steam store lists an introductory discount off the base price for a limited time after the Early Access launch.",
+        "step2Title": "Compare regional pricing",
+        "step2Description": "Regional launch prices are announced alongside the Steam offer, so check the price in your region before buying.",
+        "step3Title": "Confirm it is paid, not free",
+        "step3Description": "SAND is a paid title, not free to play, so the official store pages are the only safe way to purchase it."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Price"
+    },
+    "guide": {
+      "title": "SAND Raiders of Sophie Guide",
+      "description": "Master SAND Raiders of Sophie with beginner tips, Trampler operation, repair and refuel steps, healing, extraction, and how to add cannons to your walking base.",
+      "metaTitle": "SAND Raiders of Sophie Guide - Trampler, Extraction & Survival",
+      "metaDescription": "Learn how to play SAND Raiders of Sophie with guides on Trampler operation, repair, refuel, healing, extraction, and adding cannons to your walking base.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is this guide?",
+      "whatIsDescription": "These SAND: Raiders of Sophie guides walk you through the core extraction loop, from operating and repairing your Trampler to healing, refueling, and extracting loot safely from the desert of Sophie.",
+      "why": "Why read these guides?",
+      "whySteps": {
+        "step1Title": "Run your Trampler",
+        "step1Description": "Learn how to operate, repair, and refuel your walking base so it survives long expeditions across Sophie.",
+        "step2Title": "Survive and extract",
+        "step2Description": "Follow step-by-step extraction and healing tips to keep your loot, your life, and your Trampler intact.",
+        "step3Title": "Upgrade with cannons",
+        "step3Description": "Add cannons and weapons to your Trampler so you can fight back during PvPvE encounters."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guides"
+    },
+    "gameplay": {
+      "title": "SAND Raiders of Sophie Gameplay",
+      "description": "Explore SAND Raiders of Sophie gameplay, PvP and PvE combat, multiplayer and single-player modes, the Dreadnought, and games like SAND for fans of extraction shooters.",
+      "metaTitle": "SAND Raiders of Sophie Gameplay - PvP, PvE & Multiplayer",
+      "metaDescription": "Dive into SAND Raiders of Sophie gameplay covering PvP and PvE combat, single-player and multiplayer modes, the Dreadnought, and similar extraction shooters.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "What is the gameplay?",
+      "whatIsDescription": "SAND: Raiders of Sophie is an open-world PvPvE extraction shooter. You pilot a customizable walking base called a Trampler, scavenge loot, fight other players and PvE threats, and extract before you lose everything.",
+      "why": "Why explore gameplay?",
+      "whySteps": {
+        "step1Title": "Understand PvP and PvE",
+        "step1Description": "Learn how PvP ambushes and PvE threats shape every run, and when to fight or flee across the planet Sophie.",
+        "step2Title": "Pick solo or multiplayer",
+        "step2Description": "Choose single-player exploration or crew up for 2-6 player co-op and large multiplayer servers up to 90 players.",
+        "step3Title": "Hunt the Dreadnought",
+        "step3Description": "Prepare for high-risk Dreadnought runs that drop special loot, and discover games like SAND if you want more."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Gameplay"
+    },
+    "servers": {
+      "title": "SAND Raiders of Sophie Servers",
+      "description": "Check the live SAND Raiders of Sophie server status, troubleshoot connection issues, BattlEye anti-cheat errors, and regional character locks.",
+      "metaTitle": "SAND Raiders of Sophie Servers - Status & Troubleshooting",
+      "metaDescription": "Track SAND Raiders of Sophie server status, fix connection and BattlEye anti-cheat errors, and understand regional character locks and server caps.",
+      "categoryLabel": "SERVERS",
+      "whatIs": "How are the servers?",
+      "whatIsDescription": "SAND: Raiders of Sophie runs online servers with crew-size matchmaking, from 15-player solo servers up to 45-player large-team servers. Characters and inventory are locked to your selected region.",
+      "why": "Why check servers?",
+      "whySteps": {
+        "step1Title": "Check live status",
+        "step1Description": "See whether the servers are online before you queue, so you do not waste time on maintenance or outages.",
+        "step2Title": "Fix connection issues",
+        "step2Description": "Troubleshoot disconnects, matchmaking errors, and BattlEye anti-cheat problems with clear step-by-step fixes.",
+        "step3Title": "Understand region locks",
+        "step3Description": "Know that your inventory and tech tree are tied to your region, while Trampler blueprints are shared across your characters."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Servers"
+    }
   }
 }

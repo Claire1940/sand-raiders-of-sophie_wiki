@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Server-Status: Live-Updates & Fehlerbehebung",
+  description: "Überprüfen Sie den Live-Server-Status von SAND Raiders of Sophie, beheben Sie Verbindungsprobleme, lösen Sie BattlEye-Anti-Cheat-Fehler und verstehen Sie regionale Sperren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Server+Status+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Überprüfen Sie den Server-Status** primär über den offiziellen Discord-Kanal oder den Steam-Community-Hub.
+- **Matchmaking-Pools** sind streng nach Crew-Größe segmentiert, um ausgewogene PvPvE-Extraction-Matches zu gewährleisten.
+- **Charakterfortschritt** und Technologiebäume sind an die Datenbank Ihres ausgewählten regionalen Servers gebunden.
+- **BattlEye Anti-Cheat** muss ordnungsgemäß installiert sein, insbesondere bei der Konfiguration von Proton unter Linux oder auf dem Steam Deck.
+</Callout>
+
+<Section icon={Map} title="SAND Raiders of Sophie Server-Status: Offizielle Status-Kanäle">
+
+Bevor Sie Ihren anpassbaren Trampler in die feindlichen Wüsten des Planeten Sophie steuern, ist die Überprüfung des **SAND Raiders of Sophie Server-Status** der erste Schritt zur Sicherung einer stabilen Verbindung. Da es sich bei dem Spiel um einen persistenten PvPvE-Extraction-Shooter mit hohem Risiko handelt, der von Hologryph und TowerHaus entwickelt und von tinyBuild veröffentlicht wurde, kann jeder plötzliche Serverausfall oder Desynchronisation zum katastrophalen Verlust Ihrer wandelnden Festung und der gelagerten Beute führen. 
+
+Um die Spieler während der Steam Early Access-Phase auf dem Laufenden zu halten, nutzt das Entwicklerteam mehrere offizielle Kommunikationskanäle. Anstatt sich auf Detektor-Websites von Drittanbietern zu verlassen, die oft verzögerte Daten melden, sollten Sie die offiziellen Plattformen direkt überprüfen.
+
+<CardGrid cols={3}>
+  <Card title="Offizieller Discord">
+    Der Hauptknotenpunkt für Echtzeit-Ankündigungen, Notfall-Wartungsmeldungen und Live-Playtest-Status-Updates direkt von den Entwicklern.
+  </Card>
+  <Card title="Steam-Community-Hub">
+    Wird für geplante Wartungsfenster, Patchnotizen, Hotfix-Bereitstellungen und offizielle Ankündigungen zum Server-Slam-Zeitplan genutzt.
+  </Card>
+  <Card title="Konsolen-Statusseiten">
+    Unerlässlich für Spieler auf PlayStation 5 und Xbox Series X|S, um zu überprüfen, ob plattformweite Multiplayer-Netzwerke von Ausfällen betroffen sind.
+  </Card>
+</CardGrid>
+
+| Plattform | Quellkanal | Update-Häufigkeit | Zweck |
+|---|---|---|---|
+| **Alle Plattformen** | Discord-Server | Echtzeit | Notfallausfälle, Live-Hotfixes und Playtest-Ankündigungen |
+| **PC (Steam)** | Steam News Hub | Wöchentlich / Bei Bedarf | Wichtige Patch-Zeitpläne, Server-Slam-Details und Client-Updates |
+| **Xbox Series X|S** | Xbox-Statusseite | Echtzeit | Verfügbarkeit des Xbox Live-Multiplayers und Kaufprobleme |
+| **PlayStation 5** | PSN-Statusseite | Echtzeit | Anmeldung im PlayStation Network und Überprüfung des PS Plus-Abonnements |
+
+<Callout type="warning" title="Sicherheitswarnung">
+Die Entwickler haben ausdrücklich davor gewarnt, dass im Internet betrügerische Playtest-Einladungen im Umlauf sind. Alle legitimen Playtests und Server-Zugangsschlüssel werden ausschließlich über den offiziellen Discord-Kanal koordiniert. Geben Sie Ihre Zugangsdaten niemals auf unverifizierten Websites von Drittanbietern ein, die exklusiven Serverzugang versprechen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Servergrößen, Matchmaking und Crew-Klassen">
+
+Die Online-Infrastruktur von SAND: Raiders of Sophie ist darauf ausgelegt, intensive Multiplayer-Lobbys zu bewältigen und gleichzeitig faire Bedingungen zu bieten. Lobbys werden dynamisch basierend auf dem von Ihnen gewählten Spielmodus und der Größe Ihrer Crew zugewiesen. Um zu verhindern, dass Solo-Plünderer ständig von riesigen, koordinierten wandelnden Dreadnoughts mit sechs Spielern überrollt werden, teilen die Matchmaking-Server die Spieler in bestimmte Klassen ein.
+
+Das Verständnis dieser Server-Obergrenzen hilft Ihnen, Ihre Trampler-Entwürfe entsprechend zu planen. Ein Solo-Spieler benötigt eine unauffällige, kompakte Maschine, während eine große Crew eine schwer gepanzerte Festung mit mehreren Crew-Räumen braucht.
+
+| Matchmaking-Klasse | Maximale Crew-Größe | Server-Spielerlimit | Empfohlener Spielstil |
+|---|---|---|---|
+| **Solo-Lobby** | 1 Spieler | Max. 15 Spieler | Heimliches Plündern, schnelle Extraktion, Vermeiden von offenen Kämpfen |
+| **Kleine Crew-Lobby** | 2-3 Spieler | Max. 36 Spieler | Taktische Koordination, moderate Ressourcenlagerung, ausgewogene Builds |
+| **Große Crew-Lobby** | 4-6 Spieler | Max. 45 Spieler | Schwere Festungsverteidigung, Kampf mit mehreren Geschützen, Schiffsenterungen |
+| **Konsolen-Lobby** | 2-90 Spieler | Max. 90 Spieler | Plattformoptimierter Koop, chaotische Wüstengefechte im großen Stil |
+
+<Callout type="tip" title="Matchmaking-Strategie">
+Wartezeiten und Serverleistung können je nach gewählter Crew-Klasse variieren. Wenn Sie in einer Gruppe von vier bis sechs Spielern spielen, stellen Sie sicher, dass Ihr Trampler vor dem Start mit genügend Crew-Räumen ausgestattet ist, da der Server sonst das Platzieren Ihrer mobilen Basis verweigert.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Regionalsperren und Charakterfortschritt">
+
+Beim Verbinden mit den Servern werden Ihre Fortschrittsdaten je nach Element unterschiedlich behandelt. Um die Wettbewerbsintegrität zu wahren und latenzbedingte Kampfvorteile zu reduzieren, nutzt das Spiel regionale Server. 
+
+Ihr Inventar, angesammelte Ressourcen und der Fortschritt im Technologiebaum sind streng an die physische Region gebunden, die Sie beim Einloggen auswählen. Ihre mühsam erarbeiteten Trampler-Entwürfe werden jedoch global gespeichert, sodass Sie Ihre bevorzugten mobilen Basen auf jedem beliebigen Server nachbauen können.
+
+| Fortschrittselement | Server-Synchronisationstyp | Regionsübergreifend übertragbar? | Auswirkungen regionaler Ausfälle |
+|---|---|---|---|
+| **Charakter-Inventar** | Regional gesperrt | Nein | Nicht zugänglich, wenn der spezifische regionale Server offline ist |
+| **Technologiebaum-Upgrades** | Regional gesperrt | Nein | Fortschritt wird pausiert; Knotenpunkte können auf anderen Regionen nicht freigeschaltet werden |
+| **Trampler-Baupläne** | Kontogebunden | **Ja** | Völlig sicher; Baupläne können in jeder Serverregion eingesetzt werden |
+| **Event-Belohnungen** | Kontogebunden | **Ja** | Skins (wie der Server-Slam-Einzel-Skin) bleiben universell verfügbar |
+
+<Callout type="warning" title="Regionen wechseln">
+Wenn Sie auf Ihrem aktuellen Server hohe Latenzen feststellen und sich für einen Regionswechsel entscheiden, werden Sie aufgefordert, einen neuen Charakter zu erstellen. Ihre Gegenstände und der Fortschritt im Technologiebaum aus Ihrer ursprünglichen Region bleiben sicher, werden jedoch nicht auf den neuen Server übertragen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fehlerbehebung bei Verbindungs- und Anti-Cheat-Fehlern">
+
+Wenn die offiziellen Statuskanäle anzeigen, dass die Server voll funktionsfähig sind, Sie sich aber dennoch nicht verbinden können, liegt das Problem wahrscheinlich auf der Client-Seite. Die PC-Version des Spiels verwendet BattlEye, ein Anti-Cheat-System auf Kernel-Ebene. Wenn BattlEye nicht initialisiert werden kann oder Sie das Spiel auf einem nicht standardmäßigen Betriebssystem ohne die entsprechenden Laufzeitumgebungen ausführen, weisen die Spieleserver Ihren Verbindungsversuch automatisch ab.
+
+Befolgen Sie diese Schritte, um die häufigsten Verbindungs- und Anti-Cheat-Probleme auf PC- und Linux-basierten Systemen zu beheben.
+
+<Steps>
+  <Step num="1" title="Spieldateien auf Steam überprüfen">
+    Klicken Sie mit der rechten Maustaste auf das Spiel in Ihrer Steam-Bibliothek, wählen Sie „Eigenschaften“, navigieren Sie zum Reiter „Installierte Dateien“ und klicken Sie auf „Dateien auf Fehler überprüfen“. Dies repariert beschädigte BattlEye-Dateien.
+  </Step>
+  <Step num="2" title="Proton BattlEye-Runtime konfigurieren (Linux/Steam Deck)">
+    Wenn Sie auf Linux oder einem Steam Deck spielen, müssen Sie die „Proton BattlEye Runtime“ aus Ihrer Steam-Bibliothek installieren. Ohne diese Laufzeitumgebung kann das Anti-Cheat-System keinen sicheren Handshake mit den Spieleservern herstellen.
+  </Step>
+  <Step num="3" title="DNS-Cache leeren">
+    Öffnen Sie die Eingabeaufforderung als Administrator und führen Sie den Befehl „ipconfig /flushdns“ aus. Dadurch werden veraltete IP-Routing-Pfade zu den Matchmaking-Servern gelöscht.
+  </Step>
+  <Step num="4" title="Firewall-Berechtigungen überprüfen">
+    Stellen Sie sicher, dass sowohl die ausführbare Datei des Spiels als auch der BattlEye-Dienst in den Einstellungen der Windows Defender- oder Drittanbieter-Firewall auf der Whitelist stehen, um uneingeschränkten ein- und ausgehenden Netzwerkverkehr zuzulassen.
+  </Step>
+</Steps>
+
+| Betriebssystem | Anti-Cheat-System | Erforderliche Laufzeitumgebung | Häufiger Fehlercode |
+|---|---|---|---|
+| **Windows 10 / 11** | BattlEye (Kernel-Ebene) | Standard-Windows-Dienst | BattlEye Service initialization failed |
+| **Linux / Steam Deck** | BattlEye über Proton | Proton BattlEye Runtime | Disconnected by Server: Authentication Timeout |
+
+<Callout type="tip" title="Deinstallationswarnung">
+Wenn Sie sich entscheiden, das Spiel zu deinstallieren, beachten Sie, dass der BattlEye-Anti-Cheat-Dienst möglicherweise auf Ihrem System verbleibt. Um Ihr Verzeichnis vollständig zu bereinigen, müssen Sie möglicherweise manuell in Ihren Ordner für gemeinsame Dateien navigieren und das BattlEye-Deinstallationsprogramm ausführen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Systemanforderungen und Serverstabilitäts-Checkliste">
+
+Die Aufrechterhaltung einer stabilen Verbindung zu den Spieleservern erfordert, dass Ihre Hardware mit der Simulationsphysik des Spiels Schritt hält. Da die Server bis zu 45 Spieler und mehrere riesige, zerstörerische wandelnde Trampler gleichzeitig verarbeiten müssen, kann es bei einem Systemengpass zu Paketverlusten und Leistungsrucklern kommen. Nutzen Sie diese Checkliste, um sicherzustellen, dass Ihr Setup vor dem Aufbruch vollständig optimiert ist.
+
+<Checklist
+  id="server-stability-checklist"
+  title="Checkliste zur Optimierung vor dem Einsatz:"
+  items={[
+    "Überprüfen Sie, ob Windows 10/11 auf die neueste 64-Bit-Version aktualisiert ist",
+    "Stellen Sie sicher, dass eine stabile Breitband-Internetverbindung aktiv ist (vermeiden Sie mobile Hotspots)",
+    "Stellen Sie sicher, dass mindestens 11 GB freier Speicherplatz auf Ihrer SSD vorhanden sind",
+    "Installieren Sie die Proton BattlEye Runtime, wenn Sie das Spiel auf einem Linux-basierten Betriebssystem starten",
+    "Überprüfen Sie noch einmal, ob Ihre Matchmaking-Region mit Ihrem tatsächlichen geografischen Standort übereinstimmt"
+  ]}
+/>
+
+<Callout type="success" title="System bereit">
+Das Erfüllen der empfohlenen Systemanforderungen, einschließlich 32 GB RAM und einer RTX 3080 oder RX 6800 XT, reduziert drastisch lokale Frame-Pacing-Einbrüche, die das Anti-Cheat-System manchmal fälschlicherweise als Netzwerk-Desynchronisation interpretieren kann.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="SAND Raiders of Sophie Server-Status FAQ">
+
+Um Ihnen den schnellen Wiedereinstieg in das Spiel zu herleichtern, haben wir die am häufigsten gestellten Fragen zum Thema Server zusammengestellt, die die Community während des Early-Access-Launches gestellt hat.
+
+<FAQ items={[
+  {
+    question: "Wie überprüfe ich den Live-Server-Status von SAND Raiders of Sophie während eines Updates?",
+    answer: "Der zuverlässigste Weg ist der Besuch des Ankündigungskanals auf dem offiziellen Discord-Server. Die Entwickler posten dort geplante Wartungszeiten, geschätzte Ausfallzeiten und Live-Bereitstellungsstatus."
+  },
+  {
+    question: "Kann ich das Spiel offline spielen, wenn die Server offline sind?",
+    answer: "Nein. Das Spiel ist ein reiner Online-PvPvE-Extraction-Shooter. Selbst der Voyage-Modus, der weniger Risiken und weniger feindliche Begegnungen bietet, erfordert eine dauerhafte Verbindung zu den Matchmaking-Servern."
+  },
+  {
+    question: "Was passiert mit meinem Trampler und meiner Beute, wenn meine Verbindung mitten im Spiel abbricht?",
+    answer: "Wenn Sie die Verbindung trennen, bleibt Ihr Trampler für eine begrenzte Zeit physisch in der Welt bestehen. Wenn Sie sich nicht schnell wieder verbinden, können andere Spieler oder PvE-Bedrohungen Ihre mobile Basis zerstören, was zum Verlust der gesamten gelagerten Beute führt."
+  },
+  {
+    question: "Unterstützen die Server Crossplay zwischen PC und Konsolen?",
+    answer: "Ja. Die Versionen für Xbox Series X|S und PlayStation 5 unterstützen große Lobbys mit bis zu 90 Spielern, und die Matchmaking-Pools können so konfiguriert werden, dass Crossplay möglich ist. Überprüfen Sie Ihre In-Game-Einstellungen, um plattformübergreifendes Matchmaking zu aktivieren."
+  }
+]} />
+
+<Callout type="info" title="Wiederherstellungsprotokoll">
+Wenn Sie Ihren Trampler durch einen Server-Verbindungsabbruch oder eine Niederlage im Kampf vollständig verlieren und keine Ressourcen mehr übrig haben, um einen neuen zu bauen, können Sie sich erholen, indem Sie sich der Crew eines anderen Spielers als Deckhelfer anschließen oder einen neuen Charakter auf dem Serverauswahlbildschirm erstellen.
+</Callout>
+
+</Section>

@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Server, Users, Globe, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Servers: Capacity & Matchmaking Guide",
+  description: "Master the SAND Raiders of Sophie servers with our guide to player capacity, region-locked progression, matchmaking brackets, and network requirements.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Server+Capacity+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **SAND Raiders of Sophie servers** support up to **90 players** per instance on consoles, with specific PC brackets.
+- **Progression and inventory** are strictly **region-locked**; choose your starting server carefully.
+- **Matchmaking** is determined by your **crew size** to ensure fair PvPvE encounters.
+- **Trampler blueprints** are shared across all characters and regions, unlike physical loot.
+- **BattlEye anti-cheat** is mandatory for all server connections on the PC platform.
+</Callout>
+
+<Section icon={Server} title="SAND Raiders of Sophie Servers Capacity and Structure">
+
+Understanding how **SAND Raiders of Sophie servers** function is critical for any crew looking to survive the desert planet Sophie. Launched into Early Access on June 22, 2026, the game utilizes a complex instance-based architecture to manage its massive, procedurally generated world. Unlike traditional MMOs with a single persistent world, SAND operates through specific session types—Voyage and Storm Dive—each with its own server logic and player limitations.
+
+**Video Highlights:**
+- Overview of the server-side procedural generation.
+- How to select the best region for low latency.
+- Visual guide to the matchmaking lobby.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="SAND: Raiders of Sophie Official Trailer" />
+
+The server capacity varies significantly depending on the platform and the specific matchmaking bracket you enter. While the Xbox and PlayStation store listings mention a maximum of 90 online players, the PC Early Access version utilizes tighter caps to maintain performance and gameplay balance during the initial launch phase of 2026.
+
+| Server Type | Player Cap | Crew Size Allowed | Matchmaking Logic |
+| :--- | :--- | :--- | :--- |
+| **Solo Brackets** | 15 Players | 1 (Solo) | Only solo players allowed |
+| **Small Team** | 36 Players | 2 - 3 Players | Teams of 2 or 3 |
+| **Large Team** | 45 Players | 4 - 6 Players | Teams of 4 to 6 |
+| **Console Lobby** | 90 Players | 1 - 6 Players | Platform-specific scaling |
+
+<Callout type="warning" title="Server Stability">
+During high-traffic periods in 2026, servers may experience "Sandstorm Latency." Always check the official Discord for real-time server status before deploying a high-value Trampler build.
+</Callout>
+
+</Section>
+
+<Section icon={Globe} title="Regional Locking and Character Progression">
+
+One of the most important aspects of **SAND Raiders of Sophie servers** is the regional locking system. Your character's inventory, tech tree progress, and stored resources are tied specifically to the region where they were created. This means if you start your journey on the North American servers, you cannot carry your looted artifacts or upgraded weapons over to the European or Asian servers.
+
+<CardGrid cols={2}>
+  <Card title="Region-Locked Data">
+    - **Inventory & Loot**: Weapons, ammo, and resources.
+    - **Tech Tree**: All unlocked modules and upgrades.
+    - **Character Level**: Experience and skill progression.
+  </Card>
+  <Card title="Account-Wide Data">
+    - **Trampler Blueprints**: Designs saved in the editor.
+    - **Cosmetic Skins**: Server Slam rewards and DLC.
+    - **Achievements**: Steam, Xbox, and PS5 trophies.
+  </Card>
+</CardGrid>
+
+This structure prevents high-tier players from "server hopping" to dominate less populated regions. However, it requires players to coordinate with their friends before committing to a specific regional server. If you find yourself with no resources and no Trampler in a specific region, you may be forced to join another player's crew or start a fresh character.
+
+<Callout type="tip" title="Blueprint Strategy">
+Since blueprints are account-wide, you can design a "Budget Starter" Trampler in the editor that is available across all regions, making it easier to restart if you switch servers.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Matchmaking and Crew Brackets">
+
+The matchmaking system for **SAND Raiders of Sophie servers** is designed to prevent "unfair stomps" where a massive six-player fortress prey on a lone solo scavenger. The game actively filters sessions based on the size of your crew at the moment of deployment. This ensures that when you encounter another Trampler on the horizon, they are likely operating with a similar headcount to your own.
+
+<Steps>
+  <Step num="1" title="Form Your Crew">
+    Assemble your team in the main menu. You can invite friends or use the in-game matchmaking to find a crew of up to 6 players.
+  </Step>
+  <Step num="2" title="Select Your Mode">
+    Choose between Voyage (low-stakes exploration) or Storm Dive (high-risk extraction). The server will assign you a bracket based on this choice.
+  </Step>
+  <Step num="3" title="Bracket Assignment">
+    The server backend checks your crew size (e.g., a crew of 3) and places you into the Small Team bracket (36-player cap).
+  </Step>
+  <Step num="4" title="Deployment">
+    Your Trampler spawns into the world. All other players in this session will belong to the same crew-size category.
+  </Step>
+</Steps>
+
+| Bracket Feature | Solo (1 Player) | Small Crew (2-3) | Large Crew (4-6) |
+| :--- | :--- | :--- | :--- |
+| **PvP Intensity** | Moderate | High | Extreme |
+| **Resource Competition** | Low | Medium | High |
+| **Extraction Risk** | High (Solo defense) | Balanced | Low (Crew defense) |
+| **Trampler Complexity** | Simple/Compact | Specialized | Mobile Fortress |
+
+<Callout type="success" title="Solo Survival">
+Solo servers are capped at 15 players to give individuals more breathing room. Use this to your advantage to learn the map of Sophie before joining larger, more chaotic team servers.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Anti-Cheat and Network Requirements">
+
+To maintain the integrity of the PvPvE experience, **SAND Raiders of Sophie servers** utilize BattlEye, a kernel-level anti-cheat system. This is mandatory for all PC players. If you are playing on Linux or via a Steam Deck-style Proton setup, you must ensure the "Proton BattlEye Runtime" is installed in your Steam library, or the server will kick you upon attempted deployment.
+
+<Checklist
+  id="server-readiness"
+  title="Server Connection Checklist:"
+  items={[
+    "Verify BattlEye is active and updated",
+    "Ensure 11 GB of storage is available for temporary server cache",
+    "Check that your NAT type is Open or Moderate for co-op play",
+    "Confirm your selected region matches your crew's region",
+    "Install Proton BattlEye Runtime (for Linux/Proton users only)"
+  ]}
+/>
+
+| Requirement | Minimum Specification | Recommended Specification |
+| :--- | :--- | :--- |
+| **Internet** | Broadband connection | High-speed Fiber |
+| **Anti-Cheat** | BattlEye | BattlEye (Active) |
+| **OS** | Windows 10 64-bit | Windows 11 64-bit |
+| **Latency** | < 100ms | < 40ms |
+
+<Callout type="warning" title="Anti-Cheat Removal">
+If you uninstall the game, BattlEye may remain on your system. Official documentation suggests checking your system services to manually remove it if you do not plan to return to Sophie.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Voyage vs Storm Dive Server Rules">
+
+The two primary game modes offered by **SAND Raiders of Sophie servers** dictate how long a session lasts and how the world environment behaves. Voyage servers are designed for persistence and steady progression, while Storm Dive servers are governed by a shrinking sandstorm that forces player interaction.
+
+| Feature | Voyage Mode Servers | Storm Dive Servers |
+| :--- | :--- | :--- |
+| **Session Timer** | Persistent (No fixed limit) | Limited (Storm-based) |
+| **Loot Tier** | Standard/Reliable | High-Tier/Rare |
+| **Player Density** | Spread out | Concentrated toward center |
+| **Extraction** | Player-initiated anytime | Must extract before storm closure |
+| **Risk Level** | Low to Medium | Very High |
+
+In Voyage mode, the server instance remains relatively stable, allowing you to scavenge at your own pace. In contrast, Storm Dive servers act as a "Battle Royale" for extraction shooters. The server will actively close off portions of the map as the sandstorm progresses, eventually forcing all remaining crews into a final, high-stakes confrontation at the center of the map.
+
+<Callout type="tip" title="Mode Strategy">
+Use Voyage servers to farm the resources needed for high-tier Armor Plates and 80mm Cannons. Only enter Storm Dive servers once your Trampler is fully combat-ready.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I play on SAND Raiders of Sophie servers offline?",
+    answer: "No, SAND is a strictly online PvPvE game. A persistent internet connection is required to sync your progress with the regional servers and to interact with other players and AI threats."
+  },
+  {
+    question: "How do I change my server region?",
+    answer: "You can select your region from the main menu before logging in. However, remember that your character's loot and tech tree progress are locked to the region where they were created."
+  },
+  {
+    question: "What happens if I lose my connection to the server during a run?",
+    answer: "If you disconnect, your Trampler and character remain in the world for a short period. If you do not reconnect quickly, you risk being looted by other players or destroyed by AI, leading to the loss of your current inventory."
+  },
+  {
+    question: "Are there private or custom servers available?",
+    answer: "As of the 2026 Early Access launch, all play occurs on official tinyBuild servers. There is currently no support for private or self-hosted server instances."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+The server landscape of Sophie is ever-changing. As the developers at Hologryph and TowerHaus refine the Early Access experience throughout 2026, expect adjustments to player caps and matchmaking brackets based on community feedback.
+</Callout>
+
+</Section>

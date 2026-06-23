@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie multiplayer: Squad Tactics & Server Caps",
+  description: "Master SAND Raiders of Sophie multiplayer with our 2026 guide to crew sizes, server limits, Trampler management, and PvPvE extraction strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a202c/ffd700?text=Multiplayer+Tactics+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **SAND Raiders of Sophie multiplayer** supports solo play and crews of up to **6 players** in a shared PvPvE world.
+- **Server caps** vary by crew size, ranging from **15 players** for solos to **45 players** for large teams.
+- **Tramplers** act as mobile bases; managing them requires coordinated roles like **Pilot, Gunner, and Engineer**.
+- **Storm Dive** is the high-stakes multiplayer mode featuring a shrinking sandstorm and increased PvP encounters.
+- **Extraction** is the only way to secure loot; losing your Trampler means losing your expedition progress.
+</Callout>
+
+<Section icon={Users} title="SAND Raiders of Sophie Multiplayer Overview">
+
+The core experience of **SAND Raiders of Sophie multiplayer** revolves around the delicate balance of cooperation and competition. Set on the desert planet Sophie, players must navigate a procedurally generated world filled with both environmental hazards and rival crews. Whether you choose to scavenge as a lone wolf or form a massive crew, understanding how the game handles matchmaking and server instances is critical for survival in June 2026.
+
+**Video Highlights:**
+- Overview of the **Trampler** as a mobile multiplayer hub.
+- Footage of large-scale **PvPvE** combat in ruined cities.
+- Demonstration of the **extraction loop** and loot securing.
+- Visual guide to the **Trampler Editor** for squad-based builds.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="SAND: Raiders of Sophie - Launch Trailer" />
+
+Matchmaking in the Early Access version is designed to keep encounters fair. The game utilizes a crew-size bracket system to ensure that solo players aren't constantly overwhelmed by six-person "fortress" Tramplers. This system dynamically places you into servers based on your current party size before you deploy from the orbital station.
+
+| Crew Type | Max Players Per Crew | Server Player Cap | Recommended Gameplay Style |
+|:---|:---|:---|:---|
+| **Solo** | 1 | 15 Players | Stealth, fast looting, quick exits |
+| **Small Team** | 2-3 | 36 Players | Balanced combat and resource gathering |
+| **Large Team** | 4-6 | 45 Players | Fortress defense, heavy PvP, Dreadnought runs |
+
+<Callout type="info">
+Official documentation from the [Steam Store Page](https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/) confirms that while the game supports up to 90 players in certain technical configurations, the current Early Access server caps are optimized for the brackets listed above to maintain performance.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Multiplayer Modes: Voyage vs. Storm Dive">
+
+In **SAND Raiders of Sophie multiplayer**, players must choose between two primary expedition styles. Each mode dictates the level of risk, the potential rewards, and the frequency of player-versus-player interactions. Choosing the right mode for your crew's current gear level is the difference between a successful haul and a total loss of resources.
+
+| Feature | Voyage Mode | Storm Dive Mode |
+|:---|:---|:---|
+| **Risk Level** | Low to Medium | High |
+| **Pacing** | Persistent Open-World | Battle Royale / Extraction Hybrid |
+| **Loot Quality** | Standard / Reliable | Rare / High-Tier |
+| **Timer** | No fixed limit | Limited by encroaching Sandstorm |
+| **PvP Frequency** | Moderate | Very High |
+| **Best For** | Learning routes, building resources | High-stakes combat, Artifact hunting |
+
+Voyage Mode serves as the foundation for progression. It allows crews to explore Sophie at their own pace, test new Trampler blueprints, and gather the materials needed for high-end reactors and engines. It is the ideal environment for a new squad to practice communication before attempting the more grueling Storm Dive.
+
+<Callout type="tip" title="Strategy Note">
+In Storm Dive, the sandstorm forces all active Tramplers toward the center of the map. This creates "choke points" where PvP is inevitable. Ensure your crew has at least one dedicated **Engineer** with a full stack of **Repair Kits** before entering this mode.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Crew Roles and Coordination">
+
+Success in **SAND Raiders of Sophie multiplayer** is impossible without clear communication. A Trampler is a complex machine that requires multiple systems to be operated simultaneously during a crisis. For crews of 4-6 players, assigning specific roles ensures that the walking base remains mobile and lethal even under heavy fire.
+
+<Steps>
+  <Step num="1" title="The Pilot (Navigation)">
+    The Pilot is responsible for steering the Trampler and managing engine heat. In multiplayer, the Pilot must coordinate with the crew to position the base for optimal firing angles while avoiding environmental traps or sand-traps.
+  </Step>
+  <Step num="2" title="The Gunners (Firepower)">
+    Gunners man the mounted turrets and cannons. They must prioritize targets, such as rival player Trampler legs or incoming PvE threats. Coordination between Gunners is key to focus fire on a single module to disable an enemy base quickly.
+  </Step>
+  <Step num="3" title="The Engineer (Maintenance)">
+    The most overlooked but vital role. The Engineer stays inside the Trampler to manage the **Reactor**, handle **Repair Kits**, and extinguish fires. They also monitor the **Storage Compartments** to ensure loot isn't lost during boarding actions.
+  </Step>
+  <Step num="4" title="The Boarders (Assault)">
+    When two Tramplers get close, the Boarders use handheld weapons to leap onto the enemy base. Their goal is to kill the enemy crew and sabotage their internal modules, such as the engine or spawn points.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Critical Role Tip">
+If your Engineer runs out of Repair Kits during a Storm Dive, your Trampler's survivability drops by nearly 70%. Always prioritize storage space for utility items over extra loot in high-risk zones.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Trampler Builds for Squad Play">
+
+Building a Trampler for **SAND Raiders of Sophie multiplayer** requires a different mindset than solo play. You need to account for crew rooms, internal walkways, and overlapping fields of fire. A "mechanical furniture" build will quickly fall apart under the pressure of a coordinated squad.
+
+<CardGrid cols={3}>
+  <Card title="The Ironclad Fortress">
+    - **Focus**: Maximum Armor Plates and Heavy Cannons.
+    - **Best For**: Large crews (5-6) in Storm Dive.
+    - **Pros**: Can survive sustained fire; intimidating presence.
+    - **Cons**: Extremely slow and high fuel consumption.
+  </Card>
+  <Card title="The Stealth Raider">
+    - **Focus**: Small footprint and Engine Upgrades.
+    - **Best For**: 2-3 player crews focusing on city looting.
+    - **Pros**: Hard to spot on the horizon; fast extraction.
+    - **Cons**: Vulnerable if caught by a heavy build.
+  </Card>
+  <Card title="The Boarding Specialist">
+    - **Focus**: Multiple Spawn Points and chaotic internal layouts.
+    - **Best For**: PvP-focused squads.
+    - **Pros**: Disorients enemies during boarding; high internal defense.
+    - **Cons**: Requires high player skill in close-quarters combat.
+  </Card>
+</CardGrid>
+
+When designing your blueprint in the editor, consider the "path of least resistance" for your Engineer. If the Reactor is on the top floor and the Repair Station is in the basement, your maintenance time will be doubled. Keep essential modules clustered for efficiency.
+
+<Callout type="success" title="Blueprint Sharing">
+Remember that while inventory is tied to your character's region, **Trampler Blueprints** are shared across all your characters. You can design a masterpiece on one character and deploy it with another as long as you have the resources.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Multiplayer Combat and Boarding Tactics">
+
+Combat in **SAND Raiders of Sophie multiplayer** is divided into two phases: Long-range Trampler duels and close-quarters boarding. Winning the first phase often determines if you even get to participate in the second. 
+
+| Weapon Category | Effectiveness vs. Tramplers | Effectiveness vs. Players | Risk Level |
+|:---|:---|:---|:---|
+| **80 mm Mounted Cannon** | Excellent (Module Damage) | Poor (Slow) | Medium |
+| **Shotgun Cannons** | Good (Leg Damage) | High (Close Range) | High |
+| **Experimental Railgun** | Massive (Single Hit) | Low (Precision) | Very High |
+| **Autocannons** | Consistent (Pressure) | Moderate | Low |
+
+**Multiplayer Boarding Checklist:**
+<Checklist
+  id="boarding-prep"
+  title="Before Boarding an Enemy Trampler:"
+  items={[
+    "Ensure your own Trampler is on Autopilot or has a Pilot.",
+    "Check that your spawn point is active and powered.",
+    "Equip a close-range weapon (Shotguns or Breechloaders).",
+    "Communicate which side of the enemy base you are entering.",
+    "Identify the enemy Reactor location for a quick sabotage."
+  ]}
+/>
+
+<Callout type="tip">
+Use **Smoke Grenades** during a boarding action. They spawn in stacks of two and are essential for creating visual cover while you cross the gap between two moving walking bases.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Multiplayer FAQ">
+
+<FAQ items={[
+  {
+    question: "How many players can be in a single crew in SAND Raiders of Sophie?",
+    answer: "A single crew can have between 1 to 6 players. Matchmaking will place you in servers based on your crew size to ensure balanced PvP encounters."
+  },
+  {
+    question: "Is there a way to play solo without encountering large teams?",
+    answer: "Yes. The game uses crew-size brackets. If you enter a match solo, you will primarily be placed in a 'Solo Bracket' server with a cap of 15 players, minimizing the chance of meeting a full 6-person squad."
+  },
+  {
+    question: "What happens if our Trampler is destroyed in multiplayer?",
+    answer: "If your Trampler is destroyed, you lose the base and any loot stored inside. However, if you saved the design as a Blueprint, you can rebuild it at the orbital station using new resources."
+  },
+  {
+    question: "Does SAND Raiders of Sophie support cross-play between Steam, PS5, and Xbox?",
+    answer: "As of the June 2026 Early Access launch, the game is available on Steam. PlayStation 5 and Xbox Series X|S versions are announced with release dates to be determined, and cross-play details will be confirmed closer to the console launch."
+  }
+]} />
+
+<Callout type="warning" title="Anti-Cheat Notice">
+**SAND Raiders of Sophie multiplayer** uses BattlEye kernel-level anti-cheat. Ensure your system meets the requirements and that the BattlEye service is running, or you will be disconnected from multiplayer sessions. For Linux and Steam Deck users, make sure to install the **Proton BattlEye Runtime** from your Steam library.
+</Callout>
+
+</Section>

@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Server Status: Live Updates & Troubleshooting",
+  description: "Check the live SAND Raiders of Sophie server status, troubleshoot connection issues, resolve BattlEye anti-cheat errors, and understand regional locks.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Server+Status+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Check server status** primarily through the official Discord channel or Steam Community Hub.
+- **Matchmaking pools** are strictly segmented by crew size to ensure balanced PvPvE extraction matches.
+- **Character progression** and tech trees are locked to your chosen regional server database.
+- **BattlEye anti-cheat** must be properly installed, especially when configuring Proton on Linux or Steam Deck.
+</Callout>
+
+<Section icon={Map} title="SAND Raiders of Sophie Server Status: Official Status Channels">
+
+Before launching your customizable Trampler into the hostile deserts of the planet Sophie, verifying the **SAND Raiders of Sophie server status** is the first step to securing a stable connection. Because the game is a persistent, high-stakes PvPvE extraction shooter developed by Hologryph and TowerHaus and published by tinyBuild, any sudden server outage or desync can result in the catastrophic loss of your walking fortress and stored loot. 
+
+To keep players informed during the Steam Early Access phase, the development team utilizes several official communication pipelines. Rather than relying on third-party detector sites which often report delayed data, you should check the official platforms directly.
+
+<CardGrid cols={3}>
+  <Card title="Official Discord">
+    The primary hub for real-time announcements, emergency maintenance alerts, and live playtest status updates directly from the developers.
+  </Card>
+  <Card title="Steam Community Hub">
+    Used for scheduled maintenance windows, patch notes, hotfix deployments, and official Server Slam schedule announcements.
+  </Card>
+  <Card title="Console Status Pages">
+    Essential for PlayStation 5 and Xbox Series X|S players to verify if platform-wide multiplayer networks are experiencing outages.
+  </Card>
+</CardGrid>
+
+| Platform | Source Channel | Update Frequency | Purpose |
+|---|---|---|---|
+| **All Platforms** | Discord Server | Real-time | Emergency outages, live hotfixes, and playtest announcements |
+| **PC (Steam)** | Steam News Hub | Weekly / As needed | Major patch schedules, Server Slam details, and client updates |
+| **Xbox Series X|S** | Xbox Status Page | Real-time | Xbox Live multiplayer availability and purchase issues |
+| **PlayStation 5** | PSN Status Page | Real-time | PlayStation Network sign-in and PS Plus subscription verification |
+
+<Callout type="warning" title="Security Alert">
+The developers have explicitly warned that fraudulent playtest invitations exist across the web. All legitimate playtests and server access keys are coordinated strictly through the official Discord channel. Never input your credentials on unverified third-party sites claiming to offer exclusive server access.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Server Sizes, Matchmaking, and Crew Brackets">
+
+The online infrastructure of SAND: Raiders of Sophie is designed to handle intense multiplayer lobbies while keeping the playing field fair. Lobbies are dynamically allocated based on the game mode you select and the size of your crew. To prevent solo scavengers from being constantly run over by massive, six-player coordinated walking dreadnoughts, the matchmaking servers segment players into specific brackets.
+
+Understanding these server caps helps you plan your Trampler builds accordingly. A solo player needs a stealthy, compact machine, whereas a large crew requires a heavily armored fortress with multiple crew rooms.
+
+| Matchmaking Bracket | Max Crew Size | Server Player Cap | Recommended Gameplay Style |
+|---|---|---|---|
+| **Solo Lobby** | 1 Player | 15 Players Max | Stealth scavenging, rapid extraction, avoiding open brawls |
+| **Small Crew Lobby** | 2-3 Players | 36 Players Max | Tactical coordination, moderate resource storage, balanced builds |
+| **Large Crew Lobby** | 4-6 Players | 45 Players Max | Heavy fortress defense, multi-turret combat, ship-boarding actions |
+| **Console Lobby** | 2-90 Players | 90 Players Max | Platform-optimized co-op, chaotic large-scale desert skirmishes |
+
+<Callout type="tip" title="Matchmaking Strategy">
+Queue times and server performance can vary depending on your selected crew bracket. If you are playing in a squad of four to six players, ensure your Trampler is equipped with enough crew rooms before launching, or the server will refuse to deploy your walking base.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Region Locks and Character Progression">
+
+When connecting to the servers, your progression data is handled differently depending on the element. To maintain competitive integrity and reduce latency-induced combat advantages, the game utilizes regional servers. 
+
+Your inventory, accumulated resources, and tech tree progress are strictly bound to the physical region you select upon logging in. However, your hard-earned Trampler designs are saved globally, allowing you to recreate your favorite mobile bases no matter which server you connect to.
+
+| Progression Element | Server Sync Type | Transferable Across Regions? | Impact of Regional Outages |
+|---|---|---|---|
+| **Character Inventory** | Region-Locked | No | Inaccessible if the specific regional server is offline |
+| **Tech Tree Upgrades** | Region-Locked | No | Progress is paused; cannot unlock nodes on other regions |
+| **Trampler Blueprints** | Account-Bound | **Yes** | Fully safe; blueprints can be deployed on any server region |
+| **Event Rewards** | Account-Bound | **Yes** | Skins (like the Server Slam Einzel skin) remain universally available |
+
+<Callout type="warning" title="Switching Regions">
+If you experience high latency on your current server and decide to switch regions, you will be prompted to create a new character. Your items and tech tree progress from your original region will remain safe but will not carry over to the new server.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting Connection and Anti-Cheat Errors">
+
+If the official status channels indicate that the servers are fully operational but you are still unable to connect, the issue is likely client-side. The PC version of the game utilizes BattlEye, a kernel-level anti-cheat system. If BattlEye fails to initialize, or if you are running the game on a non-standard operating system without the proper runtimes, the game servers will automatically reject your connection attempt.
+
+Follow these steps to resolve the most common connection and anti-cheat issues on PC and Linux-based systems.
+
+<Steps>
+  <Step num="1" title="Verify Game Files on Steam">
+    Right-click the game in your Steam library, select Properties, navigate to the Installed Files tab, and click Verify Integrity of Game Files. This repairs corrupted BattlEye files.
+  </Step>
+  <Step num="2" title="Configure Proton BattlEye Runtime (Linux/Steam Deck)">
+    If you are playing on Linux or a Steam Deck, you must install the Proton BattlEye Runtime from your Steam library. Without this runtime, the anti-cheat will fail to establish a secure handshake with the game servers.
+  </Step>
+  <Step num="3" title="Clear Your DNS Cache">
+    Open your command prompt as an administrator and run the command 'ipconfig /flushdns'. This clears outdated IP routing paths to the matchmaking servers.
+  </Step>
+  <Step num="4" title="Check Firewall Permissions">
+    Ensure that both the game executable and the BattlEye service are whitelisted in your Windows Defender or third-party firewall settings to allow unrestricted incoming and outbound network traffic.
+  </Step>
+</Steps>
+
+| Operating System | Anti-Cheat System | Required Runtime | Common Error Code |
+|---|---|---|---|
+| **Windows 10 / 11** | BattlEye Kernel-Level | Standard Windows Service | BattlEye Service initialization failed |
+| **Linux / Steam Deck** | BattlEye via Proton | Proton BattlEye Runtime | Disconnected by Server: Authentication Timeout |
+
+<Callout type="tip" title="Uninstallation Warning">
+If you decide to uninstall the game, be aware that the BattlEye anti-cheat service may remain on your system. To completely clean your directory, you may need to manually navigate to your common files folder and execute the BattlEye uninstaller.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="System Requirements and Server Stability Checklist">
+
+Maintaining a stable connection to the game servers requires your hardware to keep pace with the game's simulation physics. Because the servers must track up to 45 players and multiple giant, destructive walking Tramplers simultaneously, packet loss and performance stutters can occur if your system is bottlenecked. Use this checklist to ensure your setup is fully optimized before heading out.
+
+<Checklist
+  id="server-stability-checklist"
+  title="Pre-Deployment Optimization Checklist:"
+  items={[
+    "Verify Windows 10/11 is updated to the latest 64-bit version",
+    "Confirm a stable broadband internet connection is active (avoid mobile hotspots)",
+    "Ensure at least 11 GB of available storage space is cleared on your SSD",
+    "Install the Proton BattlEye Runtime if launching on a Linux-based OS",
+    "Double-check that your matchmaking region matches your actual geographic location"
+  ]}
+/>
+
+<Callout type="success" title="System Ready">
+Meeting the recommended system specs, including 32 GB of RAM and an RTX 3080 or RX 6800 XT, drastically reduces the local frame-pacing drops that the anti-cheat system can sometimes misinterpret as network desync.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="SAND Raiders of Sophie Server Status FAQ">
+
+To help you quickly get back into the game, we have compiled the most frequent server-related questions asked by the community during the Early Access launch.
+
+<FAQ items={[
+  {
+    question: "How do I check the live SAND Raiders of Sophie server status during an update?",
+    answer: "The most reliable way is to visit the official Discord server's announcement channel. The developers post scheduled maintenance times, estimated downtime, and live deployment statuses there."
+  },
+  {
+    question: "Can I play the game offline if the servers are down?",
+    answer: "No. The game is strictly an online PvPvE extraction shooter. Even Voyage Mode, which features lower stakes and fewer hostile encounters, requires a persistent connection to the matchmaking servers."
+  },
+  {
+    question: "What happens to my Trampler and loot if my connection drops mid-game?",
+    answer: "If you disconnect, your Trampler remains physical in the world for a limited time. If you do not reconnect quickly, other players or PvE threats can destroy your walking base, resulting in the loss of all stored loot."
+  },
+  {
+    question: "Are the servers cross-play enabled between PC and consoles?",
+    answer: "Yes. Xbox Series X|S and PlayStation 5 versions support large lobbies of up to 90 players, and matchmaking pools can be configured to allow cross-play. Check your in-game settings to toggle cross-platform matchmaking."
+  }
+]} />
+
+<Callout type="info" title="Recovery Protocol">
+If you completely lose your Trampler due to a server disconnection or a combat defeat, and you have zero resources left to build a new one, you can recover by joining another player's crew as a deckhand or by creating a fresh character on the server selection screen.
+</Callout>
+
+</Section>

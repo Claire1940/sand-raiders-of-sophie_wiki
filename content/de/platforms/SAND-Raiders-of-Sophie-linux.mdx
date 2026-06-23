@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Settings } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Linux: Setup-Guide & Optimierung",
+  description: "Erfahren Sie, wie Sie SAND: Raiders of Sophie auf Linux und Steam Deck ausführen. Enthält BattlEye-Setup, Proton-Optimierung und Performance-Einstellungen für 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=Linux+Setup+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team",
+  keywords: "SAND Raiders of Sophie, Linux, Steam Deck, BattlEye, Proton, Optimierung"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **SAND Raiders of Sophie Linux**: Die volle Kompatibilität erfordert die Installation der **Proton BattlEye Runtime** über Steam.
+- **Anti-Cheat**: Das Spiel verwendet BattlEye auf Kernel-Ebene; stellen Sie sicher, dass Ihr Linux-Kernel die erforderlichen Module unterstützt.
+- **Empfohlenes Proton**: Verwenden Sie **Proton Experimental** oder das neueste GE-Proton für optimale Stabilität auf Sophie.
+- **Steam Deck**: Verifiziert spielbar mit spezifischen grafischen Anpassungen, um 30-40 FPS in schweren Wüstenstürmen zu halten.
+- **Wichtige Voraussetzung**: Eine Breitbandverbindung ist für den PvPvE-Extraction-Loop zwingend erforderlich.
+</Callout>
+
+<Section icon={Monitor} title="Kompatibilität und Launch-Status">
+
+Der Start von SAND: Raiders of Sophie in den Steam Early Access am 22. Juni 2026 brachte PC-Spielern ein lang erwartetes Dieselpunk-Extraction-Erlebnis. Während die offiziellen Systemanforderungen Windows 10/11 auflisten, hat die Linux-Community mit Valves Proton-Übersetzungsschicht beachtliche Erfolge erzielt. Da das Spiel auf einer komplexen PvPvE-Architektur mit bis zu 90 Spielern pro Sitzung basiert, ist Stabilität von größter Bedeutung.
+
+Der Betrieb von **SAND Raiders of Sophie Linux** Setups erfordert ein Verständnis der Interaktion zwischen der Spiel-Engine und dem BattlEye-Anti-Cheat-System. Im Gegensatz zu herkömmlichen Einzelspieler-Titeln benötigen Extraction-Shooter einen perfekten Handshake zwischen Ihrem lokalen Betriebssystem und den Sicherheitsprotokollen des Servers.
+
+**Video-Highlights:**
+- Offizieller Blick auf die Trampler-Anpassung und die Bewegungsmechanik.
+- Übersicht über die Umgebung des Wüstenplaneten Sophie und die Points of Interest (POIs).
+- Kampfaufnahmen, die sowohl Spieler-gegen-Spieler- als auch PvE-Begegnungen zeigen.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="SAND: Raiders of Sophie | Launch Trailer" />
+
+<Callout type="warning" title="Anti-Cheat-Warnung">
+Versuchen Sie nicht, BattlEye zu umgehen oder Spieldateien unter Linux zu modifizieren. Das Spiel verwendet eine Kernel-Level-Implementierung, die über die offizielle Proton BattlEye Runtime gehandhabt werden muss, um Account-Sperren oder sofortige Kicks von Servern zu vermeiden.
+</Callout>
+
+| Feature | Linux-Kompatibilität | Hinweise |
+|:---|:---|:---|
+| **Anti-Cheat** | Unterstützt | Erfordert Proton BattlEye Runtime |
+| **Controller-Unterstützung** | Vollständig | Native Unterstützung für DualSense und Xbox |
+| **Errungenschaften** | Funktioniert | Steam-Errungenschaften werden normal synchronisiert |
+| **Mehrspieler** | Unterstützt | 2-90 Spieler in Online-Sitzungen |
+| **Performance** | Hoch | Nahezu nativ mit Vulkan-Shadern |
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt Linux Setup-Guide">
+
+Um das Spiel korrekt zum Laufen zu bringen, müssen Sie eine bestimmte Abfolge von Installationen befolgen. Das Überspringen der Runtime-Installation ist der häufigste Grund für den Fehler "Kicked by BattlEye".
+
+<Steps>
+  <Step num="1" title="Steam Play aktivieren">
+    Öffnen Sie die Steam-Einstellungen, navigieren Sie zum Tab "Kompatibilität" und aktivieren Sie "Steam Play für alle anderen Titel aktivieren". Wählen Sie **Proton Experimental** als Standardversion, um sicherzustellen, dass die neuesten Patches für 2026-Titel aktiv sind.
+  </Step>
+  <Step num="2" title="BattlEye Runtime installieren">
+    Gehen Sie zu Ihrer Steam-Bibliothek. Stellen Sie sicher, dass im Suchfeld im Dropdown-Menü "Werkzeuge" ausgewählt ist. Suchen Sie nach **Proton BattlEye Runtime**. Falls es nicht installiert ist, laden Sie es sofort herunter. Dies ist die Brücke, die es dem Anti-Cheat ermöglicht, unter Linux zu funktionieren.
+  </Step>
+  <Step num="3" title="Spielinstallation">
+    Installieren Sie SAND: Raiders of Sophie aus Ihrer Bibliothek. Das Spiel benötigt ca. 11 GB Speicherplatz. Es wird dringend empfohlen, es auf einer SSD zu installieren, um Trampler-Ladezeiten und Ruckler beim Asset-Streaming zu reduzieren.
+  </Step>
+  <Step num="4" title="Startoptionen festlegen">
+    Klicken Sie mit der rechten Maustaste auf das Spiel, wählen Sie "Eigenschaften" und fügen Sie im Tab "Allgemein" Startoptionen hinzu, falls Ruckler auftreten. Eine gängige nützliche Zeichenfolge ist `gamemoderun %command%`, falls Sie Feral GameMode installiert haben.
+  </Step>
+  <Step num="5" title="Erster Start">
+    Starten Sie das Spiel. Beim ersten Durchlauf wird das Spiel Vulkan-Shader kompilieren. Dies kann einige Minuten dauern; erzwingen Sie während dieses Vorgangs nicht das Schließen des Spiels, da Sie sonst während Ihrer ersten Expedition starke Ruckler erleben werden.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Shader-Pre-Caching">
+Lassen Sie Steam die "Verarbeitung von Vulkan-Shadern" abschließen, bevor Sie auf die Schaltfläche "Spielen" klicken. In einem High-Stakes-Extraction-Shooter kann ein einsekündiger Ruckler während eines PvP-Kampfes Ihren gesamten Trampler und Ihre Beute kosten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimierung von Performance und Grafik">
+
+Die Optimierung für **SAND Raiders of Sophie Linux** erfordert ein Gleichgewicht zwischen den schweren atmosphärischen Effekten des Wüstenplaneten und der Notwendigkeit hoher Sichtbarkeit im Kampf. Der Modus "Storm Dive" des Spiels führt intensive Partikeleffekte ein, die Linux-Systeme der Mittelklasse belasten können.
+
+| Einstellung | Empfohlener Wert | Auswirkung auf Linux |
+|:---|:---|:---|
+| **Renderer** | DirectX 11 (Proton) | Stabilste Übersetzung via DXVK |
+| **Schattenqualität** | Mittel | Hoher CPU/GPU-Overhead unter Linux |
+| **Anti-Aliasing** | TAA oder DLSS/FSR | Essenziell gegen flimmernde Sanddünen |
+| **Sichtweite** | Hoch | Kritisch zum Spotten rivalisierender Trampler |
+| **Effektqualität** | Niedrig/Mittel | Reduziert Lag während Sandstürmen |
+
+<CardGrid cols={2}>
+  <Card title="DXVK-Optimierung">
+    Das Spiel läuft über DXVK (DirectX 11 über Vulkan). Stellen Sie sicher, dass Ihre GPU-Treiber (Mesa für AMD/Intel, proprietär für NVIDIA) auf dem stabilen Zweig von 2026 aktualisiert sind, um die neuesten vom Spiel verwendeten Befehlssätze zu unterstützen.
+  </Card>
+  <Card title="Speicherverwaltung">
+    Bei einer Mindestanforderung von 16 GB RAM sollten Linux-Benutzer die Swap-Nutzung überwachen. Ein Tool wie `zram` kann helfen zu verhindern, dass das Betriebssystem den Spielprozess bei starken Speicherspitzen in Stadtruinen beendet.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Performance-Gewinn">
+Das Deaktivieren des "Steam Overlays" in den Spieleigenschaften kann manchmal einen FPS-Boost von 3-5% auf bestimmten Linux-Window-Managern wie KDE Plasma oder GNOME bringen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fehlerbehebung für BattlEye und Konnektivität">
+
+Die häufigsten Probleme unter Linux hängen mit dem Netzwerk- und Sicherheits-Handshake zusammen. Wenn Sie keine Voyage- oder Storm Dive-Sitzung beitreten können, überprüfen Sie die folgenden Konfigurationen.
+
+| Fehlermeldung | Wahrscheinliche Ursache | Lösung |
+|:---|:---|:---|
+| **Failed to Initialize** | Fehlende Runtime | Proton BattlEye Runtime Tool installieren |
+| **Connection Timed Out** | Firewall-Blockierung | Ports in `ufw` oder `iptables` freigeben |
+| **Kicked: Disallowed Program** | Hintergrund-Tool | Makro-Software oder spezifische Overlays schließen |
+| **Low FPS in Cities** | Shader-Cache | Warten, bis die Hintergrundkompilierung abgeschlossen ist |
+
+<Callout type="warning" title="Kernel-Kompatibilität">
+Einige "gehärtete" (Hardened) Linux-Kernel oder spezifische sicherheitsorientierte Distros blockieren möglicherweise die spezifischen Syscalls, die BattlEye benötigt. Falls Probleme bestehen bleiben, versuchen Sie, in einen Standard-LTS-Kernel zu booten.
+</Callout>
+
+**Gängige Korrekturen für Linux-Benutzer:**
+- **Integrität überprüfen**: Verwenden Sie Steams "Dateien auf Fehler überprüfen", wenn das Spiel beim Startbildschirm abstürzt.
+- **Proton-Versionswechsel**: Wenn Experimental fehlschlägt, versuchen Sie **Proton 9.0** oder das neueste stabile Release.
+- **Clean Prefix**: Wenn Sie zuvor eine andere Proton-Version verwendet haben, kann das Löschen des `compatdata`-Ordners (ID 1431300) Konfigurationskonflikte lösen.
+
+</Section>
+
+<Section icon={Trophy} title="Steam Deck und Handheld-Optimierung">
+
+SAND: Raiders of Sophie ist ein anspruchsvoller Titel für das Steam Deck, aber mit den richtigen Anpassungen ist es ein hervorragendes Erlebnis für das Plündern im Handheld-Modus. Die prozedurale Welt von Sophie erfordert eine konstante CPU-Leistung, um die Physik des Tramplers zu verwalten.
+
+<Checklist
+  id="steam-deck-goals"
+  title="Steam Deck Setup-Checkliste:"
+  items={[
+    "Spiel auf interner SSD installieren (MicroSD für diesen Titel vermeiden)",
+    "Proton Experimental in den Kompatibilitätseinstellungen erzwingen",
+    "SteamOS-Bildwiederholrate auf 40Hz / FPS-Limit auf 40 einstellen",
+    "FSR 2.0 (Qualitätsmodus) im Spiel aktivieren",
+    "Trampler-Physik in den Gameplay-Optionen auf 'Standard' setzen"
+  ]}
+/>
+
+<Callout type="info" title="Handheld-Steuerungstipp">
+Das Spiel unterstützt die vollständige Controller-Eingabe. Belegen Sie die hinteren Tasten (L4/R4) mit "Springen" und "Interagieren", um Ihre Daumen während intensiver Boarding-Aktionen in den Wüstenruinen auf den Sticks zu lassen.
+</Callout>
+
+| Metrik | Erwartete Leistung | Einstellungskontext |
+|:---|:---|:---|
+| **Offene Wüste** | 35-45 FPS | Niedrige/Mittlere gemischte Einstellungen |
+| **Stadt-Plünderung** | 28-32 FPS | Gebiete mit hoher Asset-Dichte |
+| **Storm Dive** | 30 FPS | Starke Partikeleffekte |
+| **Akkulaufzeit** | ~90-110 Minuten | TDP-Limit bei 12-15W |
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Ist der Linux-Support für SAND Raiders of Sophie offiziell?",
+    answer: "Obwohl die Entwickler primär Windows anvisieren, bietet das Spiel über Proton Linux-Kompatibilität und unterstützt explizit die Proton BattlEye Runtime für sein Anti-Cheat-System."
+  },
+  {
+    question: "Warum werde ich alle 5 Minuten von BattlEye gekickt?",
+    answer: "Dies passiert normalerweise, wenn die Proton BattlEye Runtime nicht in Ihrer Steam-Werkzeugbibliothek installiert ist oder wenn Ihr Linux-Kernel die Kommunikation des Anti-Cheats mit dem Server blockiert."
+  },
+  {
+    question: "Kann ich mit Windows-Freunden auf Linux spielen?",
+    answer: "Ja. SAND: Raiders of Sophie bietet volles Cross-Play zwischen Betriebssystemversionen und Konsolen (PS5/Xbox), solange Sie sich auf demselben regionalen Server befinden."
+  },
+  {
+    question: "Funktioniert das Spiel auf dem Steam Deck?",
+    answer: "Ja, es ist spielbar. Sie sollten jedoch FSR und ein 30 FPS- oder 40 FPS-Limit verwenden, um die Stabilität bei actionreichen PvPvE-Extraktionen zu gewährleisten."
+  }
+]} />
+
+<Callout type="tip" title="Abschließende Empfehlung">
+Behalten Sie immer den offiziellen Discord und die Steam-Ankündigungen im Auge. Da es sich um einen im Juni 2026 gestarteten Early-Access-Titel handelt, können häufige Patches die Interaktion von Proton mit der ausführbaren Datei des Spiels verändern.
+</Callout>
+
+</Section>

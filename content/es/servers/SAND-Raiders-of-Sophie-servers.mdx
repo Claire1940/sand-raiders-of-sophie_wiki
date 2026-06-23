@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Server, Users, Globe, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Servidores de SAND Raiders of Sophie: Guía de Capacidad y Emparejamiento",
+  description: "Domina los servidores de SAND Raiders of Sophie con nuestra guía sobre capacidad de jugadores, progresión bloqueada por región, niveles de emparejamiento y requisitos de red.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Server+Capacity+Guide",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie",
+  keywords: "SAND Raiders of Sophie, servidores, capacidad, emparejamiento, bloqueo regional, BattlEye, multijugador"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Los servidores de SAND Raiders of Sophie** admiten hasta **90 jugadores** por instancia en consolas, con rangos específicos para PC.
+- **La progresión y el inventario** están estrictamente **bloqueados por región**; elige tu servidor inicial con cuidado.
+- **El emparejamiento** se determina por el **tamaño de tu tripulación** para garantizar encuentros PvPvE justos.
+- **Los planos del Trampler** se comparten entre todos los personajes y regiones, a diferencia del botín físico.
+- **El sistema antitrampas BattlEye** es obligatorio para todas las conexiones al servidor en la plataforma PC.
+</Callout>
+
+<Section icon={Server} title="Capacidad y Estructura de los Servidores de SAND Raiders of Sophie">
+
+Comprender cómo funcionan los **servidores de SAND Raiders of Sophie** es fundamental para cualquier tripulación que busque sobrevivir en el planeta desértico Sophie. Lanzado en acceso anticipado el 22 de junio de 2026, el juego utiliza una compleja arquitectura basada en instancias para gestionar su mundo masivo generado por procedimientos. A diferencia de los MMO tradicionales con un único mundo persistente, SAND opera a través de tipos de sesiones específicos (Voyage y Storm Dive), cada uno con su propia lógica de servidor y limitaciones de jugadores.
+
+**Puntos destacados del video:**
+- Descripción general de la generación por procedimientos del lado del servidor.
+- Cómo seleccionar la mejor región para obtener baja latencia.
+- Guía visual del lobby de emparejamiento.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="Tráiler oficial de SAND: Raiders of Sophie" />
+
+La capacidad del servidor varía significativamente según la plataforma y el rango de emparejamiento específico al que ingreses. Mientras que las tiendas de Xbox y PlayStation mencionan un máximo de 90 jugadores en línea, la versión de acceso anticipado para PC utiliza límites más estrictos para mantener el rendimiento y el equilibrio del juego durante la fase de lanzamiento inicial de 2026.
+
+| Tipo de Servidor | Límite de Jugadores | Tamaño de Tripulación Permitido | Lógica de Emparejamiento |
+| :--- | :--- | :--- | :--- |
+| **Rangos en Solitario** | 15 Jugadores | 1 (Solo) | Solo se permiten jugadores individuales |
+| **Equipo Pequeño** | 36 Jugadores | 2 - 3 Jugadores | Equipos de 2 o 3 |
+| **Equipo Grande** | 45 Jugadores | 4 - 6 Jugadores | Equipos de 4 a 6 |
+| **Lobby de Consola** | 90 Jugadores | 1 - 6 Jugadores | Escalamiento específico de la plataforma |
+
+<Callout type="warning" title="Estabilidad del Servidor">
+Durante los períodos de mucho tráfico en 2026, los servidores pueden experimentar "Latencia de Tormenta de Arena". Consulta siempre el Discord oficial para conocer el estado del servidor en tiempo real antes de desplegar una construcción de Trampler de alto valor.
+</Callout>
+
+</Section>
+
+<Section icon={Globe} title="Bloqueo Regional y Progresión de Personajes">
+
+Uno de los aspectos más importantes de los **servidores de SAND Raiders of Sophie** es el sistema de bloqueo regional. El inventario de tu personaje, el progreso del árbol tecnológico y los recursos almacenados están vinculados específicamente a la región donde fueron creados. Esto significa que si comienzas tu viaje en los servidores de América del Norte, no puedes llevar tus artefactos saqueados o armas mejoradas a los servidores de Europa o Asia.
+
+<CardGrid cols={2}>
+  <Card title="Datos Bloqueados por Región">
+    - **Inventario y Botín**: Armas, munición y recursos.
+    - **Árbol Tecnológico**: Todos los módulos y mejoras desbloqueados.
+    - **Nivel de Personaje**: Experiencia y progresión de habilidades.
+  </Card>
+  <Card title="Datos de la Cuenta">
+    - **Planos del Trampler**: Diseños guardados en el editor.
+    - **Skins Cosméticas**: Recompensas de Server Slam y DLC.
+    - **Logros**: Trofeos de Steam, Xbox y PS5.
+  </Card>
+</CardGrid>
+
+Esta estructura evita que los jugadores de alto nivel realicen "salto de servidores" para dominar regiones menos pobladas. Sin embargo, requiere que los jugadores se coordinen con sus amigos antes de comprometerse con un servidor regional específico. Si te encuentras sin recursos y sin Trampler en una región específica, es posible que te veas obligado a unirte a la tripulación de otro jugador o comenzar con un personaje nuevo.
+
+<Callout type="tip" title="Estrategia de Planos">
+Dado que los planos son para toda la cuenta, puedes diseñar un Trampler "Económico para Principiantes" en el editor que esté disponible en todas las regiones, lo que facilitará el reinicio si cambias de servidor.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Emparejamiento y Rangos de Tripulación">
+
+El sistema de emparejamiento para los **servidores de SAND Raiders of Sophie** está diseñado para evitar "aplastamientos injustos" donde una enorme fortaleza de seis jugadores se aprovecha de un carroñero solitario. El juego filtra activamente las sesiones según el tamaño de tu tripulación en el momento del despliegue. Esto garantiza que cuando encuentres otro Trampler en el horizonte, es probable que esté operando con un número de tripulantes similar al tuyo.
+
+<Steps>
+  <Step num="1" title="Forma tu Tripulación">
+    Reúne a tu equipo en el menú principal. Puedes invitar a amigos o usar el emparejamiento del juego para encontrar una tripulación de hasta 6 jugadores.
+  </Step>
+  <Step num="2" title="Selecciona tu Modo">
+    Elige entre Voyage (exploración de bajo riesgo) o Storm Dive (extracción de alto riesgo). El servidor te asignará un rango basado en esta elección.
+  </Step>
+  <Step num="3" title="Asignación de Rango">
+    El backend del servidor verifica el tamaño de tu tripulación (por ejemplo, una tripulación de 3) y te ubica en el rango de Equipo Pequeño (límite de 36 jugadores).
+  </Step>
+  <Step num="4" title="Despliegue">
+    Tu Trampler aparece en el mundo. Todos los demás jugadores en esta sesión pertenecerán a la misma categoría de tamaño de tripulación.
+  </Step>
+</Steps>
+
+| Característica del Rango | Solo (1 Jugador) | Tripulación Pequeña (2-3) | Tripulación Grande (4-6) |
+| :--- | :--- | :--- | :--- |
+| **Intensidad PvP** | Moderada | Alta | Extrema |
+| **Competencia por Recursos** | Baja | Media | Alta |
+| **Riesgo de Extracción** | Alto (Defensa en solitario) | Equilibrado | Bajo (Defensa en equipo) |
+| **Complejidad del Trampler** | Simple/Compacto | Especializado | Fortaleza Móvil |
+
+<Callout type="success" title="Supervivencia en Solitario">
+Los servidores en solitario están limitados a 15 jugadores para dar a los individuos más espacio para respirar. Usa esto a tu favor para aprender el mapa de Sophie antes de unirte a servidores de equipo más grandes y caóticos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Antitrampas y Requisitos de Red">
+
+Para mantener la integridad de la experiencia PvPvE, los **servidores de SAND Raiders of Sophie** utilizan BattlEye, un sistema antitrampas a nivel de kernel. Esto es obligatorio para todos los jugadores de PC. Si juegas en Linux o mediante una configuración de Proton tipo Steam Deck, debes asegurarte de que el "Proton BattlEye Runtime" esté instalado en tu biblioteca de Steam, o el servidor te expulsará al intentar el despliegue.
+
+<Checklist
+  id="server-readiness"
+  title="Lista de Verificación de Conexión al Servidor:"
+  items={[
+    "Verificar que BattlEye esté activo y actualizado",
+    "Asegurar 11 GB de almacenamiento disponible para la caché temporal del servidor",
+    "Comprobar que tu tipo de NAT sea Abierto o Moderado para el juego cooperativo",
+    "Confirmar que la región seleccionada coincida con la región de tu tripulación",
+    "Instalar Proton BattlEye Runtime (solo para usuarios de Linux/Proton)"
+  ]}
+/>
+
+| Requisito | Especificación Mínima | Especificación Recomendada |
+| :--- | :--- | :--- |
+| **Internet** | Conexión de banda ancha | Fibra de alta velocidad |
+| **Antitrampas** | BattlEye | BattlEye (Activo) |
+| **SO** | Windows 10 de 64 bits | Windows 11 de 64 bits |
+| **Latencia** | < 100ms | < 40ms |
+
+<Callout type="warning" title="Eliminación de Antitrampas">
+Si desinstalas el juego, BattlEye puede permanecer en tu sistema. La documentación oficial sugiere revisar los servicios de tu sistema para eliminarlo manualmente si no planeas regresar a Sophie.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Reglas de los Servidores Voyage vs Storm Dive">
+
+Los dos modos de juego principales que ofrecen los **servidores de SAND Raiders of Sophie** dictan cuánto dura una sesión y cómo se comporta el entorno del mundo. Los servidores Voyage están diseñados para la persistencia y la progresión constante, mientras que los servidores Storm Dive están gobernados por una tormenta de arena que se encoge y obliga a la interacción entre jugadores.
+
+| Característica | Servidores de Modo Voyage | Servidores de Modo Storm Dive |
+| :--- | :--- | :--- |
+| **Temporizador de Sesión** | Persistente (Sin límite fijo) | Limitado (Basado en la tormenta) |
+| **Nivel de Botín** | Estándar/Confiable | Nivel Alto/Raro |
+| **Densidad de Jugadores** | Dispersos | Concentrados hacia el centro |
+| **Extracción** | Iniciada por el jugador en cualquier momento | Debe extraerse antes del cierre de la tormenta |
+| **Nivel de Riesgo** | Bajo a Medio | Muy Alto |
+
+In el modo Voyage, la instancia del servidor permanece relativamente estable, lo que te permite recolectar a tu propio ritmo. En contraste, los servidores Storm Dive actúan como un "Battle Royale" para los juegos de disparos con extracción. El servidor cerrará activamente porciones del mapa a medida que avanza la tormenta de arena, obligando finalmente a todas las tripulaciones restantes a una confrontación final de alto riesgo en el centro del mapa.
+
+<Callout type="tip" title="Estrategia de Modo">
+Usa los servidores Voyage para farmear los recursos necesarios para Placas de Armadura de alto nivel y Cañones de 80 mm. Solo entra en los servidores Storm Dive una vez que tu Trampler esté completamente listo para el combate.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar en los servidores de SAND Raiders of Sophie sin conexión?",
+    answer: "No, SAND es un juego estrictamente PvPvE en línea. Se requiere una conexión a Internet persistente para sincronizar tu progreso con los servidores regionales e interactuar con otros jugadores y amenazas de la IA."
+  },
+  {
+    question: "¿Cómo cambio la región de mi servidor?",
+    answer: "Puedes seleccionar tu región desde el menú principal antes de iniciar sesión. Sin embargo, recuerda que el botín de tu personaje y el progreso del árbol tecnológico están bloqueados en la región donde se crearon."
+  },
+  {
+    question: "¿Qué sucede si pierdo la conexión al servidor durante una partida?",
+    answer: "Si te desconectas, tu Trampler y tu personaje permanecen en el mundo durante un breve período. Si no te reconectas rápidamente, corres el riesgo de que otros jugadores te saqueen o de ser destruido por la IA, lo que resultará en la pérdida de tu inventario actual."
+  },
+  {
+    question: "¿Hay servidores privados o personalizados disponibles?",
+    answer: "A partir del lanzamiento del acceso anticipado en 2026, todas las partidas se realizan en servidores oficiales de tinyBuild. Actualmente no hay soporte para instancias de servidores privados o alojados por el usuario."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+El panorama de los servidores de Sophie está en constante cambio. A medida que los desarrolladores de Hologryph y TowerHaus perfeccionen la experiencia del acceso anticipado a lo largo de 2026, se esperan ajustes en los límites de jugadores y los rangos de emparejamiento basados en los comentarios de la comunidad.
+</Callout>
+
+</Section>

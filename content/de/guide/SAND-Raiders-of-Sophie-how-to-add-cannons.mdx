@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie: So fügst du Kanonen hinzu – Trampler-Editor-Guide",
+  description: "Erfahre, wie du in SAND: Raiders of Sophie Kanonen zu deinem Trampler hinzufügst. Meistere den Trampler-Editor, verwalte die Reaktorleistung und optimiere die Waffenplatzierung.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=How+To+Add+Cannons+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team",
+  keywords: "SAND Raiders of Sophie, Trampler, Kanonen, Editor, Guide, Waffen"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Kernmechanik**: Kanonen werden über den spielinternen **Trampler-Editor** zu deiner wandelnden Festung hinzugefügt.
+- **Energiemanagement**: Jede Kanone benötigt eine bestimmte Menge an Energie, die von deinem **Reaktorraum** erzeugt wird.
+- **Bauplan-Sicherheit**: Speichere deine angepassten Layouts immer als **Baupläne** (Blueprints), um deine Designs nicht zu verlieren, falls dein Trampler zerstört wird.
+- **Waffenvielfalt**: Wähle zwischen schweren 80-mm-Kanonen, Schrotflinten-Kanonen für den Nahbereich, Dauerfeuer-Maschinenkanonen oder hochpräzisen Railguns.
+</Callout>
+
+<Section icon={Shield} title="SAND Raiders of Sophie: So fügst du Kanonen im Editor hinzu">
+
+In den feindseligen Wüsten des Planeten Sophie ist dein Trampler nicht nur ein Fahrzeug; er ist deine mobile Basis, dein Lager und dein primäres Verteidigungssystem. Zu wissen, **wie man in SAND Raiders of Sophie Kanonen hinzufügt**, entscheidet oft darüber, ob man eine riskante Extraktion überlebt oder seine gesamte hart erarbeitete Beute an rivalisierende Spieler verliert. Die Waffenanpassung erfolgt vollständig über den komplexen Trampler-Editor, mit dem du das Innere und Äußere deines mechanischen Läufers modifizieren kannst.
+
+Bevor du schwere Waffen an deine wandelnde Festung schrauben kannst, musst du das zugrunde liegende Abteilungssystem verstehen. Ein Trampler ist in strukturelle Raster unterteilt, in denen du Motoren, Reaktoren, Lager, Spawnpunkte und Waffen-Hardpoints platzierst. Kanonen können nicht einfach an einer beliebigen Metallplatte angebracht werden. Sie benötigen spezielle Waffenabteile und eine direkte Verbindung zu deinem Stromnetz.
+
+Die Verwaltung deines Energiebudgets ist der erste Schritt bei der Waffenanpassung. Wenn deine Reaktoren nicht genügend Kilowatt erzeugen, bleiben deine neu montierten Kanonen offline, was dich während eines PvPvE-Scharmützels völlig schutzlos zurücklässt.
+
+| Waffentyp | Rolle | Energieverbrauch | Munitionstyp | Optimale Reichweite |
+|---|---|---|---|---|
+| **80 mm Montierte Kanone** | Schwere Belagerung, hoher Strukturschaden | Hoch | Schwere Geschosse | Mittel bis Lang |
+| **Schrotflinten-Kanone** | Nahbereichsverteidigung, Anti-Boarding | Mittel | Schrotflinten-Munition | Kurz |
+| **Maschinenkanone** | Kontinuierlicher Druck, hohe Feuerrate | Mittel | Standard-Munition | Mittel |
+| **Experimentelle Railgun** | Hochpräzises Scharfschießen, bestrafend | Sehr Hoch | Energiezellen | Lang |
+
+<Callout type="warning" title="Überlastung des Stromnetzes">
+Das Montieren mehrerer schwerer Kanonen ohne Aufrüstung deines Reaktorraums deaktiviert deine Waffensysteme. Überprüfe im Editor immer deine gesamte Ausgangsleistung, bevor du in die Modi "Voyage" oder "Storm Dive" aufbrichst.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung zur Waffeninstallation">
+
+Die Anpassung deiner wandelnden Festung erfordert sorgfältige Planung in einer sicheren Umgebung. Du solltest alle Modifikationen vornehmen, während du an der Orbitalstation angedockt bist oder dich in ausgewiesenen Sicherheitszonen befindest, bevor du eine Expedition startest.
+
+Befolge diese Schritte, um deine ersten Kanonen erfolgreich zu montieren und mit Strom zu versorgen:
+
+<Steps>
+  <Step num="1" title="Trampler-Editor öffnen">
+    Interagiere mit dem Anpassungsterminal in deinem Hangar. Diese Schnittstelle öffnet den rasterbasierten Editor, der eine vollständige 3D-Ansicht deines aktuellen Trampler-Designs zeigt, einschließlich der Innenräume und der äußeren Hardpoints.
+  </Step>
+  <Step num="2" title="Waffenabteile installieren">
+    Navigiere zum Tab für Strukturmodule. Du musst ein waffenfähiges Abteil im äußeren Raster deines Tramplers platzieren. Diese Abteile dienen als physische Verankerungspunkte für alle schweren montierten Geschütztürme.
+  </Step>
+  <Step num="3" title="Kanonen auswählen und montieren">
+    Öffne dein Waffeninventar innerhalb des Editors. Ziehe deine gewünschte Bewaffnung, wie die montierte 80-mm-Kanone oder die Maschinenkanone, auf ein verfügbares äußeres Waffenabteil. Der Editor markiert gültige Montageorte grün.
+  </Step>
+  <Step num="4" title="Reaktornetz verknüpfen">
+    Wechsle zur Energie-Overlay-Ansicht. Ziehe Stromleitungen von deinem Reaktorraum zu den neu installierten Waffenabteilen. Stelle sicher, dass deine gesamte Reaktorleistung den kombinierten Stromverbrauch deiner Motoren, Schilde und Kanonen übersteigt.
+  </Step>
+  <Step num="5" title="Eigenen Bauplan speichern">
+    Klicke auf das Speichern-Symbol, um dein aktuelles Design als wiederverwendbaren Bauplan (Blueprint) zu sichern. Falls dein Trampler durch rivalisierende Spieler oder Umweltgefahren zerstört wird, kannst du genau dieses Layout mithilfe des gespeicherten Bauplans sofort wieder aufbauen.
+  </Step>
+</Steps>
+
+| Interface-Aktion | Editor-Werkzeug | Voraussetzung | Ergebnis |
+|---|---|---|---|
+| **Modulplatzierung** | Grid Snap | Offener Abteil-Slot | Platziert Strukturräume |
+| **Waffenmontage** | Hardpoint-Tool | Verfügbares Waffeninventar | Sichert Geschützturm an der Außenseite |
+| **Stromanschluss** | Reaktor-Link | Ausreichende Reaktorleistung | Versorgt aktive Verteidigungssysteme |
+| **Bauplan speichern** | Design speichern | Vollständige Bauvalidierung | Schützt Design vor permanentem Verlust |
+
+<Callout type="tip" title="Erhalt von Bauplänen">
+Trampler-Baupläne werden über alle deine Charaktere hinweg geteilt. Selbst wenn du alle physischen Ressourcen mit einem Charakter verlierst, bleiben deine Designvorlagen sicher und zugänglich.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Strategie für die Kampfplatzierung und Waffen-Tier-Liste">
+
+Wo du deine Kanonen platzierst, ist genauso wichtig wie die Wahl der Kanonen selbst. Ein häufiger Anfängerfehler ist es, die gesamte Feuerkraft am Bug des Tramplers zu konzentrieren. Dies bietet zwar exzellente Belagerungsfähigkeiten nach vorne, lässt aber deine Flanken und das Heck völlig schutzlos gegenüber Boarding-Trupps und getarnten, leichten Raidern.
+
+Um eine optimierte Kriegsmaschine zu bauen, solltest du einen dieser bewährten Layout-Archetypen in Betracht ziehen:
+
+<CardGrid cols={3}>
+  <Card title="Schwerer Festungs-Build">
+    - **Maximale Panzerung**
+    - Zwei 80-mm-Kanonen auf erhöhten Decks
+    - Am besten geeignet für große, koordinierte Crews von 4–6 Spielern
+  </Card>
+  <Card title="Solo-Stealth-Raider">
+    - **Kompaktes Layout mit niedrigem Profil**
+    - Einzelne schnellfeuernde Maschinenkanone zur Verteidigung
+    - Priorisiert Motorleistung und schnelle Fluchtwege
+  </Card>
+  <Card title="Anti-Boarding-Labyrinth">
+    - **Verwirrende Platzierung der Innenmodule**
+    - Schrotflinten-Kanonen bewachen die Einstiegsluken
+    - Versenkte Türme, um aggressive Boarding-Teams in die Falle zu locken
+  </Card>
+</CardGrid>
+
+Wähle deine Bewaffnung so aus, dass sie zu deiner Crewgröße und deinem Spielstil passt. Während seltene Waffen wie die experimentelle Railgun eine unglaubliche Reichweite bieten, sind sie bei Fehlschüssen sehr bestrafend, besonders nachdem jüngste Balance-Änderungen ihre Nachladezeiten erhöht haben.
+
+| Waffenmodul | Tier | Hauptvorteil | Hauptnachteil | Beste Integration |
+|---|---|---|---|---|
+| **80 mm Montierte Kanone** | **A** | Verheerender Strukturschaden | Langsame Nachladegeschwindigkeit | Festungs-Builds für Crews |
+| **Schrotflinten-Kanonen** | **A** | Unübertroffene Anti-Boarding-Abwehr | Geringe effektive Reichweite | Nahe Einstiegsluken und Leitern |
+| **Maschinenkanonen** | **B** | Beständiger Schild-/Rüstungsdruck | Geringerer Berstschaden | Solofreundliche Verteidigungslayouts |
+| **Exp. Railgun** | **A** | Extreme Reichweite und Präzision | Langes Nachladefenster | Koordinierte Fernschüsse |
+
+<Callout type="success" title="Optimale defensive Abdeckung">
+Für eine ausgewogene Verteidigung platziere eine Maschinenkanone auf dem Dach für eine 360-Grad-Abdeckung gegen ferne Bedrohungen und montiere eine Schrotflinten-Kanone in der Nähe deiner Hauptleiter, um Spieler, die dein Deck entern wollen, sofort auszuschalten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Verwaltung von Reaktorleistung, Munition und Crew-Rollen">
+
+Ein voll bewaffneter Trampler erfordert ständige Wartung und aktives Management während der Expeditionen. Im Gegensatz zu Standard-Shootern sind Waffensysteme in SAND: Raiders of Sophie physische Objekte, die gezielt vom Gegner zerstört werden können. Wenn ein feindliches Geschoss dein Waffenabteil durchschlägt, geht diese spezifische Kanone offline, bis sie repariert wird.
+
+Zudem feuern Kanonen nicht automatisch. In größeren Crew-Konfigurationen müssen Spieler die Türme manuell bedienen, um zu zielen und zu schießen. Wenn du solo spielst, musst du das Steuern des Läufers, die Verwaltung der Reaktorleistung und das Laufen zu den Waffendecks unter einen Hut bringen. Munition muss ebenfalls in physischen Lagerabteilen aufbewahrt werden; wenn deine Lagermodule beschädigt werden, riskierst du, mitten im Kampf deine Reservegeschosse zu verlieren.
+
+| Unterstützungsabteil | Funktion | Crew-Anforderung | Kritischer Wert | Upgrade-Vorteil |
+|---|---|---|---|---|
+| **Reaktorraum** | Erzeugt Strom für alle Kanonen | Solo machbar | Gesamtleistung (kW) | Unterstützt High-Tier-Railguns |
+| **Maschinenraum** | Bestimmt Geschwindigkeit und Wenderate | Dedizierter Pilot | Geschwindigkeitsmultiplikator | Schnelleres Umpositionieren |
+| **Lagerraum** | Beherbergt Munition und Beute | Automatisierter Zugriff | Frachtplätze | Verhindert Munitionsmangel |
+| **Mannschaftsräume** | Bestimmt maximale Crew-Größe | Passive Unterstützung | Max. Crew-Kapazität | Ermöglicht bis zu 6 Spieler |
+
+<Checklist
+  id="pre-flight-combat"
+  title="Kampf-Checkliste vor dem Einsatz:"
+  items={[
+    "Überprüfen, ob die Reaktorleistung den Verbrauch von Waffen und Motor übersteigt",
+    "Korrekte Munitionstypen in die verbundenen Lagerabteile laden",
+    "Bestätigen, dass alle Außenkanonen im aktiven Bauplan gespeichert sind",
+    "Crew-Rollen für Steuerung, Geschützbedienung und Schadenskontrolle zuweisen",
+    "Mindestens drei Reparaturkits mit mehreren Ladungen im Inventar einpacken"
+  ]}
+/>
+
+<Callout type="info" title="Schadenskontrolle">
+Halte einen Stapel Reparaturkits in der Nähe deines Reaktorraums bereit. Wenn dein Reaktor Schaden nimmt, schwankt dein Stromnetz, was sofort deine Kanonen mit dem höchsten Verbrauch deaktiviert – genau dann, wenn du sie am dringendsten brauchst.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+Das Meistern deiner wandelnden Festung erfordert Übung. Hier sind die häufigsten Fragen von Spielern zum Anpassen und Aufrüsten ihrer schweren Bewaffnung:
+
+<FAQ items={[
+  {
+    question: "Wo finde ich neue Kanonen für meinen Trampler?",
+    answer: "Neue Kanonen und Waffenmodule findest du, indem du seltene Waffenruhen in Ruinenstädten plünderst, Schiffswracks untersuchst oder wertvolle Artefakte erfolgreich aus Hochrisikogebieten wie der Dreadnought extrahierst."
+  },
+  {
+    question: "Kann ich während der Erkundung der Wüste Kanonen hinzufügen?",
+    answer: "Nein. Strukturveränderungen, Anpassungen am Stromnetz und die Waffenmontage können nur in der sicheren Umgebung des Trampler-Editors vorgenommen werden, während du an der Orbitalstation angedockt bist."
+  },
+  {
+    question: "Was passiert mit meinen Kanonen, wenn mein Trampler komplett zerstört wird?",
+    answer: "Wenn dein Trampler in Voyage oder Storm Dive zerstört wird, gehen die physischen Module verloren. Wenn du dein Layout jedoch als Bauplan gespeichert hast, kannst du das exakte Design inklusive der Kanonen mit Ressourcen in deinem Hangar wieder aufbauen."
+  },
+  {
+    question: "Kann ich den Server-Slam-Belohnungsskin für meine montierten Kanonen verwenden?",
+    answer: "Nein. Der exklusive M1866/9 'Einzel' Hinterlader-Skin ist eine kosmetische Belohnung für dein persönliches Handgewehr, nicht für die schweren montierten Kanonen deines Tramplers."
+  }
+]} />
+
+<Callout type="success" title="Bereit für die Schlacht">
+Jetzt, da du weißt, wie du deine montierte Bewaffnung baust, mit Strom versorgst und schützt, lade deine Munition durch, versammle deine Crew und beanspruche dein Glück in den Ruinen von Sophie!
+</Callout>
+
+</Section>

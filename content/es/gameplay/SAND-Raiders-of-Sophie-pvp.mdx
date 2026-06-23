@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie pvp: Guía de Tácticas de Combate y Extracción",
+  description: "Domina el pvp de SAND Raiders of Sophie con nuestra guía sobre combate de Tramplers, tácticas de Storm Dive, emparejamiento de tripulación y estrategias de extracción de alto riesgo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/161b22/d4af37?text=PvP+Extraction+Tactics",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie",
+  keywords: "SAND Raiders of Sophie, pvp, tácticas de combate, guía de extracción, Tramplers, Storm Dive"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **SAND Raiders of Sophie pvp** se centra en la extracción de alto riesgo utilizando bases caminantes personalizables llamadas Tramplers.
+- **Storm Dive** es el modo competitivo principal, que cuenta con una tormenta de arena que se reduce y recompensas de botín de mayor nivel.
+- **Las construcciones de Trampler** son esenciales para la supervivencia, ya que sirven como arma principal, armadura y sistema de almacenamiento móvil.
+- **El emparejamiento de tripulación** garantiza un juego equilibrado al separar a los jugadores solitarios de los equipos grandes de 6 personas.
+- **La seguridad en la extracción** requiere vigilancia constante, ya que los jugadores rivales pueden emboscarte en tu punto de salida.
+</Callout>
+
+<Section icon={Target} title="El Ciclo de Extracción PvPvE en Sophie">
+
+La experiencia central de **SAND Raiders of Sophie pvp** gira en torno al entorno brutal del planeta desértico Sophie. A diferencia de los shooters tradicionales, el combate aquí es un asunto de múltiples capas que involucra tanto tiroteos a nivel del suelo como una guerra mecánica masiva entre Tramplers. Los jugadores deben saquear ciudades en ruinas y naufragios, luchar contra amenazas PvE hostiles y defender sus botines contra asaltantes rivales antes de extraer con éxito a la estación orbital.
+
+| Elemento | Descripción | Impacto en el Juego |
+|:---|:---|:---|
+| **El Trampler** | Tu fortaleza y base móvil. | Perderlo reinicia el progreso de tu expedición. |
+| **Saqueo** | Búsqueda de recursos en las ruinas. | Fuente principal de equipo y materiales de mejora. |
+| **Extracción** | La salida final del mapa. | Única forma de asegurar el botín permanentemente. |
+| **Muerte Permanente** | Pérdida de equipo al morir. | Alta tensión durante cada encuentro con jugadores. |
+
+<Callout type="info" title="Filosofía PvP">
+En SAND, el PvP no se trata solo de apuntar; se trata de logística. Una tripulación con mejor armadura de Trampler y una sala de almacenamiento bien defendida a menudo durará más que un equipo con reflejos superiores pero una base caminante mal diseñada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Voyage vs. Storm Dive: Eligiendo tu Batalla">
+
+El juego ofrece dos formas distintas de experimentar el desierto. Para los jugadores que buscan probar nuevas estrategias de **SAND Raiders of Sophie pvp** sin presión inmediata, Voyage es la opción estándar. Sin embargo, para aquellos que buscan las mayores recompensas y los encuentros jugador contra jugador más intensos, Storm Dive es la arena definitiva.
+
+| Característica | Modo Voyage | Modo Storm Dive |
+|:---|:---|:---|
+| **Riesgos** | Menor riesgo, mundo persistente. | Alto riesgo, estilo battle-royale. |
+| **Calidad del Botín** | Objetos de nivel estándar. | Artefactos de alto nivel y armas raras. |
+| **Presión** | Extracción decidida por el jugador. | La tormenta de arena que se reduce obliga al movimiento. |
+| **Frecuencia PvP** | Moderada / Opcional. | Muy alta / Obligatoria. |
+| **Ideal para** | Aprender rutas y construcciones. | Juego competitivo y farmeo de endgame. |
+
+<Callout type="warning" title="Advertencia de Storm Dive">
+La tormenta de arena en Storm Dive no solo limita el mapa; daña activamente a los Tramplers atrapados a su paso. Si te enfocas en el combate PvP, asegúrate de que tu reactor tenga suficiente potencia para mantener tus motores funcionando a la velocidad máxima para mantenerte por delante de la tormenta.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Arquetipos de Combate de Trampler">
+
+Tu Trampler es la pieza central de cualquier enfrentamiento en **SAND Raiders of Sophie pvp**. Debido a que el editor permite una colocación de módulos caótica y altamente personalizada, tu construcción define tu rol de combate. Las tripulaciones eficaces suelen especializar sus fortalezas caminantes para manejar tipos específicos de encuentros.
+
+<CardGrid cols={3}>
+  <Card title="La Fortaleza Pesada">
+    - **Placas de Armadura**: Apiladas para máxima durabilidad.
+    - **Armamento**: Múltiples cañones montados de 80 mm.
+    - **Rol**: Enfrentamiento directo y denegación de área.
+  </Card>
+  <Card title="El Asaltante Sigiloso">
+    - **Enfoque en el Motor**: Reactores de alta velocidad para salidas rápidas.
+    - **Diseño**: Tamaño compacto para reducir el perfil visual.
+    - **Rol**: Saqueo rápido y evitar peleas a gran escala.
+  </Card>
+  <Card title="El Especialista en Abordaje">
+    - **Diseño de Interiores**: Pasillos laberínticos para confundir a los enemigos.
+    - **Defensas**: Cañones de escopeta de corto alcance.
+    - **Rol**: Forzar el combate cuerpo a cuerpo dentro del meca.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Defensa contra Abordajes">
+Utiliza una colocación de módulos caótica. Al crear un diseño interno confuso, haces que sea mucho más difícil para los grupos de abordaje encontrar tu sala de almacenamiento o consola de dirección antes de que tu tripulación pueda contraatacar.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Niveles de Armas para Encuentros PvP">
+
+Si bien las armas que portan los jugadores son importantes para abordar y defender ruinas, las armas montadas en tu Trampler deciden el resultado de la mayoría de las escaramuzas de **SAND Raiders of Sophie pvp**. El equipo de alto nivel a menudo está bloqueado tras cajas raras o encuentros específicos con jefes como el Dreadnought.
+
+| Nivel | Nombre del Arma | Tipo | Fortaleza Clave |
+|:---|:---|:---|:---|
+| **S** | **Cañón Montado de 80mm** | Montada | Daño de ráfaga masivo y largo alcance. |
+| **S** | **Placas de Armadura** | Defensiva | Esencial para sobrevivir a las ráfagas iniciales. |
+| **A** | **Torretas Montadas** | Montada | Presión constante y rastreo automático. |
+| **A** | **Cañón de Riel Experimental** | Montada | Alta precisión para francotirar módulos vitales. |
+| **B** | **Autocañones** | Montada | Fuego sostenido para suprimir a las tripulaciones enemigas. |
+| **B** | **Cañones de Escopeta** | Montada | Defensa letal contra abordajes a corta distancia. |
+| **C** | **Bomba WOK** | Especial | Daño extremadamente alto pero muy situacional. |
+
+<Callout type="success" title="Mantenimiento de Armas">
+Lleva siempre al menos 3 cargas de Kits de Reparación. En una pelea PvP prolongada, la capacidad de reparar tu consola de dirección o motores en medio de la batalla es la diferencia entre una extracción exitosa y una pérdida total.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Emparejamiento de Tripulación y Escalamiento del Servidor">
+
+Para mantener la equidad en **SAND Raiders of Sophie pvp**, los desarrolladores implementaron un sistema de emparejamiento por tamaño de tripulación. Esto evita que un jugador solitario sea constantemente cazado por un equipo coordinado de 6 personas. Tu experiencia en el servidor escala según el tamaño de tu grupo.
+
+| Tamaño de Tripulación | Límite del Servidor | Grupo de Emparejamiento |
+|:---|:---|:---|
+| **Solo** | 15 Jugadores | Solo otros exploradores solitarios. |
+| **Dúo / Trío** | 36 Jugadores | Servidores enfocados en equipos pequeños. |
+| **Escuadrón (4-6)** | 45 Jugadores | Guerra de fortalezas a gran escala. |
+
+<Steps>
+  <Step num="1" title="Selecciona tu Región">
+    Asegúrate de seleccionar una región con baja latencia, ya que tu inventario y árbol tecnológico están vinculados a personajes regionales específicos.
+  </Step>
+  <Step num="2" title="Forma tu Tripulación">
+    Invita a amigos o usa el emparejamiento para llenar tus salas de tripulación. Recuerda que las tripulaciones más grandes requieren más salas en el Trampler.
+  </Step>
+  <Step num="3" title="Sincroniza Planos">
+    Mientras que los personajes son regionales, los planos de Trampler se comparten. Asegúrate de que tu equipo esté utilizando el diseño de combate más optimizado.
+  </Step>
+  <Step num="4" title="Despliégate en Storm Dive">
+    Entra en la cola de emparejamiento. El juego te colocará en un servidor con equipos de tamaño similar para garantizar un entorno competitivo.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Supervivencia en Solitario">
+Si juegas solo, enfócate en la construcción "Stealth Raider". La velocidad y un perfil bajo son tus mejores armas contra las tripulaciones más grandes que se encuentran en los puntos de interés de alto tráfico.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Extracción y Seguridad del Botín">
+
+La extracción es la fase más peligrosa de **SAND Raiders of Sophie pvp**. Los jugadores rivales a menudo acampan cerca de los puntos de extracción o rastrean Tramplers dañados con la esperanza de un robo fácil. Asegurar tu botín con éxito requiere un enfoque táctico en los minutos finales de tu incursión.
+
+<Checklist
+  id="extraction-prep"
+  title="Lista de Verificación Pre-Extracción:"
+  items={[
+    "Verificar que todos los compartimentos de almacenamiento estén cerrados y defendidos",
+    "Comprobar la salud del motor y los niveles de combustible del reactor",
+    "Identificar al menos dos rutas de extracción potenciales en el mapa",
+    "Escanear el horizonte en busca de humo o movimiento de Tramplers rivales",
+    "Asegurarse de que todos los miembros de la tripulación estén de vuelta a bordo antes de moverse"
+  ]}
+/>
+
+<Callout type="success" title="Prioridad de Botín">
+Prioriza los artefactos y componentes de armas raras. Si bien los recursos básicos son necesarios para las reparaciones, los artefactos proporcionan los mayores impulsos de progresión y son el objetivo principal de las incursiones competitivas en Storm Dive.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Preguntas Frecuentes de SAND Raiders of Sophie">
+
+<FAQ items={[
+  {
+    question: "¿Hay alguna forma de jugar SAND Raiders of Sophie pvp solo?",
+    answer: "Sí. El juego cuenta con un grupo de emparejamiento para solitarios con un límite de 15 jugadores por servidor, lo que garantiza que solo te enfrentes a otros jugadores individuales en lugar de a grandes escuadrones."
+  },
+  {
+    question: "¿Qué sucede si mi Trampler es destruido en una pelea PvP?",
+    answer: "Si tu Trampler es destruido, pierdes el vehículo físico y todo el botín almacenado en su interior. Sin embargo, si guardaste tu diseño como un plano, puedes reconstruirlo en la estación orbital utilizando nuevos recursos."
+  },
+  {
+    question: "¿Utiliza el juego medidas antitrampas?",
+    answer: "Sí, SAND: Raiders of Sophie utiliza el antitrampas BattlEye a nivel de núcleo para garantizar un entorno competitivo justo para todos los jugadores."
+  },
+  {
+    question: "¿Puedo extraer en cualquier momento en Storm Dive?",
+    answer: "Puedes extraer en cualquier momento siempre que puedas llegar a un punto de extracción activo antes de que la tormenta de arena envuelva completamente el centro del mapa."
+  }
+]} />
+
+</Section>

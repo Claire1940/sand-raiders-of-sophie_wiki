@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Einzelspieler: Solo-Überlebens- & Modus-Leitfaden",
+  description: "Erfahre, wie du den SAND Raiders of Sophie Einzelspieler-Modus meisterst. Entdecke Solo-Matchmaking-Brackets, Strategien für den Voyage-Modus und Stealth-Trampler-Builds.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Solo+Survival+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **SAND Raiders of Sophie Einzelspieler** bedeutet ein dediziertes **Solo-Matchmaking-Bracket** mit einem Server-Limit von 15 Spielern.
+- Der **Voyage-Modus** ist der empfohlene Einstiegspunkt für Solo-Spieler, um die Mechaniken ohne den Druck des herannahenden Sandsturms zu erlernen.
+- **Stealth-Trampler** sind für einsame Überlebende unerlässlich; konzentriere dich auf eine kleine Silhouette und hocheffiziente Motoren, um Entdeckung zu vermeiden.
+- **Extraktion** ist der einzige Weg, um Fortschritte zu sichern. Solo-Spieler sollten Mid-Tier-Beute und frühe Exits priorisieren, anstatt um riskante Points of Interest (POIs) zu kämpfen.
+</Callout>
+
+<Section icon={User} title="Die Mechaniken des SAND Raiders of Sophie Einzelspielers verstehen">
+
+Obwohl SAND: Raiders of Sophie primär ein PvPvE-Extraktions-Shooter ist, haben die Entwickler robuste Systeme implementiert, um **SAND Raiders of Sophie Einzelspieler**-Enthusiasten zu unterstützen. Es ist wichtig klarzustellen, dass das Spiel keine Offline-Story-Kampagne bietet. Stattdessen bezieht sich „Einzelspieler“ auf die Möglichkeit, sich allein für eine Welt anzumelden, in der man exklusiv oder primär gegen andere Solo-Spieler gematcht wird. Dies stellt sicher, dass ein einsamer Raider nicht ständig von koordinierten Sechser-Trupps überwältigt wird.
+
+**Video-Highlights:**
+- Überblick über den Wüstenplaneten Sophie und den Kern-Extraktions-Loop.
+- Visuelle Demonstration der Trampler-Anpassung und -Bewegung.
+- Einblicke in die PvPvE-Kampfdynamik in den Ruinenstädten.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="SAND: Raiders of Sophie | Launch Trailer" />
+
+Das Matchmaking-System nutzt spezifische „Crew-Brackets“, um das Erlebnis auszubalancieren. Als Solo-Spieler ist deine Umgebung deutlich anders als die einer großen Crew. Die Serverdichte ist darauf ausgelegt, schleichende Spielstile und taktisches Manövrieren zu ermöglichen.
+
+| Merkmal | Solo-Spieler-Bracket | Kleine Crew (2-3) | Große Crew (4-6) |
+|:---|:---|:---|:---|
+| **Server-Spielerlimit** | 15 Spieler | 36 Spieler | 45 Spieler |
+| **Matchmaking-Logik** | Solo vs. Solo | Klein vs. Klein | Groß vs. Groß |
+| **Schwierigkeit** | Hoch (Selbstverlass) | Moderat (Geteilte Rollen) | Taktisch (Rollenbasiert) |
+| **Tempo** | Stealth/Vorsichtig | Aggressiv/Ausgewogen | Dominant/Festung |
+
+<Callout type="tip" title="Matchmaking-Tipp">
+Selbst in Solo-Brackets bleiben PvE-Bedrohungen konstant. Du versteckst dich nicht nur vor anderen Spielern; du musst die biologischen und mechanischen Gefahren von Sophie alleine bewältigen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Solo-freundliche Spielmodi: Voyage vs. Storm Dive">
+
+Für diejenigen, die **SAND Raiders of Sophie Einzelspieler**-Sessions bestreiten, ist die Wahl des richtigen Modus der Unterschied zwischen einem erfolgreichen Beutezug und dem totalen Verlust deines Tramplers. Das Spiel bietet zwei verschiedene Arten, den Planeten Sophie zu erkunden, jeweils mit eigenem Risikoprofil für den Solo-Überlebenden.
+
+Der Voyage-Modus ist im Grunde die „persistente“ Erfahrung. Er erlaubt es dir, die Welt zu betreten, in deinem eigenen Tempo zu plündern und zu extrahieren, wenn du das Gefühl hast, dass das Risiko zu hoch wird. Es gibt keinen schrumpfenden Kreis, der dich in einen zentralen Fleischwolf zwingt, was ihn zur besseren Wahl für Solo-Spieler macht, die einen methodischen, heimlichen Ansatz beim Plündern bevorzugen.
+
+| Modus-Details | Voyage (Solo empfohlen) | Storm Dive (Hohes Risiko) |
+|:---|:---|:---|
+| **Hauptziel** | Beständiges Plündern | High-Tier Beute/Überleben |
+| **Zeitdruck** | Keiner (Spielergesteuert) | Hoch (Sich schließender Sandsturm) |
+| **Spielerdichte** | Niedrig/Verteilt | Hoch (Erzwungene Nähe) |
+| **Beutequalität** | Standard bis Hoch | Elite/Artefakt-Fokus |
+| **Bestens geeignet für** | Lernen/Stetiger Fortschritt | PvP-Kampf/Schnelle Belohnungen |
+
+<Callout type="warning" title="Storm Dive Warnung">
+Solo-Spieler im Storm Dive sind in der Endphase massiv im Nachteil. Ohne eine Crew, die die Geschütze besetzt, während du steuerst, bist du extrem anfällig dafür, geentert oder im Zentrum des Sturms ausmanövriert zu werden.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Die besten Trampler-Builds für Solo-Raider">
+
+In **SAND Raiders of Sophie Einzelspieler** ist dein Trampler nicht nur ein Fahrzeug; er ist deine mobile Festung, Lagereinheit und dein Lebenserhaltungssystem. Große Crews können massive, mehrstöckige „Ironclads“ bauen, da sie die Manpower haben, jedes Deck zu verteidigen. Ein Solo-Spieler benötigt einen „Ghost“-Build – etwas Kleines, Schnelles und am Horizont schwer Auszumachendes.
+
+<CardGrid cols={2}>
+  <Card title="Der Scout-Build">
+    - **Fokus**: Geschwindigkeit und niedrige Sichtbarkeit.
+    - **Module**: Hocheffiziente Motoren, minimaler Stauraum und Tarnpanzerung.
+    - **Strategie**: Schnell zwischen POIs wechseln, die Außenbezirke plündern und verschwinden, bevor sich der Staub legt.
+  </Card>
+  <Card title="Der Trapper-Build">
+    - **Fokus**: Defensive Hindernisse.
+    - **Module**: Interne automatisierte Geschütztürme und verwirrende Korridor-Layouts.
+    - **Strategie**: Falls du geentert wirst, zwingt das Layout Feinde in Engpässe, während du eine Notextraktion versuchst.
+  </Card>
+</CardGrid>
+
+Wenn du deinen Solo-Walker im Trampler-Editor baust, priorisiere diese spezifischen Abteile, um deine Überlebenschancen zu maximieren:
+
+| Modultyp | Priorität | Grund für Solo-Spieler |
+|:---|:---|:---|
+| **High-Tier Motor** | ★★★★★ | Geschwindigkeit ist deine primäre Verteidigung. Du kannst eine Crew nicht outgunnen, aber du kannst sie abhängen. |
+| **Kleiner Lagerraum** | ★★★★☆ | Große Lagermodule vergrößern dein Profil. Nimm nur mit, was du zum Überleben brauchst. |
+| **Reparaturstation** | ★★★★★ | Du hast keine Crew, die während des Kampfes die Beine repariert. Automatisierte oder zugängliche Reparatur ist lebenswichtig. |
+| **Steuerdeck** | ★★★★★ | Platziere dies in einem geschützten, aber sichtbaren Bereich. Die Kontrolle über den Walker zu verlieren, ist ein Todesurteil. |
+| **Panzerplatten** | ★★★☆☆ | Schwere Panzerung macht dich langsam. Nutze leichte, verstärkte Platten nur an kritischen Modulen. |
+
+<Callout type="success" title="Bauplan-Strategie">
+Speichere deine Solo-Designs immer als Baupläne. Wenn dein Trampler in der Wüste zerstört wird, spart dir ein fertiger Bauplan Stunden im Menü, wenn du auf der Orbitalstation respawnst.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampf und Ausrüstung: Das Solo-Loadout">
+
+Der Kampf im **SAND Raiders of Sophie Einzelspieler** dreht sich um Präzision und Unterdrückung. Du hast nicht den Luxus eines dedizierten Snipers oder eines Spezialisten für schwere Waffen. Du musst alle Rollen gleichzeitig ausfüllen. Dies erfordert ein vielseitiges Loadout, das sowohl Fernbegegnungen mit Spielern als auch PvE-Bedrohungen im Nahkampf in Ruinen bewältigen kann.
+
+<Steps>
+  <Step num="1" title="Wahl der Primärwaffe">
+    Wähle ein vielseitiges Gewehr wie den M1866/9 „Einzel“-Hinterlader. Er bietet zuverlässigen Schaden auf mittlere Distanz. Wenn du am Server Slam 2026 teilgenommen hast, rüste deinen exklusiven Skin aus, um deinen Veteranenstatus zu zeigen.
+  </Step>
+  <Step num="2" title="Sekundärwaffe gegen Enterer">
+    Trage immer eine Schrotflinte oder eine Pistole mit hoher Feuerrate bei dir. Falls ein feindlicher Spieler es schafft, deinen Trampler zu entern, brauchst du etwas, das den Kampf in den engen Korridoren deiner Basis mit ein oder zwei Schüssen beendet.
+  </Step>
+  <Step num="3" title="Hilfsmittel und Wurfwaffen">
+    Rauchgranaten sind der beste Freund eines Solo-Spielers. Nutze sie, um deine Bewegungen während der Extraktion zu verschleiern oder um eine Ablenkung zu schaffen, während du dich zu deinem Trampler zurückziehst.
+  </Step>
+  <Step num="4" title="Montierte Trampler-Feuerkraft">
+    Installiere mindestens eine montierte 80-mm-Kanone. Auch wenn du sie während der Fahrt nicht abfeuern kannst, bietet sie notwendige „Park-and-Defend“-Fähigkeiten, wenn du ein Schiffswrack plünderst.
+  </Step>
+</Steps>
+
+| Waffenkategorie | Top-Solo-Wahl | Performance-Hinweis |
+|:---|:---|:---|
+| **Gewehr** | Einzel-Hinterlader | Zuverlässig, hoher Schaden pro Schuss. |
+| **Nahkampf** | Schrotflinten-Kanone | Essenziell zum Ausschalten von Enterern. |
+| **Montiert** | Maschinenkanone | Bietet Dauerfeuer, um Feinde auf Distanz zu halten. |
+| **Hilfsmittel** | Rauchgranaten | Am besten geeignet, um bei Rückzügen die Sichtlinie zu unterbrechen. |
+
+<Callout type="info" title="Munitionsmanagement">
+Spezialmunition ist selten, aber mächtig. Horte als Solo-Spieler panzerbrechende Geschosse speziell dafür, die Beine rivalisierender Trampler auszuschalten, damit du entkommen kannst, während diese bewegungsunfähig sind.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Plünderrouten und Extraktionsprioritäten">
+
+Erfolg im **SAND Raiders of Sophie Einzelspieler** wird daran gemessen, was du zur Orbitalstation zurückbringst, nicht daran, wie viele Spieler du tötest. Gier ist die Haupttodesursache für Solo-Raider. Es ist essenziell, die prozedurale Welt von Sophie zu verstehen und risikoarme Routen mit hoher Belohnung zu identifizieren.
+
+<Checklist
+  id="solo-extraction-list"
+  title="Checkliste für die Solo-Extraktion:"
+  items={[
+    "Scanne den Horizont nach Rauch oder Staubwolken (rivalisierende Trampler).",
+    "Stelle sicher, dass der Trampler-Motor betankt und zu mindestens 80 % repariert ist.",
+    "Priorisiere Artefakte und seltene Waffen gegenüber gewöhnlichen Ressourcen.",
+    "Identifiziere den nächsten Extraktionspunkt, bevor du einen großen POI betrittst.",
+    "Achte auf nahegelegene 'Ironclads' (große Crews) und meide deren Pfad."
+  ]}
+/>
+
+Plünderungsorte variieren im Schwierigkeitsgrad. Für einen Solo-Spieler verschiebt sich das Risiko-Nutzen-Verhältnis je nach Ortstyp erheblich:
+
+| Ortstyp | Risikostufe | Beutequalität | Solo-Empfehlung |
+|:---|:---|:---|:---|
+| **Verlassene Straßen** | Niedrig | Moderat | Hervorragend für schnelle, sichere Runs. |
+| **Schiffswracks** | Mittel | Hoch | Gut, aber achte auf herannahende Crews. |
+| **Ruinen/Monumente** | Mittel | Hoch | Hohe Sichtbarkeit; halte den Trampler nah bei dir. |
+| **Das Dreadnought** | Extrem | Elite | Meiden, außer du hast Top-Tier-Ausrüstung. |
+| **Stadtzentren** | Hoch | Hoch | Hohe PvE-Dichte; man wird leicht in die Enge getrieben. |
+
+<Callout type="warning" title="Extraktionsdruck">
+Die letzten Minuten eines Runs sind die gefährlichsten. Rivalisierende Spieler lauern oft an Extraktionszonen. Nähere dich diesen Bereichen mit besetzten montierten Waffen (wenn stationär) oder mit maximaler Geschwindigkeit, um dein Zeitfenster der Verwundbarkeit zu minimieren.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fortschritt und Charakterpflege">
+
+Auch im **SAND Raiders of Sophie Einzelspieler** ist dein Fortschritt persistent. Der Tech-Baum und das Inventar deines Charakters sind an deine gewählte Region gebunden, aber deine Trampler-Baupläne werden über all deine Charaktere hinweg geteilt. Dies erlaubt es dir, mit verschiedenen Builds zu experimentieren, ohne deine Lieblingsdesigns zu verlieren.
+
+Wenn du dich in einer Situation befindest, in der du alle Ressourcen und deinen Trampler verloren hast, bietet das Spiel einen „Erholungspfad“. Du kannst einem anderen Team als temporäres Crewmitglied beitreten, um Ressourcen zu verdienen, oder einen neuen Charakter erstellen, um deine Basisvorräte zurückzusetzen. Für die wahre Solo-Erfahrung ist es jedoch am besten, einen Notgroschen an Ressourcen auf der Orbitalstation zu behalten, um sicherzustellen, dass du niemals wirklich feststeckst.
+
+| Ressourcentyp | Anwendungsfall | Solo-Aufbewahrungspriorität |
+|:---|:---|:---|
+| **Metallschrott** | Basis-Reparaturen | Hoch (Ständiger Bedarf) |
+| **Brennstoffzellen** | Bewegung | Essenziell (Niemals ohne 2+ Reserven losziehen) |
+| **Tech-Komponenten** | Modul-Upgrades | Mittel (Für die Station aufsparen) |
+| **Artefakte** | High-End-Handel | Top (Primärziel jedes Runs) |
+
+<Callout type="success" title="Finaler Profi-Tipp">
+Die Wüste von Sophie ist gleichgültig gegenüber deinem Kampf. Nutze die Umgebung – Sandstürme, Dünen und Ruinen – um dich zu verstecken. In der Welt von SAND überlebt der Spieler, der nicht gesehen wird.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="SAND Raiders of Sophie FAQ">
+
+<FAQ items={[
+  {
+    question: "Kann ich SAND Raiders of Sophie komplett offline spielen?",
+    answer: "Nein, das Spiel ist eine reine Online-PvPvE-Erfahrung. Das Solo-Matchmaking-Bracket stellt jedoch sicher, dass du primär auf andere Einzelspieler triffst und nicht auf große Teams."
+  },
+  {
+    question: "Was passiert, wenn mein Trampler zerstört wird, während ich solo spiele?",
+    answer: "Wenn dein Trampler zerstört wird, verlierst du das physische Fahrzeug und jegliche darin gelagerte Beute. Wenn du das Design jedoch als Bauplan gespeichert hast, kannst du ihn auf der Orbitalstation mit neuen Ressourcen wieder aufbauen."
+  },
+  {
+    question: "Gibt es einen speziellen 'Einzelspieler'-Modus im Menü?",
+    answer: "Es gibt keine separate Schaltfläche für 'Einzelspieler'. Stattdessen erkennt das Spiel deine Crewgröße (1) und platziert dich in ein solo-freundliches Matchmaking-Bracket innerhalb der Modi Voyage oder Storm Dive."
+  },
+  {
+    question: "Welcher Modus ist für einen Solo-Anfänger am besten?",
+    answer: "Der Voyage-Modus ist für Anfänger am besten geeignet. Er verzichtet auf den schrumpfenden Sandsturm von Storm Dive, sodass du die Karte, die Trampler-Steuerung und die Extraktionsmechaniken in deinem eigenen Tempo erlernen kannst."
+  }
+]} />
+
+</Section>

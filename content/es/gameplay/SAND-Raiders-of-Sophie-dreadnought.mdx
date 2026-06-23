@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Box, Activity } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Dreadnought: Botín de alto riesgo y tácticas",
+  description: "Domina el dreadnought de SAND Raiders of Sophie con nuestra guía sobre cómo localizar botín de alto nivel, asegurar la Bomba WOK y sobrevivir a intensas extracciones PvPvE.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a202c/d4af37?text=Dreadnought+Loot+Guide",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie",
+  keywords: "SAND Raiders of Sophie, Dreadnought, Bomba WOK, guía, botín, PvPvE"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque en el Dreadnought**: El **dreadnought de SAND Raiders of Sophie** es el punto de interés (POI) definitivo de alto riesgo que contiene artefactos exclusivos y botines de armas pesadas.
+- **Botín Exclusivo**: La **Bomba WOK** ya no aparece en ubicaciones regulares y ahora es un botín raro que se encuentra exclusivamente en el Dreadnought.
+- **Meta de Combate**: Prioriza las **Placas de blindaje** y los **Cañones montados de 80 mm** para tu Trampler para sobrevivir a la presión concentrada de PvP en esta zona.
+- **Prioridad de Extracción**: Asegura el botín temprano; el Dreadnought suele ser el destino final de la tormenta de arena en el modo Storm Dive, lo que hace que las salidas tardías sean casi imposibles.
+- **Requisito de Tripulación**: Aunque es posible realizar incursiones en solitario, se recomienda encarecidamente una tripulación de 4 a 6 personas para gestionar las reparaciones mientras se defienden de los abordajes.
+</Callout>
+
+<Section icon={Target} title="Comprendiendo el Dreadnought de SAND Raiders of Sophie">
+
+El **dreadnought de SAND Raiders of Sophie** representa la cumbre de la experiencia de extracción en el planeta caído Sophie. A diferencia de las ruinas estándar o las ciudades abandonadas, el Dreadnought es un remanente mecánico masivo y estacionario que sirve como pararrayos para las tripulaciones mejor equipadas del servidor. No es simplemente una ubicación de botín; es una arena táctica donde el entorno y los jugadores rivales convergen para poner a prueba la durabilidad de tu Trampler y la coordinación de tu tripulación.
+
+ en el meta actual de 2026, el Dreadnought se ha convertido en la única fuente confiable de tecnología experimental y de la devastadora Bomba WOK. Debido a que el juego utiliza una estructura de mundo procedural, la orientación exacta del Dreadnought puede variar, pero su estatus como centro de botín de alto nivel permanece constante tanto en el modo Voyage como en el Storm Dive.
+
+| Característica | Ruinas comunes | Ciudades abandonadas | PDI del Dreadnought |
+|:---|:---|:---|:---|
+| **Nivel de botín** | Bajo a Medio | Medio a Alto | Nivel S / Experimental |
+| **Intensidad PvP** | Baja | Moderada | Extrema |
+| **Botín especial** | Recursos/Munición | Armas raras | Bomba WOK / Artefactos |
+| **Nivel de riesgo** | 2/5 | 3.5/5 | 5/5 |
+| **Necesidades del Trampler** | Almacenamiento básico | Construcción equilibrada | Fortaleza pesada |
+
+<Callout type="warning" title="Evaluación de Riesgos">
+Entrar en la zona del Dreadnought sin al menos tres cargas de kits de reparación es una receta para el desastre. Las tripulaciones rivales suelen acampar en el perímetro con cañones montados de 80 mm, buscando inutilizar las patas de tu Trampler antes de que alcances el casco.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Botín Exclusivo y el Meta de la Bomba WOK">
+
+La motivación principal para cualquier expedición al **dreadnought de SAND Raiders of Sophie** es la adquisición de artefactos de alto valor y armamento especial. Las actualizaciones recientes han cambiado el equilibrio del juego, convirtiendo al Dreadnought en el hogar exclusivo de la Bomba WOK. Este explosivo raro ya no está disponible en los puntos de aparición de artefactos estándar, lo que obliga a los jugadores a adentrarse en los sectores más peligrosos del mapa si desean empuñar tal poder.
+
+Más allá de la Bomba WOK, los jugadores pueden encontrar armas raras y munición personalizada con más frecuencia aquí que en cualquier otro lugar. Sin embargo, las tasas de aparición de estos objetos se han ajustado finamente para garantizar que sigan siendo prestigiosos.
+
+| Nombre del objeto | Tipo | Rareza | Uso principal |
+|:---|:---|:---|:---|
+| **Bomba WOK** | Explosivo especial | Ultra raro | Daño masivo de área a Tramplers |
+| **Cañón de riel experimental** | Arma montada | Raro | Francotirador de precisión a larga distancia |
+| **Munición personalizada** | Munición | Poco común | Rendimiento mejorado del arma |
+| **Cajas de armas raras** | Contenedor de botín | Alto | Armas de fuego de nivel superior para jugadores |
+| **Artefactos antiguos** | Tesoro | Raro | Extracción orbital de alto valor |
+
+<Callout type="success" title="Estrategia de Saqueo">
+Concéntrate primero en los compartimentos interiores del Dreadnought. La mayoría de los jugadores se quedan en las cubiertas por miedo a quedar atrapados, pero la mayor concentración de cajas de armas raras se encuentra en las bahías de ingeniería inferiores.
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="La Ventaja de la Bomba WOK">
+    Asegurar una Bomba WOK puede cambiar el rumbo de una partida de Storm Dive. Permite que una tripulación pequeña disuada a fortalezas masivas de 6 jugadores amenazando con daños catastróficos al casco.
+  </Card>
+  <Card title="Tecnología Experimental">
+    El cañón de riel experimental que se encuentra aquí tiene un tiempo de recarga ligeramente mayor (un aumento de 0,5 s en 2026), pero su capacidad para atravesar placas de blindaje pesadas sigue siendo inigualable.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Construcciones de Trampler para la Infiltración en el Dreadnought">
+
+Tu Trampler es tu salvavidas al acercarte al **dreadnought de SAND Raiders of Sophie**. Debido a que esta zona es un imán para el PvP, una construcción de "sigilo y escape" rara vez es viable, a menos que seas un jugador en solitario con una sincronización excepcional. Para la mayoría de las tripulaciones, es necesaria una construcción de "fortaleza pesada" o "asaltante equilibrado" para sobrevivir al fuego de las torretas montadas.
+
+El precio de las placas de blindaje para 2026 ha aumentado, lo que convierte a cada placa en una inversión significativa. Al construir para una incursión al Dreadnought, debes equilibrar la protección con la capacidad de almacenamiento. Si aseguras el botín pero no tienes espacio para guardarlo en tus compartimentos internos, la misión será un fracaso.
+
+<Steps>
+  <Step num="1" title="Diseño del Compartimento Central">
+    Coloca tu reactor y motores en lo profundo de la estructura interna. Usa una colocación de módulos caótica para desorientar a los abordajes que logren engancharse a tu Trampler durante el caos.
+  </Step>
+  <Step num="2" title="Armamento">
+    Monta al menos un cañón montado de 80 mm para disuasión a larga distancia y múltiples cañones de escopeta para defensa a corta distancia contra grupos de abordaje.
+  </Step>
+  <Step num="3" title="Capas Defensivas">
+    Aplica placas de blindaje pesadas en la parte delantera y en las patas del Trampler. Dado que el Dreadnought suele estar elevado, es probable que recibas fuego desde arriba y desde abajo simultáneamente.
+  </Step>
+  <Step num="4" title="Optimización de Salas de Tripulación">
+    Asegúrate de tener suficientes salas de tripulación para albergar a un equipo completo. Una tripulación de 6 jugadores puede rotar entre el pilotaje, la artillería y las reparaciones activas, lo cual es esencial para sobrevivir al perímetro del Dreadnought.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Defensa Arquitectónica">
+Usa tu editor de Trampler para crear un diseño de "laberinto". Si una tripulación enemiga te aborda mientras saqueas el Dreadnought, un interior confuso puede darte los segundos necesarios para regresar a tu asiento de piloto y extraer.
+</Callout>
+
+| Tipo de módulo | Cantidad recomendada | Prioridad | Razón |
+|:---|:---|:---|:---|
+| **Compartimento de almacenamiento** | 3-4 | Esencial | El botín de alto valor ocupa mucho espacio |
+| **Placas de blindaje** | Máximo disponible | Alta | Necesario para sobrevivir al fuego de cañones de 80 mm |
+| **Estación de reparación** | 1 | Media | Acceso rápido a kits de reparación durante el combate |
+| **Torretas montadas** | 2-4 | Alta | Supresión de Tramplers rivales |
+
+</Section>
+
+<Section icon={Map} title="Navegando el Dreadnought en el modo Storm Dive">
+
+En el modo Storm Dive, el **dreadnought de SAND Raiders of Sophie** se convierte en un desafío aún más complejo. A medida que la tormenta de arena envuelve el mapa, el Dreadnought suele quedar cerca de los círculos finales. Esto crea un escenario de "el rey de la colina" donde múltiples tripulaciones se ven obligadas a entrar en un área pequeña con botín de alto valor y tiempo limitado.
+
+Comprender las reglas de extracción es vital. En Storm Dive, puedes extraer en cualquier momento antes de que la tormenta llegue al centro, pero los artefactos más valiosos del Dreadnought a menudo solo se vuelven accesibles a medida que aumenta la presión de la tormenta.
+
+**Lista de verificación de supervivencia en el Dreadnought:**
+<Checklist
+  id="dreadnought-prep"
+  title="Lista de verificación previa al despliegue:"
+  items={[
+    "Verificar que los planos del Trampler estén guardados en el Editor",
+    "Abastecerse con más de 10 cargas de kits de reparación por miembro de la tripulación",
+    "Equipar el cargador de recámara Einzel M1866/9 para PvP de medio alcance",
+    "Comprobar la capacidad de almacenamiento para al menos 2 ranuras de artefactos",
+    "Asegurarse de que el Anti-Cheat BattlEye esté activo para evitar desconexiones"
+  ]}
+/>
+
+<Callout type="warning" title="Presión de la Tormenta">
+No seas codicioso. Si la tormenta de arena está a menos de 500 metros y tu Trampler ha sufrido un 50% de daño en las patas, abandona el botín restante y dirígete al punto de extracción más cercano de inmediato.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tácticas de Combate: Defendiendo el Casco">
+
+El combate en el **dreadnought de SAND Raiders of Sophie** se divide en dos fases: guerra de Trampler contra Trampler y acciones de abordaje a pie. Mientras tus cañones montados se encargan de las amenazas externas, tu tripulación debe estar preparada para el combate a corta distancia dentro de los estrechos pasillos del Dreadnought.
+
+El cargador de recámara Einzel M1866/9 es una opción confiable para estos encuentros, especialmente para aquellos que desbloquearon el aspecto exclusivo durante el evento Server Slam. Las granadas de humo también son invaluables para reposicionarse cuando una tripulación rival te acorrala en una sala de botín.
+
+| Escenario de combate | Arma preferida | Consejo táctico |
+|:---|:---|:---|
+| **Defensa del Trampler** | Cañón de 80 mm | Apunta a las patas del enemigo para inmovilizarlo. |
+| **Limpieza de salas** | Escopeta / Einzel | Usa las esquinas y las ventajas de altura. |
+| **Escapar de abordajes** | Granadas de humo | Rompe la línea de visión y regresa al asiento del piloto. |
+| **Francotirador de largo alcance** | Cañón de riel experimental | Apunta a los miembros de la tripulación expuestos en las cubiertas enemigas. |
+
+<Callout type="info" title="Consejo profesional: La rata solitaria">
+Si juegas solo, no lleves un Trampler masivo al Dreadnought. Usa una construcción pequeña y sigilosa, aparca en una ruina cercana y entra a pie. A menudo puedes recoger las sobras de una batalla masiva sin ser notado.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Requisitos del Sistema y Configuración Técnica">
+
+Para asegurarte de no tener lag durante una pelea crítica en el Dreadnought, tu configuración técnica debe estar optimizada. El juego requiere una conexión de banda ancha y utiliza el anti-cheat BattlEye. Para los jugadores de Linux y Steam Deck, asegúrate de que el Proton BattlEye Runtime esté instalado en tu biblioteca de Steam antes de iniciar.
+
+| Requisito | Especificaciones mínimas | Especificaciones recomendadas |
+|:---|:---|:---|
+| **SO** | Windows 10 de 64 bits | Windows 11 de 64 bits |
+| **Procesador** | Intel i5 (8.ª gen) | Intel i5 (13.ª gen) |
+| **Memoria** | 16 GB de RAM | 32 GB de RAM |
+| **Gráficos** | GTX 1650 / RX 570 | RTX 3080 / RX 6800 XT |
+| **Almacenamiento** | 11 GB disponibles | 11 GB disponibles (SSD) |
+
+<Callout type="info" title="Bloqueo de Región">
+Recuerda que tu inventario y árbol tecnológico están vinculados a la región seleccionada. Si encuentras una Bomba WOK en los servidores de Norteamérica, no estará disponible si cambias a los servidores europeos.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde aparece exactamente la Bomba WOK en el Dreadnought?",
+    answer: "La Bomba WOK tiene la posibilidad de aparecer en el puente de mando central o en las bahías de ingeniería inferiores. Ya no aparece en las ubicaciones regulares de artefactos en otras partes del mapa."
+  },
+  {
+    question: "¿Puedo extraer directamente desde el Dreadnought?",
+    answer: "No, debes navegar con tu Trampler hasta un punto de extracción orbital designado. El Dreadnought en sí es una zona de botín, no una salida."
+  },
+  {
+    question: "¿Qué pasa si mi Trampler es destruido en el Dreadnought?",
+    answer: "Si tu Trampler es destruido, pierdes todo el botín almacenado en él. Sin embargo, si guardaste tu diseño como un plano en el editor, puedes reconstruirlo en la estación si tienes los recursos."
+  },
+  {
+    question: "¿Está disponible el Dreadnought en el modo Voyage?",
+    answer: "Sí, el dreadnought de SAND Raiders of Sophie aparece tanto en el modo Voyage como en el Storm Dive, aunque la competencia PvP es generalmente menos intensa en Voyage."
+  }
+]} />
+
+</Section>

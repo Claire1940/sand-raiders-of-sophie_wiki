@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Battery, Fuel, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie: So betanken Sie Ihren Trampler: Wartungsleitfaden",
+  description: "Erfahren Sie, wie Sie Ihren Trampler in SAND: Raiders of Sophie betanken. Meistern Sie Reaktormanagement, Treibstoffsuche und Motoreffizienz, um auf dem Wüstenplaneten zu überleben.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/b8860b/fff?text=Trampler+Refueling+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team",
+  keywords: "SAND Raiders of Sophie, Trampler, Betanken, Wartung, Reaktor, Treibstoff, Überleben"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **SAND Raiders of Sophie: So betanken Sie Ihren Trampler**: Suchen Sie das Reaktormodul und setzen Sie gefundene Brennstäbe oder Kanister ein.
+- **Energiequelle**: Energie wird von **Reaktoren** erzeugt und von **Motoren** sowie montierten Waffen verbraucht.
+- **Priorität bei der Suche**: Priorisieren Sie **industrielle POIs** und Schiffswracks für hochdichte Treibstoffressourcen.
+- **Wartungstipp**: Führen Sie immer mindestens **zwei Ersatz-Treibstoffkanister** mit, bevor Sie einen Storm Dive antreten.
+- **Effizienzstrategie**: Verbessern Sie Ihre **Reaktorleistung**, um die Häufigkeit des manuellen Betankens während des Kampfes zu verringern.
+</Callout>
+
+<Section icon={Sparkles} title="Energie-Systeme des Tramplers verstehen">
+
+In **SAND: Raiders of Sophie** ist Ihr Trampler mehr als nur ein Fahrzeug; er ist eine mobile Festung, die ständiges Energiemanagement erfordert, um zu funktionieren. Der Kern der Mobilität und Verteidigung Ihrer Maschine liegt im Zusammenspiel zwischen dem **Reaktor** und den **Motorabteilen**. Ohne eine stetige Treibstoffzufuhr wird Ihre laufende Basis zu einem stationären Ziel für PvE-Bedrohungen und rivalisierende Raider.
+
+**Video-Highlights:**
+- Übersicht über den **Trampler-Editor** und die Reaktorplatzierung.
+- Visueller Leitfaden zur Identifizierung von Treibstoffkanistern in der Einöde.
+- Demonstration der manuellen Betankungsanimation und des Timings.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="SAND: Raiders of Sophie Launch Trailer" />
+
+Das Betanken ist kein automatisierter Prozess. Es erfordert, dass die Crew aktiv nach Ressourcen sucht und manuell mit den internen Modulen des Tramplers interagiert. Das Verständnis der verschiedenen Energiequellen und ihrer Verbrauchsraten ist für das langfristige Überleben auf dem Planeten Sophie unerlässlich.
+
+| Energiekomponente | Primärfunktion | Wartungsanforderung |
+| :--- | :--- | :--- |
+| **Reaktormodul** | Wandelt rohen Treibstoff in nutzbare Energie für alle Systeme um | Erfordert manuelles Einsetzen von Treibstoff und Kühlungsmanagement |
+| **Motorabteil** | Verbraucht Energie, um die Beine des Tramplers zu bewegen | Effizienz hängt vom Verhältnis zwischen Gewicht und Leistung ab |
+| **Stromnetz** | Verteilt Energie an Geschütze und Schilde | Kann unterbrochen werden, wenn der Reaktor beschädigt ist |
+
+<Callout type="tip" title="Profi-Tipp">
+Platzieren Sie Ihr Reaktormodul in einem zentralen, geschützten Bereich Ihres Tramplers. Wenn ein Feind an Bord kommt und den Reaktor zerstört, verlieren Sie sofort jegliche Mobilität und Verteidigungsfähigkeit.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Suche nach Treibstoffressourcen">
+
+Um zu meistern, wie man in **SAND Raiders of Sophie seinen Trampler betankt**, müssen Sie zuerst wissen, wo Sie die notwendigen Ressourcen finden. Treibstoff regeneriert sich nicht; er muss aus den Überresten der gefallenen Welt geplündert werden. Verschiedene Regionen der Karte bieten unterschiedliche Treibstoffqualitäten, wobei Gebiete mit höherem Risiko in der Regel effizientere Energiequellen liefern.
+
+Der Planet Sophie ist übersät mit Städten, Ruinen und Schiffswracks. Während grundlegende Ressourcen fast überall zu finden sind, konzentrieren sich hochwertige Treibstoffkanister auf bestimmte **Points of Interest (POIs)**.
+
+| Standorttyp | Treibstoffdichte | Risikostufe | Häufige Beute |
+| :--- | :--- | :--- | :--- |
+| **Verlassene Städte** | Mittel | Hoch | Standard-Brennstäbe, Waffenteile, Munition |
+| **Industrieruinen** | Hoch | Mittel | Hochdichte Kanister, Reaktorkühlmittel |
+| **Abgestürzte Schiffswracks** | Sehr Hoch | Sehr Hoch | Experimentelle Brennstoffzellen, seltene Artefakte |
+| **Wüsten-Außenposten** | Niedrig | Niedrig | Einfacher Holz-/Kohlebrennstoff, kleinere Ressourcen |
+
+<CardGrid cols={2}>
+  <Card title="Industrielle Plünderung">
+    Konzentrieren Sie sich auf Fabriken und Lagerhäuser. Diese Standorte enthalten oft **Raffinierte Treibstoffkanister**, die die längste Brenndauer für schwere Trampler-Builds bieten.
+  </Card>
+  <Card title="Schiffswrack-Bergung">
+    Die gefährlichsten, aber lohnendsten Orte. Schiffswracks enthalten oft **Militärische Zellen**, die eine voll beladene Kriegsmaschine für einen gesamten Storm Dive mit Strom versorgen können.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Warnung">
+Behalten Sie während der Suche zu Fuß immer die Tankanzeige Ihres Tramplers im Auge. Wenn Sie zu weit wegwandern und der Treibstoff ausgeht, kann Ihre Basis Ihnen nicht zu Hilfe kommen, falls Sie in einen Hinterhalt geraten.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Betankungsprozess">
+
+Der eigentliche Akt des Betankens umfasst eine Reihe spezifischer Aktionen, die den Spieler verwundbar machen. In **SAND: Raiders of Sophie** können Sie nicht vom Pilotensitz aus tanken. Sie müssen sich physisch in den Reaktorraum begeben und die Wartung durchführen.
+
+<Steps>
+  <Step num="1" title="Treibstoff im Inventar finden">
+    Stellen Sie sicher, dass Sie gefundene Treibstoffkanister oder Brennstäbe in Ihrem persönlichen Inventar oder im Lagerraum des Tramplers haben.
+  </Step>
+  <Step num="2" title="Auf das Reaktormodul zugreifen">
+    Gehen Sie zum internen Abteil, in dem Ihr **Reaktor** installiert ist. Suchen Sie nach der Interaktionsaufforderung **Treibstoffanschluss öffnen**.
+  </Step>
+  <Step num="3" title="Treibstoffquelle einsetzen">
+    Ziehen Sie den Treibstoffgegenstand aus Ihrem Inventar in den Reaktorschlitz. Sie werden sehen, wie der Balken für den **Energielevel** sofort zu steigen beginnt.
+  </Step>
+  <Step num="4" title="Hitzestau überwachen">
+    Hochwertiger Treibstoff kann manchmal zu einer Überhitzung des Reaktors führen. Überprüfen Sie die Temperaturanzeige und wenden Sie **Kühlmittel** an, wenn der Balken in den roten Bereich eintritt.
+  </Step>
+  <Step num="5" title="Abteil sichern">
+    Schließen Sie das Reaktor-Interface und kehren Sie zur Brücke zurück. Bestätigen Sie die aktualisierte **Geschätzte Reichweite** auf Ihrem HUD, bevor Sie die Reise fortsetzen.
+  </Step>
+</Steps>
+
+| Treibstoffart | Brenndauer | Energieausbeute | Gewicht |
+| :--- | :--- | :--- | :--- |
+| **Einfacher Brennstab** | 5 Minuten | Niedrig | 2 kg |
+| **Raffinierter Kanister** | 12 Minuten | Mittel | 5 kg |
+| **Militärische Zelle** | 25 Minuten | Hoch | 8 kg |
+| **Bio-Treibstoffschrott** | 2 Minuten | Sehr Niedrig | 1 kg |
+
+<Callout type="success" title="Erfolgstipp">
+In einer Crew von 4-6 Spielern sollten Sie eine Person als **Ingenieur** bestimmen. Deren Hauptaufgabe sollte es sein, den Treibstoff und den Zustand des Reaktors zu überwachen, während sich der Rest des Teams auf Kampf und Plünderung konzentriert.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimierung der Motor- und Reaktoreffizienz">
+
+Das Betanken wird weniger mühsam, wenn Ihr Trampler auf Effizienz ausgelegt ist. Der **Trampler-Editor** ermöglicht es Ihnen, jeden Aspekt Ihrer Maschine anzupassen, einschließlich der Art und Weise, wie sie Energie verbraucht. Schwerere Panzerung und mehr montierte Geschütze erhöhen die Belastung Ihrer Motoren, was zu einem schnelleren Treibstoffverbrauch führt.
+
+Berücksichtigen Sie beim Entwurf Ihres Builds das Gleichgewicht zwischen Energieerzeugung und Energieverbrauch. Eine massive Festung mit nur einem Basisreaktor erfordert ständiges Betanken, was sie für Langstreckenexpeditionen im **Voyage-Modus** unpraktisch macht.
+
+| Optimierungsstrategie | Vorteil | Nachteil |
+| :--- | :--- | :--- |
+| **Duales Reaktor-Setup** | Verdoppelt Energiekapazität und -ausbeute | Erhöhtes Gewicht und benötigt mehr Modulplatz |
+| **Leichtbau-Beine** | Reduziert den Treibstoffverbrauch bei Bewegung | Geringere Haltbarkeit und niedrigere Tragfähigkeit |
+| **Power-Shunting** | Leitet Energie nur an aktive Systeme weiter | Erfordert manuelles Management in stressigen Kämpfen |
+| **Verbesserte Injektoren** | Erhöht die Energiegewinnung pro Brennstab | Benötigt seltene Ressourcen zum Herstellen oder Kaufen |
+
+<Checklist
+  id="maintenance-checklist"
+  title="Wartungs-Checkliste vor der Expedition:"
+  items={[
+    "Reaktor-Haltbarkeit prüfen und Risse reparieren",
+    "Mindestens 4 hochdichte Treibstoffkanister im Lager vorrätig haben",
+    "Funktion des Motorkühlsystems überprüfen",
+    "Trümmer aus den internen Gängen des Tramplers entfernen",
+    "Ersatzpiloten zuweisen, falls der Hauptpilot gerade tankt"
+  ]}
+/>
+
+<Callout type="info" title="Wichtig">
+Wenn Sie solo spielen, ziehen Sie einen **Stealth- und Flucht-Build** in Betracht. Diese kleineren Trampler haben einen viel geringeren Treibstoffverbrauch, sodass Sie länger im Feld bleiben können, ohne industrielle POIs finden zu müssen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampf- und Notfallbetankung">
+
+Die gefährlichste Zeit zum Betanken ist während einer PvP-Begegnung. Wenn Ihnen die Energie ausgeht, während Sie von einer anderen Crew verfolgt werden, bleibt Ihr Trampler stehen, was es Feinden ermöglicht, Ihre Basis mit Leichtigkeit zu entern. Zu lernen, wie man das Betanken unter Druck handhabt, ist das Markenzeichen eines Elite-Raiders.
+
+Wenn Ihr Reaktor während eines Kampfes beschädigt wird, sinkt seine Effizienz drastisch. Sie werden feststellen, dass der Treibstoff doppelt so schnell verbraucht wird wie normal. In diesen Situationen müssen Sie Reparaturen Vorrang vor der Bewegung geben.
+
+| Notfallszenario | Sofortmaßnahme | Vorbeugung |
+| :--- | :--- | :--- |
+| **Kein Treibstoff im Kampf** | Rauchgranaten einsetzen und im Reaktorraum verstecken | Alarm bei 15 % Treibstoffkapazität einstellen |
+| **Reaktorüberhitzung** | Reaktorkern manuell entlüften | Zusätzliche Kühlöffnungen im Editor installieren |
+| **Motor-Stall** | Beine auf Schäden prüfen, bevor getankt wird | Panzerplatten zum Schutz des unteren Chassis verwenden |
+
+<Callout type="warning" title="Gefahr">
+Versuchen Sie niemals zu tanken, während der Trampler aktiv geentert wird. Die Animationssperre macht Sie zu einem leichten Ziel für feindliche Spieler, die es geschafft haben, in Ihre Basis einzudringen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fazit und bewährte Praktiken">
+
+Die Beherrschung der Logistik des Energiemanagements ist in **SAND: Raiders of Sophie** genauso wichtig wie Ihre Zielgenauigkeit. Indem Sie den Betankungsprozess verstehen, wissen, wo Sie nach hochwertigen Ressourcen suchen müssen, und den Build Ihres Tramplers optimieren, können Sie sicherstellen, dass Ihre mobile Festung selbst in den heftigsten Sandstürmen einsatzbereit bleibt.
+
+Denken Sie immer daran, dass Gier die Haupttodesursache in der Wüste ist. Wenn Ihr Treibstoff zur Neige geht und Ihr Lager voll ist, versuchen Sie nicht, noch ein weiteres Schiffswrack zu plündern. Begeben Sie sich zum nächsten Extraktionspunkt und sichern Sie Ihren Fortschritt.
+
+<FAQ items={[
+  {
+    question: "Woher weiß ich, welcher Treibstoff am besten für meinen Trampler geeignet ist?",
+    answer: "Überprüfen Sie den Wert 'Energiedichte' auf dem Treibstoffgegenstand. Militärische Zellen sind am besten für schwere Builds geeignet, während einfache Brennstäbe für kleine, solo-freundliche Walker ausreichen."
+  },
+  {
+    question: "Kann ich tanken, während sich der Trampler bewegt?",
+    answer: "Ja, Sie können tanken, während der Trampler in Bewegung ist, aber Sie müssen den Pilotensitz verlassen. Es ist sicherer, wenn ein Crewmitglied das Tanken übernimmt, während Sie navigieren."
+  },
+  {
+    question: "Was passiert, wenn mir der Treibstoff komplett ausgeht?",
+    answer: "Der Trampler kommt vollständig zum Stillstand. Sie können sich nicht mehr bewegen, keine montierten Waffen benutzen und keine Schilde aktivieren, bis mindestens eine Treibstoffquelle in den Reaktor gegeben wurde."
+  },
+  {
+    question: "Wo findet man in SAND: Raiders of Sophie am besten Treibstoff?",
+    answer: "Industrielle POIs und Schiffswracks sind die zuverlässigsten Quellen für hochdichte Treibstoffkanister. Verlassene Städte bieten Standard-Brennstäbe an, sind aber oft stark von anderen Spielern umkämpft."
+  }
+]} />
+
+</Section>

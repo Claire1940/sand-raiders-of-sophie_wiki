@@ -1,0 +1,198 @@
+import { Monitor, Gamepad2, Cpu, Globe, PlayCircle, ShieldCheck, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Plattformen: Konsolen- & PC-Setup-Guide",
+  description: "Entdecke die Plattformen für SAND Raiders of Sophie. Überprüfe PC-Anforderungen, Steam Early Access-Details, PS5- und Xbox-Status sowie Serverkapazitäten für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=SAND+Raiders+of+Sophie+Platforms",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team",
+  keywords: "SAND Raiders of Sophie, Plattformen, PC Anforderungen, PS5, Xbox, Steam Early Access, Systemvoraussetzungen"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Primäre Plattform**: Die **SAND Raiders of Sophie Plattformen** priorisieren derzeit den Steam Early Access, der am 22. Juni 2026 gestartet ist.
+- **Konsolen-Status**: Versionen für PlayStation 5 und Xbox Series X|S sind offiziell gelistet, befinden sich jedoch noch im Status „TBD“ (noch festzulegen) oder „Wunschliste“.
+- **Multiplayer-Skalierung**: Unterstützt bis zu **90 Spieler** pro Server, mit spezifischen Matchmaking-Kategorien für Solo-Spieler und Crews.
+- **Technische Anforderung**: PC-Spieler müssen ein **64-Bit-Betriebssystem** verwenden und mindestens 11 GB verfügbaren Speicherplatz haben.
+- **Anti-Cheat**: Das Spiel nutzt den **BattlEye**-Schutz auf Kernelebene, der für alle Online-Sitzungen obligatorisch ist.
+</Callout>
+
+<Section icon={Monitor} title="Startstatus und PC-Verfügbarkeit">
+
+**SAND: Raiders of Sophie** ist offiziell in die Wüstenlandschaft des Extraction-Shooter-Genres eingetreten. Seit dem 22. Juni 2026 ist die Steam Early Access-Plattform der primäre Einstiegspunkt für alle Plünderer. Diese Version dient als Live-Testumgebung für die Kernmechaniken des Spiels, einschließlich des komplexen Trampler-Editors und des dualen Expeditions-Systems.
+
+**Video-Highlights:**
+- Detaillierter Blick auf die **Planetenumgebung von Sophie** und die Ruinenstädte (POIs).
+- Demonstration der **Trampler-Bewegung** und schwerer montierter Waffen in Aktion.
+- Vorschau auf den **PvPvE-Extraction-Loop** mit menschlichen und KI-Bedrohungen.
+- Präsentation der **Dieselpunk-Ästhetik** und anpassbarer mechanischer Basen.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="SAND: Raiders of Sophie - Launch Trailer" />
+
+Die PC-Veröffentlichung auf Steam beinhaltet eine vollständige Integration in das Steam-Ökosystem und bietet Errungenschaften, Cloud-Speicherstände und Zugriff auf den Community-Hub. Spieler, die während des Startzeitraums beitreten, können von Einführungsrabatten und regionalen Preisanpassungen profitieren.
+
+| Feature | Steam Early Access Details |
+| :--- | :--- |
+| **Veröffentlichungsdatum** | 22. Juni 2026 |
+| **Basispreis** | 24,99 $ (USD) |
+| **Einführungsangebot** | 21 % Rabatt (19,74 $) bis zum 6. Juli 2026 |
+| **Store-Link** | [Offizielle Steam-Seite](https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/) |
+| **Anti-Cheat** | BattlEye (Erforderlich) |
+| **Errungenschaften** | 20 Steam-Achievements zum Start verfügbar |
+
+<Callout type="warning" title="Sicherheitshinweis">
+Vertraue nur offiziellen Links von der [offiziellen Website](https://sand-game.com/) oder verifizierten Store-Seiten. Die Entwickler warnen vor betrügerischen Playtest-Einladungen; alle legitimen Testmöglichkeiten werden über den offiziellen Discord angekündigt.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="PC-Systemanforderungen und technische Spezifikationen">
+
+Um eine massive wandelnde Festung über die Dünen von Sophie zu steuern, muss deine Hardware bestimmte Benchmarks erfüllen. Das Spiel setzt auf prozedurale Generierung und physikbasierte Interaktionen für die Trampler, weshalb CPU-Leistung und RAM-Kapazität entscheidend für ein reibungsloses Erlebnis sind.
+
+| Spezifikation | Mindestanforderungen | Empfohlene Specs |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows 10 (64-Bit) | Windows 11 (64-Bit) |
+| **Prozessor** | Intel i5 (8. Gen) / Ryzen 5 (2000) | Intel i5 (13. Gen) / Ryzen 5 (7000) |
+| **Arbeitsspeicher** | 16 GB RAM | 32 GB RAM |
+| **Grafikkarte** | GTX 1650 / RX 570 / Arc A380 | RTX 3080 / RX 6800 XT |
+| **DirectX** | Version 11 | Version 11 |
+| **Speicherplatz** | 11 GB verfügbarer Platz | 11 GB (SSD empfohlen) |
+
+Das Spiel ist so konzipiert, dass es auf verschiedenen Hardwarekonfigurationen skaliert, aber die schweren Physikberechnungen bei Trampler-Entermanövern und Sandsturmeffekten werden am besten von der empfohlenen Hardware bewältigt.
+
+<CardGrid cols={2}>
+  <Card title="Speicher & Leistung">
+    - **SSD-Priorität**: Obwohl der Speicherbedarf gering ist (11 GB), verkürzt eine SSD die Ladezeiten zwischen der Orbitalstation und der Planetenoberfläche erheblich.
+    - **VRAM-Nutzung**: Hochauflösende Texturen in den Ruinenstädten erfordern mindestens 4 GB VRAM für stabile Bildraten.
+  </Card>
+  <Card title="Netzwerk & Konnektivität">
+    - **Breitband erforderlich**: Als persistentes PvPvE-Erlebnis ist eine stabile Internetverbindung zwingend erforderlich.
+    - **Ping-Empfindlichkeit**: Hohe Latenz kann die Steuerung des Tramplers und die Trefferregistrierung bei Fernkämpfen beeinträchtigen.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Linux & Steam Deck Unterstützung">
+SAND: Raiders of Sophie ist über Proton mit Linux kompatibel. Du musst jedoch die **Proton BattlEye Runtime** aus deiner Steam-Bibliothek installieren, bevor du das Spiel startest, um sicherzustellen, dass das Anti-Cheat-System korrekt initialisiert wird.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad2} title="Konsolen-Entwicklung: PS5 und Xbox Series X|S">
+
+Während PC-Spieler derzeit die Expedition anführen, sieht die Roadmap der **SAND Raiders of Sophie Plattformen** eine starke Präsenz auf Konsolen der aktuellen Generation vor. Sowohl Sony als auch Microsoft haben offizielle Store-Einträge für das Spiel, obwohl ihre Veröffentlichungstermine derzeit als „To Be Determined“ markiert sind.
+
+**PlayStation 5 Details:**
+Die PlayStation Store-Seite hebt mehrere konsolenspezifische Funktionen hervor, die das Eintauchen in das Überleben in der Wüste verbessern sollen.
+- **DualSense-Unterstützung**: Implementierung von Vibrationsfunktionen, um das mechanische Stampfen der Trampler-Beine zu simulieren.
+- **Online-Anforderungen**: PS Plus wird für das Online-Spiel erforderlich sein und bis zu 90 Spieler pro Sitzung unterstützen.
+- **Wunschlisten-Status**: Spieler können das Spiel derzeit im [PlayStation Store](https://store.playstation.com/en-us/concept/10010847/) auf ihre Wunschliste setzen.
+
+**Xbox Series X|S Details:**
+Der Eintrag von Microsoft bestätigt, dass das Spiel für Series X|S optimiert ist, um eine hochwertige Grafik auf dem Wüstenplaneten zu gewährleisten.
+- **Multiplayer-Kategorien**: Bestätigte Unterstützung für Online-Koop (2-6 Spieler) und massiven Multiplayer (bis zu 90 Spieler).
+- **Sprachunterstützung**: Die Xbox-Version soll 10 Sprachen unterstützen, passend zu den PC-Lokalisierungsbemühungen.
+- **Store-Link**: Siehe den [Xbox Store-Eintrag](https://www.xbox.com/en-us/games/store/sand-raiders-of-sophie/9ng0ffht5mcb).
+
+| Plattform | Aktueller Status | Erwartete Features |
+| :--- | :--- | :--- |
+| **PlayStation 5** | Angekündigt / Wunschliste | DualSense Haptik, 90-Spieler-Lobbys |
+| **Xbox Series X** | Gelistet / TBD | 4K-Optimierung, Series X\|S Enhanced |
+| **Xbox Series S** | Gelistet / TBD | Performance-Modus, Series X\|S Enhanced |
+
+<Callout type="info" title="Zeitpunkt des Konsolen-Launches">
+Die Entwickler konzentrieren sich auf die Steam Early Access-Phase, um den Extraction-Loop zu verfeinern. Die Veröffentlichungstermine für Konsolen folgen in der Regel nach der Stabilisierung der PC-Version, oft zeitgleich mit dem 1.0-Launch oder großen Inhalts-Meilensteinen.
+</Callout>
+
+</Section>
+
+<Section icon={Globe} title="Regionale Server und Matchmaking-Kategorien">
+
+Um das Gleichgewicht in einer riskanten Extraction-Umgebung zu wahren, nutzt das Spiel ein strukturiertes Matchmaking-System. Das Inventar deines Charakters und der technologische Fortschritt sind an bestimmte geografische Regionen gebunden, um zu verhindern, dass „Server-Hopping“ die lokalen Wirtschaftskreisläufe destabilisiert.
+
+| Crew-Größe | Serverkapazität | Matchmaking-Logik |
+| :--- | :--- | :--- |
+| **Solo-Spieler** | Max. 15 Spieler | Matcht Solo-Plünderer gegen andere Solos |
+| **Kleine Crews (2-3)** | Max. 36 Spieler | Ausgelegt für agile Raider-Teams |
+| **Große Crews (4-6)** | Max. 45 Spieler | Hochintensive Kämpfe für wandelnde Festungen |
+| **Globales Maximum** | 90 Spieler | Gesamtkapazität der Plattform für spezielle Events |
+
+Dieses Kategoriensystem stellt sicher, dass ein einzelner Spieler nicht sofort von einer 6-Mann-Festung zerquetscht wird, obwohl der Modus „Storm Dive“ die Volatilität dieser Begegnungen erhöhen kann.
+
+<Checklist
+  id="platform-connectivity"
+  title="Checkliste für die Netzwerkbereitschaft:"
+  items={[
+    "Überprüfe die Auswahl des regionalen Servers (Inventar ist regionsgebunden)",
+    "Prüfe den Status des BattlEye-Dienstes in den Windows-Diensten",
+    "Stelle Firewall-Ausnahmen für Steam und die SAND-Executable sicher",
+    "Überprüfe die Breitbandstabilität für die Synchronisation der 90-Spieler-Lobby",
+    "Bestätige, dass die Controller-Treiber für die Steam-Input-Unterstützung aktualisiert sind"
+  ]}
+/>
+
+<Callout type="success" title="Hinweis zum Cross-Progression">
+Während das Inventar regionsgebunden ist, werden deine **Trampler-Baupläne** für alle Charaktere deines Kontos freigegeben. Dies ermöglicht es dir, einen Walker einmal zu entwerfen und ihn einzusetzen, unabhängig davon, auf welchem Server oder in welcher Region du gerade spielst.
+</Callout>
+
+</Section>
+
+<Section icon={PlayCircle} title="Erste Schritte: Setup für die erste Session">
+
+Der Übergang auf den Planeten Sophie erfordert mehr als nur einen Kauf. Du musst deine mechanische Basis vorbereiten und die Betriebsregeln der verschiedenen **SAND Raiders of Sophie Plattformen** verstehen.
+
+<Steps>
+  <Step num="1" title="Offizieller Erwerb">
+    Kaufe das Spiel über den [Steam Store](https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/) oder füge es deiner Konsolen-Wunschliste hinzu. Vermeide Drittanbieter-Keyseller, da diesen oft legitime Startbelohnungen wie die „Server Slam“-Skins fehlen.
+  </Step>
+  <Step num="2" title="Der Trampler-Editor">
+    Bevor du zum ersten Mal startest, betrete den Trampler-Editor. Baue ein einfaches Layout mit Motor, Reaktor und Lagerraum. Speichere dies als Bauplan; falls dein Trampler auf Sophie zerstört wird, ermöglicht dir der Bauplan, ihn schnell an der Orbitalstation zu rekonstruieren.
+  </Step>
+  <Step num="3" title="Modus-Auswahl">
+    Wähle zwischen **Voyage** (Reise) und **Storm Dive** (Sturmsprung). Voyage ist ein persistenter Erkundungsmodus mit geringerem Risiko, ideal zum Kennenlernen der Karte. Storm Dive ist ein risikoreicher Modus mit hohen Belohnungen, bei dem ein Sandsturm die Spieler in die Mitte zwingt und intensive PvP-Engpässe schafft.
+  </Step>
+  <Step num="4" title="Der Extraction-Loop">
+    Betrete die Karte, plündere Stadtruinen oder Schiffswracks und lagere Gegenstände in den internen Fächern deines Tramplers. Um deine Beute zu behalten, musst du zu einem markierten Extraktionspunkt navigieren und den Planeten erfolgreich verlassen.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Trampler-Verlust">
+Wenn du deinen Trampler verlierst und keine Ressourcen hast, um einen neuen zu bauen, musst du entweder einer Crew beitreten, die einen Trampler besitzt, oder einen neuen Charakter erstellen. Die Verwaltung deiner Ressourcen an der Orbitalstation ist genauso wichtig wie das Überleben auf dem Planeten.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Ist SAND: Raiders of Sophie auf PS4 oder Xbox One verfügbar?",
+    answer: "Nein. Das Spiel wurde für Hardware der aktuellen Generation (PS5, Xbox Series X|S und PC) entwickelt, um die komplexe Physik und die Serverkapazität von 90 Spielern zu bewältigen."
+  },
+  {
+    question: "Unterstützt das Spiel Cross-Play zwischen PC und Konsolen?",
+    answer: "Obwohl die Xbox- und PlayStation-Versionen gelistet sind, wird eine offizielle Bestätigung bezüglich Cross-Play näher zum Konsolen-Launch erwartet. Derzeit spielen Steam-Spieler auf ihren eigenen Servern."
+  },
+  {
+    question: "Kann ich das Spiel offline spielen?",
+    answer: "Nein. SAND: Raiders of Sophie ist ein PvPvE-Extraction-Shooter, der für alle Modi, einschließlich Voyage, eine permanente Breitband-Internetverbindung erfordert."
+  },
+  {
+    question: "Was passiert mit meinem Fortschritt, wenn ich die Region wechsle?",
+    answer: "Dein Inventar und dein Fortschritt im Technologiebaum sind an die Region gebunden, in der der Charakter erstellt wurde. Deine Trampler-Baupläne sind jedoch kontoweit und können in allen Regionen verwendet werden."
+  }
+]} />
+
+<Callout type="tip" title="Abschließende Empfehlung">
+Für das beste Erlebnis während der Early Access-Phase solltest du einen PC mit mindestens 32 GB RAM verwenden. Die groß angelegte Physik der Trampler und das Limit von 90 Spielern können den Systemspeicher bei intensiven Kämpfen im Stadtzentrum stark beanspruchen.
+</Callout>
+
+</Section>

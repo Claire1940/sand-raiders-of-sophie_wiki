@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Release Day: Platform & Setup Guide",
+  description: "SAND Raiders of Sophie release day is June 22, 2026. Get Steam launch details, PS5/Xbox status, pricing, system requirements, and early access guides.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/d89a2b?text=Release+Day+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **SAND Raiders of Sophie release day**: The game officially entered Steam Early Access on **June 22, 2026**.
+- **Supported Platforms**: Currently playable on **PC (Steam)**, with PS5 and Xbox Series X|S versions announced.
+- **Launch Pricing**: The base price is **$24.99**, with a limited-time introductory discount available until July 6.
+- **Core Gameplay**: A massive **PvPvE extraction shooter** featuring customizable walking bases called Tramplers.
+- **Anti-Cheat**: Uses **BattlEye** kernel-level protection; ensure your drivers are updated for launch.
+</Callout>
+
+<Section icon={Map} title="SAND Raiders of Sophie Release Day: Launch Timeline">
+
+The **SAND Raiders of Sophie release day** arrived on June 22, 2026, marking the beginning of the game's Early Access journey on Steam. Developed by Hologryph and TowerHaus and published by tinyBuild, this ambitious extraction shooter invites players to the desert planet Sophie. Unlike traditional shooters, the focus here is on the "Trampler"—a giant, customizable mechanical walker that serves as your mobile base, transport, and primary weapon system.
+
+The initial launch phase focuses on stabilizing the PC environment while the community provides feedback on the core loop of scavenging, building, and extracting. The developers have indicated that the Early Access period is expected to last approximately one year, during which new biomes, Trampler modules, and gameplay modes will be introduced.
+
+| Event | Date | Status |
+| :--- | :--- | :--- |
+| **Steam Early Access Launch** | June 22, 2026 | **Live** |
+| **Introductory Sale Ends** | July 6, 2026 | Upcoming |
+| **Server Slam Participation Rewards** | Launch Day | Distributed |
+| **PlayStation 5 Release** | TBD | Wishlistable |
+| **Xbox Series X\|S Release** | TBD | Announced |
+
+<Callout type="success" title="Launch Bonus">
+Players who participated in the official **Server Slam** playtests and purchased the game during the launch window are eligible for the exclusive **M1866/9 "Einzel" Breechloader skin**. Check your in-game inventory to equip this reward.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Platform Availability and Pricing">
+
+While the **SAND Raiders of Sophie release day** was centered on the Steam platform, console players have not been forgotten. The game is currently listed on both the PlayStation Store and the Xbox Store, though these versions are labeled as "Coming Soon" or "Announced." The PC version remains the primary testing ground for new features, including the complex Trampler editor and large-scale 90-player server architecture.
+
+Pricing for the Early Access version is set at a competitive mid-tier point to encourage a large initial player base, which is critical for a PvPvE experience of this scale.
+
+| Platform | Current Status | Price (USD) | Online Requirements |
+| :--- | :--- | :--- | :--- |
+| **Steam (PC)** | Available Now | $24.99 ($19.74 Sale) | Internet + BattlEye |
+| **PlayStation 5** | Wishlistable | TBD | PS Plus Required |
+| **Xbox Series X\|S** | Announced | TBD | Game Pass Core/Ultimate |
+| **Epic Games Store** | Not Listed | N/A | N/A |
+
+<CardGrid cols={2}>
+  <Card title="PC Version Features">
+    - **Steam Achievements**: 20 unique challenges to unlock.
+    - **Cloud Saves**: Sync your Trampler blueprints across devices.
+    - **Early Access**: Direct influence on development via Discord.
+  </Card>
+  <Card title="Console Version Outlook">
+    - **90-Player Servers**: Confirmed for both PS5 and Xbox.
+    - **Controller Support**: Full optimization for DualSense and Xbox controllers.
+    - **Optimization**: Targeted 60 FPS for Series X and PS5.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Regional Pricing">
+The introductory 21% discount is applied globally on Steam, but regional prices may vary. Consult the [Official Steam Store Page](https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/) for the exact cost in your local currency.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="System Requirements and Technical Setup">
+
+To ensure a smooth experience on the **SAND Raiders of Sophie release day**, players must verify that their hardware meets the necessary specifications. The game utilizes advanced procedural generation for the planet Sophie and complex physics for the Trampler movement, which can be demanding on older CPUs.
+
+Additionally, because the game uses **BattlEye** anti-cheat, Linux and Steam Deck users must take extra steps to ensure compatibility.
+
+| Component | Minimum Requirement | Recommended Specification |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 (64-bit) | Windows 11 (64-bit) |
+| **Processor** | Intel Core i5 (8th Gen) | Intel Core i5 (13th Gen) |
+| **Memory** | 16 GB RAM | 32 GB RAM |
+| **Graphics** | GTX 1650 / RX 570 | RTX 3080 / RX 6800 XT |
+| **Storage** | 11 GB Available Space | 11 GB (SSD Recommended) |
+| **DirectX** | Version 11 | Version 11 |
+
+<Checklist
+  id="launch-setup"
+  title="Launch Day Checklist:"
+  items={[
+    "Verify Steam library has 11 GB of free space.",
+    "Update NVIDIA/AMD drivers to the latest June 2026 version.",
+    "Install 'Proton BattlEye Runtime' if playing on Linux/Steam Deck.",
+    "Ensure a stable broadband connection for 90-player matches.",
+    "Join the official Discord for real-time server status updates."
+  ]}
+/>
+
+<Callout type="warning" title="Anti-Cheat Note">
+BattlEye is a kernel-level anti-cheat. If you encounter launch failures, ensure your antivirus is not blocking the `BEService.exe`. If you uninstall the game, you may need to manually remove the BattlEye folder to completely clear the service.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Understanding Gameplay Modes">
+
+On the **SAND Raiders of Sophie release day**, players are introduced to two primary ways to experience the desert: **Voyage** and **Storm Dive**. Choosing the right mode is essential for progression, as the risk-to-reward ratio varies significantly between them. 
+
+Voyage is designed for long-term persistence and learning the ropes, while Storm Dive offers a high-intensity, session-based experience similar to battle royale games but with an extraction twist.
+
+| Feature | Voyage Mode | Storm Dive Mode |
+| :--- | :--- | :--- |
+| **Primary Goal** | Exploration & Resource Gathering | High-Value Loot & PvP Survival |
+| **Risk Level** | Moderate | Very High |
+| **Time Limit** | None (Persistent) | Limited by Sandstorm |
+| **Loot Quality** | Standard / Common | Rare / Legendary |
+| **Player Cap** | Varies by Crew Size | Up to 90 Players |
+| **Best For** | New Players / Testing Builds | Veterans / Competitive Squads |
+
+<Steps>
+  <Step num="1" title="Select Your Mode">
+    Choose Voyage if you are building your first Trampler. Choose Storm Dive if you have a combat-ready fortress and a full crew.
+  </Step>
+  <Step num="2" title="Prepare the Trampler">
+    Enter the Editor to install engines, reactors, and storage. In Storm Dive, prioritize Armor Plates and Mounted Turrets.
+  </Step>
+  <Step num="3" title="Deploy to Sophie">
+    Land in a procedural sector. Use your map to identify POIs like ruined cities or shipwrecks.
+  </Step>
+  <Step num="4" title="Extract Safely">
+    Locate an extraction point. In Storm Dive, you must extract before the sandstorm reaches the center of the map.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Solo Survival">
+If playing solo, use a "Stealth Build" Trampler. These are smaller, faster, and harder to spot on the horizon. Avoid the Dreadnought POI unless you are certain the area is clear of rival squads.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Trampler Engineering and Combat">
+
+The heart of the game is the Trampler. On the **SAND Raiders of Sophie release day**, players have access to a deep modular editor. Unlike other base-building games, every module you add to your Trampler affects its weight, center of gravity, and power consumption. 
+
+Building a "mechanical furniture" house will lead to a quick death; you must engineer a viable war machine.
+
+| Module Type | Primary Function | Key Stat |
+| :--- | :--- | :--- |
+| **Reactors** | Provides power to all modules | Energy Output |
+| **Engines** | Controls walking speed and torque | Horsepower |
+| **Storage** | Increases loot capacity | Slot Count |
+| **Armor Plates** | Protects internal compartments | Damage Reduction |
+| **Turrets** | Automated or manual defense | DPS / Range |
+
+<CardGrid cols={3}>
+  <Card title="The Fortress">
+    Focuses on **Heavy Armor** and multiple **80mm Cannons**. Ideal for defending extraction points against aggressive squads.
+  </Card>
+  <Card title="The Scavenger">
+    Prioritizes **Storage Modules** and **High-Speed Engines**. Designed to hit cities and leave before the storm arrives.
+  </Card>
+  <Card title="The Maze">
+    Uses **Chaotic Interior Layouts** to disorient boarding parties. A defensive strategy that turns the base itself into a trap.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Blueprint System">
+Always save your designs in the **Trampler Editor**. If your walker is destroyed in the desert, you can use a saved blueprint to quickly rebuild it at the orbital station, provided you have the necessary resources.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ: Launch Day Support">
+
+The **SAND Raiders of Sophie release day** can be overwhelming for new recruits. Below are the most common questions addressed by the development team during the launch window.
+
+<FAQ items={[
+  {
+    question: "What happens if I lose my Trampler and have no resources left?",
+    answer: "If you are completely bankrupt, you have two options: join another player's crew as a mercenary to earn resources, or create a new character to start fresh with a basic starter Trampler."
+  },
+  {
+    question: "Is there a limit to the crew size on a single Trampler?",
+    answer: "The current maximum crew size is 6 players. Larger crews require more Crew Room modules to be installed on the Trampler to support the deployment."
+  },
+  {
+    question: "Are blueprints shared across my different characters?",
+    answer: "Yes, Trampler blueprints are account-wide and shared across your characters, but your inventory and tech tree progress are tied to specific regional servers."
+  },
+  {
+    question: "How do I claim the Server Slam rewards?",
+    answer: "Rewards are automatically linked to your Steam ID. Ensure you are logged into the same account used during the playtest. The skin will appear in your 'Customization' menu under the M1866/9 Einzel weapon."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+For the most up-to-date information on patches and server maintenance following the **SAND Raiders of Sophie release day**, visit the [Official SAND Website](https://sand-game.com/) or follow the developers on X (formerly Twitter).
+</Callout>
+
+</Section>

@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, HeartPulse, LifeBuoy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cómo curarse en SAND Raiders of Sophie: Guía de Supervivencia y Reparación",
+  description: "Aprende cómo curar a tu personaje y reparar tu Trampler en SAND: Raiders of Sophie. Domina los kits de reparación, suministros médicos y la supervivencia de extracción.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/d89a2b/fff?text=Survival+and+Healing+Guide",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie",
+  keywords: "curación, reparación, supervivencia, Trampler, SAND Raiders of Sophie"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Cómo curarse en SAND Raiders of Sophie** requiere gestionar dos barras de salud distintas: los PV del jugador y la integridad estructural del Trampler.
+- **Los Kits de Reparación** son objetos esenciales de nivel S que contienen **3 cargas** y son el método principal para arreglar bases caminantes dañadas.
+- **Los Suministros Médicos**, como botiquines y vendajes, se encuentran en ciudades en ruinas y naufragios para restaurar la salud del jugador tras el combate.
+- **La Extracción** es el reinicio definitivo, ya que regresar a la estación orbital restaura por completo tu estado para la próxima expedición.
+- **Las Placas de Blindaje** sirven como medida preventiva, reduciendo la frecuencia de las reparaciones necesarias durante las incursiones de alto riesgo en Storm Dive.
+</Callout>
+
+<Section icon={HeartPulse} title="Comprendiendo la Salud y Recuperación del Jugador">
+
+La supervivencia en el planeta desértico Sophie es una lucha constante contra los peligros ambientales y las tripulaciones rivales. A diferencia de los shooters tradicionales donde la salud podría regenerarse con el tiempo, SAND: Raiders of Sophie utiliza un sistema de curación dedicado basado en el inventario. Saber **cómo curarse en SAND Raiders of Sophie** de manera efectiva puede ser la diferencia entre una extracción exitosa y perder todo tu botín en las dunas.
+
+La salud del jugador se muestra mediante una barra de PV estándar en el HUD. El daño puede provenir de caídas, calor ambiental, enemigos PvE (los no muertos) y, lo más peligroso, disparos de otros jugadores durante los abordajes. La curación no es instantánea; la mayoría de los objetos médicos requieren un breve tiempo de canalización, lo que te deja vulnerable a ataques posteriores.
+
+| Tipo de Objeto | Cantidad de Curación | Tiempo de Uso | Rareza | Mejor Caso de Uso |
+| :--- | :--- | :--- | :--- | :--- |
+| **Vendajes** | Baja (Pequeña curación en el tiempo) | Rápido | Común | Detener hemorragias menores tras escaramuzas PvE |
+| **Botiquín** | Media (Instantánea) | Moderado | Poco común | Recuperación en combate durante encuentros con jugadores |
+| **Kit de Trauma Avanzado** | Alta (Instantánea) | Lento | Raro | Recuperación total tras sobrevivir a un asalto pesado |
+| **Comida/Raciones** | Muy baja (Curación en el tiempo) | Instantáneo | Común | Mantener la salud entre los puntos de interés principales |
+
+<Callout type="warning" title="Aviso de Vulnerabilidad">
+Las animaciones de curación te impiden usar tu arma principal. Asegúrate siempre de estar a cubierto o dentro de la seguridad de los compartimentos blindados de tu Trampler antes de intentar usar un botiquín.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Reparación y Mantenimiento del Trampler">
+
+Tu Trampler es más que un simple vehículo; es tu fortaleza móvil, unidad de almacenamiento y defensa principal. Debido a que el Trampler ocupa la mayor parte del perfil de combate, inevitablemente recibirá fuego de cañones y proyectiles de cañones automáticos. Reparar tu base caminante es tan crítico como curar a tu propio personaje.
+
+La herramienta principal para esta tarea es el **Kit de Reparación**. A partir del lanzamiento del Acceso Anticipado en junio de 2026, los Kits de Reparación están equilibrados con **3 cargas** por objeto. Esta limitación obliga a las tripulaciones a priorizar qué módulos arreglar primero durante una retirada. Si un Trampler es completamente destruido, deberás confiar en los planos guardados para reconstruirlo, siempre que tengas los recursos.
+
+| Tipo de Módulo | Prioridad de Reparación | Impacto del Daño | Coste de Carga de Reparación |
+| :--- | :--- | :--- | :--- |
+| **Patas/Sistema de Tracción** | **Crítica** | Movilidad reducida, inmovilización eventual | 1 Carga |
+| **Motor/Reactor** | **Alta** | Pérdida de energía, incapacidad para disparar armas montadas | 1 Carga |
+| **Unidades de Almacenamiento** | **Media** | Riesgo de que el botín caiga o sea inaccesible | 1 Carga |
+| **Placas de Blindaje** | **Baja** | Reducción de la mitigación de daño para futuros impactos | 1 Carga |
+| **Torretas Montadas** | **Alta** | Pérdida de presión ofensiva y defensa | 1 Carga |
+
+<Callout type="tip" title="Estrategia Pro de Reparación">
+Si estás bajo fuego pesado, prioriza reparar las **patas** primero. Un Trampler estacionario es un objetivo fácil para el abordaje o el fuego concentrado de cañones. La movilidad es tu mejor forma de "curación".
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Curarse: Proceso de Supervivencia Paso a Paso">
+
+Tras un enfrentamiento de combate estándar, debes seguir un protocolo específico para asegurar que tanto tu tripulación como tu base estén listas para el combate en el próximo punto de interés o intento de extracción.
+
+<Steps>
+  <Step num="1" title="Asegurar el Perímetro">
+    Antes de curar, asegúrate de que la amenaza haya sido neutralizada o de haber escapado de la línea de visión. Si estás en un Trampler, pon el vehículo en movimiento hacia una zona de bajo riesgo.
+  </Step>
+  <Step num="2" title="Tratar el Sangrado del Jugador">
+    Usa vendajes o botiquines para restaurar tu barra de PV personal. Si eres parte de una tripulación, haz que un miembro se quede en las armas montadas mientras los demás se curan.
+  </Step>
+  <Step num="3" title="Evaluar la Integridad del Trampler">
+    Inspecciona los módulos internos y externos de tu base caminante. Busca efectos de humo o fuego que indiquen un fallo crítico del módulo.
+  </Step>
+  <Step num="4" title="Ejecutar Reparaciones">
+    Equipa un **Kit de Reparación** y apunta a los componentes críticos más dañados (patas o motor). Recuerda que cada kit solo tiene 3 cargas.
+  </Step>
+  <Step num="5" title="Reabastecer y Extraer">
+    Si tus suministros son escasos, evita más combates. Dirígete al punto de extracción más cercano para restablecer tu salud y kits de reparación en la estación orbital.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Eficiencia de Recursos">
+Reparar en la estación orbital tras la extracción es "gratis" en términos de uso de objetos. Evita gastar Kits de Reparación cerca del final de una incursión si tu Trampler aún puede llegar cojeando a la zona de extracción.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Saqueo de Suministros Médicos y de Reparación">
+
+Para mantener tu ciclo de supervivencia, debes buscar suministros constantemente. Sophie es un mundo generado procedimentalmente, pero ciertos puntos de interés (POI) tienen mayores concentraciones de botín médico y mecánico.
+
+Las ciudades y calles abandonadas son las mejores fuentes de objetos de curación para el jugador, que a menudo se encuentran en "Cajas Médicas". Los naufragios y las ruinas industriales tienen más probabilidades de otorgar Kits de Reparación y piezas de repuesto para tu Trampler.
+
+| Categoría de Ubicación | Botín Principal | Nivel de Peligro | Tamaño de Tripulación Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Ciudades en Ruinas** | Botiquines, Vendajes, Munición | Alto (PvP/PvE) | 2-4 Jugadores |
+| **Ruinas Industriales** | Kits de Reparación, Placas de Blindaje | Medio | 1-3 Jugadores |
+| **Naufragios** | Medicinas de alto nivel, Piezas raras | Muy Alto | 4-6 Jugadores |
+| **Puestos Abandonados** | Comida, Vendajes básicos | Bajo | Apto para Solitarios |
+
+<Callout type="info" title="Nota sobre la Rareza del Botín">
+Las armas raras y los suministros médicos avanzados tienen una mayor probabilidad de aparecer en las "Cajas de Armas Raras" que se encuentran en las profundidades de los naufragios o cerca del Dreadnought.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias de Curación en Combate">
+
+En el calor de un encuentro PvPvE, no siempre tendrás el lujo de un momento tranquilo para arreglar tu equipo. Debes integrar la curación en tus tácticas de combate.
+
+<CardGrid cols={3}>
+  <Card title="El Enfoque Sigiloso">
+    - Usa **Granadas de Humo** para ocultar tu Trampler.
+    - Cúrate y repara mientras el enemigo pierde el contacto visual.
+    - Ideal para jugadores solitarios o construcciones ligeras.
+  </Card>
+  <Card title="La Táctica de Fortaleza">
+    - Apila **Placas de Blindaje** para absorber el daño.
+    - Rota a los miembros de la tripulación entre disparar y reparar.
+    - Usa cañones pesados para mantener a los enemigos a distancia.
+  </Card>
+  <Card title="La Retirada Táctica">
+    - Enfoca todas las reparaciones en el **Motor**.
+    - Usa la velocidad máxima para salir de la zona de combate.
+    - Cura los PV del jugador una vez fuera del alcance de los cañones.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Inversión en Placas de Blindaje">
+El precio de las Placas de Blindaje aumentó en el último parche de 2026. Aunque proporcionan una excelente protección, ahora representan una inversión financiera significativa. Úsalas sabiamente en los modos Storm Dive, donde el riesgo es mayor.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Supervivencia para Sophie">
+
+Antes de desplegarte en los modos Voyage o Storm Dive, asegúrate de que tu inventario esté preparado para el daño inevitable que recibirás.
+
+<Checklist
+  id="healing-checklist"
+  title="Esenciales Pre-Expedición:"
+  items={[
+    "Al menos 2 Kits de Reparación (Total 6 cargas) para tu Trampler",
+    "Mínimo 3 Botiquines para curación personal",
+    "Una pila de vendajes para tratar el daño menor de PvE",
+    "Placas de Blindaje extra si vas a realizar una incursión Storm Dive",
+    "Suficiente combustible para asegurar que no te detengas durante una fase de reparación"
+  ]}
+/>
+
+</Section>
+
+<Section icon={LifeBuoy} title="FAQ: Curación y Reparaciones">
+
+<FAQ items={[
+  {
+    question: "¿Cómo curo a mi personaje en SAND: Raiders of Sophie?",
+    answer: "Puedes curarte usando consumibles médicos como vendajes, botiquines o kits de trauma avanzados. Estos objetos se saquean en ciudades y ruinas. Cada uno requiere un corto tiempo de canalización para ser usado."
+  },
+  {
+    question: "¿Cuál es la mejor manera de reparar mi Trampler?",
+    answer: "La forma más eficiente es usar un Kit de Reparación, que contiene 3 cargas. Cada carga puede arreglar un módulo específico. Para reparaciones completas, extraer con éxito a la estación orbital restablecerá la salud de tu Trampler."
+  },
+  {
+    question: "¿Puedo curarme mientras mi Trampler está en movimiento?",
+    answer: "Sí, puedes curarte y reparar mientras el Trampler está en movimiento. Sin embargo, es difícil apuntar a módulos externos específicos con un Kit de Reparación si el vehículo se mueve a altas velocidades o sobre terreno accidentado."
+  },
+  {
+    question: "¿Qué pasa si me quedo sin Kits de Reparación?",
+    answer: "Si no tienes kits y tu Trampler está inmovilizado, es posible que necesites buscar en puntos de interés industriales cercanos a pie o, en casos extremos, abandonar el vehículo y crear un nuevo personaje o unirte a una tripulación diferente."
+  }
+]} />
+
+</Section>

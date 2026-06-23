@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, HeartPulse, LifeBuoy } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie: Heilung & Reparatur Guide",
+  description: "Erfahre, wie du deinen Charakter heilst und deinen Trampler in SAND: Raiders of Sophie reparierst. Meistere Reparatur-Kits, medizinische Vorräte und das Überleben bei der Extraktion.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/d89a2b/fff?text=Survival+and+Healing+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team",
+  keywords: "Heilung, Reparatur, Überleben, Trampler, Medkits, Reparatur-Kits, SAND Raiders of Sophie"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Heilung in SAND Raiders of Sophie** erfordert das Management von zwei separaten Gesundheitspools: die HP des Spielers und die strukturelle Integrität des Tramplers.
+- **Reparatur-Kits** sind essenzielle S-Tier-Gegenstände mit **3 Ladungen** und stellen die primäre Methode zur Instandsetzung beschädigter laufender Basen dar.
+- **Medizinische Vorräte** wie Medkits und Bandagen sind in Ruinenstädten und Schiffswracks zu finden, um die Gesundheit des Spielers nach Kämpfen wiederherzustellen.
+- **Extraktion** ist der ultimative Reset, da die Rückkehr zur Orbitalstation deinen Status für die nächste Expedition vollständig regeneriert.
+- **Panzerplatten** dienen als Präventivmaßnahme und reduzieren die Häufigkeit notwendiger Reparaturen während risikoreicher Storm Dive-Runs.
+</Callout>
+
+<Section icon={HeartPulse} title="Spielergesundheit und Erholung verstehen">
+
+Das Überleben auf dem Wüstenplaneten Sophie ist ein ständiger Kampf gegen Umweltgefahren und rivalisierende Crews. Im Gegensatz zu herkömmlichen Shootern, bei denen sich die Gesundheit mit der Zeit regeneriert, nutzt SAND: Raiders of Sophie ein dediziertes, inventarbasiertes Heilungssystem. Zu wissen, wie man in **SAND Raiders of Sophie effektiv heilt**, kann den Unterschied zwischen einer erfolgreichen Extraktion und dem Verlust der gesamten Beute in den Dünen ausmachen.
+
+Die Gesundheit des Spielers wird über einen Standard-HP-Balken im HUD angezeigt. Schaden kann durch Sturzschaden, Umgebungshitze, PvE-Gegner (die Untoten) und am gefährlichsten durch Beschuss anderer Spieler während Entermanövern entstehen. Heilung geschieht nicht sofort; die meisten medizinischen Gegenstände erfordern eine kurze Kanalisierungszeit, in der man anfällig für weitere Angriffe ist.
+
+| Item-Typ | Heilungsmenge | Nutzungsdauer | Seltenheit | Bester Anwendungsfall |
+| :--- | :--- | :--- | :--- | :--- |
+| **Bandagen** | Niedrig (Kleine Heilung über Zeit) | Schnell | Gewöhnlich | Stoppen kleinerer Blutungen nach PvE-Scharmützeln |
+| **Medkit** | Mittel (Sofort) | Moderat | Ungewöhnlich | Erholung während Kämpfen mit anderen Spielern |
+| **Advanced Trauma Kit** | Hoch (Sofort) | Langsam | Selten | Vollständige Erholung nach einem schweren Überfall |
+| **Nahrung/Rationen** | Sehr niedrig (Heilung über Zeit) | Sofort | Gewöhnlich | Aufrechterhaltung der Gesundheit zwischen POIs |
+
+<Callout type="warning" title="Warnung zur Verwundbarkeit">
+Heilungsanimationen verhindern die Nutzung deiner Primärwaffe. Stelle immer sicher, dass du dich hinter einer Deckung oder in der Sicherheit der gepanzerten Abteile deines Tramplers befindest, bevor du ein Medkit benutzt.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Trampler-Reparatur und Wartung">
+
+Dein Trampler ist mehr als nur ein Fahrzeug; er ist deine mobile Festung, dein Lager und deine primäre Verteidigung. Da der Trampler den Großteil des Kampfprofils einnimmt, wird er unweigerlich Kanonenfeuer und Autokanonentreffer abbekommen. Die Reparatur deiner laufenden Basis ist genauso kritisch wie die Heilung deines eigenen Charakters.
+
+Das Hauptwerkzeug für diese Aufgabe ist das **Reparatur-Kit**. Zum Early Access Launch im Juni 2026 sind Reparatur-Kits mit **3 Ladungen** pro Gegenstand ausbalanciert. Diese Einschränkung zwingt Crews dazu, zu priorisieren, welche Module während eines Rückzugs zuerst repariert werden sollen. Wenn ein Trampler vollständig zerstört wird, musst du dich auf gespeicherte Blaupausen verlassen, um ihn zu rekonstruieren, sofern du über die nötigen Ressourcen verfügst.
+
+| Modultyp | Reparaturpriorität | Auswirkung von Schaden | Reparaturkosten (Ladungen) |
+| :--- | :--- | :--- | :--- |
+| **Beine/Antriebssystem** | **Kritisch** | Reduzierte Mobilität, schließliche Immobilisierung | 1 Ladung |
+| **Motor/Reaktor** | **Hoch** | Leistungsverlust, Unfähigkeit, Geschütze abzufeuern | 1 Ladung |
+| **Lagereinheiten** | **Mittel** | Risiko, dass Beute verloren geht oder unzugänglich wird | 1 Ladung |
+| **Panzerplatten** | **Niedrig** | Reduzierte Schadensminderung für zukünftige Treffer | 1 Ladung |
+| **Montierte Geschütztürme** | **Hoch** | Verlust von Offensivdruck und Verteidigung | 1 Ladung |
+
+<Callout type="tip" title="Profi-Reparaturstrategie">
+Wenn du unter schwerem Beschuss stehst, priorisiere zuerst die Reparatur der **Beine**. Ein stationärer Trampler ist ein leichtes Ziel für Enterkommandos oder konzentriertes Kanonenfeuer. Mobilität ist deine beste Form der "Heilung".
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Wie man heilt: Schritt-für-Schritt-Überlebensprozess">
+
+Nach einem Standard-Gefecht solltest du einem spezifischen Protokoll folgen, um sicherzustellen, dass sowohl deine Crew als auch deine Basis für den nächsten POI oder Extraktionsversuch kampfbereit sind.
+
+<Steps>
+  <Step num="1" title="Perimeter sichern">
+    Bevor du heilst, stelle sicher, dass die Bedrohung neutralisiert wurde oder du aus der Sichtlinie entkommen bist. Wenn du in einem Trampler bist, bringe das Fahrzeug in Bewegung in Richtung einer Zone mit geringem Risiko.
+  </Step>
+  <Step num="2" title="Blutungen des Spielers versorgen">
+    Verwende Bandagen oder Medkits, um deinen persönlichen HP-Balken wiederherzustellen. Wenn du Teil einer Crew bist, sollte ein Mitglied an den Geschützen bleiben, während die anderen heilen.
+  </Step>
+  <Step num="3" title="Trampler-Integrität bewerten">
+    Inspiziere die internen und externen Module deiner laufenden Basis. Achte auf Rauch- oder Feuereffekte, die auf einen kritischen Modulausfall hindeuten.
+  </Step>
+  <Step num="4" title="Reparaturen durchführen">
+    Rüste ein **Reparatur-Kit** aus und ziele auf die am stärksten beschädigten kritischen Komponenten (Beine oder Motor). Denke daran, dass jedes Kit nur 3 Ladungen hat.
+  </Step>
+  <Step num="5" title="Vorräte aufstocken und extrahieren">
+    Wenn deine Vorräte knapp sind, vermeide weitere Kämpfe. Begib dich zum nächsten Extraktionspunkt, um deine Gesundheit und Reparatur-Kits an der Orbitalstation zurückzusetzen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Ressourceneffizienz">
+Die Reparatur an der Orbitalstation nach der Extraktion ist hinsichtlich des Item-Verbrauchs "kostenlos". Vermeide es, Reparatur-Kits kurz vor Ende eines Runs zu verschwenden, wenn dein Trampler noch humpeln kann, um die Extraktionszone zu erreichen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Plündern von medizinischen und Reparaturvorräten">
+
+Um deinen Überlebenskreislauf aufrechtzuerhalten, musst du ständig nach Vorräten suchen. Sophie ist eine prozedural generierte Welt, aber bestimmte POIs (Points of Interest) haben höhere Konzentrationen an medizinischem und mechanischem Loot.
+
+Städte und verlassene Straßen sind die besten Quellen für Heilgegenstände für Spieler, die oft in "Medizinischen Kisten" zu finden sind. Schiffswracks und Industrieruinen liefern eher Reparatur-Kits und Ersatzteile für deinen Trampler.
+
+| Standortkategorie | Primärer Loot | Gefahrenstufe | Empfohlene Crew-Größe |
+| :--- | :--- | :--- | :--- |
+| **Ruinenstädte** | Medkits, Bandagen, Munition | Hoch (PvP/PvE) | 2-4 Spieler |
+| **Industrieruinen** | Reparatur-Kits, Panzerplatten | Mittel | 1-3 Spieler |
+| **Schiffswracks** | Hochwertige Medizin, seltene Teile | Sehr hoch | 4-6 Spieler |
+| **Verlassene Außenposten** | Nahrung, einfache Bandagen | Niedrig | Solo-freundlich |
+
+<Callout type="info" title="Hinweis zur Loot-Seltenheit">
+Seltene Waffen und fortschrittliche medizinische Vorräte haben eine höhere Drop-Chance in "Seltenen Waffenkisten", die tief in Schiffswracks oder in der Nähe des Dreadnoughts zu finden sind.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Heilungsstrategien im Kampf">
+
+In der Hitze einer PvPvE-Begegnung wirst du nicht immer den Luxus eines ruhigen Moments haben, um deine Ausrüstung zu reparieren. Du musst Heilung in deine Kampftaktik integrieren.
+
+<CardGrid cols={3}>
+  <Card title="Der Stealth-Ansatz">
+    - Nutze **Rauchgranaten**, um deinen Trampler zu verbergen.
+    - Heile und repariere, während der Gegner den Sichtkontakt verliert.
+    - Ideal für Solo-Spieler oder leichte Builds.
+  </Card>
+  <Card title="Die Festungstaktik">
+    - Staple **Panzerplatten**, um Schaden zu absorbieren.
+    - Wechsel die Crew-Mitglieder zwischen Feuern und Reparieren ab.
+    - Nutze schwere Kanonen, um Feinde auf Distanz zu halten.
+  </Card>
+  <Card title="Der taktische Rückzug">
+    - Fokussiere alle Reparaturen auf den **Motor**.
+    - Nutze maximale Geschwindigkeit, um die Kampfzone zu verlassen.
+    - Heile die Spieler-HP, sobald du außer Reichweite der Kanonen bist.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Investition in Panzerplatten">
+Die Preise für Panzerplatten wurden im neuesten Patch 2026 erhöht. Obwohl sie exzellenten Schutz bieten, stellen sie nun eine erhebliche finanzielle Investition dar. Setze sie klug in Storm Dive-Modi ein, wo das Risiko am höchsten ist.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Überlebens-Checkliste für Sophie">
+
+Bevor du dich in den Voyage- oder Storm Dive-Modus begibst, stelle sicher, dass dein Inventar auf den unvermeidlichen Schaden vorbereitet ist.
+
+<Checklist
+  id="healing-checklist"
+  title="Essenzielles für die Expedition:"
+  items={[
+    "Mindestens 2 Reparatur-Kits (insgesamt 6 Ladungen) für deinen Trampler",
+    "Minimum 3 Medkits für die persönliche Heilung",
+    "Ein Stapel Bandagen für kleinere PvE-Schäden",
+    "Zusätzliche Panzerplatten für einen Storm Dive-Run",
+    "Ausreichend Treibstoff, damit du während einer Reparaturphase nicht liegen bleibst"
+  ]}
+/>
+
+</Section>
+
+<Section icon={LifeBuoy} title="FAQ: Heilung und Reparaturen">
+
+<FAQ items={[
+  {
+    question: "Wie heile ich meinen Charakter in SAND: Raiders of Sophie?",
+    answer: "Du kannst dich heilen, indem du medizinische Verbrauchsgüter wie Bandagen, Medkits oder fortgeschrittene Trauma-Kits verwendest. Diese Gegenstände können in Städten und Ruinen geplündert werden. Jeder benötigt eine kurze Kanalisierungszeit zur Anwendung."
+  },
+  {
+    question: "Was ist der beste Weg, um meinen Trampler zu reparieren?",
+    answer: "Der effizienteste Weg ist die Verwendung eines Reparatur-Kits, das 3 Ladungen enthält. Jede Ladung kann ein spezifisches Modul reparieren. Für eine vollständige Reparatur setzt eine erfolgreiche Extraktion zur Orbitalstation die Gesundheit deines Tramplers zurück."
+  },
+  {
+    question: "Kann ich heilen, während sich mein Trampler bewegt?",
+    answer: "Ja, du kannst heilen und reparieren, während der Trampler in Bewegung ist. Es ist jedoch schwierig, bestimmte externe Module mit einem Reparatur-Kit anzuvisieren, wenn das Fahrzeug mit hoher Geschwindigkeit oder über unebenes Gelände fährt."
+  },
+  {
+    question: "Was passiert, wenn mir die Reparatur-Kits ausgehen?",
+    answer: "Wenn du keine Kits mehr hast und dein Trampler immobilisiert ist, musst du möglicherweise nahegelegene industrielle POIs zu Fuß absuchen oder im Extremfall das Fahrzeug aufgeben und einen neuen Charakter erstellen oder einer anderen Crew beitreten."
+  }
+]} />
+
+</Section>

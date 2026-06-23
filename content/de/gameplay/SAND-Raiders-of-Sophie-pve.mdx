@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie PvE: Die besten Modi & Überlebensstrategien",
+  description: "Meistern Sie SAND Raiders of Sophie PvE mit unserem Leitfaden zum Voyage-Modus, Trampler-Builds und sicheren Extraktionsrouten auf dem Planeten Sophie.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a2b3c/ffd700?text=SAND+Raiders+PVE+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team",
+  keywords: "SAND Raiders of Sophie, PvE, Voyage-Modus, Trampler-Builds, Extraktion, Überlebensstrategie"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Der Fokus von **SAND Raiders of Sophie PvE** liegt primär auf dem **Voyage-Modus**, der eine beständige Open-World-Erfahrung mit geringerer Spielerfeindlichkeit bietet.
+- **Trampler-Anpassung** ist der Kernaspekt; priorisieren Sie **Lagerabteile** und **Reparaturkits**, um den Beuteerhalt während langer PvE-Runs zu maximieren.
+- Die **Beute-Effizienz** ist in ruinierten Städten und Schiffswracks am höchsten, wo Ressourcen reichlich vorhanden sind, aber eine sorgfältige Positionierung des Tramplers erfordern.
+- **Extraktion** ist der einzige Weg, um Fortschritte zu sichern; extrahieren Sie in PvE-fokussierten Runs immer, bevor Ihre **Reparaturkits** aufgebraucht oder Ihre Fracht voll ist.
+</Callout>
+
+<Section icon={Map} title="SAND Raiders of Sophie PvE: Den richtigen Modus wählen">
+
+Obwohl der Wüstenplanet Sophie von Natur aus eine PvPvE-Umgebung ist, sollten Spieler, die eine dediziertere **SAND Raiders of Sophie PvE**-Erfahrung suchen, zum **Voyage-Modus** tendieren. Dieser Modus ermöglicht beständige Erkundung, Plünderung und Trampler-Tests mit deutlich geringeren Einsätzen im Vergleich zum Battle-Royale-ähnlichen Storm Dive. In Voyage ist das Ziel ein stetiger Fortschritt statt des bloßen Überlebens eines herannahenden Sandsturms.
+
+<Callout type="tip" title="PvE-Präferenz">
+Wenn Ihr Hauptziel darin besteht, die Karte zu lernen und die Trampler-Mechaniken ohne ständige Belästigung durch andere Spieler zu meistern, ist der **Voyage-Modus** Ihr bester Ausgangspunkt für den Early Access-Start 2026.
+</Callout>
+
+| Merkmal | Voyage-Modus (PvE-fokussiert) | Storm Dive (PvPvE hoher Einsatz) |
+| :--- | :--- | :--- |
+| **Risikostufe** | **Niedriger** | **Höher** |
+| **Timer** | Kein fester Expeditions-Timer | Begrenzt durch schrumpfenden Sandsturm |
+| **Beuteprofil** | Stetiges Plündern (niedrigere Stufen) | Hochwertige Artefakte und Belohnungen |
+| **Extraktion** | Vom Spieler gewählter Zeitpunkt | Extraktion vor Erreichen des Sturmzentrums zwingend |
+| **Bestens geeignet für** | Neue Spieler / Ressourcenrückgewinnung | Selbstbewusste Crews / PvP-Fokus |
+| **Matchmaking** | Basierend auf Crew-Größe | Hochintensive Spielerbegegnungen |
+
+</Section>
+
+<Section icon={Settings} title="PvE-Trampler-Builds und Blueprints">
+
+Ihr Trampler ist Ihre mobile Festung, Lagereinheit und Ihr Lebenserhaltungssystem. Für einen PvE-zentrierten Build sollten Sie sich auf Ausdauer und Nutzen statt auf reine Offensivkraft konzentrieren. Ein erfolgreicher **SAND Raiders of Sophie PvE**-Run hängt oft davon ab, wie viel Bergungsgut Sie zurückbringen können und wie gut Ihr Walker Umweltgefahren oder Bedrohungen durch Untote in ruinierten Städten standhalten kann.
+
+<CardGrid cols={3}>
+  <Card title="Der Plünderer-Build">
+    - **Maximierter Stauraum**
+    - Fokus auf interne Kapazität
+    - Leichte Panzerung für Tempo
+    - Ideal für Solo-PvE-Runs
+  </Card>
+  <Card title="Die mobile Bastion">
+    - **Schwere Panzerplatten**
+    - Mehrere Crew-Räume
+    - Dauerhafte Energiereaktoren
+    - Bestens für Teams von 4-6 Spielern
+  </Card>
+  <Card title="Der Stealth-Raider">
+    - **Kompaktes Layout**
+    - Hocheffiziente Motoren
+    - Module mit geringer Sichtbarkeit
+    - Vermeidet Entdeckung durch Spieler
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Sicherheit durch Blueprints">
+Speichern Sie Ihre Designs im **Trampler-Editor** immer als Blueprints (Baupläne). Wenn Ihr Walker auf Sophie zerstört wird, ermöglicht Ihnen ein Blueprint, Ihr exaktes Setup zu rekonstruieren, sobald Sie über die nötigen Ressourcen verfügen.
+</Callout>
+
+| Modultyp | PvE-Priorität | Funktion im PvE |
+| :--- | :--- | :--- |
+| **Lagerung** | **Essenziell** | Sichert Artefakte und Bergungsgut während langer Runs |
+| **Reparaturkits** | **Hoch** | Hält den Trampler nach PvE-Begegnungen funktionstüchtig |
+| **Motoren** | **Mittel** | Bietet Mobilität, um brenzligen Situationen zu entkommen |
+| **Reaktoren** | **Hoch** | Versorgt wichtige Lebenserhaltung und Module mit Energie |
+| **Montierte Geschütze** | **Mittel** | Beseitigt Untote und PvE-Bedrohungen in Stadtstraßen |
+
+</Section>
+
+<Section icon={Target} title="Plünderungsrouten und hochwertige Standorte">
+
+Die Erkundung von Sophie erfordert einen taktischen Ansatz bei der Fortbewegung. Da PvE-Spieler die Beute maximieren und gleichzeitig das Risiko minimieren möchten, ist das Verständnis des prozeduralen Layouts von Städten, Ruinen und Schiffswracks entscheidend. Jede Expedition sollte eine geplante Route haben, die mehrere Points of Interest (POIs) und einen klaren Weg zu einem Extraktionspunkt umfasst.
+
+<Steps>
+  <Step num="1" title="Den Horizont scannen">
+    Nutzen Sie die erhöhte Position Ihres Tramplers, um Rauch, ruinierte Skylines oder Schiffswracks zu entdecken. Diese deuten auf Gebiete mit hoher Beutedichte hin.
+  </Step>
+  <Step num="2" title="Den Perimeter sichern">
+    Bevor Sie Ihren Trampler verlassen, um zu Fuß zu plündern, nutzen Sie montierte Waffen, um alle unmittelbaren PvE-Bedrohungen rund um das Gebäude oder Wrack zu beseitigen.
+  </Step>
+  <Step num="3" title="Artefakte priorisieren">
+    Konzentrieren Sie sich auf hochwertige Artefakte und seltene Waffenruhen. In der Meta von 2026 bieten diese die beste Rendite für Ihre investierte Zeit.
+  </Step>
+  <Step num="4" title="Frachtstand überwachen">
+    Sobald Ihre Lagerabteile zu 80 % gefüllt sind, beginnen Sie mit der Bewegung zum nächsten Extraktionspunkt. Gier ist die Hauptursache für den Verlust von Tramplern.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Gefahrenstufen der Standorte">
+- **Ruinen**: Niedriges Risiko, stetige Ressourcen.
+- **Schiffswracks**: Mittleres Risiko, hohes Bergungspotenzial.
+- **Städte**: Hohes Risiko, beste Waffen- und Artefakt-Drops.
+- **Dreadnought**: Extremes Risiko, nur für vorbereitete Crews.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Beste Waffen für den PvE-Kampf">
+
+Kämpfe in **SAND Raiders of Sophie PvE** beinhalten die Verteidigung Ihres Walkers gegen Enterkommandos und das Ausschalten von Umgebungsgegnern. Während PvP-Spieler Railguns mit hohem Burst-Schaden bevorzugen mögen, verlässt sich die PvE-Effizienz auf anhaltenden Schaden und Genauigkeit, um Munition während langer Expeditionen zu sparen.
+
+| Waffenname | Typ | PvE-Leistung | Bester Anwendungsfall |
+| :--- | :--- | :--- | :--- |
+| **80-mm-Kanone** | Montiert | **Exzellent** | Zerstörung schwerer PvE-Strukturen |
+| **Maschinenkanone** | Montiert | **Gut** | Dauerfeuer gegen Gruppen |
+| **Schrotflinten-Kanone** | Montiert | **Exzellent** | Trampler-Verteidigung im Nahbereich |
+| **Einzel-Hinterlader** | Handwaffe | **Stabil** | Zuverlässige Spielerwaffe für mittlere Distanz |
+| **Rauchgranate** | Hilfsmittel | **Überlebenswichtig** | Sichtschutz bei riskanten Extraktionen |
+
+<Callout type="success" title="Waffentipp">
+Der **M1866/9 "Einzel"-Hinterlader** ist eine zuverlässige Wahl für PvE-Enthusiasten. Wenn Sie am Server Slam 2026 teilgenommen haben, stellen Sie sicher, dass Sie Ihren exklusiven Skin ausrüsten, um Ihren Veteranenstatus zu zeigen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Checkliste für Überleben und Extraktion">
+
+Der Extraktionszyklus ist das Herzstück von SAND. Wenn die Extraktion fehlschlägt, verlieren Sie die Beute, die Ressourcen und potenziell Ihren Trampler. Für PvE-Spieler ist es das Ziel, die Extraktion zu einem routinemäßigen, stressfreien Ereignis zu machen, indem sie sich weit im Voraus vorbereiten.
+
+<Checklist
+  id="pve-extraction-prep"
+  title="Checkliste vor der Extraktion:"
+  items={[
+    "Überprüfen Sie, ob alle Lagerabteile verschlossen und gesichert sind.",
+    "Stellen Sie sicher, dass der Trampler mindestens 50 % Gesundheit oder aktive Reparaturkits hat.",
+    "Überprüfen Sie den Munitionsstand der montierten Verteidigungsgeschütze.",
+    "Identifizieren Sie die zwei nächstgelegenen Extraktionspunkte auf der Karte.",
+    "Bestätigen Sie, dass alle Besatzungsmitglieder wieder im Trampler sind."
+  ]}
+/>
+
+<Callout type="warning" title="Hinweis zum Anti-Cheat">
+SAND Raiders of Sophie verwendet **BattlEye**. Stellen Sie sicher, dass Ihr System sauber ist und Sie die Proton BattlEye Runtime installiert haben, wenn Sie auf Linux oder Steam Deck spielen, um zu vermeiden, dass Sie mitten in der Extraktion rausgeworfen werden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="SAND Raiders of Sophie PvE FAQ">
+
+<FAQ items={[
+  {
+    question: "Gibt es einen reinen Einzelspieler-Offline-PvE-Modus?",
+    answer: "Nein, SAND: Raiders of Sophie ist ein Online-PvPvE-Spiel. Der Voyage-Modus bietet jedoch eine viel entspanntere Umgebung, die ähnlich wie eine beständige PvE-Welt mit einer geringeren Spieleranzahl pro Server funktioniert."
+  },
+  {
+    question: "Was passiert, wenn mein Trampler im PvE zerstört wird?",
+    answer: "Wenn Ihr Trampler zerstört wird, verlieren Sie das physische Fahrzeug und alle darin gelagerten Beutestücke. Wenn Sie Ihren Build jedoch als Blueprint gespeichert haben, können Sie ihn auf der Orbitalstation mit neuen Ressourcen wieder aufbauen."
+  },
+  {
+    question: "Kann ich SAND Raiders of Sophie PvE solo spielen?",
+    answer: "Ja, Solospiel wird voll unterstützt. Für Solo-PvE wird empfohlen, einen kompakten, schnellen Trampler zu bauen, der während des Plünderns leicht vom Pilotensitz aus zu verwalten ist."
+  },
+  {
+    question: "Unterscheiden sich PvE-Belohnungen von PvP-Belohnungen?",
+    answer: "Der Beutepool wird geteilt, aber hochwertige Artefakte wie die WOK-Bombe sind häufiger in Hochrisikogebieten wie dem Dreadnought zu finden, was oft PvP-Begegnungen mit sich bringt."
+  }
+]} />
+
+</Section>

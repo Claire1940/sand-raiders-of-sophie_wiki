@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Estado del servidor de SAND Raiders of Sophie: Actualizaciones en vivo y solución de problemas",
+  description: "Consulta el estado en vivo del servidor de SAND Raiders of Sophie, soluciona problemas de conexión, resuelve errores del antitrampas BattlEye y comprende los bloqueos regionales.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Server+Status+Guide",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Comprueba el estado del servidor** principalmente a través del canal oficial de Discord o del Centro de la comunidad de Steam.
+- **Las salas de emparejamiento** están estrictamente segmentadas por el tamaño de la tripulación para garantizar partidas de extracción PvPvE equilibradas.
+- **El progreso del personaje** y los árboles tecnológicos están bloqueados en la base de datos del servidor regional que elijas.
+- **El antitrampas BattlEye** debe estar instalado correctamente, especialmente al configurar Proton en Linux o Steam Deck.
+</Callout>
+
+<Section icon={Map} title="Estado del servidor de SAND Raiders of Sophie: Canales de estado oficiales">
+
+Antes de lanzar tu Trampler personalizable en los hostiles desiertos del planeta Sophie, verificar el **estado del servidor de SAND Raiders of Sophie** es el primer paso para asegurar una conexión estable. Dado que el juego es un extractor de disparos PvPvE persistente y de alto riesgo desarrollado por Hologryph y TowerHaus y publicado por tinyBuild, cualquier interrupción repentina del servidor o desincronización puede resultar en la pérdida catastrófica de tu fortaleza andante y del botín almacenado. 
+
+Para mantener informados a los jugadores durante la fase de acceso anticipado de Steam, el equipo de desarrollo utiliza varios canales de comunicación oficiales. En lugar de confiar en sitios de detección de terceros que a menudo reportan datos retrasados, debes consultar las plataformas oficiales directamente.
+
+<CardGrid cols={3}>
+  <Card title="Discord oficial">
+    El centro principal para anuncios en tiempo real, alertas de mantenimiento de emergencia y actualizaciones del estado de las pruebas de juego en vivo directamente de los desarrolladores.
+  </Card>
+  <Card title="Centro de la comunidad de Steam">
+    Utilizado para ventanas de mantenimiento programadas, notas de parches, implementaciones de correcciones y anuncios oficiales del calendario del Server Slam.
+  </Card>
+  <Card title="Páginas de estado de consolas">
+    Esencial para que los jugadores de PlayStation 5 y Xbox Series X|S verifiquen si las redes multijugador de la plataforma están experimentando interrupciones.
+  </Card>
+</CardGrid>
+
+| Plataforma | Canal de origen | Frecuencia de actualización | Propósito |
+|---|---|---|---|
+| **Todas las plataformas** | Servidor de Discord | Tiempo real | Cortes de emergencia, correcciones en vivo y anuncios de pruebas de juego |
+| **PC (Steam)** | Centro de noticias de Steam | Semanal / Según sea necesario | Calendarios de parches importantes, detalles del Server Slam y actualizaciones del cliente |
+| **Xbox Series X|S** | Página de estado de Xbox | Tiempo real | Disponibilidad del multijugador de Xbox Live y problemas de compras |
+| **PlayStation 5** | Página de estado de PSN | Tiempo real | Inicio de sesión en PlayStation Network y verificación de la suscripción a PS Plus |
+
+<Callout type="warning" title="Alerta de seguridad">
+Los desarrolladores han advertido explícitamente que existen invitaciones fraudulentas a pruebas de juego en la web. Todas las pruebas de juego legítimas y las claves de acceso al servidor se coordinan estrictamente a través del canal oficial de Discord. Nunca ingreses tus credenciales en sitios de terceros no verificados que afirmen ofrecer acceso exclusivo al servidor.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tamaños de servidor, emparejamiento y rangos de tripulación">
+
+La infraestructura en línea de SAND: Raiders of Sophie está diseñada para manejar salas multijugador intensas mientras mantiene el campo de juego justo. Las salas se asignan dinámicamente según el modo de juego que selecciones y el tamaño de tu tripulación. Para evitar que los recolectores solitarios sean constantemente arrollados por acorazados andantes coordinados de seis jugadores, los servidores de emparejamiento segmentan a los jugadores en rangos específicos.
+
+Comprender estos límites del servidor te ayuda a planificar tus construcciones de Trampler en consecuencia. Un jugador solitario necesita una máquina sigilosa y compacta, mientras que una tripulación grande requiere una fortaleza fuertemente blindada con múltiples salas de tripulación.
+
+| Rango de emparejamiento | Tamaño máximo de tripulación | Límite de jugadores en el servidor | Estilo de juego recomendado |
+|---|---|---|---|
+| **Sala en solitario** | 1 jugador | Máximo 15 jugadores | Recolección sigilosa, extracción rápida, evitar peleas abiertas |
+| **Sala de tripulación pequeña** | 2-3 jugadores | Máximo 36 jugadores | Coordinación táctica, almacenamiento moderado de recursos, construcciones equilibradas |
+| **Sala de tripulación grande** | 4-6 jugadores | Máximo 45 jugadores | Defensa pesada de la fortaleza, combate con múltiples torretas, acciones de abordaje de naves |
+| **Sala de consola** | 2-90 jugadores | Máximo 90 jugadores | Cooperativo optimizado para la plataforma, caóticas escaramuzas en el desierto a gran escala |
+
+<Callout type="tip" title="Estrategia de emparejamiento">
+Los tiempos de espera y el rendimiento del servidor pueden variar según el rango de tripulación seleccionado. Si juega en un escuadrón de cuatro a seis jugadores, asegúrese de que su Trampler esté equipado con suficientes salas de tripulación antes de comenzar, o el servidor se negará a desplegar su base andante.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Bloqueos regionales y progresión del personaje">
+
+Al conectarse a los servidores, los datos de tu progreso se manejan de manera diferente según el elemento. Para mantener la integridad competitiva y reducir las ventajas de combate inducidas por la latencia, el juego utiliza servidores regionales.
+
+Tu inventario, los recursos acumulados y el progreso del árbol tecnológico están estrictamente vinculados a la región física que selecciones al iniciar sesión. Sin embargo, los diseños de tu Trampler que tanto te costó conseguir se guardan de forma global, lo que te permite recrear tus bases móviles favoritas sin importar a qué servidor te conectes.
+
+| Elemento de progresión | Tipo de sincronización del servidor | ¿Transferible entre regiones? | Impacto de los cortes regionales |
+|---|---|---|---|
+| **Inventario de personaje** | Bloqueado por región | No | Inaccesible si el servidor regional específico está sin conexión |
+| **Mejoras del árbol tecnológico** | Bloqueado por región | No | El progreso se pausa; no se pueden desbloquear nodos en otras regiones |
+| **Planos del Trampler** | Vinculado a la cuenta | **Sí** | Totalmente seguro; los planos se pueden desplegar en cualquier región del servidor |
+| **Recompensas de eventos** | Vinculado a la cuenta | **Sí** | Los aspectos (como el aspecto Einzel del Server Slam) siguen estando disponibles universalmente |
+
+<Callout type="warning" title="Cambiar de región">
+Si experimentas una latencia alta en tu servidor actual y decides cambiar de región, se te pedirá que crees un nuevo personaje. Tus objetos y el progreso del árbol tecnológico de tu región original permanecerán seguros, pero no se transferirán al nuevo servidor.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solución de problemas de conexión y errores del antitrampas">
+
+Si los canales de estado oficiales indican que los servidores están en pleno funcionamiento pero aún no puedes conectarte, es probable que el problema esté en el lado del cliente. La versión para PC del juego utiliza BattlEye, un sistema antitrampas a nivel de kernel. Si BattlEye no se inicializa, o si estás ejecutando el juego en un sistema operativo no estándar sin los entornos de ejecución adecuados, los servidores del juego rechazarán automáticamente tu intento de conexión.
+
+Sigue estos pasos para resolver los problemas de conexión y del antitrampas más comunes en sistemas basados en PC y Linux.
+
+<Steps>
+  <Step num="1" title="Verificar la integridad de los archivos del juego en Steam">
+    Haz clic derecho en el juego en tu biblioteca de Steam, selecciona Propiedades, navega a la pestaña Archivos instalados y haz clic en Verificar integridad de los archivos del juego. Esto repara los archivos corruptos de BattlEye.
+  </Step>
+  <Step num="2" title="Configurar el entorno de ejecución de BattlEye para Proton (Linux/Steam Deck)">
+    Si juegas en Linux o en una Steam Deck, debes instalar el entorno de ejecución de BattlEye para Proton (Proton BattlEye Runtime) desde tu biblioteca de Steam. Sin este entorno de ejecución, el antitrampas no podrá establecer una comunicación segura con los servidores del juego.
+  </Step>
+  <Step num="3" title="Limpiar la caché de DNS">
+    Abre el símbolo del sistema como administrador y ejecuta el comando 'ipconfig /flushdns'. Esto borra las rutas de enrutamiento IP desactualizadas hacia los servidores de emparejamiento.
+  </Step>
+  <Step num="4" title="Comprobar los permisos del firewall">
+    Asegúrate de que tanto el ejecutable del juego como el servicio de BattlEye estén en la lista de permitidos en la configuración de Windows Defender o de tu firewall de terceros para permitir el tráfico de red entrante y saliente sin restricciones.
+  </Step>
+</Steps>
+
+| Sistema operativo | Sistema antitrampas | Entorno de ejecución requerido | Código de error común |
+|---|---|---|---|
+| **Windows 10 / 11** | BattlEye a nivel de kernel | Servicio estándar de Windows | Error al inicializar el servicio BattlEye |
+| **Linux / Steam Deck** | BattlEye a través de Proton | Entorno de ejecución de BattlEye para Proton | Desconectado por el servidor: tiempo de espera de autenticación agotado |
+
+<Callout type="tip" title="Advertencia de desinstalación">
+Si decides desinstalar el juego, ten en cuenta que el servicio antitrampas BattlEye puede permanecer en tu sistema. Para limpiar completamente tu directorio, es posible que debas navegar manualmente a tu carpeta de archivos comunes y ejecutar el desinstalador de BattlEye.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Requisitos del sistema y lista de verificación de estabilidad del servidor">
+
+Mantener una conexión estable con los servidores del juego requiere que tu hardware esté a la altura de la física de simulación del juego. Debido a que los servidores deben rastrear hasta 45 jugadores y múltiples Tramplers andantes gigantes y destructivos simultáneamente, pueden ocurrir pérdidas de paquetes y tirones de rendimiento si tu sistema tiene un cuello de botella. Usa esta lista de verificación para asegurarte de que tu configuración esté completamente optimizada antes de salir.
+
+<Checklist
+  id="server-stability-checklist"
+  title="Lista de verificación de optimización previa al despliegue:"
+  items={[
+    "Verifica que Windows 10/11 esté actualizado a la última versión de 64 bits",
+    "Confirma que haya una conexión a internet de banda ancha estable activa (evita los puntos de acceso móviles)",
+    "Asegúrate de tener al menos 11 GB de espacio de almacenamiento disponible en tu SSD",
+    "Instala el entorno de ejecución de BattlEye para Proton si inicias el juego en un sistema operativo basado en Linux",
+    "Vuelve a comprobar que tu región de emparejamiento coincida con tu ubicación geográfica real"
+  ]}
+/>
+
+<Callout type="success" title="Sistema listo">
+Cumplir con las especificaciones recomendadas del sistema, que incluyen 32 GB de RAM y una RTX 3080 o RX 6800 XT, reduce drásticamente las caídas locales de velocidad de fotogramas que el sistema antitrampas a veces puede malinterpretar como desincronización de red.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes sobre el estado del servidor de SAND Raiders of Sophie">
+
+Para ayudarte a volver al juego rápidamente, hemos recopilado las preguntas más frecuentes sobre el servidor que la comunidad ha realizado durante el lanzamiento del acceso anticipado.
+
+<FAQ items={[
+  {
+    question: "¿Cómo puedo comprobar el estado en vivo del servidor de SAND Raiders of Sophie durante una actualización?",
+    answer: "La forma más confiable es visitar el canal de anuncios del servidor oficial de Discord. Los desarrolladores publican allí los horarios de mantenimiento programados, el tiempo de inactividad estimado y los estados de implementación en vivo."
+  },
+  {
+    question: "¿Puedo jugar sin conexión si los servidores están caídos?",
+    answer: "No. El juego es estrictamente un extractor de disparos PvPvE en línea. Incluso el Modo Viaje (Voyage Mode), que presenta menores riesgos y menos encuentros hostiles, requiere una conexión persistente a los servidores de emparejamiento."
+  },
+  {
+    question: "¿Qué pasa con mi Trampler y mi botín si se cae mi conexión a mitad de la partida?",
+    answer: "Si te desconectas, tu Trampler permanece físicamente en el mundo durante un tiempo limitado. Si no te vuelves a conectar rápidamente, otros jugadores o las amenazas de la IA (PvE) pueden destruir tu base móvil, lo que resultará en la pérdida de todo el botín almacenado."
+  },
+  {
+    question: "¿Tienen los servidores el juego cruzado (cross-play) habilitado entre PC y consolas?",
+    answer: "Sí. Las versiones de Xbox Series X|S y PlayStation 5 admiten salas grandes de hasta 90 jugadores, y las salas de emparejamiento se pueden configurar para permitir el juego cruzado. Revisa la configuración del juego para activar o desactivar el emparejamiento multiplataforma."
+  }
+]} />
+
+<Callout type="info" title="Protocolo de recuperación">
+Si pierdes por completo tu Trampler debido a una desconexión del servidor o una derrota en combate, y te quedas sin recursos para construir uno nuevo, puedes recuperarte uniéndote a la tripulación de otro jugador como marinero o creando un nuevo personaje en la pantalla de selección de servidor.
+</Callout>
+
+</Section>

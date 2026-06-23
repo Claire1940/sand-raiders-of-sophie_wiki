@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, User, Settings, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie para un jugador: Guía de Supervivencia y Modos",
+  description: "Aprende a dominar SAND Raiders of Sophie para un jugador. Descubre los niveles de emparejamiento en solitario, estrategias del modo Voyage y diseños de Trampler sigilosos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Solo+Survival+Guide",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie",
+  keywords: "SAND Raiders of Sophie, un jugador, guía, supervivencia, solitario, Trampler, modo Voyage"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **SAND: Raiders of Sophie para un jugador** se traduce en un **Nivel de Emparejamiento en Solitario** dedicado con un límite de 15 jugadores por servidor.
+- El **Modo Voyage** es el punto de entrada recomendado para que los jugadores solitarios aprendan las mecánicas sin la presión de la tormenta de arena que se cierra.
+- Los **Tramplers Sigilosos** son esenciales para los supervivientes solitarios; enfócate en perfiles pequeños y motores de alta eficiencia para evitar ser detectado.
+- La **Extracción** es la única forma de asegurar el progreso. Los jugadores solitarios deben priorizar el botín de nivel medio y las salidas tempranas en lugar de disputar puntos de interés de alto riesgo.
+</Callout>
+
+<Section icon={User} title="Comprendiendo las mecánicas de SAND Raiders of Sophie para un jugador">
+
+Aunque SAND: Raiders of Sophie es principalmente un shooter de extracción PvPvE, los desarrolladores han implementado sistemas robustos para apoyar a los entusiastas de **SAND Raiders of Sophie para un jugador**. Es importante aclarar que el juego no cuenta con una campaña de historia offline. En su lugar, "un jugador" se refiere a la capacidad de hacer cola solo en un mundo donde serás emparejado exclusiva o principalmente contra otros jugadores solitarios. Esto asegura que un asaltante solitario no se vea constantemente abrumado por escuadrones coordinados de seis personas.
+
+**Puntos destacados del vídeo:**
+- Descripción general del planeta desértico Sophie y el ciclo principal de extracción.
+- Demostración visual de la personalización y el movimiento del Trampler.
+- Información sobre la dinámica de combate PvPvE en ciudades en ruinas.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="SAND: Raiders of Sophie | Tráiler de Lanzamiento" />
+
+El sistema de emparejamiento utiliza "Niveles de Tripulación" específicos para equilibrar la experiencia. Como jugador solitario, tu entorno es significativamente diferente al de una tripulación grande. La densidad del servidor está ajustada para permitir estilos de juego más sigilosos y maniobras tácticas.
+
+| Característica | Nivel de Jugador en Solitario | Tripulación Pequeña (2-3) | Tripulación Grande (4-6) |
+|:---|:---|:---|:---|
+| **Límite de Jugadores** | 15 Jugadores | 36 Jugadores | 45 Jugadores |
+| **Lógica de Emparejamiento** | Solitario vs Solitario | Pequeña vs Pequeña | Grande vs Grande |
+| **Dificultad** | Alta (Autosuficiencia) | Moderada (Roles compartidos) | Táctica (Basada en roles) |
+| **Ritmo** | Sigiloso/Cauteloso | Agresivo/Equilibrado | Dominante/Fortaleza |
+
+<Callout type="tip" title="Consejo de Emparejamiento">
+Incluso en los niveles solitarios, las amenazas PvE son constantes. No solo te escondes de otros jugadores; estás gestionando solo los peligros biológicos y mecánicos de Sophie.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Modos de juego aptos para solitarios: Voyage vs Storm Dive">
+
+Para quienes participan en sesiones de **SAND Raiders of Sophie para un jugador**, elegir el modo adecuado marca la diferencia entre un botín exitoso y la pérdida total de tu Trampler. El juego ofrece dos formas distintas de explorar el planeta Sophie, cada una con su propio perfil de riesgo para el superviviente solitario.
+
+El Modo Voyage es esencialmente la experiencia "persistente". Te permite entrar al mundo, recolectar a tu propio ritmo y extraer cuando sientas que el riesgo es demasiado alto. No hay un círculo que se encoja forzándote a entrar en una picadora de carne central, lo que lo convierte en la mejor opción para los jugadores solitarios que prefieren un enfoque metódico y sigiloso para el saqueo.
+
+| Detalle del Modo | Voyage (Recomendado Solitario) | Storm Dive (Alto Riesgo) |
+|:---|:---|:---|
+| **Objetivo Principal** | Recolección Persistente | Botín de Alto Nivel/Supervivencia |
+| **Presión de Tiempo** | Ninguna (Impulsada por el jugador) | Alta (Tormenta de arena cerrándose) |
+| **Densidad de Jugadores** | Baja/Dispersa | Alta (Proximidad forzada) |
+| **Calidad del Botín** | Estándar a Alta | Enfoque en Élite/Artefactos |
+| **Ideal Para** | Aprendizaje/Progreso Constante | Combate PvP/Recompensas Rápidas |
+
+<Callout type="warning" title="Advertencia de Storm Dive">
+Los jugadores solitarios en Storm Dive tienen una desventaja masiva durante las etapas finales. Sin una tripulación que maneje las torretas mientras tú conduces, eres muy vulnerable a ser abordado o superado en maniobras en el centro de la tormenta.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Mejores diseños de Trampler para asaltantes solitarios">
+
+En **SAND Raiders of Sophie para un jugador**, tu Trampler no es solo un vehículo; es tu fortaleza móvil, unidad de almacenamiento y sistema de soporte vital. Las tripulaciones grandes pueden construir enormes "Acorazados" de varios pisos porque tienen la mano de obra para defender cada cubierta. Un jugador solitario necesita un diseño "Fantasma": algo pequeño, rápido y difícil de detectar en el horizonte.
+
+<CardGrid cols={2}>
+  <Card title="El Diseño de Explorador">
+    - **Enfoque**: Velocidad y baja visibilidad.
+    - **Módulos**: Motores de alta eficiencia, almacenamiento mínimo y placas de camuflaje.
+    - **Estrategia**: Muévete rápido entre puntos de interés, saquea las afueras y vete antes de que se asiente el polvo.
+  </Card>
+  <Card title="El Diseño de Trampero">
+    - **Enfoque**: Obstáculos defensivos.
+    - **Módulos**: Torretas automáticas internas y diseños de pasillos confusos.
+    - **Estrategia**: Si te abordan, el diseño obliga a los enemigos a pasar por puntos de estrangulamiento mientras intentas una extracción de emergencia.
+  </Card>
+</CardGrid>
+
+Al construir tu caminante solitario en el Editor de Trampler, prioriza estos compartimentos específicos para maximizar tus posibilidades de supervivencia:
+
+| Tipo de Módulo | Prioridad | Razón para Jugadores Solitarios |
+|:---|:---|:---|
+| **Motor de Alto Nivel** | ★★★★★ | La velocidad es tu defensa principal. No puedes superar en fuego a una tripulación, pero puedes dejarlos atrás. |
+| **Almacenamiento Pequeño** | ★★★★☆ | Los módulos de almacenamiento grandes aumentan tu perfil. Lleva solo lo que necesites para sobrevivir. |
+| **Estación de Reparación** | ★★★★★ | No tienes tripulación para arreglar las patas durante una pelea. La reparación automática o accesible es vital. |
+| **Cubierta de Mando** | ★★★★★ | Colócala en un área protegida pero con visibilidad. Perder el control del caminante es una sentencia de muerte. |
+| **Placas de Blindaje** | ★★★☆☆ | El blindaje pesado te ralentiza. Usa placas ligeras reforzadas solo en módulos críticos. |
+
+<Callout type="success" title="Estrategia de Planos">
+Guarda siempre tus diseños solitarios como planos. Si tu Trampler es destruido en el desierto, tener un plano listo para construir te ahorra horas de menús cuando reapareces en la estación orbital.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combate y Equipo: El equipamiento solitario">
+
+El combate en **SAND Raiders of Sophie para un jugador** trata sobre precisión y supresión. No tienes el lujo de contar con un francotirador dedicado o un especialista en armas pesadas. Debes desempeñar todos los roles a la vez. Esto requiere un equipamiento versátil que pueda manejar tanto encuentros con jugadores a larga distancia como amenazas PvE a corta distancia dentro de las ruinas.
+
+<Steps>
+  <Step num="1" title="Selección de Arma Principal">
+    Elige un fusil versátil como el M1866/9 "Einzel" de retrocarga. Ofrece un daño fiable a media distancia. Si participaste en el Server Slam de 2026, asegúrate de equipar tu skin exclusiva para marcar tu estatus de veterano.
+  </Step>
+  <Step num="2" title="Secundaria para Abordajes">
+    Lleva siempre una escopeta o una pistola de alta cadencia de fuego. Si un jugador enemigo logra abordar tu Trampler, necesitas algo que pueda terminar la pelea en uno o dos disparos dentro de los estrechos pasillos de tu base.
+  </Step>
+  <Step num="3" title="Utilidad y Arrojadizos">
+    Las granadas de humo son las mejores amigas de un jugador solitario. Úsalas para ocultar tu movimiento durante la extracción o para crear una distracción mientras te retiras a tu Trampler.
+  </Step>
+  <Step num="4" title="Potencia de Fuego Montada">
+    Instala al menos un cañón montado de 80 mm. Aunque no puedes dispararlo mientras conduces, proporciona las capacidades necesarias de "estacionar y defender" cuando estás saqueando un naufragio.
+  </Step>
+</Steps>
+
+| Categoría de Arma | Mejor Opción Solitario | Nota de Rendimiento |
+|:---|:---|:---|
+| **Fusil** | Einzel de retrocarga | Fiable, alto daño por disparo. |
+| **Corta Distancia** | Cañón de Escopeta | Esencial para despejar abordajes. |
+| **Montada** | Autocañón | Proporciona fuego sostenido para mantener a raya a los enemigos. |
+| **Utilidad** | Granadas de Humo | Ideales para romper la línea de visión durante las retiradas. |
+
+<Callout type="info" title="Gestión de Munición">
+La munición personalizada es rara pero poderosa. Como jugador solitario, guarda las balas perforantes específicamente para inutilizar las patas de los Tramplers rivales, permitiéndote escapar mientras ellos están inmovilizados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rutas de Saqueo y Prioridades de Extracción">
+
+El éxito en **SAND Raiders of Sophie para un jugador** se mide por lo que traes de vuelta a la estación orbital, no por cuántos jugadores matas. La codicia es la principal causa de muerte para los asaltantes solitarios. Comprender el mundo procedural de Sophie e identificar rutas de bajo riesgo y alta recompensa es esencial.
+
+<Checklist
+  id="solo-extraction-list"
+  title="Lista de verificación de extracción en solitario:"
+  items={[
+    "Escanea el horizonte en busca de humo o nubes de polvo (Tramplers rivales).",
+    "Asegúrate de que el motor del Trampler tenga combustible y esté reparado al menos al 80%.",
+    "Prioriza artefactos y armas raras sobre recursos comunes.",
+    "Identifica el punto de extracción más cercano antes de entrar en un punto de interés importante.",
+    "Busca 'Acorazados' (tripulaciones grandes) cercanos y evita su trayectoria."
+  ]}
+/>
+
+Las ubicaciones de saqueo varían en dificultad. Para un jugador solitario, la relación riesgo-recompensa cambia significativamente según el tipo de ubicación:
+
+| Tipo de Ubicación | Nivel de Riesgo | Calidad del Botín | Recomendación Solitario |
+|:---|:---|:---|:---|
+| **Calles Abandonadas** | Bajo | Moderada | Excelente para incursiones rápidas y seguras. |
+| **Naufragios** | Medio | Alta | Bueno, pero cuidado con las tripulaciones que convergen. |
+| **Ruinas/Monumentos** | Medio | Alta | Alta exposición; mantén el Trampler cerca. |
+| **El Dreadnought** | Extremo | Élite | Evítalo a menos que tengas equipo de primer nivel. |
+| **Centros Urbanos** | Alto | Alta | Alta densidad PvE; es fácil quedar acorralado. |
+
+<Callout type="warning" title="Presión de Extracción">
+Los minutos finales de una incursión son los más peligrosos. Los jugadores rivales a menudo vigilan las zonas de extracción. Acércate a estas áreas con tus armas montadas tripuladas (si estás estacionario) o a máxima velocidad para minimizar tu ventana de vulnerabilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión y Mantenimiento del Personaje">
+
+Incluso en **SAND Raiders of Sophie para un jugador**, tu progreso es persistente. El árbol tecnológico y el inventario de tu personaje están vinculados a tu región seleccionada, pero tus planos de Trampler se comparten entre todos tus personajes. Esto te permite experimentar con diferentes diseños sin perder tus favoritos.
+
+Si te encuentras en una situación en la que has perdido todos tus recursos y tu Trampler, el juego ofrece una ruta de "recuperación". Puedes unirte a otro equipo como miembro temporal de la tripulación para ganar recursos, o comenzar un nuevo personaje para restablecer tus suministros básicos. Sin embargo, para la verdadera experiencia en solitario, mantener un fondo de reserva de recursos en la estación orbital es la mejor manera de asegurar que nunca te quedes realmente varado.
+
+| Tipo de Recurso | Caso de Uso | Prioridad de Retención |
+|:---|:---|:---|
+| **Chatarra** | Reparaciones Básicas | Alta (Necesidad constante) |
+| **Células de Combustible** | Movimiento | Esencial (Nunca salgas sin 2+ repuestos) |
+| **Componentes Tech** | Mejora de Módulos | Media (Guárdalos para la estación) |
+| **Artefactos** | Comercio de alto nivel | Máxima (Objetivo principal de cada incursión) |
+
+<Callout type="success" title="Consejo Final de Experto">
+El desierto de Sophie es indiferente a tu lucha. Usa el entorno (tormentas de arena, dunas y ruinas) para esconderte. En el mundo de SAND, el jugador que no es visto es el jugador que sobrevive.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes de SAND Raiders of Sophie">
+
+<FAQ items={[
+  {
+    question: "¿Puedo jugar SAND Raiders of Sophie completamente offline?",
+    answer: "No, el juego es una experiencia PvPvE solo en línea. Sin embargo, el nivel de emparejamiento en solitario asegura que te enfrentes principalmente a otros jugadores individuales en lugar de a grandes equipos."
+  },
+  {
+    question: "¿Qué pasa si mi Trampler es destruido mientras juego solo?",
+    answer: "Si tu Trampler es destruido, pierdes el vehículo físico y cualquier botín almacenado dentro. Sin embargo, si guardaste el diseño como un plano, puedes reconstruirlo en la estación orbital usando nuevos recursos."
+  },
+  {
+    question: "¿Hay un modo específico de 'Un Jugador' en el menú?",
+    answer: "No hay un botón separado para 'Un Jugador'. En su lugar, el juego detecta el tamaño de tu tripulación (1) y te coloca en un nivel de emparejamiento apto para solitarios dentro de los modos Voyage o Storm Dive."
+  },
+  {
+    question: "¿Qué modo es mejor para un jugador solitario principiante?",
+    answer: "El Modo Voyage es el mejor para principiantes. Carece de la tormenta de arena que se encoge de Storm Dive, lo que te permite aprender el mapa, el manejo del Trampler y las mecánicas de extracción a tu propio ritmo."
+  }
+]} />
+
+</Section>

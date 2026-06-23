@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de SAND Raiders of Sophie: Cómo operar el Trampler",
+  description: "Aprende cómo operar el Trampler en SAND Raiders of Sophie. Construye, conduce, alimenta y defiende tu fortaleza andante gigante a través del planeta desértico Sophie.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=How+to+Operate+the+Trampler",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie",
+  keywords: "SAND Raiders of Sophie, Trampler, guía, tutorial, base móvil, supervivencia"
+}
+
+<Callout type="tip" title="Guía Rápida">
+- **Guía principal**: Domina cómo operar el Trampler en SAND Raiders of Sophie para sobrevivir en el implacable planeta desértico Sophie.
+- **Ciclo principal**: Alimenta el reactor, pilota desde el puente, gestiona el calor y defiende tu fortaleza móvil de los grupos de abordaje.
+- **Seguridad de planos**: Guarda siempre tus diseños personalizados de Trampler como planos en el editor antes de desplegarlos en zonas peligrosas.
+- **Mitigación de riesgos**: Comienza en el Modo Viaje (Voyage Mode) para practicar maniobras básicas antes de arriesgar tu caminante en el Storm Dive de alto riesgo.
+- **Recuperación de emergencia**: Si caes en bancarrota sin recursos, únete a una tripulación o crea un nuevo personaje para obtener un caminante básico de inicio.
+</Callout>
+
+<Section icon={Shield} title="Mecánicas de la Base Andante">
+
+Sobrevivir en este shooter de extracción PvPvE de mundo abierto requiere un conocimiento profundo de tu base móvil. En este tutorial, cubrimos las mecánicas exactas de **cómo operar el Trampler en SAND Raiders of Sophie**, asegurando que tu tripulación pueda navegar, defenderse y extraer con éxito sin donar una costosa fortaleza mecánica a las dunas cambiantes. El planeta Sophie no perdona, y un solo error de pilotaje puede costarte horas de botín recolectado.
+
+Un Trampler no es solo un vehículo; sirve como tu transporte principal, almacenamiento de botín, plataforma defensiva y punto de aparición móvil. Dependiendo del tamaño de tu tripulación, la escala de tus operaciones dictará cómo configurar y manejar este coloso andante.
+
+| Especificación | Configuración Solo | Tripulación Pequeña | Tripulación Grande |
+|---|---|---|---|
+| Capacidad de Tripulación | 1 jugador | 2-3 jugadores | 4-6 jugadores |
+| Límite del Servidor | 15 jugadores | 36 jugadores | 45 jugadores |
+| Enfoque de Almacenamiento | Compacto / Oculto | Medio / Seguro | Carga Máxima |
+| Equipamiento de Armas | 1 Auto-torreta | 2 Armas montadas | Múltiples cañones pesados |
+
+<Callout type="info" title="Escalado del Servidor">
+Las colas de emparejamiento se dividen por categorías de tripulación. Los equipos grandes de 4 a 6 jugadores se enfrentan hasta a 45 jugadores totales en un servidor, lo que hace que las operaciones coordinadas del Trampler sean absolutamente esenciales para la supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Controles de Operación: Cómo operar el Trampler en SAND Raiders of Sophie">
+
+Para maniobrar con éxito un Trampler, los pilotos deben coordinar varios sistemas centrales simultáneamente. La conducción se maneja desde el puente, pero los compartimentos físicos a lo largo de la máquina dictan tu velocidad, distribución de energía e integridad estructural.
+
+<Steps>
+  <Step num="1" title="Alimenta el Núcleo del Reactor">
+    Localiza el compartimento del reactor dentro de tu Trampler. Carga bloques de combustible sólido o celdas de combustible en el núcleo para iniciar la energía. Quedarse sin combustible durante una expedición deja tu máquina completamente inmovilizada y altamente vulnerable a las tripulaciones rivales.
+  </Step>
+  <Step num="2" title="Accede a la Estación de Pilotaje">
+    Dirígete al puente e interactúa con la consola de dirección. Esta consola te da control directo sobre las piernas caminantes. Puedes dirigir usando los controles direccionales estándar mientras monitoreas tu rumbo en la brújula.
+  </Step>
+  <Step num="3" title="Gestiona el Calor y la Velocidad del Motor">
+    Cambia entre velocidades de movimiento. Los sprints de alta velocidad agotan el combustible rápidamente y generan un calor significativo en el motor. Monitorea los indicadores de temperatura para evitar bloqueos temporales del sistema o daños en el motor.
+  </Step>
+  <Step num="4" title="Utiliza Sistemas Auxiliares">
+    Despliega granadas de humo para cobertura visual o usa placas de armadura física para absorber el fuego de cañón entrante. Asegúrate de que tus compartimentos de almacenamiento estén cerrados antes de realizar maniobras a alta velocidad.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Sobrecalentamiento del Motor">
+Correr durante períodos prolongados sobrecalentará el reactor. Si el indicador de temperatura se llena por completo, las piernas se bloquearán, dejándote varado en el desierto abierto hasta que el sistema se enfríe.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Personalización y Optimización de Planos">
+
+Antes de llevar a tu caminante al desierto, debes personalizar sus diseños interiores y exteriores en el editor. Construir un diseño funcional es la diferencia entre una base móvil eficiente y un laberinto de metal desorganizado.
+
+<CardGrid cols={3}>
+  <Card title="Explorador Solitario">
+    - **Alta movilidad**
+    - Compartimentos de almacenamiento compactos
+    - Fácil de gestionar por una sola persona
+  </Card>
+  <Card title="Incursor Equilibrado">
+    - **Defensa moderada**
+    - Múltiples habitaciones de tripulación
+    - Cañones automáticos montados duales
+  </Card>
+  <Card title="Acorazado Pesado">
+    - **Máximas placas de armadura**
+    - Cañones pesados de 80 mm apilados
+    - Laberintos defensivos complejos
+  </Card>
+</CardGrid>
+
+Cada pieza que coloques afecta el peso, la velocidad y los requisitos de energía de tu máquina. Usa la siguiente tabla para priorizar tus inversiones estructurales durante la progresión del juego temprano.
+
+| Compartimento | Rol Principal | Impacto de Peso | Nivel de Prioridad |
+|---|---|---|---|
+| Reactor | Genera energía para piernas y módulos | Alto | Crítico |
+| Motor | Dicta la velocidad máxima y duración del sprint | Medio | Alto |
+| Almacenamiento | Asegura el botín y las armas recolectadas | Bajo | Crítico |
+| Habitación de Tripulación | Permite que los miembros del escuadrón aparezcan | Medio | Alto (Equipos) |
+| Placas de Armadura | Absorben fuego de cañón y daño de abordaje | Alto | Medio |
+
+<Callout type="tip" title="Preservación de Planos">
+Guarda siempre tus configuraciones personalizadas como planos en el editor. Si tu Trampler es destruido por jugadores rivales o una tormenta de arena, puedes reconstruirlo fácilmente usando tu plano guardado en la estación orbital.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mantenimiento, Reparaciones y Supervivencia en Combate">
+
+En entornos PvPvE, tu base andante recibirá daños constantes de criaturas hostiles, peligros ambientales y tripulaciones rivales que disparan cañones montados de 80 mm. Mantener tu máquina durante una incursión es crítico para asegurar una extracción.
+
+<Checklist
+  id="pre-deployment-checklist"
+  title="Inspección Previa al Despliegue:"
+  items={[
+    "Verificar que los niveles de combustible del reactor superen el ochenta por ciento",
+    "Equipar al menos dos Kits de Reparación de 3 cargas en tu inventario",
+    "Comprobar que todas las torretas montadas estén cargadas con munición personalizada",
+    "Confirmar que tu plano estructural esté guardado y actualizado",
+    "Asegurar que todos los miembros de la tripulación estén asignados a estaciones de defensa específicas"
+  ]}
+/>
+
+Cuando las secciones de tu máquina sean vulneradas, debes actuar rápido. Los grupos de abordaje intentarán infiltrarse en tus pasillos para robar carga o tomar el control del volante.
+
+| Fuente de Daño | Impacto Directo | Estrategia de Reparación | Prevención |
+|---|---|---|---|
+| Fuego de Cañón | Perfora las placas de armadura exteriores | Usa Kits de Reparación en paredes dañadas | Instala armadura de acero pesada |
+| Tripulaciones de Abordaje | Combate directo dentro de los pasillos | Defiende los pasillos con escopetas | Construye diseños caóticos y confusos |
+| Tormentas de Arena | Daño gradual a módulos externos | Busca refugio o extrae inmediatamente | Monitorea de cerca los temporizadores de tormenta |
+
+<Callout type="success" title="Eficiencia de Reparación">
+Los Kits de Reparación contienen exactamente 3 cargas. Asigna a un miembro de la tripulación dedicado para manejar las reparaciones durante los duelos intensos de cañones mientras el piloto se enfoca en maniobras evasivas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué sucede si mi Trampler es destruido por completo?",
+    answer: "Si pierdes tu caminante en el desierto, puedes reconstruirlo instantáneamente en la estación orbital usando tu plano guardado, siempre que tengas los recursos requeridos y las piezas de repuesto en tu inventario."
+  },
+  {
+    question: "¿Puedo gestionar y pilotar un Trampler pesado totalmente solo?",
+    answer: "Aunque es posible, es altamente ineficiente. Los caminantes grandes requieren alimentación constante del reactor, puntería en las torretas y reparaciones internas, lo que deja a un piloto solitario extremadamente vulnerable a los grupos de abordaje."
+  },
+  {
+    question: "¿Cómo me recupero si me quedo completamente sin recursos para construir un caminante?",
+    answer: "Si estás en bancarrota total sin piezas ni moneda, debes unirte a una tripulación activa que ya posea un Trampler o crear un nuevo personaje para recibir un caminante básico de inicio."
+  },
+  {
+    question: "¿Cómo controlo el consumo de combustible durante viajes largos en el Modo Viaje?",
+    answer: "Para operar la máquina de manera eficiente, evita el sprint constante, mantén una velocidad de crucero constante y apaga los módulos auxiliares no esenciales cuando estés estacionado cerca de ruinas."
+  }
+]} />
+
+<Callout type="info" title="Preparación Final">
+Para dominar cómo operar el Trampler en SAND Raiders of Sophie, comienza tu viaje en el Modo Viaje (Voyage Mode). Este entorno persistente y de menor riesgo es perfecto para aprender la física de caminar, gestionar el calor del reactor y organizar tus bodegas de carga antes de sumergirte en el modo Storm Dive de alta intensidad.
+</Callout>
+
+</Section>

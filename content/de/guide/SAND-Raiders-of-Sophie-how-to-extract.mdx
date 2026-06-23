@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Extraktion: Überlebenshandbuch 2026",
+  description: "Meistere den Extraktions-Loop in SAND: Raiders of Sophie. Erfahre, wie du Beute sicherst, deinen Trampler schützt und den Sandstürmen des Planeten Sophie entkommst.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Extraction+Survival+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **SAND Raiders of Sophie wie man extrahiert**: Finde markierte Extraktionspunkte auf der Karte und leite die Abflugsequenz mit deinem Trampler ein.
+- **Kern-Loop**: Durchsuche zerstörte Städte, fülle das Lager deines Tramplers und erreiche eine Extraktionszone, bevor rivalisierende Spieler oder Sandstürme dazwischenkommen.
+- **Trampler-Sicherheit**: Deine wandelnde Festung ist dein Hauptlager; sie während der Extraktion zu verlieren bedeutet den Verlust aller nicht extrahierten Beute und Ressourcen.
+- **Modus-Unterschiede**: Voyage bietet dauerhafte Erkundung, während Storm Dive eine Extraktion erfordert, bevor der Sandsturm das Zentrum erreicht.
+- **Kritischer Erfolg**: Priorisiere immer Reparaturen und Treibstoff, bevor du einen Extraktions-Run in Hochrisikozonen versuchst.
+</Callout>
+
+<Section icon={Map} title="Das Extraktionssystem verstehen">
+
+In der Desert-Punk-Welt von **SAND Raiders of Sophie** ist das Wissen darüber, **wie man extrahiert**, die wichtigste Fähigkeit, die ein Raider besitzen kann. Nach dem Early-Access-Start am 22. Juni 2026 haben Spieler entdeckt, dass der Planet Sophie ebenso unerbittlich wie schön ist. Der Gameplay-Loop konzentriert sich auf das Steuern einer anpassbaren wandelnden Basis namens Trampler, das Sammeln von Ressourcen in zerfallenen Städten und die erfolgreiche Rückkehr zur Orbitalstation.
+
+Die Extraktion ist nicht nur ein "Beenden"-Knopf; sie ist ein taktisches Manöver, das Timing, Positionierung und Ressourcenmanagement erfordert. Ob du solo oder in einer Crew von bis zu sechs Spielern spielst, der Extraktionsprozess bleibt der einzige Weg, deinen Fortschritt zu sichern, deine Baupläne zu speichern und deine hart verdienten Artefakte einzulagern.
+
+| Modus | Risikostufe | Extraktionsregel | Bestens geeignet für |
+| :--- | :--- | :--- | :--- |
+| **Voyage** | Niedriger | Spieler entscheiden selbst, wann sie einen Extraktionspunkt ansteuern. | Neue Spieler, Ressourcen-Farming und Testen von Builds. |
+| **Storm Dive** | Höher | Muss extrahiert werden, bevor der Sandsturm das Kartenzentrum erreicht. | PvP-Veteranen, Sucher nach High-Tier-Beute und schnelle Runs. |
+| **Dreadnought** | Extrem | Stark umkämpfte Extraktionszonen mit einzigartigen Belohnungen. | End-Game-Crews und diejenigen, die die WOK-Bombe suchen. |
+
+<Callout type="tip" title="Den Loop meistern">
+Im Voyage-Modus gibt es keinen festen Timer, sodass du das Layout der Karte und die Standorte der Extraktionspunkte ohne den unmittelbaren Druck eines herannahenden Sturms lernen kannst. Nutze diesen Modus, um dich mit dem Gelände vertraut zu machen, bevor du dich an risikoreiche Storm Dives wagst.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Vorbereitung deines Tramplers auf die Extraktion">
+
+Dein Trampler ist mehr als nur ein Fahrzeug; er ist deine mobile Basis, Lagereinheit und primäre Verteidigung während der Extraktionsphase. Bevor du überhaupt auf die Oberfläche von Sophie entsendest, entscheiden deine Build-Entscheidungen darüber, wie wahrscheinlich du eine umkämpfte Extraktion überlebst.
+
+Der Trampler-Editor ermöglicht eine tiefgreifende Anpassung. Für einen erfolgreichen, auf Extraktion ausgerichteten Build musst du die Lagerkapazität mit Verteidigungsmodulen ausbalancieren. Wenn deine Lagerabteile während eines Kampfes zerstört werden, kann die darin befindliche Beute verloren gehen oder von Rivalen geplündert werden.
+
+<CardGrid cols={3}>
+  <Card title="Lagerkapazität">
+    - **Unverzichtbar für lange Runs**
+    - Schützt Beute vor PvE-Bedrohungen
+    - Hohe Priorität für den Voyage-Modus
+  </Card>
+  <Card title="Panzerplatten">
+    - **Verteidigt gegen Kanonenfeuer**
+    - Erhöht das Gewicht, rettet aber Leben
+    - Entscheidend für umkämpfte Extraktionen
+  </Card>
+  <Card title="Montierte Geschütztürme">
+    - **Unterdrückt rivalisierende Raider**
+    - Automatische oder manuelle Steuerung
+    - Unverzichtbar für Storm Dive PvP
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gewichtsmanagement">
+Ein voll beladener Trampler bewegt sich deutlich langsamer. Wenn du während eines Extraktions-Runs von einer leichteren, schnelleren Crew gejagt wirst, musst du dich möglicherweise entscheiden, ob du minderwertige Beute abwirfst, um an Geschwindigkeit zu gewinnen, oder ob du mit deinen montierten 80-mm-Kanonen die Stellung hältst.
+</Callout>
+
+| Modultyp | Hauptrolle | Risikofaktor | Priorität im Early Game |
+| :--- | :--- | :--- | :--- |
+| **Motor** | Bewegungsgeschwindigkeit und Drehmoment | Hoch (falls deaktiviert) | ★★★★★ |
+| **Reaktor** | Stromversorgung für Waffen und Schilde | Mittel | ★★★★☆ |
+| **Mannschaftsraum** | Unterstützt größere Teamgrößen | Niedrig | ★★★☆☆ |
+| **Reparaturset** | Wartung im Feld | Unverzichtbar | ★★★★★ |
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Anleitung: Erfolgreich extrahieren">
+
+Der eigentliche Prozess von **SAND Raiders of Sophie wie man extrahiert** umfasst eine Reihe von Schritten, die in dem Moment beginnen, in dem du entscheidest, dass dein Frachtraum voll genug ist, um das Risiko einer Rückreise zu rechtfertigen.
+
+<Steps>
+  <Step num="1" title="Finde eine Extraktionszone">
+    Öffne deine Karte und identifiziere den nächstgelegenen aktiven Extraktionspunkt. In Storm Dive können diese Punkte verschwinden, wenn der Sandsturm näher rückt, also plane immer eine alternative Route ein.
+  </Step>
+  <Step num="2" title="Räume die unmittelbare Umgebung">
+    Bevor du die Extraktion einleitest, erkunde die Umgebung. Rivalisierende Spieler "campen" oft an Extraktionszonen. Nutze Fernoptiken oder schicke ein Crewmitglied zu Fuß los, um sicherzustellen, dass keine feindlichen Trampler auf der Lauer liegen.
+  </Step>
+  <Step num="3" title="Leite die Sequenz ein">
+    Positioniere deinen Trampler innerhalb des Extraktionsradius. Normalerweise siehst du einen Timer oder einen Fortschrittsbalken. Während dieser Zeit ist dein Trampler ein stationäres Ziel, was eine defensive Positionierung lebenswichtig macht.
+  </Step>
+  <Step num="4" title="Verteidige die Festung">
+    Rechne damit, dass PvE-"Untote" oder rivalisierende Raider angreifen, sobald das Extraktionssignal aktiv ist. Nutze deine montierten Schrotkanonen für die Nahverteidigung und Maschinenkanonen für anhaltenden Druck.
+  </Step>
+  <Step num="5" title="Sichere den Abflug">
+    Sobald der Timer auf Null steht, ist die Extraktion abgeschlossen. Du kehrst mit deiner Beute, deinen Ressourcen und deinem Trampler intakt zur Orbitalstation zurück. Baupläne für zerstörte Teile können verwendet werden, um für den nächsten Run neu zu bauen.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Extraktionsbonus">
+Erfolgreiche Extraktionen in Storm Dive gewähren deutlich mehr Erfahrung und Fortschritt im Technologiebaum im Vergleich zum Voyage-Modus. Wenn du eine seltene Waffe wie die experimentelle Railgun gesichert hast, priorisiere einen schnellen Abgang vor weiterem Sammeln.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Risikomanagement und umkämpfte Zonen">
+
+Die Extraktion ist die gefährlichste Phase jeder Expedition. Rivalisierende Crews wissen, dass du in diesem Moment am verwundbarsten bist und dein Frachtraum am schwersten ist. Um zu überleben, musst du Gefahrensignale erkennen, bevor sie zu einem totalen Fortschrittsverlust führen.
+
+Häufige Gefahrensignale sind Rauch am Horizont (der auf einen anderen Trampler hindeutet), das Geräusch von entferntem Kanonenfeuer oder das optische Flimmern des Sandsturms im Storm-Dive-Modus. Wenn du siehst, dass mehrere Trampler auf einen einzigen Extraktionspunkt zusteuern, kann es klüger sein, zu einer weiter entfernten, weniger bevölkerten Zone auszuweichen.
+
+<Checklist
+  id="extraction-safety"
+  title="Checkliste vor der Extraktion:"
+  items={[
+    "Überprüfe den Treibstoffstand des Tramplers für den letzten Sprint",
+    "Stelle sicher, dass alle Reparatursets voll aufgeladen sind (3/3)",
+    "Überprüfe, ob die Lagerabteile verriegelt und gepanzert sind",
+    "Suche mit dem Fernglas nach 'Extraktions-Campern'",
+    "Kommuniziere den Verteidigungsplan mit deiner Crew"
+  ]}
+/>
+
+| Bedrohungstyp | Gefahrenstufe | Empfohlene Gegenmaßnahme |
+| :--- | :--- | :--- |
+| **Rivalisierende Crews** | Extrem | Montierte 80-mm-Kanonen / Rauchgranaten |
+| **Sandsturm** | Hoch | Rechtzeitige Bewegung / Auf Geschwindigkeit ausgerichtete Builds |
+| **Untoten-Horden** | Mittel | Schrotkanonen / Positionierung auf erhöhtem Gelände |
+| **Ressourcenknappheit** | Mittel | Effiziente Routenplanung / Lagerverwaltung |
+
+<Callout type="info" title="Tipps für die Solo-Extraktion">
+Einzelspieler sollten "Stealth and Escape"-Builds bevorzugen. Nutze ein kompaktes Trampler-Layout, um dein visuelles Profil zu minimieren, und konzentriere dich auf Geschwindigkeitsmodule. In vielen Fällen ist es besser, frühzeitig mit einem halbvollen Frachtraum zu extrahieren, als eine Konfrontation gegen eine 6-Mann-Crew zu riskieren.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Beuteprioritäten und Belohnungen">
+
+Nicht jede Beute ist das Risiko einer umkämpften Extraktion wert. Zu verstehen, was man behält und was man wegwirft, ist entscheidend für den effizienten Fortschritt in **SAND Raiders of Sophie**. Artefakte und seltene Waffenteile sollten immer Vorrang vor einfachen Baumaterialien haben.
+
+Wenn der Lagerplatz knapp wird, nutze die folgende Prioritätenliste, um zu entscheiden, was auf dem Trampler bleibt und was in den Dünen von Sophie zurückgelassen wird.
+
+| Beutegegenstand | Seltenheit | Extraktionspriorität | Verwendungszweck |
+| :--- | :--- | :--- | :--- |
+| **Artefakte** | Selten | ★★★★★ | Fortschritt im Technologiebaum und wertvolle Verkäufe. |
+| **Experimentelle Railgun** | Selten | ★★★★★ | Elite-Trampler-Bewaffnung. |
+| **WOK-Bombe** | Einzigartig | ★★★★★ | Umkämpfter Sprengstoff, nur im Dreadnought-Modus. |
+| **Panzerplatten** | Gewöhnlich | ★★★☆☆ | Unverzichtbar für die Wartung des Tramplers. |
+| **Basisressourcen** | Gewöhnlich | ★★☆☆☆ | Massenbau und kleinere Reparaturen. |
+
+<Callout type="tip" title="Sicherheitshinweis">
+Der offizielle Entwickler tinyBuild hat gewarnt, dass alle aktiven Playtest-Einladungen ausschließlich über den offiziellen Discord abgewickelt werden. Vermeide Links von Drittanbietern, die "kostenlose Extraktionscodes" oder "Beta-Keys" versprechen, da diese oft betrügerisch sind.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Systemanforderungen und technische Stabilität">
+
+Um sicherzustellen, dass deine Extraktion nicht durch einen technischen Fehler unterbrochen wird, überprüfe, ob dein System die Leistungsstandards von 2026 erfüllt. SAND: Raiders of Sophie ist ein reines Online-Erlebnis, und eine stabile Verbindung ist erforderlich, um mit den Extraktionsservern zu kommunizieren.
+
+| Komponente | Mindestanforderung | Empfohlen (2026) |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows 10 64-bit | Windows 11 64-bit |
+| **Prozessor** | Intel i5 (8. Gen) | Intel i5 (13. Gen) |
+| **RAM** | 16 GB | 32 GB |
+| **Grafikkarte** | GTX 1650 / RX 570 | RTX 3080 / RX 6800 XT |
+| **Speicherplatz** | 11 GB verfügbar | 11 GB SSD |
+
+<Callout type="warning" title="Hinweis zum Anti-Cheat">
+Das Spiel nutzt BattlEye-Anti-Cheat auf Kernel-Ebene. Stelle sicher, dass deine Treiber aktualisiert sind und keine widersprüchliche Software läuft, da eine Trennung der Verbindung während der Extraktion aufgrund eines Anti-Cheat-Flags zum Verlust deines aktuellen Inventars führt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Was passiert, wenn mein Trampler während der Extraktion zerstört wird?",
+    answer: "Wenn dein Trampler zerstört wird, verlierst du die gesamte Beute, die sich derzeit in seinen Abteilen befindet. Du kannst jedoch gespeicherte Baupläne verwenden, um deine Basis an der Orbitalstation für deinen nächsten Run wieder aufzubauen."
+  },
+  {
+    question: "Kann ich in SAND Raiders of Sophie zu Fuß extrahieren?",
+    answer: "Obwohl du Extraktionspunkte technisch gesehen zu Fuß erreichen kannst, kannst du keine großen Mengen an Beute extrahieren oder deinen Trampler sichern, ohne dass das Fahrzeug in der Extraktionszone anwesend ist."
+  },
+  {
+    question: "Wie finde ich den besten Weg, um in SAND Raiders of Sophie sicher zu extrahieren?",
+    answer: "Die sicherste Methode ist die Nutzung des Voyage-Modus, um Extraktionspunkte auszukundschaften und einen Trampler mit hoher Panzerung und Reparaturfähigkeiten zu bauen, um den Abflug-Timer zu überstehen."
+  },
+  {
+    question: "Gibt es ein Limit dafür, wie viel ich extrahieren kann?",
+    answer: "Dein Extraktionslimit wird durch die Lagerabteile deines Tramplers bestimmt. Das Aufrüsten deiner Lagermodule ermöglicht es dir, pro Run mehr Ressourcen und Artefakte zurückzubringen."
+  }
+]} />
+
+</Section>

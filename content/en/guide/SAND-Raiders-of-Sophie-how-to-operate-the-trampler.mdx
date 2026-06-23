@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie how to operate the trampler: Guide",
+  description: "Learn SAND Raiders of Sophie how to operate the trampler. Build, drive, power, and defend your giant walking fortress across the desert planet Sophie.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=How+to+Operate+the+Trampler",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team"
+}
+
+<Callout type="tip" title="Quick Guide">
+- **Primary guide**: Master SAND Raiders of Sophie how to operate the trampler to survive the harsh desert planet Sophie.
+- **Core loop**: Fuel the reactor, pilot from the bridge, manage heat, and defend your mobile fortress from boarding parties.
+- **Blueprint safety**: Always save your custom Trampler designs as blueprints in the editor before deploying into hazardous areas.
+- **Risk mitigation**: Start in Voyage Mode to practice basic maneuvering before risking your walker in the high-stakes Storm Dive.
+- **Emergency recovery**: If bankrupt with zero resources, join a crew or create a new character to obtain a basic starter walker.
+</Callout>
+
+<Section icon={Shield} title="Mechanics of the Walking Base">
+
+Surviving the open-world PvPvE extraction shooter requires a deep understanding of your mobile base. In this tutorial, we cover the exact mechanics of **SAND Raiders of Sophie how to operate the trampler**, ensuring your crew can navigate, defend, and extract successfully without donating an expensive mechanical fortress to the shifting dunes. The planet Sophie is unforgiving, and a single piloting error can cost you hours of scavenged loot.
+
+A Trampler is not just a vehicle; it serves as your primary transport, loot storage, defensive platform, and mobile spawn point. Depending on your crew size, the scale of your operations will dictate how you configure and handle this walking behemoth.
+
+| Specification | Solo Setup | Small Crew | Large Crew |
+|---|---|---|---|
+| Crew Capacity | 1 player | 2-3 players | 4-6 players |
+| Server Cap | 15 players | 36 players | 45 players |
+| Storage Focus | Compact / Hidden | Medium / Secure | Maximum Cargo |
+| Weapon Loadout | 1 Auto-turret | 2 Mounted guns | Multiple heavy cannons |
+
+<Callout type="info" title="Server Scaling">
+Matchmaking queues are divided by crew brackets. Large teams of 4-6 players face up to 45 total players on a server, making coordinated Trampler operations absolutely essential for survival.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Operating Controls: SAND Raiders of Sophie how to operate the trampler">
+
+To successfully maneuver a Trampler, pilots must coordinate several core systems simultaneously. Driving is handled from the bridge, but physical compartments throughout the machine dictate your speed, power distribution, and structural integrity.
+
+<Steps>
+  <Step num="1" title="Fuel the Reactor Core">
+    Locate the reactor compartment inside your Trampler. Load solid fuel blocks or fuel cells into the core to initialize power. Running out of fuel during an expedition leaves your machine completely immobilized and highly vulnerable to rival crews.
+  </Step>
+  <Step num="2" title="Access the Piloting Station">
+    Head to the bridge and interact with the steering console. This console gives you direct control over the walking legs. You can steer using standard directional controls while monitoring your heading on the compass.
+  </Step>
+  <Step num="3" title="Manage Engine Heat and Speed">
+    Toggle between movement speeds. High-speed sprints drain fuel rapidly and generate significant engine heat. Monitor the temperature gauges to prevent temporary system lockouts or engine damage.
+  </Step>
+  <Step num="4" title="Utilize Auxiliary Systems">
+    Deploy smoke grenades for visual cover or use physical armor plates to absorb incoming cannon fire. Ensure your storage compartments are locked down before engaging in high-speed maneuvers.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Engine Overheating">
+Sprinting for prolonged periods will overheat the reactor. If the temperature gauge fills completely, the legs will lock, leaving you stranded in the open desert until the system cools down.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Customization and Blueprint Optimization">
+
+Before taking your walker into the desert, you must customize its interior and exterior layouts in the editor. Building a functional layout is the difference between an efficient mobile base and a disorganized metal maze.
+
+<CardGrid cols={3}>
+  <Card title="Solo Scout">
+    - **High mobility**
+    - Compact storage compartments
+    - Easy to manage single-handedly
+  </Card>
+  <Card title="Balanced Raider">
+    - **Moderate defense**
+    - Multiple crew rooms
+    - Dual mounted autocannons
+  </Card>
+  <Card title="Heavy Ironclad">
+    - **Maximum armor plates**
+    - Stacked 80mm heavy cannons
+    - Complex defensive mazes
+  </Card>
+</CardGrid>
+
+Every part you place impacts the weight, speed, and power requirements of your machine. Use the table below to prioritize your structural investments during the early-game progression.
+
+| Compartment | Primary Role | Weight Impact | Priority Level |
+|---|---|---|---|
+| Reactor | Generates power for legs and modules | High | Critical |
+| Engine | Dictates top speed and sprint duration | Medium | High |
+| Storage | Secures scavenged loot and weapons | Low | Critical |
+| Crew Room | Allows squad members to spawn inside | Medium | High (Teams) |
+| Armor Plates | Absorbs cannon fire and boarding damage | High | Medium |
+
+<Callout type="tip" title="Blueprint Preservation">
+Always save your custom configurations as blueprints in the editor. If your Trampler is destroyed by rival players or a sandstorm, you can easily rebuild it using your saved blueprint at the orbital station.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Maintenance, Repairs, and Combat Survival">
+
+In PvPvE environments, your walking base will constantly take damage from hostile creatures, environmental hazards, and rival crews firing 80mm mounted cannons. Maintaining your machine during a run is critical to securing an extraction.
+
+<Checklist
+  id="pre-deployment-checklist"
+  title="Pre-Deployment Inspection:"
+  items={[
+    "Verify reactor fuel levels are above eighty percent",
+    "Equip at least two 3-charge Repair Kits in your inventory",
+    "Check that all mounted turrets are fully loaded with custom ammo",
+    "Confirm that your structural blueprint is saved and updated",
+    "Ensure all crew members are assigned to specific defense stations"
+  ]}
+/>
+
+When sections of your machine are breached, you must act quickly. Boarding parties will attempt to infiltrate your corridors to steal cargo or commandeer the steering wheel.
+
+| Damage Source | Direct Impact | Repair Strategy | Prevention |
+|---|---|---|---|
+| Cannon Fire | Breaches outer armor plates | Use Repair Kits on damaged walls | Install heavy steel armor |
+| Boarding Crews | Direct combat inside corridors | Defend corridors with shotguns | Build chaotic, confusing layouts |
+| Sandstorms | Gradual damage to external modules | Seek shelter or extract immediately | Monitor storm timers closely |
+
+<Callout type="success" title="Repair Efficiency">
+Repair Kits contain exactly 3 charges. Assign a dedicated crew member to handle repairs during intense cannon duels while the pilot focuses on evasive maneuvers.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What happens if my Trampler is completely destroyed?",
+    answer: "If your walker is lost in the desert, you can rebuild it instantly at the orbital station using your saved blueprint, provided you have the required resources and spare parts in your inventory."
+  },
+  {
+    question: "Can I manage and pilot a heavy Trampler completely solo?",
+    answer: "While possible, it is highly inefficient. Large walkers require constant reactor fueling, gun turret aiming, and internal repairs, leaving a solo pilot extremely vulnerable to boarding parties."
+  },
+  {
+    question: "How do I recover if I run completely out of resources to build a walker?",
+    answer: "If you are entirely bankrupt with no parts or currency, you must either join an active crew that already owns a Trampler or create a new character to receive a basic starter walker."
+  },
+  {
+    question: "How do I control fuel consumption during long Voyage runs?",
+    answer: "To operate the machine efficiently, avoid constant sprinting, maintain a steady cruise speed, and power down non-essential auxiliary modules when parked near ruins."
+  }
+]} />
+
+<Callout type="info" title="Final Preparation">
+To master SAND Raiders of Sophie how to operate the trampler, start your journey in Voyage Mode. This persistent, lower-stakes environment is perfect for learning the physics of walking, managing reactor heat, and organizing your cargo holds before diving into the high-intensity Storm Dive mode.
+</Callout>
+
+</Section>

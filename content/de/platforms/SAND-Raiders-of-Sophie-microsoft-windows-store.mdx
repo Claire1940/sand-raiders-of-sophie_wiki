@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Monitor, Cpu } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Microsoft Windows Store: Setup- & Plattform-Guide",
+  description: "Erkunden Sie SAND Raiders of Sophie im Microsoft Windows Store und auf Xbox. Erhalten Sie Systemanforderungen, Plattformvergleiche und Setup-Schritte für den Launch 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fbbf24?text=SAND+Windows+Store+Guide",
+  date: "2026-06-23",
+ author: "SAND Raiders of Sophie Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **SAND Raiders of Sophie Microsoft Windows Store**: Seit dem 22. Juni 2026 über den Xbox Store für Series X|S und über Steam für PC Early Access verfügbar.
+- **Plattform-Features**: Unterstützt bis zu **90 Spieler** in riesigen PvPvE-Umgebungen mit vollständiger Controller-Unterstützung.
+- **Kern-Gameplay**: Konzentriert sich auf den Bau und die Steuerung von **Tramplern**, riesigen wandelnden Basen, die zur Erkundung und Extraktion genutzt werden.
+- **Technische Daten**: Erfordert mindestens **16 GB RAM** und eine **BattlEye**-Anti-Cheat-Installation auf PC-Plattformen.
+- **Spielmodi**: Bietet **Voyage** für fortlaufende Erkundung und **Storm Dive** für riskante, sturmgetriebene Extraktionen.
+</Callout>
+
+<Section icon={Monitor} title="Plattformverfügbarkeit und das Microsoft-Ökosystem">
+
+Der Start der Versionen für den **SAND Raiders of Sophie Microsoft Windows Store** und die Xbox markiert eine bedeutende Erweiterung für diesen Dieselpunk-Extraction-Shooter. Das Spiel wurde am 22. Juni 2026 im Steam Early Access veröffentlicht und ist auch im Microsoft-Ökosystem über den Xbox Series X|S Store prominent vertreten. Während die PC-Version derzeit auf Steam konzentriert ist, bietet die Xbox-Version ein robustes Konsolenerlebnis mit optimierter Leistung für die Series X- und Series S-Hardware.
+
+Spieler, die das Spiel auf Microsoft-Plattformen suchen, finden eine feature-reiche Umgebung vor. Der Xbox-Eintrag bestätigt die Unterstützung für Online-Koop (2–6 Spieler) und massiven Online-Multiplayer (bis zu 90 Spieler). Diese Skalierung ist entscheidend für den Kern-Gameplay-Loop des Spiels, bei dem rivalisierende Crews mit ihren Tramplern durch die Wüsten des untergegangenen Planeten Sophie navigieren.
+
+| Feature | Steam (PC) | Xbox Series X|S |
+| :--- | :--- | :--- |
+| **Veröffentlichungsdatum** | 22. Juni 2026 | TBD (Auf der Wunschliste verfügbar) |
+| **Spieleranzahl** | Bis zu 90 Spieler | Bis zu 90 Spieler |
+| **Anti-Cheat** | BattlEye erforderlich | Plattform-Standard |
+| **Controller-Unterstützung** | Vollständige Unterstützung | Native Unterstützung |
+| **Erfolge** | 20 Erfolge | Xbox-Erfolge |
+| **Eingabetyp** | Maus/Tastatur/Controller | Controller-optimiert |
+
+<Callout type="info" title="Hinweis zu Crossplay">
+Obwohl das Spiel sowohl auf Steam als auch auf Xbox gelistet ist, sollten Sie die offiziellen Crossplay-Ankündigungen auf dem [SAND Discord](https://discord.gg/8mYZnNFHJp) im Auge behalten, um zu sehen, ob Sie sich mit Freunden auf anderen Plattformen zusammenschließen können.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Systemanforderungen und technische Einrichtung">
+
+Um die Versionen für den **SAND Raiders of Sophie Microsoft Windows Store** oder Steam effektiv auszuführen, müssen Spieler bestimmte Hardware-Schwellenwerte erfüllen. Das Spiel nutzt komplexe Physik für die wandelnden Trampler-Basen und großflächige prozedurale Umgebungen, was die CPU- und RAM-Leistung kritisch macht. Die PC-Version erfordert ein 64-Bit-Betriebssystem, speziell Windows 10 oder 11.
+
+Einer der wichtigsten technischen Aspekte ist die Integration von **BattlEye Anti-Cheat**. Auf dem PC ist dieser Schutz auf Kernel-Ebene für die Teilnahme an PvPvE-Sitzungen zwingend erforderlich. Wenn Sie auf einem Linux- oder Steam Deck-Setup spielen, müssen Sie sicherstellen, dass die Proton BattlEye Runtime in Ihrer Bibliothek installiert ist, bevor Sie das Spiel starten.
+
+| Anforderung | Mindestanforderungen | Empfohlene Anforderungen |
+| :--- | :--- | :--- |
+| **Betriebssystem** | Windows 10 64-Bit | Windows 11 64-Bit |
+| **Prozessor** | Intel i5 (8. Gen) / Ryzen 5 (2000) | Intel i5 (13. Gen) / Ryzen 5 (7000) |
+| **Arbeitsspeicher** | 16 GB RAM | 32 GB RAM |
+| **Grafikkarte** | GTX 1650 / RX 570 / Arc A380 | RTX 3080 / RX 6800 XT |
+| **DirectX** | Version 11 | Version 11 |
+| **Speicherplatz** | 11 GB verfügbarer Speicherplatz | 11 GB verfügbarer Speicherplatz |
+
+<Callout type="warning" title="Anti-Cheat-Warnung">
+SAND verwendet BattlEye. Wenn Sie das Spiel deinstallieren, verbleibt der Anti-Cheat-Dienst möglicherweise auf Ihrem System und muss eventuell manuell entfernt werden. Informieren Sie sich in den offiziellen Steam-News über die neuesten Sicherheitsupdates.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Erste Schritte: Einrichtungsleitfaden für Anfänger">
+
+Das Betreten der Welt von Sophie erfordert mehr als nur einen schnellen Zeigefinger am Abzug; es erfordert mechanische Vorbereitung. Ihre erste Stunde im Spiel entscheidet über Ihren Erfolg in der Extraktionsschleife. Egal, ob Sie solo oder als Teil einer Crew spielen, die anfängliche Einrichtung Ihres Tramplers entscheidet über eine erfolgreiche Beutejagd oder ein rauchendes Wrack in den Dünen.
+
+<Steps>
+  <Step num="1" title="Kauf und Installation">
+    Sichern Sie sich das Spiel über die offizielle Steam-Seite oder setzen Sie es auf die Wunschliste im Xbox Store. Laden Sie den 11 GB großen Client herunter und stellen Sie sicher, dass Ihre Internetverbindung für die Multiplayer-Umgebung mit 90 Spielern stabil ist.
+  </Step>
+  <Step num="2" title="Der Trampler-Editor">
+    Nutzen Sie vor Ihrer ersten Expedition den Trampler-Editor. Bauen Sie ein grundlegendes Layout auf, einschließlich Motor, Reaktor, Lagerräumen und einem Spawnpunkt. Speichern Sie dies als **Blaupause** (Blueprint), damit Sie es schnell wieder aufbauen können, falls Ihr Gefährt zerstört wird.
+  </Step>
+  <Step num="3" title="Modus-Auswahl">
+    Wählen Sie zwischen **Voyage** und **Storm Dive**. Neue Spieler sollten in Voyage beginnen, um die Karte von Sophie und die Steuerung ihres Tramplers ohne den Druck eines sich nähernden Sandsturms kennenzulernen.
+  </Step>
+  <Step num="4" title="Plündern und Rohstoffe sammeln">
+    Navigieren Sie zu Ruinen, Städten oder Schiffswracks. Nutzen Sie Ihren Trampler as mobile Basis, um Ressourcen, Waffen und Artefakte zu lagern. Halten Sie am Horizont Ausschau nach Rauch oder den Silhouetten rivalisierender wandelnder Festungen.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Solo-Überleben">
+Wenn Sie solo spielen, halten Sie Ihren Trampler kompakt. Ein kleineres Gefährt ist einfacher zu steuern, verbraucht weniger Treibstoff und kann im Schatten verfallener Wolkenkratzer effektiver versteckt werden.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Spielmodi und Extraktionsstrategie">
+
+Das Herzstück des Erlebnisses von **SAND Raiders of Sophie Microsoft Windows Store** dreht sich um zwei verschiedene Expeditionsstile. Das Verständnis des Risiko-Ertrags-Verhältnisses jedes Modus ist für den langfristigen Fortschritt unerlässlich. Das Inventar und der Technologiebaum Ihres Charakters sind an Ihre ausgewählte Region gebunden. Wählen Sie Ihren Heimatserver also mit Bedacht.
+
+<CardGrid cols={2}>
+  <Card title="Voyage-Modus">
+    - **Persistente Welt**: Erkundung mit geringerem Risiko.
+    - **Kein Timer**: Extrahieren Sie, wann immer Sie das Gefühl haben, dass Ihre Fracht voll ist.
+    - **Ideal für**: Das Erlernen von Beuterouten und das Testen neuer Trampler-Teile.
+    - **Matchmaking**: Basiert auf der Crew-Größe, um Kämpfe fair zu halten.
+  </Card>
+  <Card title="Storm-Dive-Modus">
+    - **Battle-Royale-Stil**: Hohes Risiko, hohe Belohnung.
+    - **Sandsturmdruck**: Die Karte schrumpft zur Mitte hin.
+    - **Erstklassige Beute**: Finden Sie seltene Artefakte und High-End-Waffen.
+    - **Extraktion**: Muss extrahiert werden, bevor der Sturm die Region einhüllt.
+  </Card>
+</CardGrid>
+
+| Modus-Details | Voyage | Storm Dive |
+| :--- | :--- | :--- |
+| **Risikostufe** | Niedrig bis Mittel | Hoch |
+| **Beutequalität** | Standard | Selten / Experimentell |
+| **PvP-Häufigkeit** | Moderat | Hoch |
+| **Timer** | Keiner | Sturm-basiert |
+| **Bestens geeignet für** | Anfänger / Farming | Veteranen / PvP |
+
+<Callout type="info" title="Matchmaking-Klassen">
+Das Spiel verwendet Server-Obergrenzen, um das Erlebnis auszubalancieren: 15 Spieler für Solos, 36 für kleine Crews (2-3) und 45 für große Crews (4-6). Dies stellt sicher, dass Sie als einsamer Wanderer nicht einer eisengepanzerten Festung mit sechs Spielern gegenüberstehen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tier-Liste für Waffen und Trampler-Teile">
+
+Das Überleben auf Sophie hängt von Ihrer Ausrüstung ab. Eine starke Ausrüstung balanciert persönliche Feuerkraft mit auf dem Trampler montierten Verteidigungen. In der Meta von 2026 sind Nutzen und Reparaturfähigkeiten oft wertvoller als roher Schaden, da ein manövrierunfähiger Trampler in der tiefen Wüste ein Todesurteil ist.
+
+| Tier | Gegenstandsname | Kategorie | Warum es hier eingestuft ist |
+| :--- | :--- | :--- | :--- |
+| **S** | **Reparatur-Kits** | Nutzen | Unerlässlich, um Ihren Trampler während langer Kämpfe in Bewegung zu halten. |
+| **S** | **Lagerräume** | Modul | Schützt Ihre Beute; ohne Lagerraum sind Expeditionen wertlos. |
+| **A** | **80-mm-Lafettenkanone** | Waffe | Der Goldstandard für Kämpfe zwischen Tramplern. |
+| **A** | **Panzerplatten** | Verteidigung | Hohe Investition, aber notwendig, um Storm-Dive-Runs zu überleben. |
+| **B** | **Maschinenkanonen** | Waffe | Guter anhaltender Druck, wenn auch weniger Explosionsschaden als Kanonen. |
+| **C** | **WOK-Bombe** | Spezial | Seltener Dreadnought-Drop; sehr situationsabhängig und riskant zu verwenden. |
+
+<Callout type="success" title="Launch-Belohnung">
+Wenn Sie am offiziellen Server-Slam teilgenommen haben, vergessen Sie nicht, Ihren exklusiven **M1866/9 „Einzel“-Hinterlader-Skin** nach dem Kauf des Spiels einzufordern. Es ist eine großartige Möglichkeit, Ihre Sammlung mit einem einzigartigen visuellen Flair zu beginnen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für Erkundung und Extraktion">
+
+Um Ihre Effizienz in SAND: Raiders of Sophie zu maximieren, folgen Sie dieser Sitzungs-Checkliste. Gier ist die Haupttodesursache auf Sophie; zu wissen, wann man gehen muss, ist das Zeichen eines erfahrenen Raiders.
+
+<Checklist
+  id="session-goals"
+  title="Checkliste für einen erfolgreichen Raid:"
+  items={[
+    "Überprüfen Sie vor dem Einsatz den Treibstoff und die Reaktorleistung des Tramplers",
+    "Sichern Sie sich mindestens eine Waffen-Blaupause im Editor",
+    "Plündern Sie ein Schiffswrack oder einen städtischen Point of Interest (POI) nach wertvollen Artefakten",
+    "Suchen Sie alle 5 Minuten den Horizont nach Rauch rivalisierender Trampler ab",
+    "Extrahieren Sie sicher, bevor der Sandsturm die 50%-Marke erreicht (Storm Dive)",
+    "Zahlen Sie Ressourcen in der Orbitalstation ein, um Upgrades für den Technologiebaum freizuschalten"
+  ]}
+/>
+
+<Callout type="tip" title="Architektur als Waffe">
+Die Entwickler schlagen vor, chaotische Modul-Layouts in Ihrem Trampler zu verwenden. Ein unübersichtlicher Innenraum macht es Enterkommandos während eines Raids viel schwerer, Ihren Reaktor oder Ihr Steuerrad zu finden.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Ist SAND Raiders of Sophie im Microsoft Windows Store erhältlich?",
+    answer: "Das Spiel ist derzeit im Xbox Store für Series X|S und auf Steam für PC erhältlich. Obwohl es Teil des Microsoft/Xbox-Ökosystems ist, greifen PC-Spieler zum Launch im Juni 2026 hauptsächlich über Steam auf die Early-Access-Version zu."
+  },
+  {
+    question: "Was passiert, wenn ich meinen Trampler verliere?",
+    answer: "Wenn Ihr Trampler zerstört wird, können Sie eine gespeicherte Blaupause verwenden, um ihn wieder aufzubauen, sofern Sie die Ressourcen haben. Wenn Sie nichts mehr übrig haben, müssen Sie sich möglicherweise der Crew eines anderen Spielers anschließen oder einen neuen Charakter erstellen, um Ihre Reise neu zu beginnen."
+  },
+  {
+    question: "Unterstützt das Spiel Solo-Spiel?",
+    answer: "Ja, SAND unterstützt Solo-Expeditionen. Das Matchmaking-System platziert Solo-Spieler in Servern, die auf 15 Spieler begrenzt sind, um sicherzustellen, dass Sie nicht von großen Crews überwältigt werden."
+  },
+  {
+    question: "Wie nehme ich an Spieltests teil?",
+    answer: "Offizielle Spieltests werden nur über den offiziellen SAND-Discord und die Steam-News angekündigt. Seien Sie vorsichtig bei gefälschten Einladungen; die Entwickler haben gewarnt, dass aktive Spieltest-Einladungen niemals von inoffiziellen Drittanbieter-Seiten stammen."
+  }
+]} />
+
+</Section>

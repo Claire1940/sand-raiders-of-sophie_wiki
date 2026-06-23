@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Multijugador de SAND Raiders of Sophie: Tácticas de escuadrón y límites de servidor",
+  description: "Domina el multijugador de SAND Raiders of Sophie con nuestra guía de 2026 sobre tamaños de tripulación, límites de servidor, gestión de Tramplers y estrategias de extracción PvPvE.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a202c/ffd700?text=Multiplayer+Tactics+Guide",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie",
+  keywords: "SAND Raiders of Sophie, multijugador, guía, Trampler, PvPvE, tácticas de escuadrón"
+}
+
+<Callout type="info" title="Guía rápida">
+- El **multijugador de SAND Raiders of Sophie** soporta juego en solitario y tripulaciones de hasta **6 jugadores** en un mundo PvPvE compartido.
+- Los **límites del servidor** varían según el tamaño de la tripulación, desde **15 jugadores** para solitarios hasta **45 jugadores** para equipos grandes.
+- Los **Tramplers** actúan como bases móviles; gestionarlos requiere roles coordinados como **Piloto, Artillero e Ingeniero**.
+- **Storm Dive** es el modo multijugador de alto riesgo que presenta una tormenta de arena que se cierra y encuentros PvP aumentados.
+- La **extracción** es la única forma de asegurar el botín; perder tu Trampler significa perder el progreso de tu expedición.
+</Callout>
+
+<Section icon={Users} title="Resumen del multijugador de SAND Raiders of Sophie">
+
+La experiencia central del **multijugador de SAND Raiders of Sophie** gira en torno al delicado equilibrio entre cooperación y competencia. Ambientado en el planeta desértico Sophie, los jugadores deben navegar por un mundo generado procedimentalmente lleno tanto de peligros ambientales como de tripulaciones rivales. Ya sea que elijas recolectar como un lobo solitario o formar una tripulación masiva, entender cómo el juego maneja el emparejamiento y las instancias de servidor es crítico para la supervivencia en junio de 2026.
+
+**Puntos destacados del video:**
+- Descripción general del **Trampler** como un centro multijugador móvil.
+- Imágenes de combate **PvPvE** a gran escala en ciudades en ruinas.
+- Demostración del **ciclo de extracción** y el aseguramiento del botín.
+- Guía visual del **Editor de Tramplers** para construcciones basadas en escuadrones.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="SAND: Raiders of Sophie - Tráiler de lanzamiento" />
+
+El emparejamiento en la versión de Acceso Anticipado está diseñado para mantener los encuentros justos. El juego utiliza un sistema de categorías por tamaño de tripulación para asegurar que los jugadores en solitario no se vean constantemente abrumados por Tramplers "fortaleza" de seis personas. Este sistema te coloca dinámicamente en servidores basados en el tamaño actual de tu grupo antes de desplegarte desde la estación orbital.
+
+| Tipo de tripulación | Máx. jugadores por tripulación | Límite de jugadores del servidor | Estilo de juego recomendado |
+|:---|:---|:---|:---|
+| **Solitario** | 1 | 15 Jugadores | Sigilo, saqueo rápido, salidas veloces |
+| **Equipo Pequeño** | 2-3 | 36 Jugadores | Combate equilibrado y recolección de recursos |
+| **Equipo Grande** | 4-6 | 45 Jugadores | Defensa de fortaleza, PvP intenso, incursiones Dreadnought |
+
+<Callout type="info">
+La documentación oficial de la [página de la tienda de Steam](https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/) confirma que, si bien el juego soporta hasta 90 jugadores en ciertas configuraciones técnicas, los límites actuales de los servidores de Acceso Anticipado están optimizados para las categorías enumeradas anteriormente para mantener el rendimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Modos multijugador: Voyage vs. Storm Dive">
+
+En el **multijugador de SAND Raiders of Sophie**, los jugadores deben elegir entre dos estilos principales de expedición. Cada modo dicta el nivel de riesgo, las recompensas potenciales y la frecuencia de las interacciones jugador contra jugador. Elegir el modo adecuado para el nivel de equipo actual de tu tripulación es la diferencia entre un botín exitoso y una pérdida total de recursos.
+
+| Característica | Modo Voyage | Modo Storm Dive |
+|:---|:---|:---|
+| **Nivel de riesgo** | Bajo a Medio | Alto |
+| **Ritmo** | Mundo abierto persistente | Híbrido Battle Royale / Extracción |
+| **Calidad del botín** | Estándar / Confiable | Raro / Nivel alto |
+| **Temporizador** | Sin límite fijo | Limitado por la tormenta de arena invasora |
+| **Frecuencia de PvP** | Moderada | Muy alta |
+| **Ideal para** | Aprender rutas, reunir recursos | Combate de alto riesgo, caza de artefactos |
+
+El modo Voyage sirve como base para la progresión. Permite a las tripulaciones explorar Sophie a su propio ritmo, probar nuevos planos de Trampler y reunir los materiales necesarios para reactores y motores de alta gama. Es el entorno ideal para que un nuevo escuadrón practique la comunicación antes de intentar el más agotador Storm Dive.
+
+<Callout type="tip" title="Nota de estrategia">
+En Storm Dive, la tormenta de arena obliga a todos los Tramplers activos a dirigirse hacia el centro del mapa. Esto crea "puntos de asfixia" donde el PvP es inevitable. Asegúrate de que tu tripulación tenga al menos un **Ingeniero** dedicado con un stack completo de **Kits de reparación** antes de entrar en este modo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Roles de tripulación y coordinación">
+
+El éxito en el **multijugador de SAND Raiders of Sophie** es imposible sin una comunicación clara. Un Trampler es una máquina compleja que requiere que múltiples sistemas sean operados simultáneamente durante una crisis. Para tripulaciones de 4 a 6 jugadores, asignar roles específicos asegura que la base caminante permanezca móvil y letal incluso bajo fuego pesado.
+
+<Steps>
+  <Step num="1" title="El Piloto (Navegación)">
+    El Piloto es responsable de conducir el Trampler y gestionar el calor del motor. En el multijugador, el Piloto debe coordinarse con la tripulación para posicionar la base en ángulos de disparo óptimos mientras evita trampas ambientales o bancos de arena.
+  </Step>
+  <Step num="2" title="Los Artilleros (Potencia de fuego)">
+    Los artilleros manejan las torretas montadas y los cañones. Deben priorizar objetivos, como las patas del Trampler de jugadores rivales o las amenazas PvE entrantes. La coordinación entre artilleros es clave para concentrar el fuego en un solo módulo y deshabilitar una base enemiga rápidamente.
+  </Step>
+  <Step num="3" title="El Ingeniero (Mantenimiento)">
+    El rol más ignorado pero vital. El Ingeniero permanece dentro del Trampler para gestionar el **Reactor**, usar los **Kits de reparación** y extinguir incendios. También monitorean los **Compartimentos de almacenamiento** para asegurar que el botín no se pierda durante las acciones de abordaje.
+  </Step>
+  <Step num="4" title="Los Abordadores (Asalto)">
+    Cuando dos Tramplers se acercan, los abordadores usan armas de mano para saltar a la base enemiga. Su objetivo es matar a la tripulación enemiga y sabotear sus módulos internos, como el motor o los puntos de aparición.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Consejo crítico de rol">
+Si tu Ingeniero se queda sin Kits de reparación durante un Storm Dive, la supervivencia de tu Trampler cae casi un 70%. Siempre prioriza el espacio de almacenamiento para artículos de utilidad sobre el botín extra en zonas de alto riesgo.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Construcciones de Trampler para juego en escuadrón">
+
+Construir un Trampler para el **multijugador de SAND Raiders of Sophie** requiere una mentalidad diferente a la del juego en solitario. Necesitas tener en cuenta las salas de la tripulación, los pasillos internos y los campos de fuego superpuestos. Una construcción de "muebles mecánicos" se desmoronará rápidamente bajo la presión de un escuadrón coordinado.
+
+<CardGrid cols={3}>
+  <Card title="La Fortaleza Acorazada">
+    - **Enfoque**: Máximo de placas de armadura y cañones pesados.
+    - **Ideal para**: Tripulaciones grandes (5-6) en Storm Dive.
+    - **Pros**: Puede sobrevivir al fuego sostenido; presencia intimidante.
+    - **Contras**: Extremadamente lento y alto consumo de combustible.
+  </Card>
+  <Card title="El Incursor Sigiloso">
+    - **Enfoque**: Tamaño pequeño y mejoras de motor.
+    - **Ideal para**: Tripulaciones de 2-3 jugadores enfocadas en el saqueo de ciudades.
+    - **Pros**: Difícil de detectar en el horizonte; extracción rápida.
+    - **Contras**: Vulnerable si es atrapado por una construcción pesada.
+  </Card>
+  <Card title="El Especialista en Abordaje">
+    - **Enfoque**: Múltiples puntos de aparición y diseños internos caóticos.
+    - **Ideal para**: Escuadrones enfocados en PvP.
+    - **Pros**: Desorienta a los enemigos durante el abordaje; alta defensa interna.
+    - **Contras**: Requiere gran habilidad del jugador en combate a corta distancia.
+  </Card>
+</CardGrid>
+
+Al diseñar tu plano en el editor, considera el "camino de menor resistencia" para tu Ingeniero. Si el Reactor está en el piso superior y la Estación de Reparación en el sótano, tu tiempo de mantenimiento se duplicará. Mantén los módulos esenciales agrupados para mayor eficiencia.
+
+<Callout type="success" title="Compartir planos">
+Recuerda que, aunque el inventario está ligado a la región de tu personaje, los **Planos de Trampler** se comparten entre todos tus personajes. Puedes diseñar una obra maestra con un personaje y desplegarla con otro siempre que tengas los recursos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tácticas de combate multijugador y abordaje">
+
+El combate en el **multijugador de SAND Raiders of Sophie** se divide en dos fases: duelos de Tramplers a larga distancia y abordajes a corta distancia. Ganar la primera fase a menudo determina si siquiera llegas a participar en la segunda.
+
+| Categoría de arma | Efectividad vs. Tramplers | Efectividad vs. Jugadores | Nivel de riesgo |
+|:---|:---|:---|:---|
+| **Cañón montado de 80 mm** | Excelente (Daño a módulos) | Pobre (Lento) | Medio |
+| **Cañones de escopeta** | Bueno (Daño a patas) | Alta (Corta distancia) | Alto |
+| **Railgun experimental** | Masivo (Impacto único) | Bajo (Precisión) | Muy alto |
+| **Autocañones** | Consistente (Presión) | Moderada | Bajo |
+
+**Lista de verificación de abordaje multijugador:**
+<Checklist
+  id="boarding-prep"
+  title="Antes de abordar un Trampler enemigo:"
+  items={[
+    "Asegúrate de que tu propio Trampler esté en Piloto Automático o tenga un Piloto.",
+    "Verifica que tu punto de aparición esté activo y con energía.",
+    "Equipa un arma de corto alcance (Escopetas o Retroshocks).",
+    "Comunica por qué lado de la base enemiga vas a entrar.",
+    "Identifica la ubicación del Reactor enemigo para un sabotaje rápido."
+  ]}
+/>
+
+<Callout type="tip">
+Usa **Granadas de humo** durante una acción de abordaje. Aparecen en stacks de dos y son esenciales para crear cobertura visual mientras cruzas el espacio entre dos bases caminantes en movimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Preguntas frecuentes sobre el multijugador">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos jugadores pueden estar en una sola tripulación en SAND Raiders of Sophie?",
+    answer: "Una sola tripulación puede tener entre 1 y 6 jugadores. El emparejamiento te colocará en servidores basados en el tamaño de tu tripulación para asegurar encuentros PvP equilibrados."
+  },
+  {
+    question: "¿Hay alguna forma de jugar solo sin encontrarme con equipos grandes?",
+    answer: "Sí. El juego utiliza categorías por tamaño de tripulación. Si entras en una partida solo, serás colocado principalmente en un servidor de 'Categoría Solitario' con un límite de 15 jugadores, minimizando la posibilidad de encontrarte con un escuadrón completo de 6 personas."
+  },
+  {
+    question: "¿Qué sucede si nuestro Trampler es destruido en el multijugador?",
+    answer: "Si tu Trampler es destruido, pierdes la base y cualquier botín almacenado en su interior. Sin embargo, si guardaste el diseño como un Plano, puedes reconstruirlo en la estación orbital usando nuevos recursos."
+  },
+  {
+    question: "¿Soporta SAND Raiders of Sophie el juego cruzado (cross-play) entre Steam, PS5 y Xbox?",
+    answer: "A partir del lanzamiento del Acceso Anticipado en junio de 2026, el juego está disponible en Steam. Las versiones de PlayStation 5 y Xbox Series X|S están anunciadas con fechas de lanzamiento por determinar, y los detalles del juego cruzado se confirmarán más cerca del lanzamiento en consolas."
+  }
+]} />
+
+<Callout type="warning" title="Aviso de Anti-Trampas">
+El **multijugador de SAND Raiders of Sophie** utiliza el anti-trampas a nivel de kernel BattlEye. Asegúrate de que tu sistema cumpla con los requisitos y que el servicio BattlEye esté funcionando, o serás desconectado de las sesiones multijugador. Para usuarios de Linux y Steam Deck, asegúrense de instalar el **Proton BattlEye Runtime** desde su biblioteca de Steam.
+</Callout>
+
+</Section>

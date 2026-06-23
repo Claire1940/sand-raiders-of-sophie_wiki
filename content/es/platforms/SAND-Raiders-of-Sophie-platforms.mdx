@@ -1,0 +1,197 @@
+import { Monitor, Gamepad2, Cpu, Globe, PlayCircle, ShieldCheck, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Plataformas de SAND Raiders of Sophie: Guía de configuración para consolas y PC",
+  description: "Explora las plataformas de SAND Raiders of Sophie. Consulta los requisitos de PC, detalles del Acceso Anticipado de Steam, estado en PS5 y Xbox, y capacidad de servidores multijugador para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=SAND+Raiders+of+Sophie+Platforms",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Plataforma principal**: Las **plataformas de SAND Raiders of Sophie** priorizan actualmente el Acceso Anticipado de Steam, lanzado el 22 de junio de 2026.
+- **Estado en consolas**: Las versiones de PlayStation 5 y Xbox Series X|S están listadas oficialmente, pero permanecen en estado "Por determinar" (TBD) o en la "Lista de deseos".
+- **Escala multijugador**: Admite hasta **90 jugadores** por servidor, con emparejamientos específicos para juego en solitario y en tripulación.
+- **Requisto técnico**: Los jugadores de PC deben usar un **sistema operativo de 64 bits** y tener al menos 11 GB de espacio de almacenamiento disponible.
+- **Antitrampas**: El juego utiliza la protección a nivel de kernel **BattlEye**, la cual es obligatoria para todas las sesiones en línea.
+</Callout>
+
+<Section icon={Monitor} title="Estado de lanzamiento y disponibilidad en PC">
+
+**SAND: Raiders of Sophie** ha entrado oficialmente en el paisaje desértico del género de los extraction shooters. Desde el 22 de junio de 2026, el punto de entrada principal para todos los recolectores es la plataforma de Acceso Anticipado de Steam. Esta versión sirve como campo de pruebas en vivo para las mecánicas principales del juego, incluido el complejo editor de Trampler y el sistema de expedición de modo dual.
+
+**Vídeos destacados:**
+- Vista detallada del **entorno planetario de Sophie** y los puntos de interés de la ciudad en ruinas.
+- Demostración del **movimiento del Trampler** y el armamento pesado montado en acción.
+- Vista previa del **ciclo de extracción PvPvE**, que presenta amenazas tanto humanas como de IA.
+- Muestra de la **estética dieselpunk** y las bases mecánicas personalizables.
+
+<YouTubeEmbed videoId="zkH4dKTLfr4" title="SAND: Raiders of Sophie - Tráiler de lanzamiento" />
+
+El lanzamiento para PC en Steam incluye una integración completa con el ecosistema de Steam, ofreciendo logros, guardado en la nube y acceso al punto de encuentro de la comunidad. Los jugadores que se unan durante la ventana de lanzamiento pueden aprovechar los descuentos de introducción y los ajustes de precios regionales.
+
+| Característica | Detalles del Acceso Anticipado de Steam |
+| :--- | :--- |
+| **Fecha de lanzamiento** | 22 de junio de 2026 |
+| **Precio base** | $24.99 (USD) |
+| **Oferta de lanzamiento** | 21% de descuento ($19.74) hasta el 6 de julio de 2026 |
+| **Enlace de la tienda** | [Página oficial de Steam](https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/) |
+| **Antitrampas** | BattlEye (Requerido) |
+| **Logros** | 20 logros de Steam disponibles en el lanzamiento |
+
+<Callout type="warning" title="Alerta de seguridad">
+Confía únicamente en los enlaces oficiales del [sitio web oficial](https://sand-game.com/) o de las páginas de tiendas verificadas. Los desarrolladores han advertido que existen invitaciones falsas a pruebas de juego; todas las oportunidades legítimas de prueba se anuncian a través del Discord oficial.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Requisitos del sistema para PC y especificaciones técnicas">
+
+Para pilotar una enorme fortaleza andante a través de las dunas de Sophie, tu hardware debe cumplir con ciertos estándares específicos. El juego depende de la generación procedimental y de las interacciones basadas en la física para los Tramplers, por lo que el rendimiento de la CPU y la capacidad de la RAM son fundamentales para una experiencia fluida.
+
+| Especificación | Requisitos mínimos | Especificaciones recomendadas |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 (64 bits) | Windows 11 (64 bits) |
+| **Procesador** | Intel i5 (8.ª gen.) / Ryzen 5 (2000) | Intel i5 (13.ª gen.) / Ryzen 5 (7000) |
+| **Memoria** | 16 GB de RAM | 32 GB de RAM |
+| **Gráficos** | GTX 1650 / RX 570 / Arc A380 | RTX 3080 / RX 6800 XT |
+| **DirectX** | Versión 11 | Versión 11 |
+| **Almacenamiento** | 11 GB de espacio disponible | 11 GB (SSD recomendado) |
+
+El juego está diseñado para adaptarse a diversas configuraciones de hardware, pero los complejos cálculos físicos relacionados con las acciones de abordaje de los Tramplers y los efectos de las tormentas de arena se manejan mejor con el nivel recomendado.
+
+<CardGrid cols={2}>
+  <Card title="Almacenamiento y rendimiento">
+    - **Prioridad de SSD**: Aunque el tamaño de instalación es pequeño (11 GB), un SSD reduce significativamente los tiempos de carga entre la estación orbital y la superficie del planeta.
+    - **Uso de VRAM**: Las texturas de alta resolución en las ciudades en ruinas requieren al menos 4 GB de VRAM para mantener tasas de fotogramas estables.
+  </Card>
+  <Card title="Red y conectividad">
+    - **Banda ancha requerida**: Al ser una experiencia PvPvE persistente, es obligatorio contar con una conexión a internet estable.
+    - **Sensibilidad al ping**: Una latencia alta puede afectar la dirección del Trampler y el registro de proyectiles durante los combates con cañones a larga distancia.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Soporte para Linux y Steam Deck">
+SAND: Raiders of Sophie es compatible con Linux a través de Proton. Sin embargo, debes instalar el **Proton BattlEye Runtime** desde tu biblioteca de Steam antes de iniciar el juego para asegurarte de que el sistema antitrampas se inicialice correctamente.
+</Callout>
+
+</Section>
+
+<Section icon={Gamepad2} title="Desarrollo para consolas: PS5 y Xbox Series X|S">
+
+Mientras los jugadores de PC lideran actualmente la expedición, la hoja de ruta de las **plataformas de SAND Raiders of Sophie** incluye una fuerte presencia en las consolas de la generación actual. Tanto Sony como Microsoft tienen listados oficiales en sus tiendas para el juego, aunque sus fechas de lanzamiento están marcadas actualmente como "Por determinar".
+
+**Detalles de PlayStation 5:**
+La página de PlayStation Store destaca varias características específicas de la consola que buscan mejorar la inmersión en la supervivencia del desierto.
+- **Soporte para DualSense**: Implementación de funciones de vibración para imitar el golpe mecánico de las patas del Trampler.
+- **Requisitos en línea**: Se requerirá PS Plus para el juego en línea, que admite hasta 90 jugadores por sesión.
+- **Estado de la lista de deseos**: Los jugadores ya pueden añadir el juego a su lista de deseos en la [PlayStation Store](https://store.playstation.com/en-us/concept/10010847/).
+
+**Detalles de Xbox Series X|S:**
+El listado de Microsoft confirma que el juego está optimizado para Series X|S, garantizando una alta fidelidad visual en el planeta desértico.
+- **Rangos multijugador**: Soporte confirmado para cooperativo en línea (2-6 jugadores) y multijugador masivo (hasta 90 jugadores).
+- **Soporte de idiomas**: Está previsto que la versión de Xbox admita 10 idiomas, en consonancia con los esfuerzos de localización para PC.
+- **Enlace de la tienda**: Ver el [listado de Xbox Store](https://www.xbox.com/en-us/games/store/sand-raiders-of-sophie/9ng0ffht5mcb).
+
+| Plataforma | Estado actual | Características esperadas |
+| :--- | :--- | :--- |
+| **PlayStation 5** | Anunciado / Se puede añadir a la lista de deseos | Respuesta háptica de DualSense, salas de 90 jugadores |
+| **Xbox Series X** | Listado / Por determinar | Optimización 4K, mejorado para Series X|S |
+| **Xbox Series S** | Listado / Por determinar | Modo rendimiento, mejorado para Series X|S |
+
+<Callout type="info" title="Fecha de lanzamiento en consolas">
+Los desarrolladores se están enfocando en la fase de Acceso Anticipado de Steam para perfeccionar el ciclo de extracción. Las fechas de lanzamiento en consolas suelen seguir a la estabilización de la versión de PC, coincidiendo a menudo con el lanzamiento de la versión 1.0 o con hitos importantes de contenido.
+</Callout>
+
+</Section>
+
+<Section icon={Globe} title="Servidores regionales y rangos de emparejamiento">
+
+Para mantener el equilibrio en un entorno de extracción de alto riesgo, el juego utiliza un sistema de emparejamiento estructurado. El inventario y el progreso tecnológico de tu personaje están vinculados a regiones geográficas específicas, lo que evita que los saltos entre servidores desestabilicen las economías locales.
+
+| Tamaño de la tripulación | Capacidad del servidor | Lógica de emparejamiento |
+| :--- | :--- | :--- |
+| **Jugadores en solitario** | 15 jugadores máximo | Empareja a recolectores solitarios contra otros en solitario |
+| **Tripulaciones pequeñas (2-3)** | 36 jugadores máximo | Diseñado para equipos de asaltantes ágiles |
+| **Tripulaciones grandes (4-6)** | 45 jugadores máximo | Guerra de alta intensidad para fortalezas andantes |
+| **Máximo global** | 90 jugadores | Capacidad total de la plataforma para eventos específicos |
+
+Este sistema de rangos garantiza que un jugador solitario no sea aplastado inmediatamente por un Trampler de fortaleza pesada de 6 personas, aunque el modo "Storm Dive" puede aumentar la volatilidad de estos encuentros.
+
+<Checklist
+  id="platform-connectivity"
+  title="Lista de verificación de preparación de red:"
+  items={[
+    "Verificar la selección del servidor regional (el inventario está bloqueado por región)",
+    "Comprobar el estado del servicio BattlEye en los Servicios de Windows",
+    "Asegurar las excepciones del cortafuegos para Steam y el ejecutable de SAND",
+    "Verificar la estabilidad de la banda ancha para la sincronización de salas de 90 jugadores",
+    "Confirmar que los controladores del mando estén actualizados para el soporte de Steam Input"
+  ]}
+/>
+
+<Callout type="success" title="Nota sobre la progresión cruzada">
+Aunque el inventario está bloqueado por región, tus **planos de Trampler** se comparten entre todos los personajes de tu cuenta. Esto te permite diseñar un caminante una vez y desplegarlo independientemente del servidor o región en el que estés jugando actualmente.
+</Callout>
+
+</Section>
+
+<Section icon={PlayCircle} title="Primeros pasos: Configuración de la primera sesión">
+
+La transición al planeta Sophie requiere algo más que una simple compra. Debes preparar tu base mecánica y comprender las reglas operativas de las diversas **plataformas de SAND Raiders of Sophie**.
+
+<Steps>
+  <Step num="1" title="Adquisición oficial">
+    Compra el juego a través de la [tienda de Steam](https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/) o añádelo a la lista de deseos de tu consola. Evita los distribuidores de claves de terceros, ya que a menudo carecen de recompensas de lanzamiento legítimas como los aspectos del Server Slam.
+  </Step>
+  <Step num="2" title="El editor del Trampler">
+    Antes de tu primer despliegue, ingresa al editor del Trampler. Construye un diseño básico con motor, reactor y almacenamiento. Guarda esto como un plano; si tu Trampler es destruido en Sophie, el plano te permite reconstruirlo rápidamente en la estación orbital.
+  </Step>
+  <Step num="3" title="Selección de modo">
+    Elige entre **Voyage** y **Storm Dive**. Voyage es un modo de exploración persistente y de menor riesgo, ideal para aprender el mapa. Storm Dive es un modo de alto riesgo y alta recompensa donde una tormenta de arena obliga a los jugadores a dirigirse hacia el centro, creando intensos cuellos de botella PvP.
+  </Step>
+  <Step num="4" title="El ciclo de extracción">
+    Ingresa al mapa, saquea ruinas de ciudades o restos de naufragios y almacena los objetos en los compartimentos internos de tu Trampler. Para conservar tu botín, debes dirigirte a un punto de extracción designado y abandonar el planeta con éxito.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Pérdida del Trampler">
+Si pierdes tu Trampler y no tienes recursos para construir uno nuevo, debes unirte a una tripulación que posea un Trampler o crear un nuevo personaje. Administrar tus recursos en la estación orbital es tan importante como sobrevivir en el planeta.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Está SAND: Raiders of Sophie disponible en PS4 o Xbox One?",
+    answer: "No. El juego está diseñado para hardware de generación actual (PS5, Xbox Series X|S y PC) para poder manejar las complejas físicas y la capacidad de servidor de 90 jugadores."
+  },
+  {
+    question: "¿El juego admite juego cruzado entre PC y consolas?",
+    answer: "Aunque las versiones de Xbox y PlayStation están listadas, se espera la confirmación oficial sobre el juego multiplataforma más cerca de las fechas de lanzamiento en consolas. Actualmente, los jugadores de Steam operan en sus propios servidores."
+  },
+  {
+    question: "¿Puedo jugar al juego sin conexión?",
+    answer: "No. SAND: Raiders of Sophie es un extraction shooter PvPvE que requiere una conexión a internet de banda ancha persistente para todos los modos, incluido Voyage."
+  },
+  {
+    question: "¿Qué pasa con mi progreso si cambio de región?",
+    answer: "Tu inventario y el progreso del árbol tecnológico están vinculados a la región donde se creó el personaje. Sin embargo, tus planos de Trampler son para toda la cuenta y se pueden usar en todas las regiones."
+  }
+]} />
+
+<Callout type="tip" title="Recomendación final">
+Para disfrutar de la mejor experiencia durante el período de Acceso Anticipado, utiliza un PC con al menos 32 GB de RAM. La física a gran escala de los Tramplers y el límite de 90 jugadores pueden ser exigentes para la memoria del sistema durante las intensas batallas en el centro de la ciudad.
+</Callout>
+
+</Section>

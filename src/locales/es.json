@@ -1,1 +1,10 @@
-{}
+{
+  "nav": {
+    "release": "Lanzamiento",
+    "platforms": "Plataformas",
+    "price": "Precio",
+    "guide": "Guía",
+    "gameplay": "Jugabilidad",
+    "servers": "Servidores"
+  }
+}

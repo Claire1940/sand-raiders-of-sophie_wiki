@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Cómo añadir cañones en SAND Raiders of Sophie: Guía del Editor del Trampler",
+  description: "Aprende cómo añadir cañones a tu Trampler en SAND: Raiders of Sophie. Domina el editor del Trampler, gestiona la energía del reactor y optimiza la colocación de armas.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=How+To+Add+Cannons+Guide",
+  date: "2026-06-23",
+ author: "Equipo de SAND Raiders of Sophie",
+  keywords: "SAND Raiders of Sophie, cañones, editor de Trampler, guía de armas, defensa, energía del reactor"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica principal**: Los cañones se añaden a tu fortaleza andante Trampler usando el **Editor del Trampler** del juego.
+- **Gestión de energía**: Cada cañón requiere una cantidad específica de energía generada por tu **Sala del Reactor**.
+- **Seguridad de planos**: Guarda siempre tus diseños personalizados como **planos** (blueprints) para evitar perder tus diseños si tu Trampler es destruido.
+- **Variedad de armas**: Elige entre cañones pesados de 80 mm, cañones de escopeta de corto alcance, cañones automáticos de fuego sostenido o cañones de riel de alta precisión.
+</Callout>
+
+<Section icon={Shield} title="SAND Raiders of Sophie: Cómo añadir cañones en el editor">
+
+En los hostiles desiertos del planeta Sophie, tu Trampler no es solo un vehículo; es tu base móvil, instalación de almacenamiento y sistema de defensa principal. Saber **cómo añadir cañones en SAND Raiders of Sophie** marca la diferencia entre sobrevivir a una extracción de alto riesgo o donar todo tu botín ganado con esfuerzo a jugadores rivales. La personalización de armas se gestiona por completo a través del profundo Editor del Trampler, que te permite modificar el interior y el exterior de tu caminante mecánico.
+
+Antes de poder atornillar armamento pesado a tu fortaleza andante, debes comprender el sistema de compartimentos subyacente. Un Trampler se divide en rejillas estructurales donde colocas motores, reactores, almacenamiento, puntos de aparición y puntos de anclaje de armas. Los cañones no pueden simplemente fijarse a cualquier placa de metal al azar. Requieren compartimentos de armas dedicados y una conexión directa a tu red eléctrica.
+
+Gestionar tu presupuesto de energía es el primer paso en la personalización de armas. Si tus reactores no generan suficientes kilovatios, tus cañones recién montados permanecerán fuera de línea, dejándote completamente indefenso durante una escaramuza PvPvE.
+
+| Tipo de Arma | Rol | Consumo de Energía | Tipo de Munición | Alcance Óptimo |
+|---|---|---|---|---|
+| **Cañón montado de 80 mm** | Asedio pesado, alto daño a estructuras | Alto | Proyectiles pesados | Medio a Largo |
+| **Cañón de escopeta** | Defensa a corta distancia, anti-abordaje | Medio | Cartuchos de escopeta | Corto |
+| **Cañón automático** | Presión sostenida, alta cadencia | Medio | Munición estándar | Medio |
+| **Cañón de riel experimental** | Francotirador de precisión, punitivo | Muy Alto | Células de energía | Largo |
+
+<Callout type="warning" title="Sobrecarga de la Red Eléctrica">
+Montar múltiples cañones pesados sin mejorar tu Sala del Reactor principal desactivará tus sistemas de armas. Comprueba siempre tu salida total de energía en el editor antes de desplegarte en los modos Voyage o Storm Dive.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía paso a paso para la instalación de armas">
+
+Personalizar tu fortaleza andante requiere una planificación cuidadosa en un entorno seguro. Debes realizar todas las modificaciones mientras estás atracado en la estación orbital o dentro de las zonas seguras designadas antes de iniciar una expedición.
+
+Sigue estos pasos para montar y alimentar con éxito tu primer conjunto de cañones:
+
+<Steps>
+  <Step num="1" title="Accede al Editor del Trampler">
+    Interactúa con la terminal de personalización en tu hangar. Esta interfaz abre el editor basado en rejillas, mostrando un desglose completo en 3D de tu diseño actual del Trampler, incluyendo salas interiores y puntos de anclaje exteriores.
+  </Step>
+  <Step num="2" title="Instala compartimentos de armas">
+    Navega a la pestaña de módulos estructurales. Debes colocar un compartimento compatible con armas en la rejilla exterior de tu Trampler. Estos compartimentos actúan como los puntos de anclaje físicos para todas las torretas montadas pesadas.
+  </Step>
+  <Step num="3" title="Selecciona y monta tus cañones">
+    Abre tu inventario de armas dentro del editor. Arrastra el armamento deseado, como el Cañón montado de 80 mm o el Cañón automático, a un compartimento de armas exterior disponible. El editor resaltará las ubicaciones de montaje válidas en verde.
+  </Step>
+  <Step num="4" title="Vincula la red del reactor">
+    Cambia a la vista de superposición de energía. Dibuja líneas de energía desde tu Sala del Reactor hasta los compartimentos de armas recién instalados. Asegúrate de que la salida total de tu reactor supere el consumo combinado de tus motores, escudos y cañones.
+  </Step>
+  <Step num="5" title="Guarda tu plano personalizado">
+    Haz clic en el icono de guardar para almacenar tu diseño actual como un plano reutilizable. Si tu Trampler es destruido por jugadores rivales o peligros ambientales durante una incursión, puedes reconstruir instantáneamente este diseño exacto usando los planos guardados.
+  </Step>
+</Steps>
+
+| Acción de la Interfaz | Herramienta del Editor | Requisito | Resultado |
+|---|---|---|---|
+| **Colocación de módulos** | Ajuste a rejilla | Ranura de compartimento libre | Coloca salas estructurales |
+| **Montaje de armas** | Herramienta de anclaje | Inventario de armas disponible | Asegura la torreta en el exterior |
+| **Conexión de energía** | Vínculo al reactor | Salida de reactor suficiente | Alimenta sistemas de defensa activos |
+| **Guardado de plano** | Guardar diseño | Validación de construcción completa | Protege el diseño de la pérdida permanente |
+
+<Callout type="tip" title="Preservación de Planos">
+Los planos del Trampler se comparten entre todos tus personajes. Incluso si pierdes todos tus recursos físicos con un personaje, tus plantillas de diseño permanecen seguras y accesibles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de colocación en combate y lista de niveles de armas">
+
+Dónde colocas tus cañones es tan importante como qué cañones eliges. Un error común de principiante es agrupar toda la potencia de fuego en la proa del Trampler. Si bien esto proporciona excelentes capacidades de asedio frontal, deja tus flancos y la parte trasera completamente expuestos a equipos de abordaje e incursionistas ligeros y sigilosos.
+
+Para construir una máquina de guerra optimizada, considera utilizar uno de estos arquetipos de diseño probados:
+
+<CardGrid cols={3}>
+  <Card title="Fortaleza Pesada">
+    - **Máximo blindaje de placas**
+    - Cañones duales de 80 mm en cubiertas elevadas
+    - Ideal para tripulaciones grandes y coordinadas de 4 a 6 jugadores
+  </Card>
+  <Card title="Incursor Sigiloso Solo">
+    - **Diseño compacto y de bajo perfil**
+    - Un solo Cañón automático de disparo rápido para defensa
+    - Prioriza la potencia del motor y rutas de escape rápidas
+  </Card>
+  <Card title="Laberinto Anti-Abordaje">
+    - **Colocación confusa de módulos interiores**
+    - Cañones de escopeta custodiando las escotillas de entrada
+    - Torretas empotradas para atraer a equipos de abordaje agresivos
+  </Card>
+</CardGrid>
+
+Al elegir tu armamento, prioriza los componentes que coincidan con el tamaño de tu tripulación y estilo de juego. Aunque las armas raras como el Cañón de riel experimental ofrecen un alcance increíble, son muy punitivas si fallas, especialmente después de los recientes cambios de equilibrio que aumentaron sus tiempos de recarga.
+
+| Módulo de Arma | Rango | Ventaja Principal | Inconveniente Principal | Mejor Integración |
+|---|---|---|---|---|
+| **Cañón montado de 80 mm** | **A** | Daño estructural devastador | Velocidad de recarga lenta | Fortalezas de tripulación múltiple |
+| **Cañones de escopeta** | **A** | Defensa anti-abordaje inigualable | Escaso alcance efectivo | Cerca de escotillas y escaleras |
+| **Cañones automáticos** | **B** | Presión constante a escudo/blindaje | Menor daño de ráfaga | Diseños defensivos para solitarios |
+| **Cañón de riel experimental** | **A** | Alcance y precisión extremos | Ventana de recarga larga | Disparos coordinados a larga distancia |
+
+<Callout type="success" title="Cobertura Defensiva Óptima">
+Para una defensa equilibrada, coloca un Cañón automático en el techo para una cobertura de 360 grados contra amenazas distantes, y monta un Cañón de escopeta cerca de tu escalera principal para vaporizar instantáneamente a los jugadores que intenten abordar tu cubierta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Gestión de la salida del reactor, munición y roles de la tripulación">
+
+Un Trampler totalmente armado requiere mantenimiento constante y gestión activa durante las expediciones. A diferencia de los shooters estándar, los sistemas de armas en SAND: Raiders of Sophie son objetos físicos que pueden ser atacados y destruidos por el fuego enemigo. Si un proyectil enemigo penetra en tu compartimento de armas, ese cañón específico quedará fuera de línea hasta que sea reparado.
+
+Además, los cañones no disparan automáticamente. En configuraciones de tripulación más grandes, los jugadores deben operar manualmente las torretas para apuntar y disparar. Si juegas solo, debes equilibrar el pilotaje del caminante, la gestión de la energía del reactor y correr a las cubiertas de armas para devolver el fuego. La munición también debe almacenarse en Compartimentos de Almacenamiento físicos; si tus módulos de almacenamiento son violados, corres el riesgo de perder tus proyectiles de reserva en mitad de la batalla.
+
+| Compartimento de Apoyo | Función | Requisito de Tripulación | Estadística Crítica | Beneficio de Mejora |
+|---|---|---|---|---|
+| **Sala del Reactor** | Genera energía para todos los cañones | Manejable en solitario | Salida total (kW) | Soporta cañones de riel de alto nivel |
+| **Sala de Motores** | Dicta la velocidad y tasa de giro | Piloto dedicado | Multiplicador de velocidad | Reposicionamiento más rápido al recargar |
+| **Sala de Almacenamiento** | Alberga munición y botín extraído | Acceso automatizado | Ranuras de carga | Evita quedarse sin proyectiles en combate |
+| **Salas de Tripulación** | Determina el tamaño máximo de tripulación | Apoyo pasivo | Capacidad máx. de tripulación | Permite desplegar hasta 6 jugadores juntos |
+
+<Checklist
+  id="pre-flight-combat"
+  title="Lista de verificación de combate previa al despliegue:"
+  items={[
+    "Verifica que la salida de energía del reactor supere el consumo total de armas y motores",
+    "Carga los tipos de munición correctos en los compartimentos de almacenamiento conectados",
+    "Confirma que todos los cañones exteriores estén guardados en tu plano activo",
+    "Asigna roles de tripulación para pilotaje, artillería y control de daños",
+    "Lleva al menos tres Kits de Reparación multicarga en tu inventario"
+  ]}
+/>
+
+<Callout type="info" title="Control de Daños">
+Mantén una pila de Kits de Reparación cerca de tu Sala del Reactor. Si tu reactor recibe daños, tu red eléctrica fluctuará, desactivando inmediatamente tus cañones de mayor consumo cuando más los necesites.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+Dominar tu fortaleza andante requiere práctica. Aquí están las preguntas más comunes que tienen los jugadores sobre la personalización y mejora de su armamento pesado:
+
+<FAQ items={[
+  {
+    question: "¿Dónde encuentro nuevos cañones para añadir a mi Trampler?",
+    answer: "Se pueden encontrar nuevos cañones y módulos de armas recolectando cajas de armas raras en ciudades en ruinas, saqueando puntos de interés de naufragios o extrayendo con éxito artefactos valiosos de ubicaciones de alto riesgo como el Dreadnought."
+  },
+  {
+    question: "¿Puedo añadir cañones a mi Trampler mientras exploro activamente el desierto?",
+    answer: "No. Las modificaciones estructurales, los ajustes de la red eléctrica y el montaje de armas solo pueden realizarse dentro del entorno seguro del Editor del Trampler mientras estás atracado en la estación orbital."
+  },
+  {
+    question: "¿Qué pasa con mis cañones montados si mi Trampler es completamente destruido?",
+    answer: "Si tu Trampler es destruido en Voyage o Storm Dive, los módulos físicos se pierden. Sin embargo, si guardaste tu diseño como un plano, puedes reconstruir el diseño exacto con sus cañones usando recursos en tu hangar."
+  },
+  {
+    question: "¿Puedo usar la skin de recompensa del Server Slam en mi cañones montados?",
+    answer: "No. La skin exclusiva del M1866/9 'Einzel' Breechloader es una recompensa cosmética para tu rifle de mano personal, no para los cañones pesados montados en tu Trampler."
+  }
+]} />
+
+<Callout type="success" title="Listo para la Batalla">
+¡Ahora que sabes cómo construir, alimentar y proteger tu armamento montado, carga tu munición, reúne a tu tripulación y reclama tu fortuna a través de las ruinas de Sophie!
+</Callout>
+
+</Section>
