@@ -29,6 +29,7 @@ import { getPreferredMobileBannerSelection } from "@/components/ads/mobileAdConf
 import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
+import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -63,18 +64,29 @@ function ExternalLinkButton({
   );
 }
 
-// 模块头部（eyebrow + 图标 + 标题 + intro）
+// 模块头部（eyebrow + 图标 + 标题 + intro）；标题命中文章时渲染为内页链接
 function ModuleHeader({
   eyebrow,
   title,
   intro,
   icon: Icon,
+  linkData,
+  locale,
 }: {
   eyebrow: string;
   title: string;
   intro: string;
   icon: React.ComponentType<{ className?: string }>;
+  linkData?: { url: string; title: string } | null;
+  locale: string;
 }) {
+  const titleHref =
+    linkData && linkData.url
+      ? locale === "en"
+        ? linkData.url
+        : `/${locale}${linkData.url}`
+      : null;
+
   return (
     <div className="text-center mb-10 md:mb-14 scroll-reveal">
       <div
@@ -87,7 +99,17 @@ function ModuleHeader({
         </span>
       </div>
       <h2 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">
-        {title}
+        {titleHref ? (
+          <Link
+            href={titleHref}
+            title={linkData?.title}
+            className="hover:text-[hsl(var(--nav-theme-light))] hover:underline decoration-[hsl(var(--nav-theme-light))/0.4] underline-offset-4 transition-colors"
+          >
+            {title}
+          </Link>
+        ) : (
+          title
+        )}
       </h2>
       <p className="text-base md:text-lg text-muted-foreground max-w-3xl mx-auto">
         {intro}
@@ -125,11 +147,13 @@ function tierBadgeClass(tier: string): string {
 
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[];
+  moduleLinkMap: ModuleLinkMap;
   locale: string;
 }
 
 export default function HomePageClient({
   latestArticles,
+  moduleLinkMap,
   locale,
 }: HomePageClientProps) {
   const t = useMessages() as any;
@@ -402,6 +426,8 @@ export default function HomePageClient({
             title={t.modules.releaseDateAndPlatforms.title}
             intro={t.modules.releaseDateAndPlatforms.intro}
             icon={Gamepad2}
+            linkData={moduleLinkMap["releaseDateAndPlatforms"]}
+            locale={locale}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
             {t.modules.releaseDateAndPlatforms.items.map((item: any, index: number) => (
@@ -452,6 +478,8 @@ export default function HomePageClient({
             title={t.modules.codesAndRewards.title}
             intro={t.modules.codesAndRewards.intro}
             icon={Gift}
+            linkData={moduleLinkMap["codesAndRewards"]}
+            locale={locale}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
             {t.modules.codesAndRewards.items.map((item: any, index: number) => (
@@ -493,6 +521,8 @@ export default function HomePageClient({
             title={t.modules.beginnerGuide.title}
             intro={t.modules.beginnerGuide.intro}
             icon={BookOpen}
+            linkData={moduleLinkMap["beginnerGuide"]}
+            locale={locale}
           />
           <div className="scroll-reveal space-y-3 md:space-y-4 mb-8 md:mb-10">
             {t.modules.beginnerGuide.steps.map((step: any, index: number) => (
@@ -546,6 +576,8 @@ export default function HomePageClient({
             title={t.modules.tramplerBuildsAndBlueprints.title}
             intro={t.modules.tramplerBuildsAndBlueprints.intro}
             icon={Wrench}
+            linkData={moduleLinkMap["tramplerBuildsAndBlueprints"]}
+            locale={locale}
           />
           <div className="scroll-reveal space-y-3">
             {t.modules.tramplerBuildsAndBlueprints.items.map((item: any, index: number) => {
@@ -603,6 +635,8 @@ export default function HomePageClient({
             title={t.modules.weaponsAndTramplerPartsTierList.title}
             intro={t.modules.weaponsAndTramplerPartsTierList.intro}
             icon={Swords}
+            linkData={moduleLinkMap["weaponsAndTramplerPartsTierList"]}
+            locale={locale}
           />
           <div className="scroll-reveal space-y-6 md:space-y-8">
             {t.modules.weaponsAndTramplerPartsTierList.tiers.map((tier: any, ti: number) => (
@@ -667,6 +701,8 @@ export default function HomePageClient({
             title={t.modules.voyageAndStormDiveModes.title}
             intro={t.modules.voyageAndStormDiveModes.intro}
             icon={CloudLightning}
+            linkData={moduleLinkMap["voyageAndStormDiveModes"]}
+            locale={locale}
           />
           <div className="scroll-reveal space-y-4 md:space-y-5">
             {t.modules.voyageAndStormDiveModes.rows.map((row: any, ri: number) => {
@@ -724,6 +760,8 @@ export default function HomePageClient({
             title={t.modules.mapLootAndExtraction.title}
             intro={t.modules.mapLootAndExtraction.intro}
             icon={MapIcon}
+            linkData={moduleLinkMap["mapLootAndExtraction"]}
+            locale={locale}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
             {t.modules.mapLootAndExtraction.items.map((item: any, index: number) => {
@@ -792,6 +830,8 @@ export default function HomePageClient({
             title={t.modules.systemRequirementsAndAntiCheat.title}
             intro={t.modules.systemRequirementsAndAntiCheat.intro}
             icon={Cpu}
+            linkData={moduleLinkMap["systemRequirementsAndAntiCheat"]}
+            locale={locale}
           />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5">
             {t.modules.systemRequirementsAndAntiCheat.groups.map((group: any, gi: number) => (

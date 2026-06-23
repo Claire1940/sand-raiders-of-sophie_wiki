@@ -1,1 +1,698 @@
-{}
+{
+  "de": {
+    "gameplay": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-dreadnought",
+        "file": "SAND-Raiders-of-Sophie-dreadnought"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-gameplay",
+        "file": "SAND-Raiders-of-Sophie-gameplay"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-games-like",
+        "file": "SAND-Raiders-of-Sophie-games-like"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-multiplayer",
+        "file": "SAND-Raiders-of-Sophie-multiplayer"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-pve",
+        "file": "SAND-Raiders-of-Sophie-pve"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-pvp",
+        "file": "SAND-Raiders-of-Sophie-pvp"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-review",
+        "file": "SAND-Raiders-of-Sophie-review"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-single-player",
+        "file": "SAND-Raiders-of-Sophie-single-player"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-beginner-tips",
+        "file": "SAND-Raiders-of-Sophie-beginner-tips"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-guide",
+        "file": "SAND-Raiders-of-Sophie-guide"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-add-cannons",
+        "file": "SAND-Raiders-of-Sophie-how-to-add-cannons"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-extract",
+        "file": "SAND-Raiders-of-Sophie-how-to-extract"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-heal",
+        "file": "SAND-Raiders-of-Sophie-how-to-heal"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-operate-the-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-operate-the-trampler"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-refuel-your-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-refuel-your-trampler"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-repair-your-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-repair-your-trampler"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-console",
+        "file": "SAND-Raiders-of-Sophie-console"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-linux",
+        "file": "SAND-Raiders-of-Sophie-linux"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-microsoft-windows-store",
+        "file": "SAND-Raiders-of-Sophie-microsoft-windows-store"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-platforms",
+        "file": "SAND-Raiders-of-Sophie-platforms"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-playstation",
+        "file": "SAND-Raiders-of-Sophie-playstation"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5",
+        "file": "SAND-Raiders-of-Sophie-ps5"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-steam",
+        "file": "SAND-Raiders-of-Sophie-steam"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox-game-pass",
+        "file": "SAND-Raiders-of-Sophie-xbox-game-pass"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox",
+        "file": "SAND-Raiders-of-Sophie-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-cost",
+        "file": "SAND-Raiders-of-Sophie-cost"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-free-to-play",
+        "file": "SAND-Raiders-of-Sophie-free-to-play"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-price",
+        "file": "SAND-Raiders-of-Sophie-price"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5-price",
+        "file": "SAND-Raiders-of-Sophie-ps5-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-console-release-date",
+        "file": "SAND-Raiders-of-Sophie-console-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-delayed",
+        "file": "SAND-Raiders-of-Sophie-delayed"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-early-access",
+        "file": "SAND-Raiders-of-Sophie-early-access"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-out-yet",
+        "file": "SAND-Raiders-of-Sophie-out-yet"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5-release-date",
+        "file": "SAND-Raiders-of-Sophie-ps5-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-date",
+        "file": "SAND-Raiders-of-Sophie-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-day",
+        "file": "SAND-Raiders-of-Sophie-release-day"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-time",
+        "file": "SAND-Raiders-of-Sophie-release-time"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox-release-date",
+        "file": "SAND-Raiders-of-Sophie-xbox-release-date"
+      }
+    ],
+    "servers": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-server-status",
+        "file": "SAND-Raiders-of-Sophie-server-status"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-servers",
+        "file": "SAND-Raiders-of-Sophie-servers"
+      }
+    ]
+  },
+  "en": {
+    "gameplay": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-dreadnought",
+        "file": "SAND-Raiders-of-Sophie-dreadnought"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-gameplay",
+        "file": "SAND-Raiders-of-Sophie-gameplay"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-games-like",
+        "file": "SAND-Raiders-of-Sophie-games-like"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-multiplayer",
+        "file": "SAND-Raiders-of-Sophie-multiplayer"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-pve",
+        "file": "SAND-Raiders-of-Sophie-pve"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-pvp",
+        "file": "SAND-Raiders-of-Sophie-pvp"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-review",
+        "file": "SAND-Raiders-of-Sophie-review"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-single-player",
+        "file": "SAND-Raiders-of-Sophie-single-player"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-beginner-tips",
+        "file": "SAND-Raiders-of-Sophie-beginner-tips"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-guide",
+        "file": "SAND-Raiders-of-Sophie-guide"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-add-cannons",
+        "file": "SAND-Raiders-of-Sophie-how-to-add-cannons"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-extract",
+        "file": "SAND-Raiders-of-Sophie-how-to-extract"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-heal",
+        "file": "SAND-Raiders-of-Sophie-how-to-heal"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-operate-the-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-operate-the-trampler"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-refuel-your-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-refuel-your-trampler"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-repair-your-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-repair-your-trampler"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-console",
+        "file": "SAND-Raiders-of-Sophie-console"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-linux",
+        "file": "SAND-Raiders-of-Sophie-linux"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-microsoft-windows-store",
+        "file": "SAND-Raiders-of-Sophie-microsoft-windows-store"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-platforms",
+        "file": "SAND-Raiders-of-Sophie-platforms"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-playstation",
+        "file": "SAND-Raiders-of-Sophie-playstation"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5",
+        "file": "SAND-Raiders-of-Sophie-ps5"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-steam",
+        "file": "SAND-Raiders-of-Sophie-steam"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox-game-pass",
+        "file": "SAND-Raiders-of-Sophie-xbox-game-pass"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox",
+        "file": "SAND-Raiders-of-Sophie-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-cost",
+        "file": "SAND-Raiders-of-Sophie-cost"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-free-to-play",
+        "file": "SAND-Raiders-of-Sophie-free-to-play"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-price",
+        "file": "SAND-Raiders-of-Sophie-price"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5-price",
+        "file": "SAND-Raiders-of-Sophie-ps5-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-console-release-date",
+        "file": "SAND-Raiders-of-Sophie-console-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-delayed",
+        "file": "SAND-Raiders-of-Sophie-delayed"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-early-access",
+        "file": "SAND-Raiders-of-Sophie-early-access"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-out-yet",
+        "file": "SAND-Raiders-of-Sophie-out-yet"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5-release-date",
+        "file": "SAND-Raiders-of-Sophie-ps5-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-date",
+        "file": "SAND-Raiders-of-Sophie-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-day",
+        "file": "SAND-Raiders-of-Sophie-release-day"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-time",
+        "file": "SAND-Raiders-of-Sophie-release-time"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox-release-date",
+        "file": "SAND-Raiders-of-Sophie-xbox-release-date"
+      }
+    ],
+    "servers": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-server-status",
+        "file": "SAND-Raiders-of-Sophie-server-status"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-servers",
+        "file": "SAND-Raiders-of-Sophie-servers"
+      }
+    ]
+  },
+  "es": {
+    "gameplay": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-dreadnought",
+        "file": "SAND-Raiders-of-Sophie-dreadnought"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-gameplay",
+        "file": "SAND-Raiders-of-Sophie-gameplay"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-games-like",
+        "file": "SAND-Raiders-of-Sophie-games-like"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-multiplayer",
+        "file": "SAND-Raiders-of-Sophie-multiplayer"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-pve",
+        "file": "SAND-Raiders-of-Sophie-pve"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-pvp",
+        "file": "SAND-Raiders-of-Sophie-pvp"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-review",
+        "file": "SAND-Raiders-of-Sophie-review"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-single-player",
+        "file": "SAND-Raiders-of-Sophie-single-player"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-beginner-tips",
+        "file": "SAND-Raiders-of-Sophie-beginner-tips"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-guide",
+        "file": "SAND-Raiders-of-Sophie-guide"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-add-cannons",
+        "file": "SAND-Raiders-of-Sophie-how-to-add-cannons"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-extract",
+        "file": "SAND-Raiders-of-Sophie-how-to-extract"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-heal",
+        "file": "SAND-Raiders-of-Sophie-how-to-heal"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-operate-the-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-operate-the-trampler"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-refuel-your-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-refuel-your-trampler"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-repair-your-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-repair-your-trampler"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-console",
+        "file": "SAND-Raiders-of-Sophie-console"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-linux",
+        "file": "SAND-Raiders-of-Sophie-linux"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-microsoft-windows-store",
+        "file": "SAND-Raiders-of-Sophie-microsoft-windows-store"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-platforms",
+        "file": "SAND-Raiders-of-Sophie-platforms"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-playstation",
+        "file": "SAND-Raiders-of-Sophie-playstation"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5",
+        "file": "SAND-Raiders-of-Sophie-ps5"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-steam",
+        "file": "SAND-Raiders-of-Sophie-steam"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox-game-pass",
+        "file": "SAND-Raiders-of-Sophie-xbox-game-pass"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox",
+        "file": "SAND-Raiders-of-Sophie-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-cost",
+        "file": "SAND-Raiders-of-Sophie-cost"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-free-to-play",
+        "file": "SAND-Raiders-of-Sophie-free-to-play"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-price",
+        "file": "SAND-Raiders-of-Sophie-price"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5-price",
+        "file": "SAND-Raiders-of-Sophie-ps5-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-console-release-date",
+        "file": "SAND-Raiders-of-Sophie-console-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-delayed",
+        "file": "SAND-Raiders-of-Sophie-delayed"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-early-access",
+        "file": "SAND-Raiders-of-Sophie-early-access"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-out-yet",
+        "file": "SAND-Raiders-of-Sophie-out-yet"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5-release-date",
+        "file": "SAND-Raiders-of-Sophie-ps5-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-date",
+        "file": "SAND-Raiders-of-Sophie-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-day",
+        "file": "SAND-Raiders-of-Sophie-release-day"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-time",
+        "file": "SAND-Raiders-of-Sophie-release-time"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox-release-date",
+        "file": "SAND-Raiders-of-Sophie-xbox-release-date"
+      }
+    ],
+    "servers": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-server-status",
+        "file": "SAND-Raiders-of-Sophie-server-status"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-servers",
+        "file": "SAND-Raiders-of-Sophie-servers"
+      }
+    ]
+  },
+  "ja": {
+    "gameplay": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-dreadnought",
+        "file": "SAND-Raiders-of-Sophie-dreadnought"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-gameplay",
+        "file": "SAND-Raiders-of-Sophie-gameplay"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-games-like",
+        "file": "SAND-Raiders-of-Sophie-games-like"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-multiplayer",
+        "file": "SAND-Raiders-of-Sophie-multiplayer"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-pve",
+        "file": "SAND-Raiders-of-Sophie-pve"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-pvp",
+        "file": "SAND-Raiders-of-Sophie-pvp"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-review",
+        "file": "SAND-Raiders-of-Sophie-review"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-single-player",
+        "file": "SAND-Raiders-of-Sophie-single-player"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-beginner-tips",
+        "file": "SAND-Raiders-of-Sophie-beginner-tips"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-guide",
+        "file": "SAND-Raiders-of-Sophie-guide"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-add-cannons",
+        "file": "SAND-Raiders-of-Sophie-how-to-add-cannons"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-extract",
+        "file": "SAND-Raiders-of-Sophie-how-to-extract"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-heal",
+        "file": "SAND-Raiders-of-Sophie-how-to-heal"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-operate-the-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-operate-the-trampler"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-refuel-your-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-refuel-your-trampler"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-how-to-repair-your-trampler",
+        "file": "SAND-Raiders-of-Sophie-how-to-repair-your-trampler"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-console",
+        "file": "SAND-Raiders-of-Sophie-console"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-linux",
+        "file": "SAND-Raiders-of-Sophie-linux"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-microsoft-windows-store",
+        "file": "SAND-Raiders-of-Sophie-microsoft-windows-store"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-platforms",
+        "file": "SAND-Raiders-of-Sophie-platforms"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-playstation",
+        "file": "SAND-Raiders-of-Sophie-playstation"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5",
+        "file": "SAND-Raiders-of-Sophie-ps5"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-steam",
+        "file": "SAND-Raiders-of-Sophie-steam"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox-game-pass",
+        "file": "SAND-Raiders-of-Sophie-xbox-game-pass"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox",
+        "file": "SAND-Raiders-of-Sophie-xbox"
+      }
+    ],
+    "price": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-cost",
+        "file": "SAND-Raiders-of-Sophie-cost"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-free-to-play",
+        "file": "SAND-Raiders-of-Sophie-free-to-play"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-price",
+        "file": "SAND-Raiders-of-Sophie-price"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5-price",
+        "file": "SAND-Raiders-of-Sophie-ps5-price"
+      }
+    ],
+    "release": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-console-release-date",
+        "file": "SAND-Raiders-of-Sophie-console-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-delayed",
+        "file": "SAND-Raiders-of-Sophie-delayed"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-early-access",
+        "file": "SAND-Raiders-of-Sophie-early-access"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-out-yet",
+        "file": "SAND-Raiders-of-Sophie-out-yet"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-ps5-release-date",
+        "file": "SAND-Raiders-of-Sophie-ps5-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-date",
+        "file": "SAND-Raiders-of-Sophie-release-date"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-day",
+        "file": "SAND-Raiders-of-Sophie-release-day"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-release-time",
+        "file": "SAND-Raiders-of-Sophie-release-time"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-xbox-release-date",
+        "file": "SAND-Raiders-of-Sophie-xbox-release-date"
+      }
+    ],
+    "servers": [
+      {
+        "slug": "SAND-Raiders-of-Sophie-server-status",
+        "file": "SAND-Raiders-of-Sophie-server-status"
+      },
+      {
+        "slug": "SAND-Raiders-of-Sophie-servers",
+        "file": "SAND-Raiders-of-Sophie-servers"
+      }
+    ]
+  }
+}
