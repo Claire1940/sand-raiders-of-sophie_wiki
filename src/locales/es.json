@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "SAND: Raiders of Sophie Wiki - Builds, botín y Tramplers",
+      "description": "La Wiki de SAND: Raiders of Sophie cubre builds de Tramplers, rutas de botín, armas, supervivencia PvPvE, consejos de extracción, mapas, contratos y las últimas actualizaciones.",
+      "keywords": "SAND Raiders of Sophie, builds de Tramplers, botín, armas, extracción PvPvE, Steam, PS5, Xbox, guía",
+      "ogTitle": "SAND: Raiders of Sophie Wiki - Builds, botín y Tramplers",
+      "ogDescription": "La Wiki de SAND: Raiders of Sophie cubre builds de Tramplers, rutas de botín, armas, supervivencia PvPvE, consejos de extracción, mapas, contratos y las últimas actualizaciones.",
+      "twitterTitle": "SAND: Raiders of Sophie Wiki - Builds, botín y Tramplers",
+      "twitterDescription": "La Wiki de SAND: Raiders of Sophie cubre builds de Tramplers, rutas de botín, armas, supervivencia PvPvE, extracción, mapas y las últimas actualizaciones."
+    }
+  },
   "nav": {
     "release": "Lanzamiento",
     "platforms": "Plataformas",
@@ -6,5 +17,778 @@
     "guide": "Guía",
     "gameplay": "Jugabilidad",
     "servers": "Servidores"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que estás buscando no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Shooter de extracción PvPvE de mundo abierto",
+    "title": "SAND: Raiders of Sophie Wiki",
+    "description": "Construye y pilota Tramplers personalizables por el planeta desértico Sophie, saquea ciudades en ruinas y naufragios, lucha contra amenazas PvP y PvE, extrae botín y mejora tu fortaleza andante.",
+    "getFreeCodesCTA": "Leer guía de inicio",
+    "playOnSteamCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "22 de jun. de 2026",
+        "label": "Acceso anticipado"
+      },
+      "stat2": {
+        "value": "15.703",
+        "label": "Pico de jugadores simultáneos"
+      },
+      "stat3": {
+        "value": "Variadas",
+        "label": "Reseñas de Steam"
+      },
+      "stat4": {
+        "value": "2-90",
+        "label": "Jugadores en línea"
+      }
+    }
+  },
+  "tools": {
+    "title": "SAND Raiders of Sophie",
+    "titleHighlight": "Centro de guías",
+    "subtitle": "Todo lo que necesitas para dominar las configuraciones de Trampler, rutas de botín, armas, modos de juego y extracción en SAND: Raiders of Sophie.",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "Plataformas de SAND Raiders of Sophie",
+        "description": "Fecha de lanzamiento, Steam Early Access, PS5, Xbox y precios"
+      },
+      {
+        "icon": "Gift",
+        "title": "Códigos de SAND Raiders of Sophie",
+        "description": "Recompensas de lanzamiento, descuentos y avisos de pruebas de juego seguras"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de SAND Raiders of Sophie",
+        "description": "Bucle de primera sesión: construir, saquear, luchar, extraer"
+      },
+      {
+        "icon": "Wrench",
+        "title": "Configuraciones de Trampler en SAND Raiders of Sophie",
+        "description": "Planificación de planos, compartimentos y salas de tripulación"
+      },
+      {
+        "icon": "Swords",
+        "title": "Armas de SAND Raiders of Sophie",
+        "description": "Lista de niveles de armas y piezas de Trampler por función"
+      },
+      {
+        "icon": "CloudLightning",
+        "title": "Modos de juego de SAND Raiders of Sophie",
+        "description": "Voyage vs Storm Dive: riesgo, botín y extracción"
+      },
+      {
+        "icon": "Map",
+        "title": "Rutas de botín de SAND Raiders of Sophie",
+        "description": "Ciudades, ruinas, naufragios y puntos de extracción"
+      },
+      {
+        "icon": "Cpu",
+        "title": "Configuración del sistema para SAND Raiders of Sophie",
+        "description": "Especificaciones de PC, reglas del servidor, Linux y anti-trampas"
+      }
+    ]
+  },
+  "modules": {
+    "releaseDateAndPlatforms": {
+      "title": "Fecha de lanzamiento y plataformas de SAND Raiders of Sophie",
+      "eyebrow": "Información de lanzamiento",
+      "intro": "SAND: Raiders of Sophie se lanzó en Steam Early Access el 22 de junio de 2026. Utiliza los enlaces de la tienda oficial a continuación para encontrar el juego, consultar precios o añadirlo a tu lista de deseos antes del lanzamiento en otras plataformas.",
+      "items": [
+        {
+          "title": "Steam Early Access",
+          "badge": "Disponible ahora",
+          "meta": "PC vía Steam · 22 de junio de 2026",
+          "description": "La versión de Steam es el lanzamiento actual jugable en Early Access. Incluye JcJ en línea, logros de Steam, Compartir en familia y el anti-trampas BattlEye.",
+          "href": "https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/",
+          "linkLabel": "Ver en Steam"
+        },
+        {
+          "title": "Precio de lanzamiento en Steam",
+          "badge": "Oferta de lanzamiento",
+          "meta": "$24.99 → $19.74 · 21% de descuento · termina el 6 de julio",
+          "description": "La oferta de lanzamiento en Steam incluye un descuento introductorio del 21% que termina el 6 de julio, junto con los precios de lanzamiento regionales anunciados.",
+          "href": "https://store.steampowered.com/news/app/1431300/view/690886614188035492",
+          "linkLabel": "Ver precios de lanzamiento"
+        },
+        {
+          "title": "PlayStation Store",
+          "badge": "Se puede añadir a la lista de deseos",
+          "meta": "PS5 · Fecha de lanzamiento por determinar",
+          "description": "La PlayStation Store indica que SAND: Raiders of Sophie está anunciado para PS5. Requiere PS Plus para el juego online, admite hasta 90 jugadores online e incluye vibración DualSense.",
+          "href": "https://store.playstation.com/en-us/concept/10010847",
+          "linkLabel": "Añadir a la lista de deseos en PS5"
+        },
+        {
+          "title": "Xbox Store",
+          "badge": "Ficha de la tienda",
+          "meta": "Xbox Series X|S · 2-90 jugadores",
+          "description": "La Xbox Store incluye a SAND: Raiders of Sophie para Xbox Series X|S con cooperativo online para 2-6 jugadores, multijugador online para 2-90 jugadores, logros de Xbox y 10 idiomas compatibles.",
+          "href": "https://www.xbox.com/en-US/games/store/sand-raiders-of-sophie/9NG0FFHT5MCB",
+          "linkLabel": "Ver en Xbox"
+        },
+        {
+          "title": "Sitio web oficial",
+          "badge": "Portal oficial",
+          "meta": "Steam · PS · Xbox · Discord",
+          "description": "El sitio oficial explica la ambientación, los Tramplers y la premisa principal de extracción PvPvE. También confirma que las pruebas de juego activas solo se anuncian a través del Discord oficial.",
+          "href": "https://sand-game.com/",
+          "linkLabel": "Visitar el sitio oficial"
+        }
+      ]
+    },
+    "codesAndRewards": {
+      "title": "Códigos y recompensas de SAND Raiders of Sophie",
+      "eyebrow": "Códigos y recompensas",
+      "intro": "Las recompensas de SAND: Raiders of Sophie están vinculadas a ofertas oficiales de las plataformas y a la participación en pruebas de juego. Utiliza la página oficial de Steam, el sitio web y Discord para ver los avisos de recompensas y pruebas de juego en lugar de enlaces de claves falsos.",
+      "items": [
+        {
+          "title": "Códigos de canje públicos",
+          "badge": "Sin sistema de códigos públicos",
+          "reward": "Sin códigos activos para introducir",
+          "description": "La página oficial de Steam, el sitio oficial y las preguntas frecuentes de lanzamiento se centran en la compra en plataformas, el acceso a las pruebas de juego y las recompensas de lanzamiento, en lugar de en un cuadro de códigos dentro del juego.",
+          "href": "https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/",
+          "linkLabel": "Consultar página de Steam"
+        },
+        {
+          "title": "Descuento de lanzamiento en Steam",
+          "badge": "Oferta de lanzamiento",
+          "reward": "Descuento del 21 %",
+          "description": "La tienda de Steam muestra el precio base en 24,99 $ y el precio de oferta inicial en 19,74 $, con la oferta finalizando el 6 de julio.",
+          "href": "https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/",
+          "linkLabel": "Comprar en Steam"
+        },
+        {
+          "title": "Recompensa por participación en el Server Slam",
+          "badge": "Bonificación de prueba de juego",
+          "reward": "Aspecto exclusivo de retrocarga M1866/9 \"Einzel\"",
+          "description": "El anuncio oficial indica que los participantes del Server Slam recibirán un aspecto de arma exclusivo en el lanzamiento tras comprar el juego.",
+          "href": "https://steamcommunity.com/app/1431300/announcements/",
+          "linkLabel": "Leer anuncios"
+        },
+        {
+          "title": "Acceso al Server Slam #2",
+          "badge": "Evento de prelanzamiento",
+          "reward": "Acceso temporal a la prueba de juego",
+          "description": "El Server Slam #2 comenzó el 15 de junio y duró 48 horas. Conservó el progreso previo para las pruebas, desbloqueó el árbol tecnológico y restableció el progreso antes del lanzamiento del 22 de junio.",
+          "href": "https://steamcommunity.com/app/1431300/announcements/",
+          "linkLabel": "Leer anuncios"
+        },
+        {
+          "title": "Aviso de prueba de juego segura",
+          "badge": "Aviso de seguridad",
+          "reward": "Seguridad de la cuenta",
+          "description": "El sitio web oficial advierte de la existencia de invitaciones fraudulentas a pruebas de juego de SAND y confirma que las pruebas de juego activas solo se anuncian en el Discord oficial.",
+          "href": "https://sand-game.com/",
+          "linkLabel": "Leer aviso oficial"
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "Guía para principiantes de SAND Raiders of Sophie",
+      "eyebrow": "Guía para principiantes",
+      "intro": "SAND: Raiders of Sophie gira en torno a los Tramplers, bases gigantes caminantes y personalizables que actúan como transporte, almacenamiento, protección y armas. Domina el bucle de extracción antes de enviar tu primer hogar mecánico al desierto.",
+      "steps": [
+        {
+          "title": "Comienza desde la plataforma oficial",
+          "description": "Compra y juega a través del acceso anticipado de Steam, o usa las páginas de la tienda de PlayStation y Xbox para ver los listados oficiales de consolas y añadir el juego a tu lista de deseos."
+        },
+        {
+          "title": "Prepara tu Trampler",
+          "description": "Usa el editor de Trampler para construir desde cero o preparar un diseño antes del despliegue. Los diseños se pueden guardar como planos para poder reconstruir un Trampler destruido."
+        },
+        {
+          "title": "Elige Voyage o Storm Dive",
+          "description": "Usa Voyage para una exploración con menor riesgo y Storm Dive para incursiones de mayor riesgo y recompensa bajo la presión de la tormenta de arena."
+        },
+        {
+          "title": "Juega en solitario o forma una tripulación",
+          "description": "Entra en solitario o en equipo. Xbox indica un modo cooperativo en línea de 2 a 6 jugadores y multijugador en línea de 2 a 90 jugadores."
+        },
+        {
+          "title": "Saquea ciudades, ruinas y restos",
+          "description": "Explora el planeta caído Sophie en busca de botín, armas, munición, recursos y artefactos valiosos mientras tu Trampler almacena lo que recuperes."
+        },
+        {
+          "title": "Sobrevive y extrae",
+          "description": "Enfréntate a amenazas PvE, evita o planta cara a jugadores rivales, localiza tu punto de extracción y sal con tu botín, tu vida y tu Trampler intactos."
+        }
+      ],
+      "quickTips": [
+        "Guarda tu Trampler como un plano antes de arriesgarlo en una incursión real.",
+        "Voyage es el lugar más seguro para aprender las rutas de botín y los tiempos de extracción.",
+        "Mantén listos los kits de reparación y el espacio de almacenamiento antes de adentrarte más en busca de botín.",
+        "Ten cuidado con las invitaciones fraudulentas a pruebas de juego y sigue únicamente el Discord oficial."
+      ]
+    },
+    "tramplerBuildsAndBlueprints": {
+      "title": "Diseños y planos de Trampler de SAND Raiders of Sophie",
+      "eyebrow": "Diseños de Trampler",
+      "intro": "Los Tramplers son el núcleo de SAND: Raiders of Sophie. Funcionan como transporte, base, almacenamiento, plataforma de defensa y sistema de armamento pesado, por lo que un diseño planificado importa mucho más que uno caro.",
+      "items": [
+        {
+          "title": "Construcción basada en planos",
+          "summary": "Guarda tus diseños de Trampler antes de arriesgarlos en Sophie.",
+          "description": "Los jugadores pueden construir Tramplers desde cero en el editor y guardar los diseños como planos, de modo que una creación destruida en el juego se pueda reconstruir en lugar de perderse."
+        },
+        {
+          "title": "Configuración de compartimentos principales",
+          "summary": "Planifica en torno a motores, reactores, almacenamiento, puntos de aparición y armas.",
+          "description": "El editor de Trampler incluye compartimentos principales como motores, reactores, almacenamiento, puntos de aparición y armas. Estos definen cómo se mueve, sobrevive, almacena botín y lucha tu base móvil."
+        },
+        {
+          "title": "Potencia, blindaje y armas",
+          "summary": "Usa mejoras para convertir una base andante en una máquina de combate.",
+          "description": "Los Tramplers se pueden personalizar desde el diseño interior hasta mejoras de potencia, blindaje y armas, con torretas montadas y potencia de fuego disponible para diseños tipo fortaleza."
+        },
+        {
+          "title": "Trampler para jugar en solitario",
+          "summary": "Mantén el movimiento, el almacenamiento y la defensa manejables para un solo jugador.",
+          "description": "SAND permite expediciones en solitario, por lo que los diseños compactos deberían acortar la distancia entre la dirección, el almacenamiento, las armas y los compartimentos esenciales."
+        },
+        {
+          "title": "Trampler para tripulación",
+          "summary": "Diseñado para que varios jugadores desempeñen diferentes roles.",
+          "description": "Los diseños para tripulación pueden repartir las tareas entre navegación, armas, reparaciones, almacenamiento y defensa contra abordajes, en lugar de obligar a un solo jugador a correr por un laberinto de metal durante el combate."
+        },
+        {
+          "title": "Diseño de fortaleza pesada",
+          "summary": "Acumula blindaje, armas montadas y compartimentos defensivos.",
+          "description": "Una fortaleza impenetrable puede sobrevivir a asaltos, o una máquina de guerra andante puede equiparse con torretas montadas y potencia de fuego para combates PvPvE e incursiones Storm Dive de alto riesgo."
+        },
+        {
+          "title": "Diseño de sigilo y escape",
+          "summary": "Usa un diseño más pequeño para salidas rápidas y menor exposición.",
+          "description": "Los Tramplers pequeños y sigilosos son una opción de diseño válida para escapar del peligro rápidamente, ideal para jugadores que priorizan el saqueo y la extracción antes de que lleguen los problemas."
+        },
+        {
+          "title": "Diseño de defensa laberíntica",
+          "summary": "Usa una disposición caótica de los módulos para dificultar los abordajes.",
+          "description": "Las disposiciones caóticas de los módulos pueden confundir y desorientar a los enemigos que aborden, convirtiendo el interior de tu Trampler en un laberinto defensivo que frena a los atacantes."
+        }
+      ]
+    },
+    "weaponsAndTramplerPartsTierList": {
+      "title": "Lista de niveles de armas y piezas de Trampler de SAND Raiders of Sophie",
+      "eyebrow": "Clasificación de equipo",
+      "intro": "Un equipamiento sólido en SAND no es solo el arma más grande atornillada a una casa andante, aunque la humanidad naturalmente lo intentó primero. Las tripulaciones principiantes deberían priorizar reparaciones, almacenamiento, capacidad de tripulación y una potencia de fuego fiable para el Trampler antes de arriesgarse con hallazgos raros exclusivos de Dreadnought o armas experimentales de alto riesgo.",
+      "riskLabel": "Riesgo",
+      "earlyUseLabel": "Uso inicial",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Prioridades básicas iniciales",
+          "entries": [
+            {
+              "name": "Kits de reparación",
+              "type": "Utilidad",
+              "role": "Mantiene vivo al Trampler durante los combates y las expediciones largas.",
+              "risk": "Bajo",
+              "earlyUse": "Esencial",
+              "detail": "Los kits de reparación tienen 3 cargas."
+            },
+            {
+              "name": "Compartimentos de almacenamiento",
+              "type": "Módulo de Trampler",
+              "role": "Convierte al Trampler en el almacenamiento de botín principal de la tripulación.",
+              "risk": "Bajo",
+              "earlyUse": "Esencial",
+              "detail": "El Trampler actúa como base principal, transporte, protección, plataforma de armas y almacenamiento primario de la tripulación."
+            },
+            {
+              "name": "Habitaciones de la tripulación",
+              "type": "Módulo de Trampler",
+              "role": "Permite que tripulaciones más grandes se desplieguen juntas y soporten diseños más pesados.",
+              "risk": "Bajo",
+              "earlyUse": "Alto para equipos",
+              "detail": "El tamaño de la tripulación llega hasta 6 jugadores, pero las tripulaciones grandes necesitan suficientes camarotes en el Trampler."
+            },
+            {
+              "name": "Placas de blindaje",
+              "type": "Defensa",
+              "role": "Añade capacidad de supervivencia contra fuego de cañón, abordajes y rutas largas.",
+              "risk": "Bajo",
+              "earlyUse": "Alto",
+              "detail": "El precio de las placas de blindaje se ajustó al alza, haciendo que la protección sea una inversión planificada en lugar de un relleno desechable."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Opciones de combate fuertes",
+          "entries": [
+            {
+              "name": "Torretas montadas",
+              "type": "Arma de Trampler",
+              "role": "Defensa principal del Trampler y presión en combates grandes.",
+              "risk": "Medio",
+              "earlyUse": "Alto para tripulaciones",
+              "detail": "Las configuraciones de Trampler pueden equiparse con torretas montadas y potencia de fuego; los Ironclads pueden soltar torretas, pero esas caídas son ligeramente menos frecuentes."
+            },
+            {
+              "name": "Cañones de escopeta",
+              "type": "Arma montada",
+              "role": "Defensa de corto alcance contra objetivos que se acercan demasiado.",
+              "risk": "Medio",
+              "earlyUse": "Alto para combates cercanos",
+              "detail": "Los cañones de escopeta de mayor nivel tienen una dispersión progresivamente mejor."
+            },
+            {
+              "name": "Cañón montado de 80 mm",
+              "type": "Arma montada",
+              "role": "Potencia de fuego pesada para una presión de cañón decisiva.",
+              "risk": "Medio",
+              "earlyUse": "Fuerte para tripulaciones",
+              "detail": "SAND destaca el cañón montado de 80 mm como un arma importante para el Trampler."
+            },
+            {
+              "name": "Cañón de riel experimental",
+              "type": "Arma montada",
+              "role": "Arma de poder para disparos planificados y combates coordinados.",
+              "risk": "Alto",
+              "earlyUse": "Fuerte pero exigente",
+              "detail": "El tiempo de recarga del Cañón de riel experimental se aumentó en 0.5 segundos."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Equipo de apoyo fiable",
+          "entries": [
+            {
+              "name": "Autocañones",
+              "type": "Arma montada",
+              "role": "Presión sostenida cuando la tripulación necesita un fuego más constante.",
+              "risk": "Medio",
+              "earlyUse": "Bueno",
+              "detail": "Una corrección de lanzamiento solucionó la elusión del límite de cadencia de tiro del cañón automático."
+            },
+            {
+              "name": "M1866/9 Einzel Breechloader",
+              "type": "Arma del jugador",
+              "role": "Fusil vinculado al aspecto de recompensa de lanzamiento de Server Slam.",
+              "risk": "Bajo",
+              "earlyUse": "Bueno",
+              "detail": "Los participantes de Server Slam reciben un aspecto exclusivo para el M1866/9 \"Einzel\" Breechloader tras comprar el juego."
+            },
+            {
+              "name": "Granada de humo",
+              "type": "Utilidad arrojadiza",
+              "role": "Escape, reposicionamiento y cobertura visual durante los combates.",
+              "risk": "Bajo",
+              "earlyUse": "Bueno",
+              "detail": "Las granadas de humo aparecen en acumulaciones de 2."
+            },
+            {
+              "name": "Munición personalizada",
+              "type": "Munición",
+              "role": "Mejora la flexibilidad de las armas cuando se encuentra en cajas raras.",
+              "risk": "Medio",
+              "earlyUse": "Bueno una vez que se aseguran las armas",
+              "detail": "La munición personalizada aparece con más frecuencia en cajas de armas raras."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "De alto riesgo o situacional",
+          "entries": [
+            {
+              "name": "Bomba WOK",
+              "type": "Arma de botín especial",
+              "role": "Explosivo raro de alto riesgo vinculado a las incursiones en el Dreadnought.",
+              "risk": "Alto",
+              "earlyUse": "Situacional",
+              "detail": "La bomba WOK ya no aparece en los lugares habituales de aparición de artefactos y solo se puede encontrar con cierta probabilidad en el Dreadnought."
+            },
+            {
+              "name": "Armas raras",
+              "type": "Arma de botín",
+              "role": "Mejoras valiosas que dependen del acceso a cajas raras.",
+              "risk": "Alto",
+              "earlyUse": "Dependiente del botín",
+              "detail": "Las armas raras tienen una probabilidad de obtención ligeramente menor en las cajas de armas raras."
+            }
+          ]
+        }
+      ]
+    },
+    "voyageAndStormDiveModes": {
+      "title": "Modos Voyage y Storm Dive de SAND Raiders of Sophie",
+      "eyebrow": "Modos de juego",
+      "intro": "SAND se centra en dos estilos de expedición: Voyage para una supervivencia en mundo abierto con menos riesgo, y Storm Dive para una extracción de alto riesgo al estilo battle royale. Voyage es la forma más tranquila de aprender el manejo del Trampler, las rutas de botín y el ritmo de extracción, mientras que Storm Dive pone a prueba a las tripulaciones que buscan mejores recompensas bajo una tormenta de arena que se reduce.",
+      "tableHeaders": {
+        "mode": "Modo",
+        "style": "Estilo",
+        "risk": "Riesgo",
+        "loot": "Perfil de botín",
+        "timer": "Límite de tiempo",
+        "extraction": "Regla de extracción",
+        "crew": "Reglas de la tripulación",
+        "bestFor": "Ideal para"
+      },
+      "rows": [
+        {
+          "mode": "Viaje",
+          "style": "Expedición persistente en mundo abierto",
+          "risk": "Bajo",
+          "loot": "Objetos de nivel inferior y recolección constante",
+          "timer": "Sin temporizador de expedición fijo",
+          "extraction": "Los jugadores eligen cuándo regresar a un punto de extracción.",
+          "crew": "Compatible con solitario; tripulaciones de 2-6 con emparejamiento por tamaño de tripulación.",
+          "bestFor": "Nuevos jugadores, primeras construcciones de Trampler, aprendizaje de rutas y práctica en equipo de baja presión."
+        },
+        {
+          "mode": "Inmersión en tormenta",
+          "style": "Extracción al estilo Battle Royale",
+          "risk": "Alto",
+          "loot": "Botín de nivel superior y recompensas más fuertes",
+          "timer": "Limitado por la tormenta de arena que se mueve hacia el centro del mapa",
+          "extraction": "Extrae en cualquier momento antes de que la tormenta de arena llegue al centro.",
+          "crew": "Compatible con juego en solitario y en tripulación mediante emparejamiento por tamaño de grupo.",
+          "bestFor": "Tripulaciones seguras, jugadores centrados en PvP y partidas rápidas de alto valor."
+        },
+        {
+          "mode": "Categorías de tripulación",
+          "style": "Emparejamiento y escala del servidor",
+          "risk": "Depende del tamaño de la tripulación",
+          "loot": "La planificación de la tripulación determina la distribución, el almacenamiento y la seguridad de la extracción.",
+          "timer": "Viaje no tiene temporizador; Inmersión en tormenta está cronometrado por la tormenta.",
+          "extraction": "La extracción protege el botín, la vida y el Trampler después de la partida.",
+          "crew": "Tripulación máxima: 6. Límites del servidor: 15 en solitario, 36 para grupos de 2-3, 45 para 4-6.",
+          "bestFor": "Planificación de un caminante compacto en solitario, un asaltante de equipo pequeño o una fortaleza más grande."
+        }
+      ]
+    },
+    "mapLootAndExtraction": {
+      "title": "Mapa, botín y extracción de SAND Raiders of Sophie",
+      "eyebrow": "Rutas de botín",
+      "intro": "Sophie es un enorme mundo generado procedimentalmente lleno de ciudades, ruinas, naufragios, recursos, armas, artefactos y presión de extracción. Planifica cada ruta en función de cuánta carga puede proteger tu Trampler y qué tan rápido puedes salir; la codicia por el botín es mayor justo antes de que el mapa te recuerde que otros jugadores también tienen armas.",
+      "fieldLabels": {
+        "mapFeature": "Característica del mapa",
+        "lootFocus": "Enfoque de botín",
+        "dangerSignals": "Señales de peligro",
+        "extractionMove": "Movimiento de extracción"
+      },
+      "items": [
+        {
+          "title": "Comienza desde el Editor de Trampler",
+          "mapFeature": "Construcción del Trampler antes del despliegue",
+          "lootFocus": "Almacenamiento, protección, salas de tripulación y potencia de fuego montada",
+          "dangerSignals": "Almacenamiento insuficiente, módulos expuestos, soporte de tripulación insuficiente",
+          "extractionMove": "Entra con un Trampler que se adapte al tamaño de tu tripulación y a tu ruta de botín."
+        },
+        {
+          "title": "Busca recursos en ciudades y calles abandonadas",
+          "mapFeature": "Zonas de ciudades en ruinas",
+          "lootFocus": "Armas, munición, recursos y botín valioso",
+          "dangerSignals": "Humo en el horizonte, sonidos de no muertos, saqueadores rivales cercanos",
+          "extractionMove": "Márchate una vez que el almacenamiento del Trampler contenga suficiente valor que proteger."
+        },
+        {
+          "title": "Inspecciona ruinas y vestigios",
+          "mapFeature": "Ruinas, monumentos y restos de un mundo caído",
+          "lootFocus": "Recursos, artefactos y valor de ruta entre los puntos de interés más grandes",
+          "dangerSignals": "Exposición prolongada, líneas de visión poco claras, tripulación demasiado dispersa",
+          "extractionMove": "Usa las ruinas como paradas controladas en lugar de desvíos interminables."
+        },
+        {
+          "title": "Saquea naufragios con cuidado",
+          "mapFeature": "Puntos de interés de naufragios",
+          "lootFocus": "Materiales de recuperación de mayor valor, armas y recursos",
+          "dangerSignals": "Otras tripulaciones convergiendo, rutas de escape limitadas, movimiento lejano",
+          "extractionMove": "Trata los naufragios como paradas planificadas y mantén lista una ruta de escape."
+        },
+        {
+          "title": "Comprende el riesgo del Dreadnought",
+          "mapFeature": "Ubicación del Dreadnought",
+          "lootFocus": "Botín especial de alto riesgo, como la probabilidad de obtener una WOK Bomb",
+          "dangerSignals": "Concentración de PvP, presión de la tormenta, tráfico en la extracción final",
+          "extractionMove": "Comprométete solo con suficiente potencia de fuego, reparaciones y almacenamiento para justificar el riesgo."
+        },
+        {
+          "title": "Extrae antes de que la incursión se tuerza",
+          "mapFeature": "Puntos de extracción y zonas de extracción final",
+          "lootFocus": "Asegurar recursos, artefactos, armas, la vida y el Trampler",
+          "dangerSignals": "Trampler dañado, pocas reparaciones, carga llena, fuego de cañón cercano",
+          "extractionMove": "Voyage te permite elegir cuándo terminar; Storm Dive permite la extracción antes de que la tormenta llegue al centro."
+        }
+      ]
+    },
+    "systemRequirementsAndAntiCheat": {
+      "title": "Requisitos del sistema y antitrampas de SAND Raiders of Sophie",
+      "eyebrow": "Lista de comprobación de configuración",
+      "intro": "SAND es un juego de extracción online PvPvE, por lo que el hardware, la conexión de red, el sistema antitrampas, la compatibilidad con mandos y los personajes vinculados a la región son importantes. Revisa los aspectos básicos de la configuración antes de culpar al desierto de los tirones, las desconexiones o los fallos de inicio; el objetivo para PC es Windows 10/11 de 64 bits con internet de banda ancha y 11 GB de almacenamiento.",
+      "groups": [
+        {
+          "group": "Requisitos mínimos para PC",
+          "checks": [
+            "Procesador y sistema operativo de 64 bits",
+            "Windows 10 de 64 bits",
+            "Intel Core i5 (8.ª generación), AMD Ryzen 5 (serie 2000) o equivalente",
+            "16 GB de RAM",
+            "NVIDIA GeForce GTX 1650, AMD Radeon RX570 o Intel Arc A380",
+            "DirectX 11",
+            "Conexión a internet de banda ancha",
+            "11 GB de almacenamiento disponible"
+          ]
+        },
+        {
+          "group": "Requisitos recomendados para PC",
+          "checks": [
+            "Procesador y sistema operativo de 64 bits",
+            "Windows 11 de 64 bits",
+            "Intel Core i5 (13.ª generación), AMD Ryzen 5 (serie 7000) o equivalente",
+            "32 GB de RAM",
+            "NVIDIA GeForce RTX 3080 o AMD Radeon RX 6800 XT",
+            "DirectX 11",
+            "Conexión a internet de banda ancha",
+            "11 GB de espacio de almacenamiento disponible"
+          ]
+        },
+        {
+          "group": "Aspectos básicos de los servidores y el juego en línea",
+          "checks": [
+            "Se requiere juego en línea",
+            "El límite de los servidores en solitario es de 15 jugadores",
+            "El límite de los servidores de equipos pequeños es de 36 jugadores para tripulaciones de 2-3",
+            "El límite de los servidores de equipos grandes es de 45 jugadores para tripulaciones de 4-6",
+            "Xbox indica cooperativo en línea de 2-6 y multijugador en línea de 2-90 en Series X|S"
+          ]
+        },
+        {
+          "group": "Compatibilidad con mandos y consolas",
+          "checks": [
+            "Se incluye compatibilidad total con mandos",
+            "La versión de PS5 es compatible con la vibración de DualSense",
+            "Se incluye la optimización para Xbox Series X|S y la compatibilidad con 10 idiomas"
+          ]
+        },
+        {
+          "group": "Linux y Proton BattlEye",
+          "checks": [
+            "Se incluye compatibilidad con Linux",
+            "Instala Proton BattlEye Runtime en la biblioteca de Steam antes de jugar en Linux o Steam Deck",
+            "La compatibilidad con Linux en la Server Slam #2 utilizó Proton BattlEye Runtime"
+          ]
+        },
+        {
+          "group": "Notas sobre el sistema antitrampas y las cuentas",
+          "checks": [
+            "SAND utiliza BattlEye Anti-Cheat",
+            "El inventario y el árbol de tecnología están vinculados a la región seleccionada del personaje",
+            "Los planos de Trampler se comparten entre personajes",
+            "Sin Tramplers ni recursos para construir uno, la recuperación requiere un personaje nuevo o unirse a un equipo que tenga un Trampler"
+          ]
+        },
+        {
+          "group": "Idiomas de lanzamiento",
+          "checks": [
+            "Inglés",
+            "Ucraniano",
+            "Alemán",
+            "Francés",
+            "Español",
+            "Portugués de Brasil",
+            "Polaco",
+            "Italiano",
+            "Chino simplificado",
+            "Japonés"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre SAND: Raiders of Sophie",
+    "questions": [
+      {
+        "question": "¿Qué es SAND: Raiders of Sophie?",
+        "answer": "SAND: Raiders of Sophie es un shooter de extracción PvPvE de mundo abierto sobre construir y pilotar bases caminantes personalizables llamadas Tramplers por el planeta desértico Sophie, recolectando botín, luchando y extrayendo."
+      },
+      {
+        "question": "¿Cuándo se lanzó SAND: Raiders of Sophie?",
+        "answer": "SAND: Raiders of Sophie se lanzó en el Acceso Anticipado de Steam el 22 de junio de 2026. PlayStation 5 y Xbox Series X|S tienen listados oficiales en sus tiendas, y la fecha de lanzamiento de PS5 aún está por determinarse."
+      },
+      {
+        "question": "¿En qué plataformas está SAND: Raiders of Sophie?",
+        "answer": "SAND: Raiders of Sophie se puede jugar en PC a través del Acceso Anticipado de Steam, con páginas de tienda oficiales para PS5 y Xbox Series X|S. PlayStation y Xbox listan multijugador en línea para 2-90 jugadores."
+      },
+      {
+        "question": "¿Hay códigos de canje en SAND: Raiders of Sophie?",
+        "answer": "SAND: Raiders of Sophie no tiene un sistema público de códigos de canje. Las recompensas provienen del descuento de lanzamiento de Steam y de los eventos de prueba oficiales Server Slam, no de códigos escritos ni de enlaces a claves falsos."
+      },
+      {
+        "question": "¿Es compatible SAND: Raiders of Sophie con el juego en solitario y cooperativo?",
+        "answer": "Sí. SAND: Raiders of Sophie es compatible con el juego en solitario y en tripulación, con cooperativo en línea para 2-6 jugadores y multijugador en línea para 2-90 jugadores según la plataforma."
+      },
+      {
+        "question": "¿Funciona SAND: Raiders of Sophie en Linux y Steam Deck?",
+        "answer": "Sí. SAND: Raiders of Sophie incluye compatibilidad con Linux cuando instalas Proton BattlEye Runtime en la biblioteca de Steam antes de jugar en Linux o Steam Deck."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para asaltar las arenas de Sophie?",
+    "description": "¡Construye tu Trampler, saquea el desierto y únete a la comunidad de SAND: Raiders of Sophie en Discord para ver builds, rutas de botín y actualizaciones!",
+    "joinCommunity": "Unirse a Discord",
+    "joinGame": "Jugar en Steam"
+  },
+  "footer": {
+    "title": "Wiki de SAND Raiders of Sophie",
+    "description": "Tu centro de recursos completo para builds de Tramplers de SAND: Raiders of Sophie, botín, armas, supervivencia PvPvE y guías de extracción.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidad de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 SAND Raiders of Sophie Wiki. No afiliado con los desarrolladores de SAND: Raiders of Sophie.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "release": {
+      "title": "Fecha de lanzamiento de SAND Raiders of Sophie",
+      "description": "Sigue la fecha de lanzamiento de SAND Raiders of Sophie, el lanzamiento en el Acceso Anticipado de Steam, la disponibilidad en PlayStation 5 y Xbox Series X|S, y cualquier retraso o actualización de la hoja de ruta.",
+      "metaTitle": "Fecha de lanzamiento de SAND Raiders of Sophie - Lanzamiento en Steam, PS5 y Xbox",
+      "metaDescription": "SAND Raiders of Sophie se lanzó en el Acceso Anticipado de Steam el 22 de junio de 2026. Sigue las fechas de lanzamiento de PS5 y Xbox, el precio de lanzamiento y las actualizaciones de la hoja de ruta aquí.",
+      "categoryLabel": "LANZAMIENTO",
+      "whatIs": "¿Cuál es la fecha de lanzamiento?",
+      "whatIsDescription": "SAND: Raiders of Sophie entró en el Acceso Anticipado de Steam el 22 de junio de 2026. Las páginas de la tienda de PlayStation 5 y Xbox Series X|S están activas para añadir a la lista de deseos, con sus fechas exactas de lanzamiento en consola aún por determinar.",
+      "why": "¿Por qué seguir el lanzamiento?",
+      "whySteps": {
+        "step1Title": "El acceso anticipado de Steam ya está disponible",
+        "step1Description": "Compra, descarga y juega a la versión de acceso anticipado de Steam ahora mismo, incluyendo JcJ en línea, logros de Steam y Compartir en familia.",
+        "step2Title": "PS5 y Xbox ya se pueden añadir a la lista de deseos",
+        "step2Description": "Añade a tu lista de deseos las páginas oficiales de la tienda de PlayStation 5 y Xbox Series X|S para recibir una notificación en cuanto se confirmen las fechas de lanzamiento en consola.",
+        "step3Title": "Seguimiento de retrasos y hoja de ruta",
+        "step3Description": "Sigue la hoja de ruta del acceso anticipado y cualquier cambio en el calendario para saber qué contenido llegará y cuándo estará disponible cada plataforma."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todo sobre el lanzamiento"
+    },
+    "platforms": {
+      "title": "Plataformas de SAND Raiders of Sophie",
+      "description": "Encuentra SAND Raiders of Sophie en Steam, PlayStation 5, Xbox Series X|S, Linux y Steam Deck. Compara páginas de la tienda, idiomas, sistemas antitrampas y diferencias entre plataformas.",
+      "metaTitle": "Plataformas de SAND Raiders of Sophie: Steam, PS5, Xbox y Linux",
+      "metaDescription": "SAND Raiders of Sophie está disponible en el acceso anticipado de Steam con soporte para PS5, Xbox Series X|S, Linux y Steam Deck. Compara páginas de tienda, número de jugadores y sistemas antitrampas entre plataformas.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "¿En qué plataformas está disponible?",
+      "whatIsDescription": "SAND: Raiders of Sophie se puede jugar en PC a través del acceso anticipado de Steam, con páginas oficiales en la tienda para PlayStation 5 y Xbox Series X|S. También funciona en Linux y Steam Deck mediante Proton BattlEye Runtime.",
+      "why": "¿Por qué comprobar las plataformas?",
+      "whySteps": {
+        "step1Title": "Elige la tienda correcta",
+        "step1Description": "Utiliza los enlaces oficiales de las tiendas de Steam, PlayStation y Xbox para comprar o añadir a la lista de deseos la versión correcta para tu hardware.",
+        "step2Title": "Conoce los límites de jugadores",
+        "step2Description": "Cada plataforma enumera sus límites de jugadores en línea, desde servidores en solitario hasta multijugador de 90 personas, para que puedas planificar el tamaño de tu tripulación.",
+        "step3Title": "Comprueba Linux y Steam Deck",
+        "step3Description": "Instala Proton BattlEye Runtime antes de jugar en Linux o Steam Deck, ya que el juego utiliza el sistema antitrampas a nivel de kernel BattlEye."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las plataformas"
+    },
+    "price": {
+      "title": "Precio de SAND Raiders of Sophie",
+      "description": "Consulta el precio de SAND Raiders of Sophie en Steam, PS5 y Xbox, incluyendo descuentos de lanzamiento, precios regionales y detalles sobre si es gratuito o de pago.",
+      "metaTitle": "Precio de SAND Raiders of Sophie: Coste en Steam, PS5 y Xbox",
+      "metaDescription": "El precio de SAND Raiders of Sophie en Steam comienza con un descuento de lanzamiento. Consulta el coste en Steam, PS5 y Xbox, además de los precios regionales y detalles sobre si es gratuito.",
+      "categoryLabel": "PRECIO",
+      "whatIs": "¿Cuánto cuesta?",
+      "whatIsDescription": "SAND: Raiders of Sophie es un juego de pago en el acceso anticipado de Steam con un descuento de lanzamiento introductorio. No es gratuito, y los precios de PlayStation 5 y Xbox Series X|S aparecen en sus páginas oficiales de la tienda.",
+      "why": "¿Por qué comprobar el precio?",
+      "whySteps": {
+        "step1Title": "Aprovecha el descuento de lanzamiento",
+        "step1Description": "La tienda de Steam ofrece un descuento introductorio sobre el precio base por tiempo limitado tras el lanzamiento del acceso anticipado.",
+        "step2Title": "Compara los precios regionales",
+        "step2Description": "Los precios de lanzamiento regionales se anuncian junto con la oferta de Steam, así que comprueba el precio en tu región antes de comprar.",
+        "step3Title": "Confirma que es de pago, no gratuito",
+        "step3Description": "SAND es un título de pago, no gratuito, por lo que las páginas oficiales de la tienda son la única forma segura de comprarlo."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todo sobre el precio"
+    },
+    "guide": {
+      "title": "Guía de SAND Raiders of Sophie",
+      "description": "Domina SAND Raiders of Sophie con consejos para principiantes, operación del Trampler, pasos para reparar y repostar, curación, extracción y cómo añadir cañones a tu base caminante.",
+      "metaTitle": "Guía de SAND Raiders of Sophie - Trampler, extracción y supervivencia",
+      "metaDescription": "Aprende a jugar SAND Raiders of Sophie con guías sobre la operación del Trampler, reparación, repostaje, curación, extracción y cómo añadir cañones a tu base caminante.",
+      "categoryLabel": "GUÍA",
+      "whatIs": "¿Qué es esta guía?",
+      "whatIsDescription": "Estas guías de SAND: Raiders of Sophie te acompañan a través del ciclo principal de extracción, desde operar y reparar tu Trampler hasta curarte, repostar y extraer botín de forma segura del desierto de Sophie.",
+      "why": "¿Por qué leer estas guías?",
+      "whySteps": {
+        "step1Title": "Maneja tu Trampler",
+        "step1Description": "Aprende a operar, reparar y repostar tu base caminante para que sobreviva a largas expediciones por Sophie.",
+        "step2Title": "Sobrevive y extrae",
+        "step2Description": "Sigue consejos paso a paso de extracción y curación para mantener tu botín, tu vida y tu Trampler intactos.",
+        "step3Title": "Mejora con cañones",
+        "step3Description": "Añade cañones y armas a tu Trampler para poder defenderte durante los encuentros PvPvE."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "gameplay": {
+      "title": "Jugabilidad de SAND Raiders of Sophie",
+      "description": "Explora la jugabilidad de SAND Raiders of Sophie, combate PvP y PvE, modos multijugador y para un jugador, el Dreadnought y juegos parecidos a SAND para fans de los shooters de extracción.",
+      "metaTitle": "Jugabilidad de SAND Raiders of Sophie - PvP, PvE y multijugador",
+      "metaDescription": "Sumérgete en la jugabilidad de SAND Raiders of Sophie cubriendo el combate PvP y PvE, modos para un jugador y multijugador, el Dreadnought y shooters de extracción similares.",
+      "categoryLabel": "JUGABILIDAD",
+      "whatIs": "¿En qué consiste la jugabilidad?",
+      "whatIsDescription": "SAND: Raiders of Sophie es un shooter de extracción PvPvE de mundo abierto. Pilotas una base caminante personalizable llamada Trampler, buscas botín, luchas contra otros jugadores y amenazas PvE, y extraes antes de perderlo todo.",
+      "why": "¿Por qué explorar la jugabilidad?",
+      "whySteps": {
+        "step1Title": "Entiende el PvP y el PvE",
+        "step1Description": "Aprende cómo las emboscadas PvP y las amenazas PvE moldean cada partida, y cuándo luchar o huir a través del planeta Sophie.",
+        "step2Title": "Elige modo individual o multijugador",
+        "step2Description": "Elige exploración para un jugador o forma equipo para cooperativo de 2-6 jugadores y servidores multijugador masivos de hasta 90 jugadores.",
+        "step3Title": "Caza al Dreadnought",
+        "step3Description": "Prepárate para incursiones de alto riesgo en el Dreadnought que ofrecen botín especial, y descubre juegos como SAND si quieres más."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Toda la jugabilidad"
+    },
+    "servers": {
+      "title": "Servidores de SAND Raiders of Sophie",
+      "description": "Comprueba el estado en vivo de los servidores de SAND Raiders of Sophie, soluciona problemas de conexión, errores del anti-trampas BattlEye y bloqueos de personajes regionales.",
+      "metaTitle": "Servidores de SAND Raiders of Sophie - Estado y resolución de problemas",
+      "metaDescription": "Rastrea el estado de los servidores de SAND Raiders of Sophie, soluciona errores de conexión y del anti-trampas BattlEye, y comprende los bloqueos regionales de personajes y límites de servidor.",
+      "categoryLabel": "SERVIDORES",
+      "whatIs": "¿Cómo funcionan los servidores?",
+      "whatIsDescription": "SAND: Raiders of Sophie utiliza servidores en línea con emparejamiento por tamaño de tripulación, desde servidores individuales de 15 jugadores hasta servidores de equipos grandes de 45 jugadores. Los personajes y el inventario están bloqueados a la región seleccionada.",
+      "why": "¿Por qué comprobar los servidores?",
+      "whySteps": {
+        "step1Title": "Comprobar estado en vivo",
+        "step1Description": "Comprueba si los servidores están activos antes de hacer cola para no perder tiempo con mantenimientos o caídas.",
+        "step2Title": "Solucionar problemas de conexión",
+        "step2Description": "Soluciona desconexiones, errores de emparejamiento y problemas del sistema antitrampas BattlEye con soluciones claras paso a paso.",
+        "step3Title": "Comprender el bloqueo de región",
+        "step3Description": "Ten en cuenta que tu inventario y árbol tecnológico están vinculados a tu región, mientras que los planos de Trampler se comparten entre tus personajes."
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los servidores"
+    }
   }
 }

@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "SAND: Raiders of Sophie Wiki - ビルド、戦利品＆Tramplers",
+      "description": "SAND: Raiders of Sophie Wikiでは、Tramplerのビルド、戦利品ルート、武器、PvPvEサバイバル、脱出のコツ、マップ、契約、最新アップデートを網羅しています。",
+      "keywords": "SAND Raiders of Sophie, Tramplerビルド, 戦利品, 武器, PvPvE脱出, Steam, PS5, Xbox, ガイド",
+      "ogTitle": "SAND: Raiders of Sophie Wiki - ビルド、戦利品＆Tramplers",
+      "ogDescription": "SAND: Raiders of Sophie Wikiでは、Tramplerのビルド、戦利品ルート、武器、PvPvEサバイバル、脱出のコツ、マップ、契約、最新アップデートを網羅しています。",
+      "twitterTitle": "SAND: Raiders of Sophie Wiki - ビルド、戦利品＆Tramplers",
+      "twitterDescription": "SAND: Raiders of Sophie Wikiでは、Tramplerのビルド、戦利品ルート、武器、PvPvEサバイバル、脱出、マップ、最新アップデートを網羅しています。"
+    }
+  },
   "nav": {
     "release": "リリース",
     "platforms": "プラットフォーム",
@@ -6,5 +17,778 @@
     "guide": "ガイド",
     "gameplay": "ゲームプレイ",
     "servers": "サーバー"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "その他",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "オープンワールドPvPvE脱出シューター",
+    "title": "SAND: Raiders of Sophie Wiki",
+    "description": "砂漠の惑星Sophieでカスタマイズ可能なTramplersを建造・操縦し、廃墟となった都市や難破船を探索し、PvPやPvEの脅威と戦い、戦利品を回収して、歩行要塞をアップグレードしましょう。",
+    "getFreeCodesCTA": "スターターガイドを読む",
+    "playOnSteamCTA": "Steamでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "2026年6月22日",
+        "label": "早期アクセス"
+      },
+      "stat2": {
+        "value": "15,703",
+        "label": "ピーク同時接続者数"
+      },
+      "stat3": {
+        "value": "賛否両論",
+        "label": "Steamレビュー"
+      },
+      "stat4": {
+        "value": "2-90",
+        "label": "オンラインプレイヤー"
+      }
+    }
+  },
+  "tools": {
+    "title": "SAND Raiders of Sophie",
+    "titleHighlight": "ガイドハブ",
+    "subtitle": "SAND: Raiders of SophieにおけるTramplerのビルド、戦利品ルート、武器、ゲームモード、および脱出をマスターするために必要なすべて。",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "SAND Raiders of Sophie プラットフォーム",
+        "description": "リリース日、Steam早期アクセス、PS5、Xbox、および価格"
+      },
+      {
+        "icon": "Gift",
+        "title": "SAND Raiders of Sophie コード",
+        "description": "ローンチ特典、割引、およびプレイテストに関するお知らせ"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "SAND Raiders of Sophie 初心者ガイド",
+        "description": "初回セッションのループ：ビルド、略奪、戦闘、脱出"
+      },
+      {
+        "icon": "Wrench",
+        "title": "SAND Raiders of Sophie Tramplerビルド",
+        "description": "設計図、コンパートメント、およびクルールームの計画"
+      },
+      {
+        "icon": "Swords",
+        "title": "SAND Raiders of Sophie 武器",
+        "description": "役割別の武器およびTramplerパーツのティアリスト"
+      },
+      {
+        "icon": "CloudLightning",
+        "title": "SAND Raiders of Sophie ゲームモード",
+        "description": "Voyage vs Storm Dive：リスク、戦利品、および脱出"
+      },
+      {
+        "icon": "Map",
+        "title": "SAND Raiders of Sophie 戦利品ルート",
+        "description": "都市、遺跡、難破船、および脱出地点"
+      },
+      {
+        "icon": "Cpu",
+        "title": "SAND Raiders of Sophie システム設定",
+        "description": "PCスペック、サーバーのルール、Linux、およびアンチチート"
+      }
+    ]
+  },
+  "modules": {
+    "releaseDateAndPlatforms": {
+      "title": "SAND Raiders of Sophie 発売日とプラットフォーム",
+      "eyebrow": "ローンチ情報",
+      "intro": "SAND: Raiders of Sophieは2026年6月22日にSteam早期アクセスとしてリリースされました。以下の公式ストアリンクから、ゲームの検索、価格の確認、または他のプラットフォームでのリリース前にウィッシュリストへ追加することができます。",
+      "items": [
+        {
+          "title": "Steam早期アクセス",
+          "badge": "現在配信中",
+          "meta": "PC（Steam） · 2026年6月22日",
+          "description": "Steam版は現在プレイ可能な早期アクセス版です。オンラインPvP、Steam実績、ファミリーシェアリング、およびBattlEyeアンチチートに対応しています。",
+          "href": "https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/",
+          "linkLabel": "Steamで見る"
+        },
+        {
+          "title": "Steamローンチ価格",
+          "badge": "ローンチオファー",
+          "meta": "$24.99 → $19.74 · 21%オフ · 7月6日まで",
+          "description": "Steamローンチオファーでは、7月6日に終了する21%のリリース記念割引が適用されており、地域別のローンチ価格も同時に発表されています。",
+          "href": "https://store.steampowered.com/news/app/1431300/view/690886614188035492",
+          "linkLabel": "ローンチ価格を見る"
+        },
+        {
+          "title": "PlayStation Store",
+          "badge": "ウィッシュリスト登録可能",
+          "meta": "PS5 · 発売日未定",
+          "description": "PlayStation Storeでは、SAND: Raiders of SophieがPS5向けに発表された作品として掲載されています。オンラインプレイにはPS Plusが必要で、最大90人のオンラインプレイヤーに対応し、DualSenseの振動機能に対応しています。",
+          "href": "https://store.playstation.com/en-us/concept/10010847",
+          "linkLabel": "PS5でウィッシュリストに登録"
+        },
+        {
+          "title": "Xbox Store",
+          "badge": "ストア掲載情報",
+          "meta": "Xbox Series X|S · 2-90人",
+          "description": "Xbox Storeでは、SAND: Raiders of SophieがXbox Series X|S向けとして掲載されており、2〜6人のオンライン協力プレイ、2〜90人のオンラインマルチプレイ、Xbox実績、および10の対応言語がサポートされています。",
+          "href": "https://www.xbox.com/en-US/games/store/sand-raiders-of-sophie/9NG0FFHT5MCB",
+          "linkLabel": "Xboxで見る"
+        },
+        {
+          "title": "公式サイト",
+          "badge": "公式ポータル",
+          "meta": "Steam · PS · Xbox · Discord",
+          "description": "公式サイトでは、世界観、Tramplers、そして核となるPvPvEエキストラクションの前提について説明されています。また、現在実施中のプレイテストの告知は公式Discordでのみ行われることも確認されています。",
+          "href": "https://sand-game.com/",
+          "linkLabel": "公式サイトを訪問"
+        }
+      ]
+    },
+    "codesAndRewards": {
+      "title": "SAND Raiders of Sophie コードと報酬",
+      "eyebrow": "コード＆報酬",
+      "intro": "SAND: Raiders of Sophieの報酬は、公式プラットフォームの特典やプレイテストへの参加に関連しています。偽のキーリンクではなく、公式のSteamページ、ウェブサイト、Discordで報酬やプレイテストの告知を確認してください。",
+      "items": [
+        {
+          "title": "公開引き換えコード",
+          "badge": "公開コードシステムなし",
+          "reward": "有効な入力コードなし",
+          "description": "公式Steamページ、公式サイト、およびリリースFAQでは、ゲーム内の公開コード入力欄よりも、プラットフォームでの購入、プレイテストへのアクセス、およびローンチ報酬に焦点を当てています。",
+          "href": "https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/",
+          "linkLabel": "Steamページを確認"
+        },
+        {
+          "title": "Steamローンチ割引",
+          "badge": "ローンチオファー",
+          "reward": "21%割引",
+          "description": "Steamストアでは通常価格が24.99ドル、セール価格が19.74ドルと記載されており、このオファーは7月6日に終了します。",
+          "href": "https://store.steampowered.com/app/1431300/SAND_Raiders_of_Sophie/",
+          "linkLabel": "Steamで購入"
+        },
+        {
+          "title": "サーバースラム参加報酬",
+          "badge": "プレイテスト特典",
+          "reward": "限定の M1866/9 \"Einzel\" ブリーチローダースキン",
+          "description": "公式発表によると、サーバースラムの参加者は、ゲーム購入後のローンチ時に限定の武器スキンを受け取ることができます。",
+          "href": "https://steamcommunity.com/app/1431300/announcements/",
+          "linkLabel": "告知を読む"
+        },
+        {
+          "title": "サーバースラム#2へのアクセス",
+          "badge": "ローンチ前イベント",
+          "reward": "一時的なプレイテストアクセス",
+          "description": "サーバースラム#2は6月15日に開始され、48時間実施されました。テストのために以前の進捗が維持され、テックツリーがアンロックされましたが、6月22日のローンチ前に進捗はリセットされました。",
+          "href": "https://steamcommunity.com/app/1431300/announcements/",
+          "linkLabel": "お知らせを読む"
+        },
+        {
+          "title": "安全なプレイテストに関する注意喚起",
+          "badge": "セキュリティに関する注意",
+          "reward": "アカウントの安全性",
+          "description": "公式サイトでは、詐欺的なSANDのプレイテスト招待が存在することに注意を促しており、現在実施中のプレイテストは公式Discordでのみ告知されることを認めています。",
+          "href": "https://sand-game.com/",
+          "linkLabel": "公式のお知らせを読む"
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "title": "SAND Raiders of Sophie 初心者向けガイド",
+      "eyebrow": "初心者向けガイド",
+      "intro": "SAND: Raiders of Sophieは、移動手段、倉庫、防護、そして武器として機能する、カスタマイズ可能な巨大な歩行基地「Trampler」を中心に構築されています。最初の機械の拠点を砂漠へと送り出す前に、脱出のループを学びましょう。",
+      "steps": [
+        {
+          "title": "公式プラットフォームから始めよう",
+          "description": "Steam早期アクセスで購入してプレイするか、PlayStationやXboxのストアページから公式コンソール版の製品情報やウィッシュリストを確認してください。"
+        },
+        {
+          "title": "Tramplerを準備する",
+          "description": "Tramplerエディターを使用して、ゼロから構築するか、出撃前にデザインを準備しましょう。デザインは設計図（ブループリント）として保存できるため、破壊されたTramplerを再建することができます。"
+        },
+        {
+          "title": "VoyageまたはStorm Diveを選択する",
+          "description": "リスクの低い探索にはVoyageを、砂嵐のプレッシャーが伴うハイリスク・ハイリターンのランにはStorm Diveを選択しましょう。"
+        },
+        {
+          "title": "ソロで挑むか、クルーを結成する",
+          "description": "1人で参戦するか、チームを組みましょう。Xboxの表記によると、2〜6人のオンライン協力プレイ、および2〜90人のオンラインマルチプレイに対応しています。"
+        },
+        {
+          "title": "都市、遺跡、残骸から物資を回収する",
+          "description": "没落した惑星Sophieを探索して戦利品、武器、弾薬、資源、貴重なアーティファクトを回収し、回収したものはTramplerに保管しましょう。"
+        },
+        {
+          "title": "生き残り、脱出する",
+          "description": "PvEの脅威と戦い、ライバルプレイヤーを避けるか立ち向かい、脱出ポイントを見つけて、戦利品、命、そして無傷のTramplerと共に生還しましょう。"
+        }
+      ],
+      "quickTips": [
+        "実戦で危険にさらす前に、Tramplerを設計図（ブループリント）として保存しておきましょう。",
+        "Voyageは、ルート回収の経路や脱出のタイミングを学ぶのに、より安全な場所です。",
+        "物資を求めてさらに奥へと進む前に、修理キットと保管スペースを準備しておきましょう。",
+        "詐欺的なプレイテストの招待に注意し、公式Discordのみをフォローしてください。"
+      ]
+    },
+    "tramplerBuildsAndBlueprints": {
+      "title": "SAND Raiders of Sophie：Tramplerのビルドと設計図",
+      "eyebrow": "Tramplerのビルド",
+      "intro": "TramplerはSAND: Raiders of Sophieの中心的存在です。移動手段、基地、倉庫、防衛プラットフォーム、そして重兵器システムとして機能するため、高価なビルドよりも計画的なビルドの方がはるかに重要になります。",
+      "items": [
+        {
+          "title": "設計図優先のビルド",
+          "summary": "Sophieで危険にさらす前に、Tramplerのデザインを保存しておきましょう。",
+          "description": "プレイヤーはエディターでゼロからTramplerを構築し、そのデザインを設計図（ブループリント）として保存できるため、ゲーム内で作成物が破壊されても失われることなく再建できます。"
+        },
+        {
+          "title": "コアコンパートメントのセットアップ",
+          "summary": "エンジン、リアクター、倉庫、スポーンポイント、武器を中心に計画を立てましょう。",
+          "description": "Tramplerエディターには、エンジン、リアクター、倉庫、スポーンポイント、武器などのコアコンパートメントが含まれています。これらは、移動基地がどのように移動し、生き残り、戦利品を保管し、戦闘を行うかを決定づけます。"
+        },
+        {
+          "title": "パワー、アーマー、武器",
+          "summary": "アップグレードを活用して、歩行基地を戦闘マシンへと変貌させよう。",
+          "description": "Tramplerは内装からパワー、アーマー、武器のアップグレードまでカスタマイズ可能で、要塞のようなビルドにするための砲塔や火力を搭載することもできます。"
+        },
+        {
+          "title": "ソロ向けTrampler",
+          "summary": "移動、保管、防御を一人で管理しやすい構成にしよう。",
+          "description": "SANDはソロでの探索に対応しているため、操縦席、保管庫、武器、主要コンパートメント間の距離を短縮したコンパクトなレイアウトが推奨されます。"
+        },
+        {
+          "title": "クルー向けTrampler",
+          "summary": "複数のプレイヤーが異なる役割を担えるように設計しよう。",
+          "description": "クルー用ビルドなら、操縦、武器、修理、保管、迎撃といった役割を分担できるため、戦闘中に一人のプレイヤーが金属の迷路を走り回る必要がなくなります。"
+        },
+        {
+          "title": "重装要塞ビルド",
+          "summary": "アーマー、固定兵器、防御用コンパートメントを積み上げよう。",
+          "description": "難攻不落の要塞で攻撃に耐えたり、歩く戦争機械として砲塔や火力を詰め込み、PvPvE戦闘や高リスクなStorm Diveに挑んだりすることが可能です。"
+        },
+        {
+          "title": "ステルス＆脱出ビルド",
+          "summary": "小型のレイアウトで素早い離脱と被発見率の低下を狙おう。",
+          "description": "小型でステルス性能の高いTramplerは、危険から素早く逃げ出すための有効なビルドであり、トラブルに巻き込まれる前に戦利品を確保して脱出することを優先するプレイヤーに最適です。"
+        },
+        {
+          "title": "迷路防御ビルド",
+          "summary": "モジュールをあえて複雑に配置して、侵入を困難にしよう。",
+          "description": "混乱を招くモジュール配置は、侵入してきた敵を惑わせ、Trampler内部を攻撃者の足を止める防御迷路へと変貌させます。"
+        }
+      ]
+    },
+    "weaponsAndTramplerPartsTierList": {
+      "title": "SAND: Raiders of Sophie 武器＆TramplerパーツTierリスト",
+      "eyebrow": "装備ランキング",
+      "intro": "SANDにおける強力なロードアウトとは、単に歩く基地に最大級の銃を取り付けることではありません（人類は当然それを最初に試しましたが）。新米クルーは、レアなDreadnought専用アイテムや高リスクな実験兵器に手を出す前に、修理キット、保管庫、クルー定員、そして信頼できるTramplerの火力を優先すべきです。",
+      "riskLabel": "リスク",
+      "earlyUseLabel": "早期利用",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "序盤の最優先事項",
+          "entries": [
+            {
+              "name": "修理キット",
+              "type": "ユーティリティ",
+              "role": "戦闘中や長距離遠征の際にTramplerを維持するために必要です。",
+              "risk": "低",
+              "earlyUse": "必須",
+              "detail": "修理キットには3回分の使用回数があります。"
+            },
+            {
+              "name": "保管コンパートメント",
+              "type": "Tramplerモジュール",
+              "role": "Tramplerをクルーの主な戦利品保管庫にします。",
+              "risk": "低",
+              "earlyUse": "必須",
+              "detail": "Tramplerはクルーの拠点、移動手段、保護、兵器プラットフォーム、そして保管庫としての役割をすべて果たします。"
+            },
+            {
+              "name": "クルー用居住区",
+              "type": "Tramplerモジュール",
+              "role": "より多くのクルーが同時に出撃し、重量級ビルドを運用できるようにします。",
+              "risk": "低",
+              "earlyUse": "チーム向け：高",
+              "detail": "クルーの最大人数は6人ですが、大人数で活動するにはTrampler内に十分なクルー用居住区画が必要です。"
+            },
+            {
+              "name": "装甲板",
+              "type": "防御力",
+              "role": "砲撃、強襲、長距離移動に対する生存率を高めます。",
+              "risk": "低",
+              "earlyUse": "高",
+              "detail": "装甲板の価格が引き上げられ、保護は使い捨ての消耗品ではなく、計画的な投資対象となりました。"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "強力な戦闘用装備",
+          "entries": [
+            {
+              "name": "車載タレット",
+              "type": "Trampler用兵器",
+              "role": "大規模戦闘におけるTramplerの主要な防御手段および制圧力。",
+              "risk": "中",
+              "earlyUse": "クルー向け：高",
+              "detail": "Tramplerは車載タレットや火力を積み増すことが可能です。Ironcladもタレットを投下できますが、その頻度はやや低めです。"
+            },
+            {
+              "name": "ショットガンキャノン",
+              "type": "車載兵器",
+              "role": "接近しすぎた標的に対する近距離防御。",
+              "risk": "中",
+              "earlyUse": "近接戦闘向け：高",
+              "detail": "高ティアのショットガンキャノンほど、弾の拡散率が改善されます。"
+            },
+            {
+              "name": "80mm車載キャノン",
+              "type": "車載兵器",
+              "role": "決定的な砲撃圧力を生む重火力。",
+              "risk": "中",
+              "earlyUse": "クルー向け：強",
+              "detail": "SANDでは、80mm車載キャノンを主要なTrampler用兵器として強調しています。"
+            },
+            {
+              "name": "実験用レールガン",
+              "type": "車載兵器",
+              "role": "計画的な射撃や連携戦闘のためのパワーウェポン。",
+              "risk": "高",
+              "earlyUse": "強力だが扱いが難しい",
+              "detail": "実験用レールガンのリロード時間が0.5秒増加しました。"
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "信頼性の高い支援装備",
+          "entries": [
+            {
+              "name": "オートキャノン",
+              "type": "車載兵器",
+              "role": "クルーが安定した火力を必要とする際の持続的な制圧力。",
+              "risk": "中",
+              "earlyUse": "良",
+              "detail": "リリース時の修正により、オートキャノンの連射速度制限を回避する問題に対処しました。"
+            },
+            {
+              "name": "M1866/9 Einzel ブリーチローダー",
+              "type": "プレイヤー武器",
+              "role": "Server Slamのリリース報酬スキンに関連付けられたライフル。",
+              "risk": "低",
+              "earlyUse": "良",
+              "detail": "Server Slamの参加者は、ゲーム購入後にM1866/9 \"Einzel\" ブリーチローダーの限定スキンを受け取ることができます。"
+            },
+            {
+              "name": "スモークグレネード",
+              "type": "投擲ユーティリティ",
+              "role": "戦闘中の逃走、位置取りの変更、および視覚的な遮蔽。",
+              "risk": "低",
+              "earlyUse": "良",
+              "detail": "スモークグレネードは2個スタックでスポーンします。"
+            },
+            {
+              "name": "カスタム弾薬",
+              "type": "弾薬",
+              "role": "レアなクレートから見つかると、武器の汎用性が向上します。",
+              "risk": "中",
+              "earlyUse": "武器の確保後は良好",
+              "detail": "カスタム弾薬はレア武器クレートからより頻繁に出現します。"
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "ハイリスクまたは状況次第",
+          "entries": [
+            {
+              "name": "WOKボム",
+              "type": "特殊ルート武器",
+              "role": "Dreadnoughtランに関連する、希少でハイリスクな爆発物。",
+              "risk": "高",
+              "earlyUse": "状況次第",
+              "detail": "WOKボムは通常のアーティファクトスポーン場所には出現しなくなり、Dreadnoughtで確率でのみ発見できるようになりました。"
+            },
+            {
+              "name": "レア武器",
+              "type": "ルート武器",
+              "role": "レアなクレートへのアクセスに依存する、貴重なアップグレード。",
+              "risk": "高",
+              "earlyUse": "ルート依存",
+              "detail": "レア武器は、レア武器クレートからのドロップ確率がわずかに低下しています。"
+            }
+          ]
+        }
+      ]
+    },
+    "voyageAndStormDiveModes": {
+      "title": "SAND Raiders of Sophie VoyageおよびStorm Diveモード",
+      "eyebrow": "ゲームモード",
+      "intro": "SANDは2つの遠征スタイルを中心に構成されています。リスクの低いオープンワールドサバイバルであるVoyageと、よりリスクの高いバトルロイヤルスタイルの脱出であるStorm Diveです。Voyageは、Tramplerの操縦、ルート回収経路、脱出のリズムを学ぶための穏やかな方法であり、Storm Diveは、縮小する砂嵐の中でより豪華な報酬を求めるクルーの腕試しとなります。",
+      "tableHeaders": {
+        "mode": "モード",
+        "style": "スタイル",
+        "risk": "リスク",
+        "loot": "戦利品プロファイル",
+        "timer": "制限時間",
+        "extraction": "脱出ルール",
+        "crew": "クルーのルール",
+        "bestFor": "おすすめ"
+      },
+      "rows": [
+        {
+          "mode": "Voyage（航海）",
+          "style": "永続的なオープンワールド遠征",
+          "risk": "低い",
+          "loot": "低ティアのアイテムと安定したスカベンジング",
+          "timer": "固定の遠征タイマーなし",
+          "extraction": "プレイヤーは脱出ポイントに戻るタイミングを自分で選べる。",
+          "crew": "ソロ対応。2〜6人のクルー編成（クルーサイズ別のマッチメイキングあり）。",
+          "bestFor": "初心者、最初のTramplerビルド、ルート学習、低プレッシャーなチーム練習向け。"
+        },
+        {
+          "mode": "Storm Dive（嵐の潜入）",
+          "style": "バトルロイヤル形式の脱出",
+          "risk": "高い",
+          "loot": "高ティアの戦利品と強力な報酬",
+          "timer": "マップ中央へ向かう砂嵐による制限",
+          "extraction": "砂嵐が中央に到達する前にいつでも脱出可能。",
+          "crew": "ソロおよびクループレイ対応（クルーサイズ別のマッチメイキングあり）。",
+          "bestFor": "自信のあるクルー、PvP重視のプレイヤー、短時間での高価値周回向け。"
+        },
+        {
+          "mode": "クルーブラケット",
+          "style": "マッチメイキングとサーバー規模",
+          "risk": "クルーサイズに依存",
+          "loot": "クルーの計画がレイアウト、ストレージ、脱出の安全性を決定する。",
+          "timer": "Voyageにはタイマーがなく、Storm Diveは嵐による時間制限がある。",
+          "extraction": "脱出することで、周回終了後の戦利品、命、そしてTramplerが保護される。",
+          "crew": "最大クルー数6人。サーバー上限：ソロ15人、2〜3人クルー時は36人、4〜6人クルー時は45人。",
+          "bestFor": "コンパクトなソロ用ウォーカー、小規模チーム用の襲撃機、あるいは大型要塞の計画。"
+        }
+      ]
+    },
+    "mapLootAndExtraction": {
+      "title": "SAND Raiders of Sophieのマップ、戦利品、脱出",
+      "eyebrow": "戦利品ルート",
+      "intro": "Sophieは、都市、遺跡、難破船、資源、武器、アーティファクト、そして脱出のプレッシャーに満ちた、広大な自動生成ワールドです。Tramplerがどれだけの貨物を守れるか、どれだけ素早く離脱できるかを考慮して各ルートを計画しましょう。他のプレイヤーも銃を持っていることを思い知らされる直前こそ、戦利品への欲が最も強くなる瞬間です。",
+      "fieldLabels": {
+        "mapFeature": "マップの特徴",
+        "lootFocus": "戦利品の焦点",
+        "dangerSignals": "危険信号",
+        "extractionMove": "脱出の動き"
+      },
+      "items": [
+        {
+          "title": "Trampler Editorから開始",
+          "mapFeature": "出撃前のTramplerビルド",
+          "lootFocus": "ストレージ、防御、クルー用居住区、搭載火器",
+          "dangerSignals": "容量不足のストレージ、露出したモジュール、不十分なクルーサポート",
+          "extractionMove": "クルーの人数と戦利品回収ルートに適したTramplerで出撃しましょう。"
+        },
+        {
+          "title": "都市や廃墟となった街路の探索",
+          "mapFeature": "廃墟となった都市エリア",
+          "lootFocus": "武器、弾薬、資源、および貴重な戦利品",
+          "dangerSignals": "地平線の煙、アンデッドの物音、近くのライバルスカベンジャー",
+          "extractionMove": "Tramplerのストレージに保護する価値のある十分な戦利品が収まったら、撤退しましょう。"
+        },
+        {
+          "title": "遺跡や遺構の探索",
+          "mapFeature": "遺跡、モニュメント、崩壊した世界の遺構",
+          "lootFocus": "資源、アーティファクト、主要なPOI間のルート価値",
+          "dangerSignals": "長時間の無防備な状態、不明瞭な視線、クルーの過度な分散",
+          "extractionMove": "遺跡は終わりのない遠回りではなく、管理された一時停止ポイントとして利用しましょう。"
+        },
+        {
+          "title": "難破船の慎重な探索",
+          "mapFeature": "難破船のPOI",
+          "lootFocus": "より価値の高いサルベージ品、武器、および資源",
+          "dangerSignals": "他のクルーの接近、限られた脱出経路、遠方の動き",
+          "extractionMove": "難破船は計画的な立ち寄り先とし、常に脱出経路を確保しておきましょう。"
+        },
+        {
+          "title": "ドレッドノートのリスクを理解する",
+          "mapFeature": "ドレッドノートの出現場所",
+          "lootFocus": "WOK Bombの獲得チャンスなど、特別な高リスク戦利品",
+          "dangerSignals": "PvPの密集、嵐のプレッシャー、最終脱出時の混雑",
+          "extractionMove": "リスクに見合うだけの火力、修理資材、ストレージ容量がある場合のみ、挑戦しましょう。"
+        },
+        {
+          "title": "状況が悪化する前に脱出する",
+          "mapFeature": "脱出ポイントおよび最終脱出エリア",
+          "lootFocus": "資源、アーティファクト、武器、命、そしてTramplerの確保",
+          "dangerSignals": "損傷したTrampler、不足する修理資材、満杯の貨物、近くでの砲撃",
+          "extractionMove": "Voyageでは終了タイミングを選択でき、Storm Diveでは嵐が中心に到達する前に脱出できます。"
+        }
+      ]
+    },
+    "systemRequirementsAndAntiCheat": {
+      "title": "SAND Raiders of Sophie 動作環境とアンチチート",
+      "eyebrow": "セットアップチェックリスト",
+      "intro": "SANDはオンラインPvPvE脱出ゲームであるため、ハードウェア、ネットワーク接続、アンチチート、コントローラーサポート、そしてリージョンに紐づいたキャラクターのすべてが重要になります。スタッター、切断、起動失敗を砂漠のせいにする前に、セットアップの基本を確認してください。PCの対象スペックは、Windows 10/11 64ビット、ブロードバンドインターネット、および11 GBのストレージです。",
+      "groups": [
+        {
+          "group": "最低動作環境",
+          "checks": [
+            "64ビットプロセッサとオペレーティングシステム",
+            "Windows 10 64ビット",
+            "Intel Core i5（第8世代）、AMD Ryzen 5（2000シリーズ）、または同等品",
+            "16 GB RAM",
+            "NVIDIA GeForce GTX 1650、AMD Radeon RX570、または Intel Arc A380",
+            "DirectX 11",
+            "ブロードバンドインターネット接続",
+            "11 GBの空き容量"
+          ]
+        },
+        {
+          "group": "推奨動作環境",
+          "checks": [
+            "64ビットプロセッサとオペレーティングシステム",
+            "Windows 11 64ビット",
+            "Intel Core i5 (第13世代)、AMD Ryzen 5 (7000シリーズ)、または同等の性能",
+            "32 GB RAM",
+            "NVIDIA GeForce RTX 3080 または AMD Radeon RX 6800 XT",
+            "DirectX 11",
+            "ブロードバンドインターネット接続",
+            "11 GBのストレージ空き容量"
+          ]
+        },
+        {
+          "group": "オンラインとサーバーの基本",
+          "checks": [
+            "オンラインプレイが必須です",
+            "ソロサーバーの定員は15人です",
+            "小規模チームサーバーの定員は、2～3人のクルーで36人です",
+            "大規模チームサーバーの定員は、4～6人のクルーで45人です",
+            "XboxのSeries X|S版は、オンライン協力プレイが2～6人、オンラインマルチプレイヤーが2～90人に対応しています"
+          ]
+        },
+        {
+          "group": "コントローラーとコンソールのサポート",
+          "checks": [
+            "フルコントローラーサポートを搭載",
+            "PS5版はDualSenseの振動機能に対応しています",
+            "Xbox Series X|Sへの最適化および10言語への対応が含まれています"
+          ]
+        },
+        {
+          "group": "LinuxとProton BattlEye",
+          "checks": [
+            "Linuxの互換性に対応しています",
+            "LinuxやSteam Deckでプレイする前に、SteamライブラリからProton BattlEye Runtimeをインストールしてください",
+            "Server Slam #2のLinuxサポートにはProton BattlEye Runtimeが使用されました"
+          ]
+        },
+        {
+          "group": "アンチチートとアカウントに関する注意",
+          "checks": [
+            "SANDはBattlEyeアンチチートを使用しています",
+            "インベントリと技術ツリーは、キャラクターが選択したリージョンに紐付けられています",
+            "Tramplerの設計図はキャラクター間で共有されます",
+            "Tramplerがなく、建造するリソースもない場合、復旧には新しいキャラクターを作成するか、Tramplerを所有するチームに参加する必要があります"
+          ]
+        },
+        {
+          "group": "リリース時の対応言語",
+          "checks": [
+            "英語",
+            "ウクライナ語",
+            "ドイツ語",
+            "フランス語",
+            "スペイン語",
+            "ポルトガル語（ブラジル）",
+            "ポーランド語",
+            "イタリア語",
+            "中国語（簡体字）",
+            "日本語"
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "よくある質問",
+    "titleHighlight": "（FAQ）",
+    "subtitle": "SAND: Raiders of Sophieについて知っておくべきすべてのこと",
+    "questions": [
+      {
+        "question": "SAND: Raiders of Sophieとは？",
+        "answer": "SAND: Raiders of Sophieは、砂の惑星Sophieを舞台に、Tramplerと呼ばれるカスタマイズ可能な歩行基地を建造・操縦し、物資の収集、戦闘、脱出を行うオープンワールドPvPvE脱出シューターです。"
+      },
+      {
+        "question": "SAND: Raiders of Sophieのリリース日はいつですか？",
+        "answer": "SAND: Raiders of Sophieは2026年6月22日にSteam早期アクセスを開始しました。PlayStation 5およびXbox Series X|S版は公式ストアにページが開設されていますが、PS5版のリリース日は未定です。"
+      },
+      {
+        "question": "SAND: Raiders of Sophieはどのプラットフォームでプレイできますか？",
+        "answer": "SAND: Raiders of SophieはPC（Steam早期アクセス）でプレイ可能です。また、PS5およびXbox Series X|Sの公式ストアページも公開されており、2〜90人でのオンラインマルチプレイヤーに対応しています。"
+      },
+      {
+        "question": "SAND: Raiders of Sophieに引き換えコードはありますか？",
+        "answer": "SAND: Raiders of Sophieに公開された引き換えコードシステムはありません。報酬はSteamのローンチ割引や公式のServer Slamプレイテストイベントを通じて提供されるものであり、コード入力や偽のキーリンクによるものではありません。"
+      },
+      {
+        "question": "SAND: Raiders of Sophieはソロプレイや協力プレイに対応していますか？",
+        "answer": "はい。SAND: Raiders of Sophieはソロプレイおよびクループレイに対応しており、プラットフォームに応じて2〜6人のオンライン協力プレイ、2〜90人のオンラインマルチプレイヤーが可能です。"
+      },
+      {
+        "question": "SAND: Raiders of SophieはLinuxやSteam Deckで動作しますか？",
+        "answer": "はい。LinuxやSteam Deckでプレイする前に、SteamライブラリからProton BattlEye Runtimeをインストールすることで、SAND: Raiders of SophieはLinuxでの互換性をサポートします。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "砂の惑星Sophieへ出撃する準備はいいですか？",
+    "description": "Tramplerを建造し、砂漠を探索しましょう。DiscordのSAND: Raiders of Sophieコミュニティに参加して、ビルド情報やルート、最新情報をチェック！",
+    "joinCommunity": "Discordに参加",
+    "joinGame": "Steamでプレイ"
+  },
+  "footer": {
+    "title": "SAND Raiders of Sophie Wiki",
+    "description": "SAND: Raiders of SophieのTramplerビルド、戦利品、武器、PvPvEサバイバル、脱出ガイドを網羅したリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steamコミュニティ",
+    "steamStore": "Steamストア",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 SAND Raiders of Sophie Wiki. SAND: Raiders of Sophieの開発元とは提携していません。",
+    "disclaimer": "非公式のファンメイドリソースサイトです。"
+  },
+  "pages": {
+    "release": {
+      "title": "SAND Raiders of Sophie リリース日",
+      "description": "SAND Raiders of Sophieのリリース日、Steam早期アクセス開始日、PlayStation 5およびXbox Series X|Sの状況、遅延やロードマップの更新情報を追跡します。",
+      "metaTitle": "SAND Raiders of Sophie リリース日 - Steam、PS5 & Xboxローンチ",
+      "metaDescription": "SAND Raiders of Sophieは2026年6月22日にSteam早期アクセスを開始しました。PS5およびXboxのリリース日、販売価格、ロードマップの更新情報をこちらで確認してください。",
+      "categoryLabel": "リリース",
+      "whatIs": "リリース日はいつですか？",
+      "whatIsDescription": "SAND: Raiders of Sophieは2026年6月22日にSteam早期アクセスを開始しました。PlayStation 5およびXbox Series X|Sのストアページはウィッシュリスト登録が可能ですが、コンソール版の正確なリリース日は未定です。",
+      "why": "なぜリリース情報を追跡する必要があるのですか？",
+      "whySteps": {
+        "step1Title": "Steam 早期アクセスが開始されました",
+        "step1Description": "今すぐ Steam 早期アクセス版を購入、ダウンロードしてプレイしましょう。オンライン PvP、Steam 実績、ファミリーシェアリングに対応しています。",
+        "step2Title": "PS5 と Xbox でウィッシュリストに追加可能",
+        "step2Description": "PlayStation 5 および Xbox Series X|S の公式ストアページをウィッシュリストに追加して、コンソール版の発売日が決定した瞬間に通知を受け取りましょう。",
+        "step3Title": "延期情報とロードマップをチェック",
+        "step3Description": "早期アクセスのロードマップやスケジュールの変更をフォローして、どのようなコンテンツがいつ追加されるか、また各プラットフォームでの配信開始時期を把握しましょう。"
+      },
+      "featured": "注目＆基本情報",
+      "all": "すべてのリリース情報"
+    },
+    "platforms": {
+      "title": "SAND Raiders of Sophie プラットフォーム",
+      "description": "SAND Raiders of Sophie の Steam、PlayStation 5、Xbox Series X|S、Linux、Steam Deck 版の情報を掲載。ストアページ、対応言語、アンチチート、プラットフォーム間の違いを比較できます。",
+      "metaTitle": "SAND Raiders of Sophie プラットフォーム - Steam、PS5、Xbox、Linux",
+      "metaDescription": "SAND Raiders of Sophie は Steam 早期アクセスで配信中。PS5、Xbox Series X|S、Linux、Steam Deck に対応しています。ストアページ、プレイヤー数、アンチチートの各プラットフォーム間での違いを比較できます。",
+      "categoryLabel": "プラットフォーム",
+      "whatIs": "対応プラットフォームは？",
+      "whatIsDescription": "SAND: Raiders of Sophie は Steam 早期アクセスを通じて PC でプレイ可能です。また、PlayStation 5 および Xbox Series X|S の公式ストアページも公開されています。Linux と Steam Deck でも Proton BattlEye Runtime を介して動作します。",
+      "why": "なぜプラットフォームを確認するのか？",
+      "whySteps": {
+        "step1Title": "適切なストアの選択",
+        "step1Description": "公式の Steam、PlayStation、Xbox のストアリンクを使用して、お使いのハードウェアに適したバージョンを購入、またはウィッシュリストに追加してください。",
+        "step2Title": "プレイヤー人数の上限を把握する",
+        "step2Description": "各プラットフォームには、ソロサーバーから最大90人のマルチプレイヤーまで、オンラインプレイヤーの上限が記載されているため、クルーの規模を計画するのに役立ちます。",
+        "step3Title": "Linux と Steam Deck の確認",
+        "step3Description": "このゲームは BattlEye カーネルレベルアンチチートを使用しているため、Linux または Steam Deck でプレイする前に Proton BattlEye Runtime をインストールしてください。"
+      },
+      "featured": "注目＆基本情報",
+      "all": "すべてのプラットフォーム"
+    },
+    "price": {
+      "title": "SAND Raiders of Sophie 価格",
+      "description": "Steam、PS5、Xbox における SAND Raiders of Sophie の価格（リリース記念割引、地域別価格、基本プレイ無料に関する詳細など）をご確認ください。",
+      "metaTitle": "SAND Raiders of Sophie 価格 - Steam、PS5、Xbox の料金",
+      "metaDescription": "SAND Raiders of Sophie の Steam 版価格は、リリース記念割引が適用された状態から始まります。Steam、PS5、Xbox での価格に加え、地域別価格や基本プレイ無料に関する詳細をご覧ください。",
+      "categoryLabel": "価格",
+      "whatIs": "価格はいくらですか？",
+      "whatIsDescription": "SAND: Raiders of Sophie は Steam 早期アクセスにてリリース記念割引価格で提供されている有料ゲームです。基本プレイ無料（F2P）ではありません。PlayStation 5 および Xbox Series X|S の価格は各公式ストアページに記載されています。",
+      "why": "なぜ価格を確認するのか？",
+      "whySteps": {
+        "step1Title": "リリース記念割引を逃さない",
+        "step1Description": "Steam ストアでは、早期アクセス開始後の期間限定で、通常価格から割引されたリリース記念価格が適用されます。",
+        "step2Title": "地域別の価格を比較する",
+        "step2Description": "Steam のセールと同時に地域別の販売価格も発表されるため、購入前にお住まいの地域の価格をご確認ください。",
+        "step3Title": "基本プレイ無料ではなく有料であることを確認する",
+        "step3Description": "SAND は有料タイトルであり、基本プレイ無料ではありません。そのため、公式ストアページが唯一の安全な購入方法となります。"
+      },
+      "featured": "注目＆基本情報",
+      "all": "すべての価格情報"
+    },
+    "guide": {
+      "title": "SAND Raiders of Sophie ガイド",
+      "description": "初心者向けヒント、Tramplerの操作、修理・給油手順、回復、脱出、そして歩行拠点への大砲の追加方法を学び、SAND Raiders of Sophieをマスターしましょう。",
+      "metaTitle": "SAND Raiders of Sophie ガイド - Trampler、脱出＆サバイバル",
+      "metaDescription": "Tramplerの操作、修理、給油、回復、脱出、そして歩行拠点への大砲の追加方法に関するガイドで、SAND Raiders of Sophieの遊び方を学びましょう。",
+      "categoryLabel": "ガイド",
+      "whatIs": "このガイドは何ですか？",
+      "whatIsDescription": "このSAND: Raiders of Sophieガイドでは、Tramplerの操作や修理から、Sophieの砂漠での回復、給油、そして戦利品の安全な脱出まで、基本的な抽出ループを解説します。",
+      "why": "なぜこのガイドを読むべきですか？",
+      "whySteps": {
+        "step1Title": "Tramplerの操縦",
+        "step1Description": "Sophie全土を横断する長い遠征を生き抜くために、歩行拠点の操作、修理、給油方法を学びましょう。",
+        "step2Title": "生存と脱出",
+        "step2Description": "ステップバイステップの脱出と回復のヒントに従って、戦利品と命、そしてTramplerを守りましょう。",
+        "step3Title": "大砲によるアップグレード",
+        "step3Description": "PvPvE遭遇戦で反撃できるよう、Tramplerに大砲や武器を追加しましょう。"
+      },
+      "featured": "おすすめ＆重要",
+      "all": "すべてのガイド"
+    },
+    "gameplay": {
+      "title": "SAND Raiders of Sophie ゲームプレイ",
+      "description": "SAND Raiders of Sophieのゲームプレイ、PvPおよびPvE戦闘、マルチプレイヤーとシングルプレイヤーモード、Dreadnought、そして脱出シューターファン向けのSANDに似たゲームを探求しましょう。",
+      "metaTitle": "SAND Raiders of Sophie ゲームプレイ - PvP、PvE＆マルチプレイヤー",
+      "metaDescription": "PvPとPvEの戦闘、シングルプレイヤーとマルチプレイヤーモード、Dreadnought、そして類似の脱出シューターを網羅したSAND Raiders of Sophieのゲームプレイに飛び込みましょう。",
+      "categoryLabel": "ゲームプレイ",
+      "whatIs": "ゲームプレイとは？",
+      "whatIsDescription": "SAND: Raiders of Sophieは、オープンワールドのPvPvE脱出シューターです。Tramplerと呼ばれるカスタマイズ可能な歩行拠点を操縦し、戦利品をあさり、他のプレイヤーやPvEの脅威と戦い、すべてを失う前に脱出しましょう。",
+      "why": "なぜゲームプレイを探求するのですか？",
+      "whySteps": {
+        "step1Title": "PvPとPvEを理解する",
+        "step1Description": "PvPの待ち伏せやPvEの脅威が各探索にどう影響するか、そしてSophieの惑星でいつ戦い、いつ逃げるべきかを学びましょう。",
+        "step2Title": "ソロかマルチプレイヤーか",
+        "step2Description": "シングルプレイヤー探索を選ぶか、2〜6人の協力プレイや最大90人までの大規模マルチプレイヤーサーバーでクルーを組みましょう。",
+        "step3Title": "Dreadnoughtを狩る",
+        "step3Description": "特別な戦利品が手に入るハイリスクなDreadnought探索に備えましょう。もっと遊びたい場合は、SANDに似たゲームもチェックしてみてください。"
+      },
+      "featured": "おすすめ＆重要",
+      "all": "すべてのゲームプレイ"
+    },
+    "servers": {
+      "title": "SAND Raiders of Sophie サーバー",
+      "description": "SAND Raiders of Sophieのライブサーバー状況の確認、接続トラブルの解決、BattlEyeアンチチートエラー、および地域ごとのキャラクターロックについて確認しましょう。",
+      "metaTitle": "SAND Raiders of Sophie サーバー - 状況＆トラブルシューティング",
+      "metaDescription": "SAND Raiders of Sophieのサーバー状況を追跡し、接続エラーやBattlEyeアンチチートエラーを修正し、地域ごとのキャラクターロックやサーバー上限について理解しましょう。",
+      "categoryLabel": "サーバー",
+      "whatIs": "サーバーの状況はどうですか？",
+      "whatIsDescription": "SAND: Raiders of Sophieは、15人用のソロサーバーから最大45人用の大規模チームサーバーまで、クルーサイズに基づいたマッチメイキングを備えたオンラインサーバーで運営されています。キャラクターとインベントリは、選択した地域に固定されます。",
+      "why": "なぜサーバーを確認するのですか？",
+      "whySteps": {
+        "step1Title": "サーバー稼働状況を確認",
+        "step1Description": "待機列に並ぶ前にサーバーがオンラインかを確認し、メンテナンスや障害で時間を無駄にしないようにしましょう。",
+        "step2Title": "接続トラブルの解決",
+        "step2Description": "切断、マッチメイキングエラー、BattlEyeアンチチートの問題を、ステップバイステップの明確な手順で解決します。",
+        "step3Title": "リージョンロックについて",
+        "step3Description": "インベントリと技術ツリーは各リージョンに紐付いていますが、Tramplerの設計図は全キャラクターで共有されます。"
+      },
+      "featured": "特集・重要情報",
+      "all": "すべてのサーバー"
+    }
   }
 }
