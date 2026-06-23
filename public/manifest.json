@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "SAND Raiders of Sophie Wiki - Tramplers, Loot & PvPvE Guides",
+  "short_name": "SAND Wiki",
+  "description": "SAND: Raiders of Sophie wiki covers Trampler builds, loot routes, weapons, PvPvE survival, extraction tips, maps, contracts, and the latest updates.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#d89a2b",
+  "background_color": "#101623",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
