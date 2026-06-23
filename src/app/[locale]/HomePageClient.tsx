@@ -13,6 +13,7 @@ import {
   ExternalLink,
   Gamepad2,
   Gift,
+  Info,
   Map as MapIcon,
   Package,
   Sparkles,
@@ -632,6 +633,14 @@ export default function HomePageClient({
                         {entry.type}
                       </span>
                       <p className="text-sm text-muted-foreground mb-2">{entry.role}</p>
+                      {entry.detail && (
+                        <div className="flex items-start gap-1.5 mb-2 p-2.5 rounded-lg bg-[hsl(var(--nav-theme)/0.06)] border border-[hsl(var(--nav-theme)/0.2)]">
+                          <Info className="w-3.5 h-3.5 mt-0.5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                          <p className="text-xs text-muted-foreground leading-relaxed">
+                            {entry.detail}
+                          </p>
+                        </div>
+                      )}
                       <p className="text-xs text-muted-foreground">
                         <span className="text-[hsl(var(--nav-theme-light))] font-medium">
                           {t.modules.weaponsAndTramplerPartsTierList.earlyUseLabel}:

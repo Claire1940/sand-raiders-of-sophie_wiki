@@ -278,9 +278,9 @@
       ]
     },
     "weaponsAndTramplerPartsTierList": {
-      "title": "SAND Raiders of Sophie Weapons and Parts Tier List",
+      "title": "SAND Raiders of Sophie Weapons and Trampler Parts Tier List",
       "eyebrow": "Gear Ranking",
-      "intro": "A strong SAND loadout is more than the biggest gun bolted to a walking house. Early crews should prioritize repairs, storage, crew capacity, and dependable Trampler firepower before chasing rare finds.",
+      "intro": "A strong SAND loadout is not just the biggest gun bolted to a walking house, although humanity naturally tried that first. Early crews should prioritize repairs, storage, crew capacity, and reliable Trampler firepower before gambling on rare Dreadnought-only finds or high-risk experimental weapons.",
       "riskLabel": "Risk",
       "earlyUseLabel": "Early Use",
       "tiers": [
@@ -293,28 +293,32 @@
               "type": "Utility",
               "role": "Keeps the Trampler alive during fights and long expeditions.",
               "risk": "Low",
-              "earlyUse": "Essential"
+              "earlyUse": "Essential",
+              "detail": "Repair Kits have 3 charges."
             },
             {
               "name": "Storage Compartments",
               "type": "Trampler Module",
               "role": "Turns the Trampler into the crew's main loot storage.",
               "risk": "Low",
-              "earlyUse": "Essential"
+              "earlyUse": "Essential",
+              "detail": "The Trampler acts as the crew's main base, transport, protection, weapon platform, and primary storage."
             },
             {
               "name": "Crew Rooms",
               "type": "Trampler Module",
               "role": "Lets larger crews deploy together and support heavier builds.",
               "risk": "Low",
-              "earlyUse": "High for teams"
+              "earlyUse": "High for teams",
+              "detail": "Crew size reaches up to 6 players, but large crews need enough crew rooms on the Trampler."
             },
             {
               "name": "Armor Plates",
               "type": "Defense",
               "role": "Adds survivability against cannon fire, boarding, and long routes.",
               "risk": "Low",
-              "earlyUse": "High"
+              "earlyUse": "High",
+              "detail": "Armor Plate pricing was tuned upward, making protection a planned investment rather than disposable filler."
             }
           ]
         },
@@ -327,28 +331,32 @@
               "type": "Trampler Weapon",
               "role": "Primary Trampler defense and pressure in large fights.",
               "risk": "Medium",
-              "earlyUse": "High for crews"
+              "earlyUse": "High for crews",
+              "detail": "Trampler builds can be stacked with mounted turrets and firepower; Ironclads can drop turrets, but those drops are slightly less frequent."
             },
             {
               "name": "Shotgun Cannons",
               "type": "Mounted Weapon",
               "role": "Close-range defense against targets that get too near.",
               "risk": "Medium",
-              "earlyUse": "High for close fights"
+              "earlyUse": "High for close fights",
+              "detail": "Higher-tier Shotgun Cannons have progressively better spread."
             },
             {
               "name": "80 mm Mounted Cannon",
               "type": "Mounted Weapon",
               "role": "Heavy firepower for decisive cannon pressure.",
               "risk": "Medium",
-              "earlyUse": "Strong for crews"
+              "earlyUse": "Strong for crews",
+              "detail": "SAND highlights the 80 mm mounted cannon as a major Trampler weapon."
             },
             {
               "name": "Experimental Railgun",
               "type": "Mounted Weapon",
               "role": "Power weapon for planned shots and coordinated fights.",
               "risk": "High",
-              "earlyUse": "Strong but demanding"
+              "earlyUse": "Strong but demanding",
+              "detail": "Experimental Railgun reload time was increased by 0.5 seconds."
             }
           ]
         },
@@ -361,28 +369,32 @@
               "type": "Mounted Weapon",
               "role": "Sustained pressure when the crew needs steadier fire.",
               "risk": "Medium",
-              "earlyUse": "Good"
+              "earlyUse": "Good",
+              "detail": "A launch fix addressed autocannon fire-rate limitation bypassing."
             },
             {
               "name": "M1866/9 Einzel Breechloader",
               "type": "Player Weapon",
               "role": "Rifle tied to the Server Slam launch reward skin.",
               "risk": "Low",
-              "earlyUse": "Good"
+              "earlyUse": "Good",
+              "detail": "Server Slam participants receive an exclusive skin for the M1866/9 \"Einzel\" Breechloader after buying the game."
             },
             {
               "name": "Smoke Grenade",
               "type": "Throwable Utility",
               "role": "Escape, repositioning, and visual cover during fights.",
               "risk": "Low",
-              "earlyUse": "Good"
+              "earlyUse": "Good",
+              "detail": "Smoke Grenades spawn in stacks of 2."
             },
             {
               "name": "Custom Ammo",
               "type": "Ammunition",
               "role": "Improves weapon flexibility when found in rare crates.",
               "risk": "Medium",
-              "earlyUse": "Good once weapons are secured"
+              "earlyUse": "Good once weapons are secured",
+              "detail": "Custom Ammo appears more frequently in rare weapon crates."
             }
           ]
         },
@@ -395,14 +407,16 @@
               "type": "Special Loot Weapon",
               "role": "Rare high-stakes explosive tied to Dreadnought runs.",
               "risk": "High",
-              "earlyUse": "Situational"
+              "earlyUse": "Situational",
+              "detail": "WOK Bomb no longer spawns at regular artifact spawn locations and can only be found with a chance on the Dreadnought."
             },
             {
               "name": "Rare Weapons",
               "type": "Loot Weapon",
               "role": "Valuable upgrades that depend on rare crate access.",
               "risk": "High",
-              "earlyUse": "Loot-dependent"
+              "earlyUse": "Loot-dependent",
+              "detail": "Rare Weapons have a slightly smaller drop chance from rare weapon crates."
             }
           ]
         }
@@ -411,7 +425,7 @@
     "voyageAndStormDiveModes": {
       "title": "SAND Raiders of Sophie Voyage and Storm Dive Modes",
       "eyebrow": "Game Modes",
-      "intro": "SAND centers on two expedition styles: Voyage for lower-stakes open-world survival and Storm Dive for higher-risk, battle-royale-style extraction. Pick the mode based on how much loot and PvP pressure your crew can handle.",
+      "intro": "SAND centers on two expedition styles: Voyage for lower-stakes open-world survival and Storm Dive for higher-risk, battle-royale-style extraction. Voyage is the calmer way to learn Trampler handling, loot routes, and extraction rhythm, while Storm Dive tests crews who want stronger rewards under a shrinking sandstorm.",
       "tableHeaders": {
         "mode": "Mode",
         "style": "Style",
@@ -458,7 +472,7 @@
     "mapLootAndExtraction": {
       "title": "SAND Raiders of Sophie Map, Loot, and Extraction",
       "eyebrow": "Loot Routes",
-      "intro": "Sophie is a massive procedurally generated world full of cities, ruins, shipwrecks, resources, weapons, artifacts, and extraction pressure. Each route should be planned around how much cargo you can protect and how quickly you can leave.",
+      "intro": "Sophie is a massive procedurally generated world full of cities, ruins, shipwrecks, resources, weapons, artifacts, and extraction pressure. Plan each route around how much cargo your Trampler can protect and how quickly you can leave — loot greed is strongest right before the map reminds you that other players also own guns.",
       "fieldLabels": {
         "mapFeature": "Map Feature",
         "lootFocus": "Loot Focus",
@@ -513,7 +527,7 @@
     "systemRequirementsAndAntiCheat": {
       "title": "SAND Raiders of Sophie System Requirements and Anti-Cheat",
       "eyebrow": "Setup Checklist",
-      "intro": "SAND is an online PvPvE extraction game, so hardware, network connection, anti-cheat, controller support, and region-linked characters all matter. The PC target is Windows 10/11 64-bit with broadband internet and 11 GB of storage.",
+      "intro": "SAND is an online PvPvE extraction game, so hardware, network connection, anti-cheat, controller support, and region-linked characters all matter. Check the setup basics before blaming the desert for stutters, disconnects, or failed launches — the PC target is Windows 10/11 64-bit with broadband internet and 11 GB of storage.",
       "groups": [
         {
           "group": "Minimum PC Specs",
