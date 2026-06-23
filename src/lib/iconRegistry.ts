@@ -28,6 +28,15 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // SAND Raiders of Sophie 首页导航卡片图标
+  Calendar: LucideIcons.Calendar,
+  Gift: LucideIcons.Gift,
+  Wrench: LucideIcons.Wrench,
+  Swords: LucideIcons.Swords,
+  CloudLightning: LucideIcons.CloudLightning,
+  Map: LucideIcons.Map,
+  Cpu: LucideIcons.Cpu,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,
