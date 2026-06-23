@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "SAND: Raiders of Sophie Wiki - Builds, Loot & Tramplers",
+      "description": "SAND: Raiders of Sophie Wiki covers Trampler builds, loot routes, weapons, PvPvE survival, extraction tips, maps, contracts, and the latest updates.",
+      "keywords": "SAND Raiders of Sophie, Trampler builds, loot, weapons, PvPvE extraction, Steam, PS5, Xbox, guide",
+      "ogTitle": "SAND: Raiders of Sophie Wiki - Builds, Loot & Tramplers",
+      "ogDescription": "SAND: Raiders of Sophie Wiki covers Trampler builds, loot routes, weapons, PvPvE survival, extraction tips, maps, contracts, and the latest updates.",
+      "twitterTitle": "SAND: Raiders of Sophie Wiki - Builds, Loot & Tramplers",
+      "twitterDescription": "SAND: Raiders of Sophie Wiki covers Trampler builds, loot routes, weapons, PvPvE survival, extraction, maps, and the latest updates."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Open-World PvPvE Extraction Shooter",
+    "title": "SAND: Raiders of Sophie Wiki",
+    "description": "Build and pilot customizable Tramplers across the desert planet Sophie, scavenge ruined cities and shipwrecks, fight PvP and PvE threats, extract loot, and upgrade your walking fortress.",
+    "getFreeCodesCTA": "Read Starter Guide",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Jun 22, 2026",
+        "label": "Early Access"
       },
       "stat2": {
-        "value": "1,986",
+        "value": "15,703",
         "label": "Peak CCU"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "Mixed",
+        "label": "Steam Reviews"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "2-90",
+        "label": "Online Players"
       }
     }
   },
@@ -785,14 +785,14 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Raid the Sands of Sophie?",
+    "description": "Build your Trampler, scavenge the desert, and join the SAND: Raiders of Sophie community on Discord for builds, loot routes, and updates!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "SAND Raiders of Sophie Wiki",
+    "description": "Your complete resource hub for SAND: Raiders of Sophie Trampler builds, loot, weapons, PvPvE survival, and extraction guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 SAND Raiders of Sophie Wiki. Not affiliated with the developers of SAND: Raiders of Sophie.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
