@@ -1,0 +1,2 @@
+# 占位文件：保持 content/ 目录存在，供构建期 generate-content-manifest.mjs 扫描。
+# 真实 MDX 内容由后续阶段填充。

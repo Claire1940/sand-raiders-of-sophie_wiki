@@ -10,14 +10,7 @@
       "twitterDescription": "SAND: Raiders of Sophie Wiki covers Trampler builds, loot routes, weapons, PvPvE survival, extraction, maps, and the latest updates."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
