@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "sand raiders of sophie connection lost: Soluciones paso a paso",
+  description: "Soluciona el error de conexión perdida en sand raiders of sophie con nuestra guía detallada. Resuelve problemas de caídas de red, compatibilidad con Steam Deck y controladores.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2b2d42/fff?text=Connection+Lost+Fix",
+  date: "2026-06-28",
+  author: "Equipo de Wiki de SAND: Raiders of Sophie"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Problema principal**: El error de conexión perdida (connection lost) en sand raiders of sophie suele ocurrir debido a la inestabilidad de la red o a la falta de tiempos de ejecución (runtimes) del sistema antitrampas.
+- **Solución rápida**: Reinicia el cliente de juego y cambia de Wi-Fi a una conexión por cable estable o a un punto de acceso móvil.
+- **Solución para Steam Deck**: Asegúrate de que Proton BattlEye Runtime esté instalado y actualizado en tu biblioteca de Steam.
+- **Información de soporte**: Reúne tus archivos player.log y tu SteamID de 17 dígitos antes de contactar al soporte técnico.
+</Callout>
+
+<Section icon={Map} title="Cómo solucionar el error de conexión perdida (connection lost) en sand raiders of sophie">
+
+Experimentar caídas de conectividad mientras pilotas tu Trampler por el desierto puede interrumpir el progreso de tu partida. El error de conexión perdida (connection lost) en sand raiders of sophie suele estar relacionado con problemas de configuración de la red local, negociaciones (handshakes) con el servidor o conflictos temporales del sistema. Abordar estos problemas de inmediato garantiza que no pierdas tu inventario ni el progreso de tu vehículo durante las sesiones activas.
+
+**Puntos clave del video:**
+- Identificar las causas principales de la pantalla de error de conexión perdida.
+- Instrucciones paso a paso para cambiar las configuraciones de red.
+- Cómo realizar un reinicio limpio del juego para borrar los estados de conexión obsoletos.
+
+<YouTubeEmbed videoId="813g9fmd7ZU" title="SAND Raiders of Sophie Fix Connection Lost" />
+
+Para establecer una conexión más confiable con los servidores del juego, analiza las diferencias de rendimiento entre las configuraciones de red comunes. La siguiente tabla detalla cómo afectan la estabilidad los distintos métodos de conexión:
+
+| Tipo de conexión | Calificación de estabilidad | Pérdida de paquetes esperada | Acción recomendada |
+|-|-|-|-|
+| Ethernet por cable | 5/5 | Extremadamente baja | Utiliza este modo de conexión para una estabilidad óptima en multijugador |
+| Wi-Fi (5 GHz) | 4/5 | Baja a moderada | Juega más cerca del router para evitar interferencias de señal |
+| Wi-Fi (2.4 GHz) | 2/5 | Alta | Cambia a 5 GHz o utiliza una conexión por cable para evitar caídas |
+| Punto de acceso móvil | 3/5 | Variable | Utilízalo como respaldo temporal si tu proveedor de internet principal sufre interrupciones |
+
+<Callout type="warning" title="Interferencia de red">
+Evita ejecutar aplicaciones en segundo plano que consuman mucho ancho de banda, como clientes de torrent o copias de seguridad en la nube, mientras juegas. Estos servicios compiten por el ancho de banda y suelen provocar desconexiones repentinas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimización del sistema del lado del cliente">
+
+A veces, el problema de conexión perdida no es causado por tu proveedor de servicios de internet, sino por archivos locales o controladores del sistema desactualizados. Si el cliente del juego no puede procesar los datos del servidor con la suficiente rapidez, puede agotar el tiempo de espera y desconectarte de la sesión. Asegurarte de que los controladores de tu tarjeta gráfica y el sistema operativo estén actualizados ayuda a estabilizar el rendimiento general y el procesamiento de la red.
+
+Verifica que tu computadora cumpla con los requisitos mínimos del sistema para ejecutar el juego sin problemas. Las caídas de rendimiento y los tiempos de carga prolongados a veces pueden imitar desconexiones de red.
+
+| Componente de hardware | Requisito mínimo | Acción recomendada |
+|-|-|-|
+| Controladores de GPU | Últimos de NVIDIA / AMD / Intel | Actualiza a través de GeForce Experience o el software de AMD |
+| Sistema operativo Windows | Windows 10 / 11 (64 bits) | Ejecuta Windows Update para aplicar los últimos parches de seguridad |
+| Archivos del juego | Instalación intacta en Steam | Realiza una verificación de integridad de los archivos a través del cliente de Steam |
+| Ajustes gráficos | Preajuste Medio / Bajo | Reduce los ajustes si experimentas congelamientos prolongados en la pantalla de carga |
+
+Para asegurarte de que los archivos locales de tu juego no estén dañados, sigue estos pasos de validación:
+
+<Steps>
+  <Step num="1" title="Abrir la biblioteca de Steam">
+    Navega a tu biblioteca de Steam y localiza el juego en tu lista de aplicaciones instaladas.
+  </Step>
+  <Step num="2" title="Acceder a Propiedades">
+    Haz clic derecho en el título del juego, selecciona **Propiedades** y luego ve a la pestaña **Archivos instalados**.
+  </Step>
+  <Step num="3" title="Verificar integridad">
+    Haz clic en **Verificar integridad de los archivos del juego** y espera a que Steam escanee y descargue cualquier dato faltante o dañado.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verificación de archivos completada">
+Verificar los archivos del juego a menudo resuelve problemas ocultos en los que el cliente del juego no carga elementos específicos, evitando tiempos de espera de conexión durante las transiciones.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Soluciones específicas para plataformas Linux y Steam Deck">
+
+Jugar en Linux o Steam Deck requiere capas de compatibilidad adicionales para comunicarse con los sistemas antitrampas del juego. Si estos sistemas no están configurados correctamente, el servidor rechazará tu conexión, lo que provocará una desconexión. El juego utiliza el sistema antitrampas BattlEye, que debe configurarse manualmente en sistemas operativos basados en Proton.
+
+Si estás jugando en Linux o Steam Deck, debes instalar el **Proton BattlEye Runtime** directamente desde tu biblioteca de Steam para evitar expulsiones automáticas de los servidores multijugador.
+
+<Steps>
+  <Step num="1" title="Buscar en la biblioteca de Steam">
+    Abre tu cliente de Steam, dirígete a la pestaña Biblioteca y busca **Proton BattlEye Runtime** en la barra de búsqueda.
+  </Step>
+  <Step num="2" title="Instalar el tiempo de ejecución (Runtime)">
+    Si aún no está instalado, haz clic en **Instalar** y permite que se complete la descarga.
+  </Step>
+  <Step num="3" title="Reiniciar Steam">
+    Cierra completamente y reinicia el cliente de Steam para asegurarte de que el tiempo de ejecución se integre correctamente con el lanzador del juego.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Compatibilidad con Proton">
+Ejecuta siempre el juego utilizando la versión de Proton recomendada por el equipo de desarrollo para evitar bloqueos inesperados durante las sesiones de juego cruzado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cómo recopilar registros y enviar un ticket de soporte">
+
+Si has intentado los pasos básicos de solución de problemas y sigues experimentando desconexiones, bloqueos o pérdida de objetos del inventario, debes ponerte en contacto con el equipo de soporte. Para acelerar la resolución de tu caso, debes proporcionar archivos de diagnóstico específicos y detalles de tu cuenta.
+
+El equipo de soporte requiere tus registros de jugador (player logs) para diagnosticar la causa exacta de la caída de conexión. Estos archivos registran los eventos que ocurrieron antes de la desconexión.
+
+<CardGrid cols={3}>
+  <Card title="Localizar registros de jugador">
+    Busca `player.log` y `player-prev.log` en `%USERPROFILE%\AppData\LocalLow\Hologryph\SAND`.
+  </Card>
+  <Card title="Buscar tu SteamID">
+    Localiza tu SteamID de 17 dígitos en la página de detalles de tu cuenta de Steam para ayudar a identificar tu perfil.
+  </Card>
+  <Card title="Documentar el incidente">
+    Anota si la desconexión ocurrió dentro o fuera de tu Trampler, y si se trataba de un vehículo personalizado.
+  </Card>
+</CardGrid>
+
+Utiliza la siguiente lista de verificación para asegurarte de haber recopilado toda la información necesaria antes de enviar tu solicitud a la [página oficial de soporte de tinyBuild](https://tinybuild.theymes.com/hc/en/sand/articles/general-troubleshooting-6):
+
+<Checklist
+  id="support-submission-checklist"
+  title="Lista de verificación para el ticket de soporte:"
+  items={[
+    "Localizar y copiar los archivos player.log y player-prev.log",
+    "Buscar y copiar tu SteamID de 17 dígitos",
+    "Registrar la hora aproximada en que ocurrió la desconexión",
+    "Identificar si estabas usando un Trampler personalizado o predeterminado durante el fallo",
+    "Escribir una descripción detallada de los eventos que llevaron a la pantalla de conexión perdida"
+  ]}
+/>
+
+<Callout type="info" title="Almacenamiento de archivos de registro">
+La carpeta AppData está oculta por defecto en Windows. Puedes acceder a ella escribiendo `%appdata%` en el cuadro de diálogo Ejecutar de Windows (Win + R) y retrocediendo un nivel de carpeta para encontrar el directorio `LocalLow`.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+Revisa estas preguntas y respuestas comunes sobre problemas de conectividad y rendimiento del sistema.
+
+<FAQ items={[
+  {
+    question: "¿Por qué sigo recibiendo el error de conexión perdida (connection lost) en sand raiders of sophie con una conexión estable?",
+    answer: "Este error puede ocurrir si los archivos locales de tu juego están dañados, si tu firewall está bloqueando el tráfico de red del juego, o si falta el Proton BattlEye Runtime en sistemas Linux y Steam Deck."
+  },
+  {
+    question: "¿Dónde puedo encontrar los archivos de registro del jugador para enviarlos a soporte?",
+    answer: "Puedes encontrar estos archivos navegando a la siguiente ruta en tu computadora: %USERPROFILE%\\AppData\\LocalLow\\Hologryph\\SAND."
+  },
+  {
+    question: "¿Necesito instalar Proton BattlEye Runtime en Windows?",
+    answer: "No, el Proton BattlEye Runtime se requiere específicamente para que los usuarios de Linux y Steam Deck ejecuten el sistema antitrampas correctamente."
+  },
+  {
+    question: "¿Qué debo hacer si mi Trampler o mi inventario desaparecen después de una desconexión?",
+    answer: "Reúne tus registros de jugador, anota tu SteamID de 17 dígitos, registra la hora del incidente y envía un ticket al equipo de soporte oficial para recibir asistencia con la restauración."
+  }
+]} />
+
+<Callout type="success" title="Asistencia adicional">
+Si sigues experimentando problemas, consulta el servidor oficial de Discord o los centros comunitarios para obtener actualizaciones en tiempo real sobre el mantenimiento del servidor y errores de red conocidos.
+</Callout>
+
+</Section>

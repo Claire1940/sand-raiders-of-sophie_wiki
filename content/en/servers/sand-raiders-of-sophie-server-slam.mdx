@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sand Raiders of Sophie Server Slam: 2026 Performance & Roadmap Guide",
+  description: "Explore the latest insights from the Sand Raiders of Sophie server slam, including Update #1 patch notes, server stability fixes, and the 2026 roadmap.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Server+Slam+Roadmap",
+  date: "2026-06-28",
+  author: "SAND Raiders of Sophie Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Sand Raiders of Sophie Server Slam**: Recent playtests and the June 2026 launch have revealed critical performance benchmarks and server capacity limits.
+- **Update #1 Impact**: The first major patch on June 26 addressed **character controller fluidity** and environmental lighting.
+- **Critical Warning**: Avoid the **VOYAGE** mode temporarily due to a memory crash issue that leads to persistent reconnection loops.
+- **Trampler Meta**: Building highly customizable walking fortresses remains the core progression mechanic, with a focus on **40mm autocannons**.
+- **Roadmap 2026**: Future updates will prioritize solo player protection, anti-DDoS measures, and expanded PvE content.
+</Callout>
+
+<Section icon={Map} title="The Sand Raiders of Sophie Server Slam Overview">
+
+The recent **sand raiders of sophie server slam** events have provided the development team with invaluable data regarding player density and server load. As an extraction shooter set in an alternate 1910 desert, the game relies heavily on synchronized physics for the "Tramplers"—massive, player-built walking fortresses. During the server slam, players engaged in high-stakes scavenging runs, testing the limits of the procedural generation and the extraction mechanics.
+
+**Video Highlights:**
+- Detailed look at **Trampler Battles** during the second server slam.
+- Demonstration of the extraction animation and potential connection hurdles.
+- Visual comparison of the desert terrain before and after lighting updates.
+- Footage of the "Sand" broadcasting mechanics on Steam.
+
+<YouTubeEmbed videoId="R0MlzXrqRuw" title="Trampler Battles & SECOND SERVER SLAM! SAND RAIDERS OF SOPHIE" />
+
+<Callout type="tip" title="Extraction Strategy">
+Always initiate your extraction at least five minutes before server maintenance windows to prevent the "Connection Lost" loop, which can result in a total loss of your Trampler and collected loot.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Scavenge the Dunes">
+    Enter the procedural desert solo or with a squad to gather rare artifacts, weapons, and upgrade materials for your walking fortress.
+  </Step>
+  <Step num="2" title="Trampler Combat">
+    Defend your mobile base against other players and environmental threats like "Wok Bombs" while managing high-tension electrical systems.
+  </Step>
+  <Step num="3" title="Secure Extraction">
+    Navigate to an extraction point and defend the zone until the animation completes to secure your progression and resources.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Update #1: Patch Notes and Improvements">
+
+Following the feedback from the **sand raiders of sophie server slam**, the developers released Update #1 on June 26, 2026. This patch specifically targeted the "clunky" feel of movement and the visual clarity of the desert environment. The character controller was overhauled to decrease the frequency of players getting stuck on environment colliders, especially during high-speed Trampler movement.
+
+| Feature Category | Improvement Description | Status |
+| :--- | :--- | :--- |
+| **Character Controller** | Reduced collider sticking/Improved shooting from moving bases | **Improved** |
+| **Visuals** | Realistic lighting/Fixed dark shadow issues | **Resolved** |
+| **Onboarding** | Added gameplay notifications for new scavengers | **Active** |
+| **Bug Fixes** | Resolved T-Pose deaths and invisible railing glitches | **Fixed** |
+| **Equipment** | Metal vestibule installation fix for Tramplers | **Fixed** |
+
+<Callout type="success" title="Lighting Update">
+The improved lighting significantly enhances the visual distinction of terrain, making it easier to spot plumes of smoke from rival Tramplers on the horizon.
+</Callout>
+
+Beyond technical fixes, the update introduced onboarding notifications. These are designed to guide new teams through the basics of the expedition, reducing the steep learning curve observed during the initial server slam phases.
+
+</Section>
+
+<Section icon={Shield} title="Server Stability and Technical Challenges">
+
+Despite the successes of the **sand raiders of sophie server slam**, technical hurdles remain a primary concern for the community. The game has faced persistent DDoS attacks, prompting the implementation of new protection layers. A particularly severe issue involves the "VOYAGE" mode, which currently suffers from a memory crash. This crash leaves players stuck on a reconnection screen, effectively locking them out of their current session.
+
+| Issue Type | Symptom | Developer Response |
+| :--- | :--- | :--- |
+| **Memory Crash** | Disconnects in VOYAGE mode | Avoid VOYAGE until fix |
+| **DDoS Attacks** | Server-wide latency and outages | Protections implemented |
+| **Extraction Loop** | Loss of loot after successful extraction | Under investigation |
+| **Solo Matchmaking** | Solo players matched against large crews | High priority fix |
+
+<Callout type="warning" title="Critical Warning">
+If you encounter a "Connection to server lost" message during extraction, do not immediately exit. Attempt to reconnect once, but be aware that persistent loops may indicate a dead server instance due to the memory leak.
+</Callout>
+
+The developers are also tracking "sweaty" gameplay patterns where veteran players with endgame Tramplers dominate the starting areas. While the game is inspired by *Sea of Thieves*, the community is actively debating the need for a dedicated PvE mode or better matchmaking to protect new scavengers.
+
+</Section>
+
+<Section icon={Swords} title="Trampler Customization and Combat Meta">
+
+The core of the **sand raiders of sophie server slam** experience is the highly customizable Trampler. These mechanical beasts serve as your home, transport, and primary weapon. Players have found that the placement of the captain's room and the engine is vital for survival during boarding attempts.
+
+<CardGrid cols={3}>
+  <Card title="The Tanker Build">
+    - **Heavy Armor Plates**
+    - Multiple 40mm Autocannons
+    - Slow but nearly indestructible
+  </Card>
+  <Card title="The Scout Build">
+    - **Lightweight Frame**
+    - High-tension electrical pylons
+    - Focus on speed and extraction
+  </Card>
+  <Card title="The Raider Build">
+    - **Boarding Ramps**
+    - Hidden engine compartments
+    - Designed for aggressive PvP
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Combat Tip">
+Utilize the sound design to your advantage. Tramplers emit a distinct high-tension electrical sound that can be used to track their movement even when they are obscured by dunes or sandstorms.
+</Callout>
+
+During the server slam, the most effective weapons were found to be the 40mm autocannons and the Wok Bomb. However, players must be careful when climbing ladders during combat, as a known bug can cause the detonation timer of explosive barrels to become hidden from other players.
+
+</Section>
+
+<Section icon={Trophy} title="2026 Roadmap and Community Goals">
+
+The developers have shared an ambitious roadmap following the **sand raiders of sophie server slam**. The focus is shifting from pure stability to content expansion and player retention. Key areas of focus include the "Sand Raider's Code of Honor," an unofficial community-driven etiquette system designed to foster respect among players.
+
+<Checklist
+  id="roadmap-2026"
+  title="Upcoming Development Milestones:"
+  items={[
+    "Full fix for the VOYAGE mode memory leak",
+    "Implementation of a dedicated Ping System",
+    "Squad fill functionality for solo players",
+    "Environmental hazards: Sand storms and giant sand worms",
+    "Advanced PvE enemies: Alien beetles and flying drones"
+  ]}
+/>
+
+<Callout type="success" title="Community Growth">
+The game recently celebrated reaching 100,000 scavengers, a significant milestone that ensures a healthy player base for future updates and server slams.
+</Callout>
+
+The roadmap also hints at "Priceless Artifacts" that will offer unique progression bonuses, though these will likely be guarded by high-difficulty PvE encounters or located in high-traffic PvP zones.
+
+</Section>
+
+<Section icon={Target} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What was the main purpose of the Sand Raiders of Sophie server slam?",
+    answer: "The server slam was designed to test server stability, DDoS protections, and the networking of complex Trampler physics under high player loads."
+  },
+  {
+    question: "Why am I losing loot during extraction?",
+    answer: "A known issue causes a 'Connection Lost' error at the end of the extraction animation. Developers are investigating server-side fixes for this 'dead server' loop."
+  },
+  {
+    question: "Is there a PvE-only mode available?",
+    answer: "Currently, the game is a PvPvE extraction shooter. While the community has requested a PvE mode, the developers are currently focusing on balancing the solo experience within the main servers."
+  },
+  {
+    question: "How do I fix the Black Screen or BSOD issue?",
+    answer: "Some players have reported Blue Screen of Death (BSOD) errors. It is recommended to check the community-written 'Windows Blue Screen of Death Fix' guide on the Steam forums for specific driver compatibility steps."
+  }
+]} />
+
+<Callout type="tip" title="Final Advice">
+Stay active on the official Discord and Steam Forums to report bugs. The developers at Hologryph have proven to be highly engaged and fast to respond to community feedback regarding server slam issues.
+</Callout>
+
+</Section>

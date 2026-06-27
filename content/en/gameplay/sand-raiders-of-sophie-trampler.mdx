@@ -1,0 +1,146 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie: Gameplay Guide & Trampler Tactics",
+  description: "Master the desolate world of Sophie with our guide to SAND: Raiders of Sophie. Learn about Trampler customization, resource gathering, and combat strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=SAND+Raiders+of+Sophie",
+  date: "2026-06-28",
+  author: "SAND Raiders of Sophie Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **SAND Raiders of Sophie** focuses on survival and resource exploration on a post-apocalyptic planet.
+- Players utilize **Tramplers**, massive walking mechs, as mobile bases for travel and storage.
+- Customizing your **Trampler** with better armor, weapons, and interior design is key to survival.
+- Strategic **teamwork** allows players to pool resources for creating the ultimate mobile base.
+</Callout>
+
+<Section icon={Map} title="Understanding the World of Sophie">
+
+The planet Sophie is a desolate, post-apocalyptic landscape that serves as the primary setting for **SAND Raiders of Sophie**. Once a resource-rich world colonized by the Austro-Hungarian Empire in an alternate 1910, a mysterious ecological disaster has left it a harsh, unforgiving environment. To survive, you must master the art of scavenging remnants of luxury and technology left behind by the empire.
+
+**Video Highlights:**
+- Overview of the desolate desert terrain of Sophie.
+- Introduction to the core exploration mechanics.
+- Visual demonstration of the unique Trampler movement.
+
+<YouTubeEmbed videoId="placeholder" title="SAND Raiders of Sophie Gameplay Overview" />
+
+Navigating the islands that were once submerged requires a deep understanding of your surroundings. Players must balance the need for resources with the constant threat of intense player-versus-player battles.
+
+| Feature | Description | Importance |
+| :--- | :--- | :--- |
+| Environment | Desolate desert planet | High |
+| Resources | Scavenged empire tech | Critical |
+| Exploration | Island-hopping via Trampler | Essential |
+
+<Callout type="tip" title="Exploration Strategy">
+Always scan the horizon for remnants of the Austro-Hungarian luxury. These areas often contain high-tier loot but are frequently contested by other players.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mastering Your Trampler">
+
+In **SAND Raiders of Sophie**, your Trampler is more than just a vehicle; it is your base, your home, and your primary defense. Originally used in the 1870s for heavy construction, these ship-like vessels have been repurposed to walk across both land and water by folding their legs.
+
+| Component | Function | Customization Focus |
+| :--- | :--- | :--- |
+| Chassis | Movement and stability | Speed vs Durability |
+| Interior | Storage and living space | Efficiency and layout |
+| Weapons | Offensive capability | Damage output and range |
+| Armor | Defensive protection | Resistance to enemy fire |
+
+<CardGrid cols={3}>
+  <Card title="Chassis Upgrades">
+    Enhance your mobility to navigate treacherous terrain and evade hostile encounters efficiently.
+  </Card>
+  <Card title="Armor Plating">
+    Reinforce your Trampler to withstand intense combat and protect your stored treasures.
+  </Card>
+  <Card title="Weapon Systems">
+    Equip various weapons to defend your base against rival raiders seeking your resources.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Maintenance Warning">
+Treat your Trampler as an extension of yourself. Neglecting its maintenance or armor levels will leave you vulnerable during long expeditions into the deep desert.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progression and Setup">
+
+Success on Sophie requires a systematic approach to progression. Whether you are a solo scavenger or working in a team, following a structured path will maximize your efficiency.
+
+<Steps>
+  <Step num="1" title="Resource Collection">
+    Begin by gathering basic materials to perform initial upgrades on your Trampler.
+  </Step>
+  <Step num="2" title="Base Optimization">
+    Customize the interior of your Trampler to maximize storage capacity for long-term survival.
+  </Step>
+  <Step num="3" title="Strategic Engagement">
+    Pick your battles wisely. Engaging in combat should be calculated based on your current armor and weapon levels.
+  </Step>
+</Steps>
+
+| Stage | Goal | Key Action |
+| :--- | :--- | :--- |
+| Early | Survival | Collect basic building materials |
+| Mid | Expansion | Upgrade Trampler armor and storage |
+| Late | Dominance | Secure high-value treasure zones |
+
+<Callout type="success" title="Teamwork Advantage">
+Pooling resources with other players is the fastest way to build the ultimate movable base. Coordination in combat significantly increases your survival rate.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Goals and Milestones">
+
+To become a top raider, you must consistently work toward specific objectives. Use this checklist to track your progress throughout your journey on Sophie.
+
+<Checklist
+  id="raider-goals"
+  title="Progression Milestones:"
+  items={[
+    "Fully upgrade your Trampler's armor",
+    "Collect rare artifacts from the empire era",
+    "Establish a stable resource farming route",
+    "Win 10 consecutive skirmishes"
+  ]}
+/>
+
+<Callout type="info" title="Community Reminder">
+Any official playtests or updates for **SAND Raiders of Sophie** will always be announced on their official Discord. Be wary of fraudulent invitations to playtests from unofficial sources.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I modify my Trampler in SAND Raiders of Sophie?",
+    answer: "You can customize your Trampler by accessing the interior and exterior upgrade menus, where you can modify armor, weapons, and storage configurations."
+  },
+  {
+    question: "Can I use my Trampler on water?",
+    answer: "Yes, Tramplers are designed to traverse both land and water by folding their legs, making them the primary means of transportation on Sophie."
+  },
+  {
+    question: "What is the best way to protect my loot?",
+    answer: "The best defense is upgrading your Trampler's armor and ensuring you have reliable defensive weapon systems installed to deter other players."
+  }
+]} />
+
+</Section>

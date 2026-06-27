@@ -1,0 +1,223 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Personajes de SAND: Raiders of Sophie - Guía de configuración y eliminación",
+  description: "Aprende a gestionar, crear y eliminar tus personajes en SAND: Raiders of Sophie. Descubre las reglas de progresión, el equipamiento inicial y los bloqueos de servidor regional.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Character+Management",
+  date: "2026-06-28",
+  author: "Equipo de la Wiki de SAND: Raiders of Sophie"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Gestión de personajes**: Puedes crear y eliminar **personajes de SAND: Raiders of Sophie** de forma sencilla a través del menú de ajustes.
+- **Bloqueo de progresión**: Tu inventario y el progreso del árbol tecnológico están estrictamente vinculados a personajes individuales y servidores regionales.
+- **Planos compartidos**: Los planos de los Tramplers se comparten a nivel de cuenta, lo que significa que no perderás tus diseños al cambiar de personaje.
+- **Estrategia de supervivencia**: Carga siempre tus armas y empaca provisiones antes de salir de la estación orbital para garantizar una extracción exitosa.
+</Callout>
+
+<Section icon={Target} title="Personajes de SAND: Raiders of Sophie - Gestión y eliminación">
+
+Gestionar tus **personajes de SAND: Raiders of Sophie** es el paso fundamental de tu viaje por el desolado desierto dieselpunk del planeta Sophie. Ya sea que quieras limpiar perfiles antiguos, corregir un error de servidor regional o comenzar una nueva expedición con un piloto nuevo, saber cómo administrar tu lista de personajes es esencial. El proceso de creación y eliminación de personajes se gestiona directamente a través del menú de ajustes del juego, en lugar de una pantalla de título tradicional.
+
+**Puntos destacados del video:**
+- **Acceso a los ajustes**: Aprende dónde encontrar el botón "Cambiar personaje" dentro de los ajustes del menú principal.
+- **Selección de lista**: Cómo navegar de forma segura por tu lista de personajes existentes.
+- **Eliminación permanente**: Proceso de confirmación paso a paso utilizando el botón X para eliminar los pilotos que ya no desees.
+
+<YouTubeEmbed videoId="E4L8irIK0gg" title="SAND Raiders of Sophie Cómo borrar un personaje" />
+
+### Cómo crear un nuevo personaje
+
+Crear un nuevo personaje es un proceso sencillo, pero debes tener en cuenta la región del servidor de destino. Dado que tu inventario y tu progresión no se transfieren entre diferentes regiones, elegir el servidor correcto al principio es vital.
+
+Para crear un nuevo personaje, ve al menú de **Ajustes** y haz clic en **Cambiar personaje**. Una vez que seas redirigido a la pantalla de creación de personajes, haz clic en el icono de más (+), selecciona el modelo de tu personaje, personaliza su apariencia y haz clic en **Crear**.
+
+### Cómo eliminar un personaje
+
+Si has creado varios personajes y deseas limpiar tu lista, puedes eliminarlos de forma permanente. Ten mucho cuidado al hacer esto, ya que toda la progresión, los objetos del inventario y la reputación de facción vinculados a ese personaje específico se perderán para siempre.
+
+<Steps>
+  <Step num="1" title="Acceder al menú de ajustes">
+    Abre el menú principal mientras te encuentras a salvo en la estación orbital y haz clic en el icono de engranaje de **Ajustes**.
+  </Step>
+  <Step num="2" title="Seleccionar Cambiar personaje">
+    Dentro del menú de Ajustes, navega hasta la opción **Cambiar personaje**. Esta acción te redirigirá a la pantalla de creación de personajes.
+  </Step>
+  <Step num="3" title="Seleccionar y eliminar">
+    Elige el perfil del personaje específico que deseas eliminar de tu lista y presiona el botón **X** en tu pantalla.
+  </Step>
+  <Step num="4" title="Confirmar eliminación">
+    Aparecerá un cuadro de diálogo de confirmación. Haz clic en **Aceptar** para eliminar permanentemente al personaje y liberar el espacio.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Acción irreversible">
+La eliminación de un personaje es permanente y el equipo de soporte no puede deshacerla. Revisa bien el equipo y los niveles de tu personaje antes de confirmar la eliminación.
+</Callout>
+
+### Comparación de acciones de personajes
+
+| Acción | Propósito | ¿Es permanente? |
+| --- | --- | --- |
+| **Crear nuevo** | Añade un nuevo piloto a tu lista | No, se puede eliminar más adelante |
+| **Eliminar personaje** | Elimina al piloto, su inventario y su árbol tecnológico | Sí, completamente irreversible |
+| **Cambiar de servidor** | Cambia la región activa y la lista de personajes | No, los datos están seguros en el servidor original |
+
+</Section>
+
+<Section icon={Shield} title="Cómo funcionan la progresión de personaje y el bloqueo regional">
+
+En *SAND: Raiders of Sophie*, tu progresión está profundamente ligada al personaje específico con el que juegas. A diferencia de otros shooters de extracción y supervivencia donde tu cuenta comparte un único alijo, este juego utiliza bucles de progresión específicos para cada personaje. Este diseño anima a los jugadores a crear personajes únicos para diferentes estilos de juego o configuraciones de escuadrón dedicadas.
+
+La mecánica más crítica que debes comprender es el **Bloqueo de servidor regional**. Cuando creas un personaje, ese personaje queda vinculado a la región del servidor (como Norteamérica, Europa o Asia) que seleccionaste en el momento de la creación. Si cambias de región de servidor para jugar con amigos de otra parte del mundo, tus personajes de tu región de origen no aparecerán. No se eliminan; simplemente no podrás acceder a ellos hasta que vuelvas a cambiar a tu región original.
+
+### Árboles tecnológicos y planos
+
+La progresión de tu personaje se mide principalmente por su avance en el árbol tecnológico. El árbol tecnológico está dividido en tres facciones distintas: la Expedición de Godlewski, K.K. Landwehr y los Amigos del Káiser. Para desbloquear recetas en estos árboles se necesitan Coronas (la moneda del juego) y materiales raros como ficus, cristales y cajas negras que se encuentran en las dunas.
+
+- **Expedición de Godlewski**: Desbloquea mejoras estructurales y de propulsión, incluyendo motores avanzados, pasillos de chasis e instalaciones para la tripulación.
+- **K.K. Landwehr**: Gestiona el armamento, las placas de blindaje, las cubiertas de artillería, la dirección y los objetos arrojadizos como las bombas de tiempo.
+- **Amigos del Káiser**: Se encarga de los sistemas de carga, cañones especializados y variantes de chasis únicas.
+
+Aunque tu inventario y el progreso del árbol tecnológico están estrictamente limitados al personaje, **los planos de los Tramplers se comparten a nivel de cuenta**. Esto significa que cualquier plano que diseñes y guardes en el Editor de Tramplers puede ser accedido y construido por cualquier personaje de tu cuenta, independientemente de su nivel de progresión individual.
+
+<Callout type="info" title="Consejo de progresión">
+Si pierdes todos tus recursos y no puedes permitirte construir un nuevo Trampler, no necesitas eliminar tu personaje. Puedes unirte a la tripulación de un amigo como marinero para ganar Coronas, o crear un segundo personaje temporal para recolectar recursos básicos.
+</Callout>
+
+### Estructura para compartir datos del personaje
+
+| Elemento del sistema | ¿Vinculado al personaje? | ¿Compartido a nivel de cuenta? |
+| --- | --- | --- |
+| **Mejoras del árbol tecnológico** | Sí, vinculadas a personajes individuales | No, deben desbloquearse por personaje |
+| **Inventario personal** | Sí, guardado en el personaje activo | No, no se puede transferir a otros pilotos |
+| **Planos de Trampler** | No, guardados en el registro global | Sí, accesibles para todos tus personajes |
+| **Datos de región del servidor** | Sí, bloqueados al servidor regional | No, los personajes no se transfieren de región |
+
+</Section>
+
+<Section icon={Map} title="Equipamientos iniciales y configuración de equipo para el juego temprano">
+
+Cada vez que tu personaje se despliegue en las dunas de Sophie, debes preparar tanto tu inventario personal como la bodega de carga de tu Trampler. Los principiantes suelen cometer el error de desplegarse sin preparación, lo que provoca muertes rápidas y la pérdida de equipo en el hostil entorno PvPvE.
+
+Al comenzar con un nuevo personaje, priorizar el equipo rentable es el mejor camino hacia el éxito a largo plazo. Debes concentrarte en establecer un bucle fiable de saqueo, combate y extracción antes de arriesgar equipo de alto nivel.
+
+<CardGrid cols={3}>
+  <Card title="El carroñero solitario">
+    - Diseños de **alta movilidad**
+    - Se centra en el sigilo y la extracción rápida
+    - Ideal para el modo Voyage
+  </Card>
+  <Card title="El artillero de tripulación">
+    - **Alto daño infligido**
+    - Se centra en manejar cañones pesados
+    - Ideal para el modo cooperativo Storm Dive
+  </Card>
+  <Card title="El ingeniero de flota">
+    - **Alta defensa y reparación**
+    - Se centra en el mantenimiento del núcleo del reactor
+    - Mantiene el Trampler en funcionamiento
+  </Card>
+</CardGrid>
+
+### Preparación de tu Trampler y equipo personal
+
+Antes de emprender una expedición, debes elegir un plano de Trampler. Para los nuevos personajes, se recomienda encarecidamente el diseño predeterminado **Malas Pulgas (Grumpy Walker)**. Es barato de reconstruir si lo pierdes en combate y cuenta con estadísticas equilibradas que son perfectas para aprender las bases del juego.
+
+En tu personaje, mantén tu equipamiento inicial simple pero efectivo:
+- **Armadura**: Protección básica para el pecho y la cabeza para mitigar el daño de las balas de otros jugadores.
+- **Armas**: Una configuración de doble arma que consiste en un revólver para defensa propia a corta distancia y un rifle para eliminar enemigos a distancia.
+- **Provisiones**: Un montón de comida enlatada para controlar el hambre y mantener la resistencia.
+- **Combustible**: Unas pocas varillas de combustible para mantener tu Trampler encendido durante viajes largos.
+
+<Callout type="tip" title="Comprobación de munición previa al despliegue">
+Nada aparece cargado cuando entras a una partida. Tus armas personales y los cañones pesados de tu Trampler aparecerán vacíos. Tu primera tarea al aterrizar debe ser transferir manualmente las cargas de munición de tus cajas de almacenamiento y cargar cada arma antes de mover tu vehículo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Los saqueadores gallegos: Lore y arquetipos de personaje">
+
+Los personajes que juegas en *SAND: Raiders of Sophie* no son soldados altamente entrenados ni exploradores heroicos. En su lugar, son marginados desesperados, asalariados y descendientes de trabajadores de Galicia, una región humilde dentro del Imperio austrohúngaro.
+
+En esta ambientación de historia alternativa de 1910, la humanidad colonizó con éxito territorios cósmicos distantes. El Káiser prometió a los gallegos una gran parte del planeta Sophie para incitarlos a ofrecerse como voluntarios como la principal fuerza de construcción. Sin embargo, un desastre ecológico de origen misterioso devastó el planeta, transformando sus océanos en desiertos interminables y dejando atrás ciudades imperiales abandonadas.
+
+Impulsados por la determinación de rectificar las injusticias históricas y reclamar lo que creen que les pertenece por derecho, estos saqueadores regresan a las ruinas. Arriesgan sus vidas contra amenazas sobrenaturales como los Upiors no muertos y otros carroñeros desesperados.
+
+### Antecedentes y motivaciones de los personajes
+
+Los saqueadores de Sophie provienen de diversos ámbitos de la vida, y cada uno aporta su propia perspectiva y habilidades únicas al desierto:
+
+- **Asalariados gallegos**: Trabajadores desesperados que intentan sobrevivir y reclamar la tierra prometida a sus antepasados.
+- **Investigadores universitarios**: Académicos y ocultistas medio locos que buscan desentrañar los secretos cósmicos detrás del repentino desastre del planeta.
+- **Exsoldados**: Veteranos del ejército imperial que utilizan su experiencia en combate para dominar las dunas y proteger a sus tripulaciones.
+- **Ingenieros dieselpunk**: Mecánicos brillantes que se especializan en diseñar, modificar y reparar los enormes Tramplers andantes.
+
+<Callout type="success" title="Conexión con el lore">
+Las opciones de personalización visual de tu personaje reflejan su herencia gallega. Puedes personalizar a tu saqueador con ropa tradicional de la época imperial, gafas industriales y equipo de supervivencia resistente.
+</Callout>
+
+### Arquetipos y antecedentes de personajes
+
+| Arquetipo | Antecedentes | Motivación principal en Sophie |
+| --- | --- | --- |
+| **Asalariado gallego** | Trabajador humilde del Imperio austrohúngaro | Reclamar las tierras prometidas y escapar de la pobreza |
+| **Investigador universitario** | Académico y ocultista medio loco | Descubrir los misterios del desastre ecológico |
+| **Exsoldado** | Veterano de las fuerzas militares imperiales | Saquear armas de alto nivel y establecer su dominio |
+| **Ingeniero dieselpunk** | Mecánico entrenado en fábricas imperiales | Dominar la construcción y reparación de Tramplers |
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos esenciales del personaje y lista de verificación de extracción">
+
+Para progresar con tus personajes y construir una flota imparable de fortalezas andantes, debes establecer un bucle de supervivencia fiable. Equilibrar el saqueo de alto riesgo con una extracción segura es la clave para dominar el planeta Sophie.
+
+Ya sea que juegues solo o te coordines con una tripulación completa de seis jugadores, mantener una lista estructurada de prioridades mantendrá a tu personaje con vida y tus recursos a salvo.
+
+<Checklist
+  id="character-milestones"
+  title="Hitos esenciales del personaje:"
+  items={[
+    "Completa tu primera extracción exitosa en el modo Voyage",
+    "Desbloquea el nivel II en el árbol tecnológico de la Expedición de Godlewski",
+    "Construye y registra un plano de Trampler personalizado",
+    "Extráete con éxito de una incursión en Storm Dive"
+  ]}
+/>
+
+### Dominar el bucle de extracción
+
+La extracción es la fase más peligrosa de cualquier incursión. En *SAND: Raiders of Sophie*, no puedes simplemente desconectarte para guardar tu progreso. Debes guiar físicamente a tu Trampler hacia una torre de extracción, subir por las escaleras y activar la radio. Esto activa una cuenta regresiva de 90 segundos y libera un humo verde brillante, alertando a todos los jugadores hostiles de la zona sobre tu ubicación.
+
+<Callout type="tip" title="Seguridad en la extracción">
+Nunca apagues el motor de tu Trampler durante la extracción si estás jugando en escuadrón. Mantén a un miembro de la tripulación dentro del vehículo para manejar las torretas y vigilar a los enemigos que se acerquen mientras otro sube a la torre para activar la radio.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Por qué no puedo ver a mis personajes de SAND: Raiders of Sophie después de cambiar de servidor?",
+    answer: "Tus personajes están estrictamente bloqueados al servidor regional en el que fueron creados. Si cambias de región, tu lista aparecerá vacía. Vuelve a cambiar a tu región original para acceder a ellos."
+  },
+  {
+    question: "¿Mis otros personajes comparten mis planos de Trampler desbloqueados?",
+    answer: "Sí. Aunque tu inventario y tu progreso en el árbol tecnológico están vinculados a cada personaje, todos los planos de Trampler guardados se comparten de forma global entre todos los personajes de tu cuenta."
+  },
+  {
+    question: "¿Qué pasa si pierdo todos mis recursos y no puedo construir un Trampler?",
+    answer: "Si te quedas completamente sin recursos y planos, puedes unirte a la tripulación de un amigo como tripulante o crear un nuevo personaje para comenzar de cero con el equipamiento inicial."
+  },
+  {
+    question: "¿La eliminación de un personaje es permanente en SAND: Raiders of Sophie?",
+    answer: "Sí. Eliminar un personaje borra permanentemente su nivel, inventario y todo el progreso desbloqueado en el árbol tecnológico. No se puede deshacer."
+  }
+]} />
+
+</Section>

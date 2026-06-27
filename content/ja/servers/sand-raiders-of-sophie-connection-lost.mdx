@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND: Raiders of Sophie 接続切れエラー：ステップバイステップの解決策",
+  description: "SAND: Raiders of Sophieの接続切れエラーを詳細なガイドで解決。ネットワークの中断、Steam Deckの互換性、ドライバーの問題をトラブルシューティングします。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/2b2d42/fff?text=Connection+Lost+Fix",
+  date: "2026-06-28",
+  author: "SAND Raiders of Sophie Wiki チーム",
+  keywords: "SAND Raiders of Sophie, 接続切れ, 接続エラー, 修正, Steam Deck, BattlEye"
+}
+
+<Callout type="info" title="クイックガイド">
+- **主な問題**: SAND: Raiders of Sophie の接続切れ（connection lost）エラーは、通常、ネットワークの不安定さやアンチチートのランタイム不足により発生します。
+- **クイック修正**: ゲームクライアントを再起動し、Wi-Fiから安定した有線接続またはモバイルホットスポットに切り替えてください。
+- **Steam Deckでの修正**: Steamライブラリで「Proton BattlEye Runtime」がインストールされ、最新の状態であることを確認してください。
+- **サポート情報**: サポートに問い合わせる前に、player.logファイルと17桁のSteamIDを収集してください。
+</Callout>
+
+<Section icon={Map} title="SAND: Raiders of Sophie の接続切れエラーの解決">
+
+砂漠でトランプラー（Trampler）を操縦している最中に接続が中断されると、ゲームの進行が大きく妨げられます。SAND: Raiders of Sophie の接続切れエラーは、ローカルネットワークの設定問題、サーバー側のハンドシェイク、または一時的なシステム競合に関連していることが頻繁にあります。これらの問題に即座に対処することで、アクティブなセッション中にインベントリや車両の進行状況が失われるのを防ぐことができます。
+
+**動画のハイライト:**
+- 接続切れエラー画面の根本原因の特定。
+- ネットワーク構成を切り替えるためのステップバイステップの手順。
+- 古い接続状態をクリアするためのクリーンなゲーム再起動の実行方法。
+
+<YouTubeEmbed videoId="813g9fmd7ZU" title="SAND Raiders of Sophie 接続切れの修正" />
+
+ゲームサーバーへのより信頼性の高い接続を確立するために、一般的なネットワーク設定によるパフォーマンスの違いを分析してください。以下の表は、さまざまな接続方法が安定性にどのように影響するかを示しています。
+
+| 接続タイプ | 安定性評価 | 予想パケットロス | 推奨アクション |
+|-|-|-|-|
+| 有線LAN（イーサネット） | 5/5 | 非常に低い | 最適なマルチプレイの安定性のためにこのモードを使用してください |
+| Wi-Fi (5GHz) | 4/5 | 低〜中程度 | 信号干渉を避けるため、ルーターの近くでプレイしてください |
+| Wi-Fi (2.4GHz) | 2/5 | 高い | 切断を防ぐため、5GHzに切り替えるか有線接続を使用してください |
+| モバイルホットスポット | 3/5 | 変動あり | メインのプロバイダーが障害を起こしている際の一時的なバックアップとして使用してください |
+
+<Callout type="warning" title="ネットワーク干渉">
+プレイ中は、トレントクライアントやクラウドバックアップなど、帯域幅を大量に消費するバックグラウンドアプリケーションの実行を避けてください。これらのサービスは帯域幅を奪い合い、突然の切断を誘発する原因となります。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="クライアント側のシステム最適化">
+
+接続切れの問題は、インターネットプロバイダーではなく、古いローカルファイルやシステムドライバーが原因で発生することもあります。ゲームクライアントがサーバーデータを十分に速く処理できない場合、タイムアウトが発生してセッションから切断される可能性があります。グラフィックスカードのドライバーとオペレーティングシステムを最新の状態に保つことで、全体的なパフォーマンスとネットワーク処理の安定化に役立ちます。
+
+お使いのコンピューターがゲームをスムーズに実行するための最小システム要件を満たしていることを確認してください。パフォーマンスの低下や長いロード時間は、ネットワークの切断と似た挙動を示すことがあります。
+
+| ハードウェア構成要素 | 最小要件 | 推奨アクション |
+|-|-|-|
+| GPUドライバー | 最新の NVIDIA / AMD / Intel | GeForce Experience または AMD Software 経由で更新 |
+| Windows OS | Windows 10 / 11 (64ビット) | Windows Update を実行して最新のセキュリティパッチを適用 |
+| ゲームファイル | 正常な Steam インストール | Steam クライアントを通じてファイルの整合性チェックを実行 |
+| グラフィック設定 | 中 / 低プリセット | ロード画面でフリーズが発生する場合は設定を下げてください |
+
+ローカルのゲームファイルが破損していないことを確認するために、以下の検証手順に従ってください。
+
+<Steps>
+  <Step num="1" title="Steamライブラリを開く">
+    Steamライブラリに移動し、インストールされているアプリケーションのリストからゲームを見つけます。
+  </Step>
+  <Step num="2" title="プロパティにアクセス">
+    ゲームタイトルを右クリックして **「プロパティ」** を選択し、**「インストール済みファイル」** タブに移動します。
+  </Step>
+  <Step num="3" title="整合性の確認">
+    **「ゲームファイルの整合性を確認」** をクリックし、Steamが不足または破損したデータをスキャンしてダウンロードするのを待ちます。
+  </Step>
+</Steps>
+
+<Callout type="success" title="ファイルの検証完了">
+ゲームファイルの検証を行うことで、ゲームクライアントが特定のアセットの読み込みに失敗し、遷移中の接続タイムアウトを引き起こすといった隠れた問題が解決されることがよくあります。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Linux および Steam Deck 向けのプラットフォーム固有の修正">
+
+LinuxやSteam Deckでプレイする場合、ゲームのアンチチートシステムと通信するために追加の互換レイヤーが必要になります。これらのシステムが正しく構成されていないと、サーバーが接続を拒否し、結果として切断されます。このゲームは BattlEye アンチチートを使用しており、ProtonベースのOSでは手動での構成が必要になる場合があります。
+
+LinuxまたはSteam Deckでプレイしている場合は、マルチプレイサーバーから自動的にキックされるのを防ぐために、Steamライブラリから **Proton BattlEye Runtime** を直接インストールする必要があります。
+
+<Steps>
+  <Step num="1" title="Steamライブラリで検索">
+    Steamクライアントを開き、「ライブラリ」タブの検索バーで **「Proton BattlEye Runtime」** を検索します。
+  </Step>
+  <Step num="2" title="ランタイムをインストール">
+    まだインストールされていない場合は、**「インストール」** をクリックしてダウンロードを完了させます。
+  </Step>
+  <Step num="3" title="Steamを再起動">
+    Steamクライアントを完全に終了して再起動し、ランタイムがゲームランチャーと正しく統合されるようにします。
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Protonの互換性">
+クロスプレイセッション中の予期しないクラッシュを避けるため、常に開発チームが推奨するProtonバージョンを使用してゲームを実行してください。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="ログの収集方法とサポートチケットの提出">
+
+基本的なトラブルシューティングを試しても、切断、クラッシュ、またはインベントリアイテムの消失が続く場合は、サポートチームに連絡する必要があります。チケットの解決を早めるために、特定の診断ファイルとアカウントの詳細を提供する必要があります。
+
+サポートチームは、接続切れの正確な原因を診断するためにプレイヤーログを必要とします。これらのファイルには、切断に至るまでのイベントが記録されています。
+
+<CardGrid cols={3}>
+  <Card title="プレイヤーログの場所">
+    `%USERPROFILE%\AppData\LocalLow\Hologryph\SAND` 内にある `player.log` と `player-prev.log` を見つけます。
+  </Card>
+  <Card title="SteamIDの確認">
+    プロフィールを特定するために、Steamアカウントの詳細ページで17桁のSteamIDを確認してください。
+  </Card>
+  <Card title="状況の記録">
+    切断がトランプラーの内部か外部か、またそれがカスタム車両であったかどうかをメモしてください。
+  </Card>
+</CardGrid>
+
+[公式 tinyBuild サポートページ](https://tinybuild.theymes.com/hc/en/sand/articles/general-troubleshooting-6) にリクエストを送信する前に、以下のチェックリストを使用して必要な情報がすべて揃っているか確認してください。
+
+<Checklist
+  id="support-submission-checklist"
+  title="サポートチケットのチェックリスト:"
+  items={[
+    "player.log および player-prev.log ファイルを特定してコピーした",
+    "17桁のSteamIDを特定してコピーした",
+    "切断が発生したおおよその時刻を記録した",
+    "クラッシュ時にカスタムまたはデフォルトのトランプラーを使用していたかを特定した",
+    "接続切れ画面が表示されるまでの経緯を詳細に記述した"
+  ]}
+/>
+
+<Callout type="info" title="ログファイルの保存場所">
+AppDataフォルダはWindowsではデフォルトで非表示になっています。Windowsの「ファイル名を指定して実行」ダイアログ（Win + R）に `%appdata%` と入力し、1つ上のフォルダ階層に戻ることで `LocalLow` ディレクトリを見つけることができます。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="よくある質問 (FAQ)">
+
+接続の問題やシステムのパフォーマンスに関する一般的な質問と回答を確認してください。
+
+<FAQ items={[
+  {
+    question: "安定した接続環境なのに、なぜ SAND: Raiders of Sophie で接続切れエラーが発生し続けるのですか？",
+    answer: "このエラーは、ローカルのゲームファイルが破損している場合、ファイアウォールがゲームのネットワーク通信をブロックしている場合、あるいはLinuxやSteam Deckシステムで Proton BattlEye Runtime が不足している場合に発生することがあります。"
+  },
+  {
+    question: "サポートに送信するためのプレイヤーログファイルはどこにありますか？",
+    answer: "コンピューター上の次のパスに移動することで、これらのファイルを見つけることができます: %USERPROFILE%\\AppData\\LocalLow\\Hologryph\\SAND"
+  },
+  {
+    question: "Windowsでも Proton BattlEye Runtime をインストールする必要がありますか？",
+    answer: "いいえ、Proton BattlEye Runtime は、LinuxおよびSteam Deckユーザーがアンチチートシステムを正しく実行するために特別に必要とされるものです。"
+  },
+  {
+    question: "切断後にトランプラーやインベントリが消えてしまった場合はどうすればよいですか？",
+    answer: "プレイヤーログを収集し、17桁のSteamIDをメモし、発生時刻を記録した上で、復旧支援のために公式サポートチームにチケットを提出してください。"
+  }
+]} />
+
+<Callout type="success" title="さらなる支援">
+問題が解決しない場合は、公式のDiscordサーバーやコミュニティハブをチェックして、サーバーメンテナンスや既知のネットワークバグに関するリアルタイムの更新情報を確認してください。
+</Callout>
+
+</Section>

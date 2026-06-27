@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sand Raiders of Sophie Server Slam: Leitfaden zu Performance & Roadmap 2026",
+  description: "Entdecken Sie die neuesten Erkenntnisse aus dem Sand Raiders of Sophie Server Slam, einschließlich der Patchnotizen zu Update #1, Fixes zur Serverstabilität und der Roadmap für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Server+Slam+Roadmap",
+  date: "2026-06-28",
+  author: "SAND Raiders of Sophie Wiki-Team",
+  keywords: "Sand Raiders of Sophie, Server Slam, Roadmap 2026, Performance, Patchnotizen, Trampler"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Sand Raiders of Sophie Server Slam**: Jüngste Playtests und der Start im Juni 2026 haben kritische Performance-Benchmarks und Serverkapazitätsgrenzen aufgezeigt.
+- **Auswirkungen von Update #1**: Das erste große Patch am 26. Juni verbesserte die **Flüssigkeit des Character Controllers** und die Umgebungsbeleuchtung.
+- **Kritische Warnung**: Vermeiden Sie vorübergehend den **VOYAGE**-Modus aufgrund eines Speicherabsturzes, der zu dauerhaften Verbindungsschleifen führt.
+- **Trampler-Meta**: Der Bau hochgradig anpassbarer wandelnder Festungen bleibt die Kern-Progressionsmechanik, mit Fokus auf **40-mm-Autokanonen**.
+- **Roadmap 2026**: Zukünftige Updates werden den Schutz von Solospielern, Anti-DDoS-Maßnahmen und erweiterte PvE-Inhalte priorisieren.
+</Callout>
+
+<Section icon={Map} title="Überblick über den Sand Raiders of Sophie Server Slam">
+
+Die jüngsten **sand raiders of sophie server slam** Events haben dem Entwicklerteam unschätzbare Daten bezüglich Spielerdichte und Serverlast geliefert. Als Extraction-Shooter, der in einer alternativen Wüste des Jahres 1910 spielt, setzt das Spiel stark auf synchronisierte Physik für die „Trampler“ – massive, von Spielern gebaute wandelnde Festungen. Während des Server Slams nahmen die Spieler an riskanten Plünderungszügen teil und testeten die Grenzen der prozeduralen Generierung und der Extraktionsmechaniken.
+
+**Video-Highlights:**
+- Detaillierter Blick auf **Trampler-Kämpfe** während des zweiten Server Slams.
+- Demonstration der Extraktions-Animation und potenzieller Verbindungshürden.
+- Visueller Vergleich des Wüstengeländes vor und nach den Beleuchtungs-Updates.
+- Aufnahmen der „Sand“-Übertragungsmechanik auf Steam.
+
+<YouTubeEmbed videoId="R0MlzXrqRuw" title="Trampler Battles & SECOND SERVER SLAM! SAND RAIDERS OF SOPHIE" />
+
+<Callout type="tip" title="Extraktionsstrategie">
+Beginnen Sie Ihre Extraktion immer mindestens fünf Minuten vor den Wartungsfenstern der Server, um die „Verbindung verloren“-Schleife zu vermeiden, die zum totalen Verlust Ihres Tramplers und der gesammelten Beute führen kann.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Durchsuche die Dünen">
+    Betreten Sie die prozedurale Wüste solo oder mit einem Trupp, um seltene Artefakte, Waffen und Upgrade-Materialien für Ihre wandelnde Festung zu sammeln.
+  </Step>
+  <Step num="2" title="Trampler-Kampf">
+    Verteidigen Sie Ihre mobile Basis gegen andere Spieler und Umweltgefahren wie „Wok-Bomben“, während Sie komplexe Hochspannungssysteme verwalten.
+  </Step>
+  <Step num="3" title="Sichere Extraktion">
+    Navigieren Sie zu einem Extraktionspunkt und verteidigen Sie die Zone, bis die Animation abgeschlossen ist, um Ihren Fortschritt und Ihre Ressourcen zu sichern.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Update #1: Patchnotizen und Verbesserungen">
+
+Basierend auf dem Feedback aus dem **sand raiders of sophie server slam** veröffentlichten die Entwickler am 26. Juni 2026 das Update #1. Dieses Patch zielte speziell auf das „klobige“ Bewegungsgefühl und die visuelle Klarheit der Wüstenumgebung ab. Der Character Controller wurde überarbeitet, um die Häufigkeit zu verringern, mit der Spieler an Umgebungscollidern hängen bleiben, insbesondere während der Hochgeschwindigkeitsbewegung der Trampler.
+
+| Feature-Kategorie | Verbesserungsbeschreibung | Status |
+| :--- | :--- | :--- |
+| **Character Controller** | Reduziertes Hängenbleiben an Collidern/Verbessertes Schießen von beweglichen Basen | **Verbessert** |
+| **Grafik** | Realistische Beleuchtung/Behebung dunkler Schattenprobleme | **Behoben** |
+| **Onboarding** | Gameplay-Benachrichtigungen für neue Scavenger hinzugefügt | **Aktiv** |
+| **Fehlerbehebungen** | T-Pose-Tode und unsichtbare Geländer-Glitches behoben | **Behoben** |
+| **Ausrüstung** | Fix für die Installation des Metall-Vestibüls bei Tramplern | **Behoben** |
+
+<Callout type="success" title="Beleuchtungs-Update">
+Die verbesserte Beleuchtung erhöht die visuelle Unterscheidbarkeit des Geländes erheblich und macht es einfacher, Rauchsäulen rivalisierender Trampler am Horizont zu entdecken.
+</Callout>
+
+Neben technischen Fixes führte das Update Onboarding-Benachrichtigungen ein. Diese sollen neue Teams durch die Grundlagen der Expedition führen und die steile Lernkurve reduzieren, die während der ersten Phasen des Server Slams beobachtet wurde.
+
+</Section>
+
+<Section icon={Shield} title="Serverstabilität und technische Herausforderungen">
+
+Trotz der Erfolge des **sand raiders of sophie server slam** bleiben technische Hürden ein Hauptanliegen der Community. Das Spiel war anhaltenden DDoS-Angriffen ausgesetzt, was die Implementierung neuer Schutzschichten erforderlich machte. Ein besonders schwerwiegendes Problem betrifft den „VOYAGE“-Modus, der derzeit unter einem Speicherabsturz leidet. Dieser Absturz lässt Spieler auf einem Wiederverbindungsbildschirm hängen und sperrt sie effektiv aus ihrer aktuellen Sitzung aus.
+
+| Problemtyp | Symptom | Antwort der Entwickler |
+| :--- | :--- | :--- |
+| **Speicherabsturz** | Verbindungsabbrüche im VOYAGE-Modus | VOYAGE bis zum Fix meiden |
+| **DDoS-Angriffe** | Serverweite Latenz und Ausfälle | Schutzmaßnahmen implementiert |
+| **Extraktions-Schleife** | Verlust von Beute nach erfolgreicher Extraktion | Wird untersucht |
+| **Solo-Matchmaking** | Einzelspieler werden gegen große Crews gematcht | Hohe Priorität |
+
+<Callout type="warning" title="Kritische Warnung">
+Wenn Sie während der Extraktion die Nachricht „Verbindung zum Server verloren“ erhalten, beenden Sie das Spiel nicht sofort. Versuchen Sie eine einmalige Wiederverbindung, aber beachten Sie, dass anhaltende Schleifen auf eine tote Serverinstanz aufgrund des Speicherlecks hindeuten können.
+</Callout>
+
+Die Entwickler verfolgen auch „schwitzige“ Gameplay-Muster, bei denen erfahrene Spieler mit Endgame-Tramplern die Startgebiete dominieren. Obwohl das Spiel von *Sea of Thieves* inspiriert ist, debattiert die Community aktiv über die Notwendigkeit eines dedizierten PvE-Modus oder eines besseren Matchmakings zum Schutz neuer Scavenger.
+
+</Section>
+
+<Section icon={Swords} title="Trampler-Anpassung und Kampf-Meta">
+
+Das Herzstück des **sand raiders of sophie server slam** Erlebnisses ist der hochgradig anpassbare Trampler. Diese mechanischen Bestien dienen als Ihr Zuhause, Transportmittel und Primärwaffe. Spieler haben festgestellt, dass die Platzierung des Kapitänszimmers und des Motors entscheidend für das Überleben während Enterversuchen ist.
+
+<CardGrid cols={3}>
+  <Card title="Der Panzer-Build">
+    - **Schwere Panzerplatten**
+    - Mehrere 40-mm-Autokanonen
+    - Langsam, aber fast unzerstörbar
+  </Card>
+  <Card title="Der Aufklärer-Build">
+    - **Leichtbau-Rahmen**
+    - Hochspannungs-Strommasten
+    - Fokus auf Geschwindigkeit und Extraktion
+  </Card>
+  <Card title="Der Raider-Build">
+    - **Enterrampen**
+    - Versteckte Motorräume
+    - Ausgelegt für aggressives PvP
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Kampf-Tipp">
+Nutzen Sie das Sounddesign zu Ihrem Vorteil. Trampler geben ein markantes Hochspannungs-Summen ab, mit dem ihre Bewegung verfolgt werden kann, selbst wenn sie durch Dünen oder Sandstürme verdeckt sind.
+</Callout>
+
+Während des Server Slams erwiesen sich die 40-mm-Autokanonen und die Wok-Bombe als die effektivsten Waffen. Spieler müssen jedoch vorsichtig sein, wenn sie während des Kampfes Leitern erklimmen, da ein bekannter Fehler dazu führen kann, dass der Detonationstimer von Sprengfässern für andere Spieler unsichtbar wird.
+
+</Section>
+
+<Section icon={Trophy} title="Roadmap 2026 und Community-Ziele">
+
+Die Entwickler haben nach dem **sand raiders of sophie server slam** eine ehrgeizige Roadmap veröffentlicht. Der Fokus verlagert sich von reiner Stabilität hin zu Inhaltserweiterungen und Spielerbindung. Ein wichtiger Schwerpunkt ist der „Sand Raider's Code of Honor“, ein inoffizielles, von der Community getriebenes Etikette-System, das den Respekt unter den Spielern fördern soll.
+
+<Checklist
+  id="roadmap-2026"
+  title="Kommende Meilensteine der Entwicklung:"
+  items={[
+    "Vollständiger Fix für das Speicherleck im VOYAGE-Modus",
+    "Implementierung eines dedizierten Ping-Systems",
+    "Squad-Auffüllfunktion für Solospieler",
+    "Umweltgefahren: Sandstürme und riesige Sandwürmer",
+    "Fortgeschrittene PvE-Gegner: Alien-Käfer und Flugdrohnen"
+  ]}
+/>
+
+<Callout type="success" title="Wachstum der Community">
+Das Spiel feierte kürzlich das Erreichen von 100.000 Scavengern, ein bedeutender Meilenstein, der eine gesunde Spielerbasis für zukünftige Updates und Server Slams sicherstellt.
+</Callout>
+
+Die Roadmap deutet auch auf „Unbezahlbare Artefakte“ hin, die einzigartige Progressionsboni bieten werden, obwohl diese wahrscheinlich von hochgradig schwierigen PvE-Begegnungen bewacht oder in stark frequentierten PvP-Zonen platziert werden.
+
+</Section>
+
+<Section icon={Target} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Was war der Hauptzweck des Sand Raiders of Sophie Server Slams?",
+    answer: "Der Server Slam wurde entwickelt, um die Serverstabilität, den DDoS-Schutz und die Vernetzung komplexer Trampler-Physik unter hoher Spielerlast zu testen."
+  },
+  {
+    question: "Warum verliere ich Beute während der Extraktion?",
+    answer: "Ein bekanntes Problem verursacht am Ende der Extraktions-Animation einen 'Verbindung verloren'-Fehler. Die Entwickler untersuchen serverseitige Fixes für diese 'tote Server'-Schleife."
+  },
+  {
+    question: "Gibt es einen reinen PvE-Modus?",
+    answer: "Derzeit ist das Spiel ein PvPvE-Extraction-Shooter. Während die Community einen PvE-Modus gefordert hat, konzentrieren sich die Entwickler aktuell darauf, das Solo-Erlebnis innerhalb der Hauptserver auszubalancieren."
+  },
+  {
+    question: "Wie behebe ich das Black Screen- oder BSOD-Problem?",
+    answer: "Einige Spieler haben von Blue Screen of Death (BSOD) Fehlern berichtet. Es wird empfohlen, den von der Community verfassten Leitfaden 'Windows Blue Screen of Death Fix' in den Steam-Foren für spezifische Schritte zur Treiberkompatibilität zu konsultieren."
+  }
+]} />
+
+<Callout type="tip" title="Abschließender Rat">
+Bleiben Sie auf dem offiziellen Discord und in den Steam-Foren aktiv, um Bugs zu melden. Die Entwickler bei Hologryph haben sich als sehr engagiert und reaktionsschnell auf Community-Feedback zu Server-Slam-Problemen erwiesen.
+</Callout>
+
+</Section>

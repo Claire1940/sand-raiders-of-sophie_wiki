@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "sand raiders of sophie connection lost: Step-by-Step Fixes",
+  description: "Fix the sand raiders of sophie connection lost error with our detailed guide. Troubleshoot network drops, Steam Deck compatibility, and driver issues.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2b2d42/fff?text=Connection+Lost+Fix",
+  date: "2026-06-28",
+  author: "SAND Raiders of Sophie Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Issue**: The sand raiders of sophie connection lost error typically occurs due to network instability or missing anti-cheat runtimes.
+- **Quick Fix**: Restart your game client and switch from Wi-Fi to a stable wired connection or mobile hotspot.
+- **Steam Deck Fix**: Ensure the Proton BattlEye Runtime is installed and updated in your Steam library.
+- **Support Info**: Collect your player.log files and 17-digit SteamID before contacting support.
+</Callout>
+
+<Section icon={Map} title="Resolving the sand raiders of sophie connection lost Error">
+
+Experiencing connectivity drops while piloting your Trampler across the desert can disrupt your gameplay progression. The sand raiders of sophie connection lost error is frequently tied to local network configuration issues, server-side handshakes, or temporary system conflicts. Addressing these issues immediately ensures that you do not lose your inventory or vehicle progress during active sessions.
+
+**Video Highlights:**
+- Identifying the root causes of the connection lost error screen.
+- Step-by-step instructions on switching network configurations.
+- How to perform a clean game restart to clear stale connection states.
+
+<YouTubeEmbed videoId="813g9fmd7ZU" title="SAND Raiders of Sophie Fix Connection Lost" />
+
+To establish a more reliable connection to the game servers, analyze the performance differences between common network setups. The table below outlines how various connection methods impact stability:
+
+| Connection Type | Stability Rating | Expected Packet Loss | Recommended Action |
+|-|-|-|-|
+| Wired Ethernet | 5/5 | Extremely Low | Use this connection mode for optimal multiplayer stability |
+| Wi-Fi (5GHz) | 4/5 | Low to Moderate | Play closer to the router to avoid signal interference |
+| Wi-Fi (2.4GHz) | 2/5 | High | Switch to 5GHz or use a wired connection to prevent drops |
+| Mobile Hotspot | 3/5 | Variable | Use as a temporary backup if your main ISP experiences outages |
+
+<Callout type="warning" title="Network Interference">
+Avoid running bandwidth-heavy background applications, such as torrent clients or cloud backups, while playing. These services compete for bandwidth and regularly trigger sudden disconnects.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Client-Side System Optimization">
+
+Sometimes, the connection lost issue is not caused by your internet service provider, but by outdated local files or system drivers. If the game client cannot process server data quickly enough, it may time out and disconnect you from the session. Ensuring your graphics card drivers and operating system are up to date helps stabilize general performance and network processing.
+
+Verify that your computer meets the minimum system requirements to run the game smoothly. Performance drops and long loading times can sometimes mimic network disconnects.
+
+| Hardware Component | Minimum Requirement | Recommended Action |
+|-|-|-|
+| GPU Drivers | Latest NVIDIA / AMD / Intel | Update via GeForce Experience or AMD Software |
+| Windows OS | Windows 10 / 11 (64-bit) | Run Windows Update to apply the latest security patches |
+| Game Files | Intact Steam Installation | Perform a file integrity check through the Steam client |
+| Graphics Settings | Medium / Low preset | Lower settings if you experience long loading screen hangs |
+
+To ensure that your local game files are not corrupted, follow these validation steps:
+
+<Steps>
+  <Step num="1" title="Open Steam Library">
+    Navigate to your Steam Library and locate the game in your list of installed applications.
+  </Step>
+  <Step num="2" title="Access Properties">
+    Right-click on the game title, select **Properties**, and then navigate to the **Installed Files** tab.
+  </Step>
+  <Step num="3" title="Verify Integrity">
+    Click on **Verify integrity of game files** and wait for Steam to scan and download any missing or corrupted data.
+  </Step>
+</Steps>
+
+<Callout type="success" title="File Verification Complete">
+Verifying game files often resolves hidden issues where the game client fails to load specific assets, preventing connection timeouts during transitions.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Platform-Specific Fixes for Linux and Steam Deck">
+
+Playing on Linux or Steam Deck requires additional compatibility layers to communicate with the game's anti-cheat systems. If these systems are not configured correctly, the server will reject your connection, resulting in a disconnect. The game utilizes BattlEye anti-cheat, which must be manually configured on Proton-based operating systems.
+
+If you are playing on Linux or Steam Deck, you must install the **Proton BattlEye Runtime** directly from your Steam library to prevent automatic kicks from multiplayer servers.
+
+<Steps>
+  <Step num="1" title="Search Steam Library">
+    Open your Steam client, head to the Library tab, and search for **Proton BattlEye Runtime** in the search bar.
+  </Step>
+  <Step num="2" title="Install the Runtime">
+    If it is not already installed, click **Install** and allow the download to complete.
+  </Step>
+  <Step num="3" title="Restart Steam">
+    Fully close and restart the Steam client to ensure the runtime integrates properly with the game launcher.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Proton Compatibility">
+Always run the game using the recommended Proton version suggested by the development team to avoid unexpected crashes during cross-play sessions.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="How to Gather Logs and Submit a Support Ticket">
+
+If you have tried basic troubleshooting and continue to encounter disconnects, crashes, or missing inventory items, you should contact the support team. To speed up the resolution of your ticket, you must provide specific diagnostic files and account details.
+
+The support team requires your player logs to diagnose the exact reason behind the connection drop. These files record the events leading up to the disconnect.
+
+<CardGrid cols={3}>
+  <Card title="Locate Player Logs">
+    Find `player.log` and `player-prev.log` in `%USERPROFILE%\AppData\LocalLow\Hologryph\SAND`.
+  </Card>
+  <Card title="Find your SteamID">
+    Locate your 17-digit SteamID in your Steam account details page to help identify your profile.
+  </Card>
+  <Card title="Document the Incident">
+    Note whether the disconnect occurred inside or outside your Trampler, and if it was a custom vehicle.
+  </Card>
+</CardGrid>
+
+Use the following checklist to ensure you have gathered all necessary information before submitting your request to the [official tinyBuild support page](https://tinybuild.theymes.com/hc/en/sand/articles/general-troubleshooting-6):
+
+<Checklist
+  id="support-submission-checklist"
+  title="Support Ticket Checklist:"
+  items={[
+    "Locate and copy the player.log and player-prev.log files",
+    "Find and copy your 17-digit SteamID",
+    "Record the approximate time the disconnect occurred",
+    "Identify if you were using a custom or default Trampler during the crash",
+    "Write a detailed description of the events leading up to the connection lost screen"
+  ]}
+/>
+
+<Callout type="info" title="Log File Storage">
+The AppData folder is hidden by default in Windows. You can access it by typing `%appdata%` into the Windows Run dialog (Win + R) and navigating back one folder level to find the `LocalLow` directory.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+Review these common questions and answers regarding connectivity issues and system performance.
+
+<FAQ items={[
+  {
+    question: "Why do I keep getting the sand raiders of sophie connection lost error on a stable connection?",
+    answer: "This error can occur if your local game files are corrupted, if your firewall is blocking the game's network traffic, or if the Proton BattlEye Runtime is missing on Linux and Steam Deck systems."
+  },
+  {
+    question: "Where can I find the player log files to send to support?",
+    answer: "You can find these files by navigating to the following path on your computer: %USERPROFILE%\\AppData\\LocalLow\\Hologryph\\SAND."
+  },
+  {
+    question: "Do I need to install Proton BattlEye Runtime on Windows?",
+    answer: "No, the Proton BattlEye Runtime is specifically required for Linux and Steam Deck users to run the anti-cheat system correctly."
+  },
+  {
+    question: "What should I do if my Trampler or inventory disappears after a disconnect?",
+    answer: "Gather your player logs, note down your 17-digit SteamID, record the time of the incident, and submit a ticket to the official support team for restoration assistance."
+  }
+]} />
+
+<Callout type="success" title="Further Assistance">
+If you continue to experience issues, check the official Discord server or community hubs for real-time updates on server maintenance and known network bugs.
+</Callout>
+
+</Section>

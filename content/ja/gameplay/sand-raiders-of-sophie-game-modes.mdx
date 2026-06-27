@@ -1,0 +1,209 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND: Raiders of Sophie ゲームモード：2026年版 Rivals & Voyage ガイド",
+  description: "VoyageやRivalsを含む、SAND: Raiders of Sophieの様々なゲームモードをマスターしましょう。モードの切り替え方法、クルー人数の選択、トランブラー（Trampler）の最適化について解説します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Game+Modes+Guide",
+  date: "2026-06-28",
+  author: "SAND: Raiders of Sophie Wiki チーム",
+  keywords: "SAND Raiders of Sophie, ゲームモード, Rivals, Voyage, 攻略, トランブラー, ソロプレイ"
+}
+
+<Callout type="info" title="クイックガイド">
+- **コアメカニクス**: **SAND: Raiders of Sophieのゲームモード**は、カジュアルな探索から激しいPvPまで、惑星Sophieでの活動スタイルを定義します。
+- **Voyage（航海）モード**: **試合時間が無制限**で、プレイヤーはいつでも自由に参加できるため、資源集めに最適です。
+- **Rivals（ライバル）モード**: ハイリスクな戦闘と競争的な脱出を求めるプレイヤー向けに、**Strong Rivals**設定が用意されています。
+- **クルーオプション**: すべての試合において、**Solo（ソロ）**、**Small Crew（少人数クルー）**、**Large Crew（大人数クルー）**の構成を選択できます。
+- **トランブラーの役割**: 移動可能な拠点は、すべてのモードにおいて**戦利品の保管**とオーストリア＝ハンガリー帝国崩壊後の世界での生存に不可欠です。
+</Callout>
+
+<Section icon={Map} title="SAND: Raiders of Sophie ゲームモードの概要">
+
+多様な**SAND: Raiders of Sophieのゲームモード**は、孤独なスカベンジャーとして生きるプレイヤーから、砂漠を支配しようとするチームまで、異なるプレイスタイルに合わせて設計されています。競争的な「Rivals」設定と、より持続的な「Voyage」体験のニュアンスを理解することが、惑星Sophieの過酷な環境を生き抜く鍵となります。
+
+**動画のハイライト:**
+- 概要（Overview）セクションの「Select Mode」オプションへのナビゲーション。
+- 「Strong Rival」と「Voyage」設定の比較。
+- 試合時間と参加メカニクスの説明。
+- クルー人数選択（Solo, Small, Large）の概要。
+
+<YouTubeEmbed videoId="trrMNwVhDIc" title="SAND Raiders of Sophie モード変更とRivalsの解説" />
+
+2026年現在のメタでは、プレイヤーは出撃前に目的を決定する必要があります。トランブラーの装甲や武器をアップグレードすることが目的であれば、強度の低いモードが好ましいでしょう。しかし、オーストリア＝ハンガリー帝国が残した最も希少な宝物を求めるなら、Strong Rivalsに挑むことが唯一の成功への道となることが多いです。
+
+| モード名 | 主な焦点 | 期間 | 参加ルール |
+| :--- | :--- | :--- | :--- |
+| **Strong Rival** | 競争的な脱出 | 制限あり/マッチ制 | マッチ開始前のみ |
+| **Voyage** | 探索と資源集め | 無制限 | いつでも参加可能 |
+| **Training** | メカニクスの習得 | 短時間 | ソロ/クルー |
+| **Event Mode** | 季節限定チャレンジ | 変動あり | 期間限定 |
+
+<Callout type="tip" title="プロのアドバイス">
+新規プレイヤーの方は、まず**Voyage**から始めて、上位プレイヤーのハンターに常に脅かされることなく、トランブラーの操作に慣れることをお勧めします。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="競争的なRivals vs. 永続的なVoyage">
+
+RivalsとVoyageの選択は、**SAND: Raiders of Sophieのゲームモード**における核心的な分岐点です。「Rivals」設定は標準的な脱出体験であり、あなたと同じように資源に飢えた他のレイダーたちと競い合います。「Strong Rival」設定では、難易度が特に高まり、敵や環境の脅威からドロップする戦利品の質が向上します。
+
+対照的に、**Voyage**は長期的な活動のために構築されています。制限時間のプレッシャーを取り除き、水没したSophieの島々を自分のペースで探索できます。このモードは、5分おきに銃撃戦に巻き込まれることなく、オーストリア＝ハンガリー帝国の贅沢の残骸を訪れ、「Raiders of Sophie」の伝承（ロア）に集中したいプレイヤーに特に有用です。
+
+| 特徴 | Rivals (Strong) | Voyage |
+| :--- | :--- | :--- |
+| **PvPの激しさ** | 非常に高い | 中程度/低い |
+| **戦利品の品質** | **エキゾチック/レジェンダリー** | コモン/レア |
+| **試合終了** | 脱出または死亡 | 手動で退出 |
+| **資源密度** | 高い | 分散している |
+| **リスク要因** | ★★★★★ | ★★☆☆☆ |
+
+<Callout type="warning" title="ハイリスク">
+Strong Rivalモードでは、トランブラーを失うことは、保管していない戦利品の大部分を失うことを意味します。出撃前に必ずシャーシが修理されていることを確認してください。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="クルー構成とチームダイナミクス">
+
+**SAND: Raiders of Sophieのゲームモード**は、クルー人数の選択によってさらにカスタマイズされます。Sophieは孤独な惑星ですが、一人で立ち向かう必要はありません。ゲームでは、一匹狼か、あるいは大規模なシンジケートの一員かに基づいて、ダイナミックなスケーリングが可能です。
+
+<CardGrid cols={3}>
+  <Card title="ソロレイダー">
+    - **隠密性の最大化**: 砂丘にトランブラーを隠しやすくなります。
+    - **戦利品の独占**: 誰とも資源を共有する必要がありません。
+    - **高難易度**: 何かあったときに蘇生してくれる仲間はいません。
+  </Card>
+  <Card title="少人数クルー">
+    - **バランスの取れたプレイ**: 2〜3人のプレイヤーに最適です。
+    - **役割の専門化**: 一人が操縦し、他のメンバーが銃座を担当できます。
+    - **戦術的柔軟性**: VoyageとRivalsの両方に適しています。
+  </Card>
+  <Card title="大人数クルー">
+    - **圧倒的なパワー**: 高ティアの資源地帯を支配するのに最適です。
+    - **資源の消費**: 大量の燃料と食料を必要とします。
+    - **ソーシャルプレイ**: 連携の取れたロールプレイに最適です。
+  </Card>
+</CardGrid>
+
+適切なクルー人数の選択は、現在のトランブラーの構成に大きく依存します。重装甲の巨大なトランブラーをソロで管理するのは困難で、操縦席とメンテナンスデッキを頻繁に行き来する必要があります。
+
+| クルー人数 | 推奨モード | コミュニケーション | 生存率 |
+| :--- | :--- | :--- | :--- |
+| **ソロ** | Voyage | 不要 | 40% |
+| **少人数** | Rivals | 不可欠 | 75% |
+| **大人数** | Strong Rivals | 必須 | 90% |
+
+<Callout type="success" title="戦略ノート">
+**Voyage**における大人数クルーは、島全体の資源を記録的な速さで「露天掘り」することができ、トランブラーのアップグレード資金を稼ぐ最も効率的な方法となります。
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="特定モード向けのトランブラーのカスタマイズ">
+
+トランブラーは単なる乗り物ではありません。すべての**SAND: Raiders of Sophieのゲームモード**におけるあなたの作戦基地です。短時間のRivalsマッチをプレイするのか、長時間のVoyageに出るのかによって、トランブラーの内装と外装のコンポーネントを変更すべきです。
+
+**Voyage**では、収納スペースと燃費を優先してください。時間は無制限なので、戦闘重視のビルドでは持ちきれないほどの戦利品に遭遇する可能性が高いからです。**Rivals**では、他のプレイヤーを退けるために装甲板と武器システムを優先してください。
+
+| コンポーネント | Voyage重視 | Rivals重視 |
+| :--- | :--- | :--- |
+| **シャーシ** | 軽量/高速 | 重装甲 |
+| **ストレージ** | **最大容量** | セキュリティロッカー |
+| **武器** | 防衛用タレット | 高バーストキャノン |
+| **エンジン** | 低燃費 | 高トルク |
+| **内装** | 資源加工 | 戦闘用医療ステーション |
+
+<Callout type="info">
+トランブラーはもともと1870年代に植民地化のために設計されました。「脚」を折りたたむ機能により、陸地とSophieのかつての海の浅瀬の両方で汎用性を発揮します。
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="ゲームモードの変更方法：ステップバイステップ">
+
+異なる**SAND: Raiders of Sophieのゲームモード**を切り替えるプロセスは簡単ですが、マッチが始まる前にメインロビーまたは概要画面から行う必要があります。惑星の表面に展開した後は、これらの設定を変更することはできません。
+
+<Steps>
+  <Step num="1" title="概要（Overview）にアクセス">
+    メインゲームメニューに移動し、「Overview」セクションにいることを確認します。ここでは、あなたのキャラクターと現在のトランブラーが表示されます。
+  </Step>
+  <Step num="2" title="モード選択を開く">
+    通常「Play」または「Deploy」ボタンの近くにある「Select Mode」オプションをクリックします。
+  </Step>
+  <Step num="3" title="RivalsまたはVoyageを切り替える">
+    利用可能なモードから選択します。挑戦を求めるなら「Strong Rival」を、リラックスしたセッションを望むなら「Voyage」を選んでください。
+  </Step>
+  <Step num="4" title="クルー人数を選択">
+    モードを選んだ後、クルー構成（Solo, Small Crew, Large Crew）を選択します。
+  </Step>
+  <Step num="5" title="確定して出撃">
+    装備を確認し、出撃（Launch）ボタンをクリックして惑星Sophieへの降下を開始します。
+  </Step>
+</Steps>
+
+<Callout type="warning" title="マッチメイキングのロック">
+モードを選択してマッチメイキングを開始すると、設定はロックされます。ソロからクルーに変更したい場合は、キューをキャンセルしてプロセスをやり直す必要があります。
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="進行目標とチェックリスト">
+
+**SAND: Raiders of Sophieのゲームモード**を最大限に活用するために、プレイヤーは具体的なマイルストーンを設定すべきです。SAND: Raiders of Sophieにおける進行は、Rivalsからの脱出成功とVoyageでの富の蓄積に結びついています。
+
+<Checklist
+  id="mode-progression"
+  title="2026年のレイダー・マイルストーン:"
+  items={[
+    "インベントリを満載にした状態でStrong Rivalマッチからの脱出に成功する",
+    "Voyageの資源を使用してトランブラーのシャーシをティア3にアップグレードする",
+    "トランブラーを失うことなくVoyageで2時間のセッションを完了する",
+    "Rivalsモードのソロプレイで1対3の交戦に勝利する",
+    "砂漠にあるすべてのオーストリア＝ハンガリー帝国の伝承の断片を収集する"
+  ]}
+/>
+
+| 実績 | 報酬タイプ | 難易度 |
+| :--- | :--- | :--- |
+| **マスター・スカベンジャー** | 外見スキン | 初級 |
+| **ライバル・スレイヤー** | 武器設計図 | 上級 |
+| **ヴォヤージュ・ベテラン** | エンジンアップグレード | 中級 |
+| **帝国歴史家** | ユニークチャーム | 中級 |
+
+<Callout type="tip" title="最後のアドバイス">
+特別な「プレイテスト」モードや期間限定イベントに関するお知らせについては、公式Discordを常にチェックしてください。通常のゲームプレイでは手に入らないユニークな報酬が提供されることがあります。
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "SAND: Raiders of Sophieでゲームモードを変更するには？",
+    answer: "マッチを開始する前に概要（Overview）セクションに移動し、「Select Mode」オプションをクリックして、Strong RivalまたはVoyageを選択します。このメニューでクルー人数（ソロ、少人数、大人数）も選択できます。"
+  },
+  {
+    question: "VoyageとStrong Rivalモードの違いは何ですか？",
+    answer: "Voyageモードは試合時間が無制限で、いつでも参加でき、探索に焦点を当てています。Strong Rivalモードは、より高いリスクとより良い報酬を伴う、競争的な脱出体験です。"
+  },
+  {
+    question: "SAND: Raiders of Sophieのゲームモードをソロでプレイできますか？",
+    answer: "はい、RivalsやVoyageを含むすべての主要なゲームモードはソロプレイをサポートしています。ただし、競争モードでチームに遭遇した場合、ソロプレイはリスクが高まります。"
+  },
+  {
+    question: "異なるゲームモード間で進捗は引き継がれますか？",
+    answer: "はい、Voyageで集めた資源をRivalsモード用のトランブラーのアップグレードに使用でき、その逆も可能です。キャラクターの進行状況とトランブラーの改造はゲーム全体で永続します。"
+  }
+]} />
+
+</Section>
