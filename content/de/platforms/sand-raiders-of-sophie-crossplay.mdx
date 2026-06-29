@@ -1,0 +1,200 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "SAND: Raiders of Sophie Crossplay: Plattform-Setup-Leitfaden",
+  description: "Erhalten Sie die neuesten Updates zu SAND: Raiders of Sophie Crossplay-Unterstützung, Koop-Mehrspieler-Setups, Konsolen-Release-Roadmaps und Systemanforderungen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Crossplay+Setup+Guide",
+  date: "2026-06-30",
+  author: "SAND: Raiders of Sophie Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Crossplay-Status**: Derzeit ist **SAND: Raiders of Sophie Crossplay** auf PC-Plattformen beschränkt, da sich das Spiel im Steam Early Access befindet.
+- **Mehrspieler-Fokus**: Das Spiel bietet tiefgehende PvPvE-Extraction-Mechaniken, bei denen Spieler sich zusammenschließen oder die Wüste solo erkunden können.
+- **Trampler-Crew**: Das Koop-Spiel ermöglicht es mehreren Spielern, eine einzige anpassbare, laufende Mech-Festung zu steuern und zu verteidigen.
+- **Konsolen-Roadmap**: Die Entwickler Hologryph und TowerHaus planen, die Plattformen nach dem Early Access, der bis 2026 läuft, zu erweitern.
+- **Server-Region**: Stellen Sie sicher, dass alle Truppmitglieder dieselbe Matchmaking-Region auswählen, um hohe Latenzen während der Extraction-Runs zu vermeiden.
+</Callout>
+
+<Section icon={Shield} title="SAND: Raiders of Sophie Crossplay und Plattformverfügbarkeit">
+
+Das Navigieren durch die trostlosen Dünen von Sophie erfordert Kooperation, Strategie und Feuerkraft. Während Scavenger in diese alternative Sci-Fi-Welt des Jahres 1910 aufbrechen, ist das Verständnis der Funktionsweise von **SAND: Raiders of Sophie Crossplay** entscheidend für die Bildung des ultimativen Raiding-Trupps. Dieser Extraction-Shooter, der derzeit von Hologryph und TowerHaus entwickelt und von tinyBuild veröffentlicht wird, fordert die Spieler heraus, anpassbare laufende Festungen namens Trampler zu bauen, um sowohl Umweltgefahren als auch feindliche Spieler zu überleben.
+
+Da das Spiel am 22. Juni 2026 im Steam Early Access erschienen ist, konzentriert sich die Erstveröffentlichung ausschließlich auf die PC-Plattform. Das bedeutet, dass ein echtes plattformübergreifendes Spielen (Crossplay) zwischen PC und Konsolen noch nicht aktiv ist. Das Verständnis der aktuellen Plattformlandschaft und der Pläne der Entwickler für die Zukunft wird Ihnen jedoch dabei helfen, sich mit Ihren Truppmitgliedern abzustimmen.
+
+| Plattform | Verfügbarkeit | Crossplay-Unterstützung | Details |
+| --- | --- | --- | --- |
+| PC (Steam) | Verfügbar (Early Access) | Nicht zutreffend | Nur Single-Plattform-Matchmaking |
+| PlayStation 5 | Geplant (Nach 1.0) | Geplant | Nach dem vollständigen Release erwartet |
+| Xbox Series X/S | Geplant (Nach 1.0) | Geplant | Nach dem vollständigen Release erwartet |
+
+Die Entwickler haben sich stark zu einer von der Community getragenen Entwicklung verpflichtet. Während der geschätzten einjährigen Early-Access-Phase wird die Infrastruktur für erweitertes Matchmaking, Serverstabilität und Multi-Platform-Integration kontinuierlich aufgebaut. Vorerst können PC-Spieler ein nahtloses Matchmaking innerhalb des Steam-Ökosystems genießen und die robusten Einladungs- und Lobby-Systeme von Steam nutzen, um sich zusammenzutun.
+
+<Callout type="warning" title="Early-Access-Warnung">
+Als Early-Access-Titel können Serverwartungen und Hotfixes gelegentlich die Lobby-Verbindungen stören. Überprüfen Sie immer die offiziellen Ankündigungen der Entwickler, bevor Sie zu Expeditionen mit hohem Einsatz aufbrechen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Koop- und Trupp-Mehrspieler-Mechaniken">
+
+In den erbarmungslosen Wüsten von Sophie ist der Alleingang zwar ein möglicher, aber äußerst gefährlicher Weg. Der Zusammenschluss mit anderen Raidern erhöht Ihre Überlebenschancen bei Begegnungen mit rivalisierenden Spielern und den übernatürlichen, untoten Bedrohungen, den sogenannten Upiors, erheblich. Die Mehrspieler-Architektur des Spiels ist auf ein kooperatives Crew-Management ausgelegt, bei dem ein gut eingespieltes Team einen riesigen, schwer bewaffneten Trampler weitaus effizienter steuern kann als ein einzelner Pilot.
+
+Beim Spielen im Trupp müssen die Rollen dynamisch verteilt werden. Ein Spieler konzentriert sich vielleicht auf das Steuern der laufenden Festung, während andere die montierten Geschütztürme bedienen, die Stabilität des Reaktors überwachen oder Enterkommandos abwehren. Kommunikation ist der Schlüssel, insbesondere beim Übergang vom Fahrzeugkampf zum Plündern zu Fuß in zerstörten Städten und Schiffswracks.
+
+| Rolle | Hauptverantwortung | Schlüssel-Ausrüstung | Kampfnutzen |
+| --- | --- | --- | --- |
+| Pilot | Navigiert durch die Dünen, steuert den Trampler | Steuerkonsole, Radar | Positioniert den Mech für optimale Schusswinkel |
+| Richtschütze | Bedient montierte Geschütztürme und Waffen | Montierte Kanonen, Maschinengewehre | Unterdrückt rivalisierende Raider und zerstört gegnerische Module |
+| Ingenieur | Repariert beschädigte Abteile und Motoren | Reparaturwerkzeug, Ersatzteile | Hält den Reaktor unter schwerem Beschuss stabil |
+| Scavenger | Entert gegnerische Mechs, plündert Städte | Schrotflinten, Sturmgewehre, Jetpacks | Sichert hochrangige Beute und eliminiert Upiors |
+
+Um unterschiedlichen Spielstilen gerecht zu werden, unterstützt das Spiel verschiedene Trupp-Konfigurationen. Ob Sie ein heimliches, schnelles Duo oder eine schwer gepanzerte, rollende Festung für vier Spieler bevorzugen – Ihre Strategie muss sich an Ihre Teamgröße anpassen.
+
+<CardGrid cols={3}>
+  <Card title="Solo-Scavenger">
+    - **Hohe Tarnfähigkeiten**
+    - Kleinere, schnellere Trampler-Designs
+    - Hohes Risiko, aber die gesamte Beute gehört Ihnen
+  </Card>
+  <Card title="Duo-Raider">
+    - **Ausgewogene Offensive und Defensive**
+    - Moderater Ressourcenverbrauch
+    - Leichtere Koordination bei Feuergefechten
+  </Card>
+  <Card title="Vollständiger Trupp (3-4 Spieler)">
+    - **Maximale Feuerkraft und Haltbarkeit**
+    - Fähigkeit, riesige laufende Mechs zu bemannen
+    - Fokus auf ertragreiche Beute-Extraction
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Profi-Strategie">
+Selbst wenn Sie in einem vollständigen Trupp spielen, sollten Sie immer einen Spieler als Ausguck in der Nähe des Tramplers abstellen. Überrascht zu werden, während Ihr gesamtes Team ein Schiffswrack plündert, ist ein schneller Weg, Ihre laufende Festung zu verlieren.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Koop-Setup-Leitfaden">
+
+Das Einrichten einer Mehrspieler-Sitzung im Steam Early Access ist unkompliziert, aber um eine stabile Verbindung und passende Spielmodi mit Ihren Freunden zu gewährleisten, sind einige spezifische Schritte erforderlich. Stellen Sie vor dem Aufbruch sicher, dass alle Truppmitglieder ihr Spiel auf die neueste Patch-Version aktualisiert haben, um Versionskonflikte zu vermeiden.
+
+Das Spiel bietet zwei verschiedene Aufbruchsmodi: den Voyage-Modus und den Storm-Dive. Der Voyage-Modus bietet eine Umgebung mit geringerem Risiko, die sich ideal eignet, um die Grundlagen zu erlernen, neue Trampler-Entwürfe zu testen und grundlegende Ressourcen zu sammeln. Der Storm-Dive erhöht den Einsatz erheblich, indem er heraufziehende Sandstürme einführt, die die Sicht einschränken, das Risiko von Begegnungen mit rivalisierenden Spielern erhöhen und weitaus hochwertigere Belohnungen bieten.
+
+<Steps>
+  <Step num="1" title="Erstellen Sie Ihre Steam-Lobby">
+    Starten Sie das Spiel und navigieren Sie zum Hauptmenü. Öffnen Sie Ihr Steam-Freundeslisten-Overlay (standardmäßig Umschalt+Tab) und laden Sie Ihre Teammitglieder in Ihre Lobby ein, oder nutzen Sie das soziale Menü im Spiel, um direkte Trupp-Einladungen zu senden.
+  </Step>
+  <Step num="2" title="Wählen Sie Ihren Spielmodus">
+    Wählen Sie als Lobby-Leiter entweder den Voyage-Modus oder den Storm-Dive, je nach der aktuellen Ausrüstungsstufe und Risikobereitschaft Ihres Trupps. Stellen Sie sicher, dass alle auf die ausgewählten Gefahren vorbereitet sind.
+  </Step>
+  <Step num="3" title="Konfigurieren Sie Ihren Trampler-Bauplan">
+    Greifen Sie vor dem Aufbruch auf den Trampler-Editor zu. Hier kann Ihr Trupp eine laufende Festung von Grund auf neu bauen oder einen gespeicherten Bauplan laden. Stellen Sie sicher, dass Ihr Entwurf wichtige Abteile wie Motoren, Reaktoren, Lagerplätze und Spawnpunkte enthält.
+  </Step>
+  <Step num="4" title="Aufbruch nach Sophie">
+    Sobald alle Spieler bereit sind, starten Sie die Aufbruchssequenz. Ihr Trupp steigt von der Orbitalstation direkt auf die prozedural generierten Wüstendünen hinab.
+  </Step>
+</Steps>
+
+| Modus | Risikostufe | Beutequalität | Sandsturmgefahr | Am besten für |
+| --- | --- | --- | --- | --- |
+| Voyage-Modus | Niedrig | Gewöhnlich bis Selten | Minimal | Solo-Spieler, Testen neuer Trampler-Entwürfe |
+| Storm-Dive | Hoch | Selten bis Legendär | Schwerwiegend | Koop-Trupps, hochrangiger Fortschritt |
+
+Unabhängig vom gewählten Modus ist die Koordination im Trampler-Editor von entscheidender Bedeutung. Es wird dringend empfohlen, Ihre Entwürfe als Baupläne zu speichern, da Sie so Ihre bevorzugten laufenden Festungen schnell rekonstruieren können, falls sie während eines Beutezugs zerstört werden.
+
+<Callout type="success" title="Extraction-Tipp">
+Lokalisieren Sie Ihren Extraction-Punkt immer früh im Match. Wenn sich der Sandsturm während eines Storm-Dives nähert, wird das Wissen um den schnellsten Weg zurück in die Sicherheit Ihre hart erarbeitete Beute retten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="PC-Systemanforderungen & Performance-Optimierung">
+
+Da sich das Matchmaking und das kooperative Spiel derzeit auf die PC-Plattform konzentrieren, ist ein reibungsloser Spielablauf unerlässlich, um bei rasanten PvPvE-Begegnungen wettbewerbsfähig zu bleiben. Framerate-Einbrüche oder Ruckler können zu Fehlschüssen oder misslungenen Extractions führen.
+
+Das Spiel nutzt BattlEye Kernel-Level Anti-Cheat, um ein faires Spielfeld für alle Raider zu gewährleisten. Diese Software muss manuell entfernt werden, falls Sie sich entscheiden, das Spiel in Zukunft zu deinstallieren. Um festzustellen, ob Ihr System die anspruchsvolle Physik und das Rendering der anpassbaren laufenden Festungen bewältigen kann, konsultieren Sie die offiziellen Systemanforderungen.
+
+| Hardware-Komponente | Mindestanforderungen | Empfohlene Anforderungen |
+| --- | --- | --- |
+| Betriebssystem | Windows 10 64-Bit | Windows 11 64-Bit |
+| Prozessor | Intel Core i5 (8. Gen) / AMD Ryzen 5 (2000er-Serie) | Intel Core i5 (13. Gen) / AMD Ryzen 5 (7000er-Serie) |
+| Arbeitsspeicher | 16 GB RAM | 32 GB RAM |
+| Grafikkarte | NVIDIA GTX 1650 / AMD RX 570 / Intel Arc A380 | NVIDIA RTX 3080 / AMD RX 6800 XT |
+| DirectX | Version 11 | Version 11 |
+| Speicherplatz | 11 GB verfügbarer Speicherplatz | 11 GB verfügbarer Speicherplatz (SSD empfohlen) |
+
+Spieler, deren System näher an den Mindestanforderungen liegt, können durch das Verringern der Schattenqualität, das Reduzieren der Sichtweite und die Optimierung des Textur-Streamings die Frameraten bei chaotischen Kämpfen mit mehreren Tramplern erheblich verbessern.
+
+<Callout type="info" title="Netzwerkstabilität">
+Eine kabelgebundene Breitband-Internetverbindung wird für den Mehrspielermodus dringend empfohlen. Bei drahtlosen Verbindungen kann es zu Paketverlusten kommen, was bei Hochgeschwindigkeits-Trampler-Verfolgungsjagden zu Rubberbanding führen kann.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Zukünftige Roadmap & Erwartungen an die Konsolen-Portierung">
+
+Die Reise der Entwicklung dieses einzigartigen Extraction-Shooters hat gerade erst begonnen. Die Entwickler haben eine robuste Roadmap für die Early-Access-Phase skizziert, die voraussichtlich etwa ein Jahr dauern wird. Während dieser Zeit wird das Feedback der Community direkt neue Inhaltsupdates, Balance-Anpassungen und technische Optimierungen beeinflussen.
+
+Während der aktuelle Fokus auf der Verfeinerung des PC-Erlebnisses liegt, sieht die langfristige Vision vor, das Spiel auf moderne Konsolen zu bringen. Sobald die Konsolenversionen offiziell veröffentlicht sind, wird die Implementierung eines echten plattformübergreifenden Mehrspielermodus oberste Priorität haben, um Spieler über verschiedene Hardware-Ökosysteme hinweg zu vereinen.
+
+<Checklist
+  id="multiplayer-roadmap"
+  title="Kommende Mehrspieler-Features:"
+  items={[
+    "Unterstützung für dedizierte Server zur Reduzierung von Latenzen",
+    "Erweiterte Truppgrößen und benutzerdefinierte Lobby-Optionen",
+    "Entwicklung von Konsolen-Portierungen für PlayStation 5 und Xbox Series X/S",
+    "Vollständige Crossplay-Integration zur Verknüpfung von PC- und Konsolen-Matchmaking-Pools",
+    "Unterstützung für Cross-Progression zur plattformübergreifenden Nutzung von Kontodaten"
+  ]}
+/>
+
+| Meilenstein | Geschätzter Zeitrahmen | Auswirkungen auf den Mehrspielermodus | Community-Priorität |
+| --- | --- | --- | --- |
+| Dedizierte Server | Ende 2026 | Reduziert Matchmaking-Latenz, verbessert Stabilität | Hoch |
+| Konsolen-Portierungen | Mitte 2027 | Erweitert die Spielerbasis erheblich | Mittel |
+| Crossplay-Integration | Mitte 2027 | Vereint PC- und Konsolen-Lobbys | Hoch |
+| Cross-Progression | Mitte 2027 | Ermöglicht nahtlose Kontonutzung über Plattformen hinweg | Mittel |
+
+Durch die Teilnahme an der Early-Access-Phase haben die Spieler die einzigartige Gelegenheit, ihre Meinung zu Matchmaking-Präferenzen, Balance und gewünschten Features zu äußern und so direkt zu beeinflussen, wie das endgültige plattformübergreifende Ökosystem aussehen wird.
+
+<Callout type="tip" title="Bleiben Sie in Verbindung">
+Treten Sie dem offiziellen Discord-Server bei und folgen Sie den Entwicklern auf sozialen Plattformen wie X und Bilibili, um über die neuesten Roadmap-Updates und Playtest-Ankündigungen auf dem Laufenden zu bleiben.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Unterstützt SAND: Raiders of Sophie Crossplay zwischen PC und Konsolen?",
+    answer: "Derzeit wird SAND: Raiders of Sophie Crossplay nicht unterstützt, da das Spiel ausschließlich im Early Access auf PC via Steam verfügbar ist. Die Entwickler planen, nach dem Übergang des Spiels zum vollständigen 1.0-Release Konsolen-Portierungen und plattformübergreifendes Matchmaking einzuführen."
+  },
+  {
+    question: "Kann ich das Spiel solo spielen oder brauche ich einen Trupp?",
+    answer: "Sie können komplett solo oder in Trupps von bis zu vier Spielern spielen. Während das Solo-Spielen eine große Herausforderung darstellt, bietet der Voyage-Modus eine sicherere Umgebung, um Ressourcen zu sammeln, Verträge abzuschließen und Ihre Trampler-Entwürfe in Ihrem eigenen Tempo zu testen."
+  },
+  {
+    question: "Was passiert mit meinem Trampler, wenn mein Trupp eliminiert wird?",
+    answer: "Wenn Ihr Trupp eliminiert wird oder die Extraction fehlschlägt, gehen Ihr aktueller physischer Trampler und die darin gelagerte Beute verloren. Sie können Ihre Entwürfe jedoch als Baupläne im Trampler-Editor speichern, sodass Sie Ihre laufende Festung mithilfe von geborgenen Ressourcen problemlos wieder aufbauen können."
+  },
+  {
+    question: "Erfordert das Spiel eine aktive Internetverbindung?",
+    answer: "Ja, das Spiel ist ein Online-PvPvE-Extraction-Shooter, der eine dauerhafte, schnelle Breitband-Internetverbindung erfordert, um eine Verbindung zu den Matchmaking-Servern herzustellen und Ihren Fortschritt zu speichern."
+  }
+]} />
+
+<Callout type="success" title="Fazit">
+Obwohl Crossplay in den frühen Phasen der Entwicklung noch nicht aktiv ist, is die PC-Community sehr aktiv. Schnappen Sie sich Ihre Crew, bauen Sie Ihre laufende Festung und beginnen Sie noch heute, die Dünen von Sophie zu erobern!
+</Callout>
+
+</Section>

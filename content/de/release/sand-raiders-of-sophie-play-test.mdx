@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND Raiders of Sophie Playtest: Mechanik- & Strategie-Leitfaden",
+  description: "Erkunden Sie den SAND Raiders of Sophie Playtest. Meistern Sie die Trampler-Anpassung, Überlebenstaktiken und Extraktionsstrategien in dieser österreichisch-ungarischen Sci-Fi-Welt.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Sand+Raiders+of+Sophie+Guide",
+  date: "2026-06-30",
+  author: "SAND Raiders of Sophie Wiki-Team",
+  keywords: "SAND Raiders of Sophie, Playtest, Trampler, Extraktion, Guide, Strategie, Überleben"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **SAND Raiders of Sophie Playtest**: Ein High-Stakes-Extraktions-Erlebnis mit anpassbaren Lauf-Mechs, bekannt als Trampler.
+- **Kernmechanik**: Das Entwerfen und Instandhalten Ihres Tramplers ist überlebenswichtig für das Überleben und die Lagerung von Beute.
+- **Setting**: Der einsame Wüstenplanet Sophie, inspiriert von einer alternativen Geschichte der Österreichisch-Ungarischen Monarchie.
+- **Todesstrafe**: Ähnlich wie bei anderen Extraktions-Shootern führt das Sterben ohne Respawn-Punkt (Bett) zum Verlust der gesamten mitgeführten Ausrüstung.
+- **Wichtige Strategie**: Priorisieren Sie während Kampfbegegnungen interne Schiffsreparaturen und den Schutz des Reaktorkerns.
+</Callout>
+
+<Section icon={Map} title="Überblick über den SAND Raiders of Sophie Playtest">
+
+Der **SAND Raiders of Sophie Playtest** bietet Spielern einen ersten Einblick in eine einzigartige Mischung aus Extraktionsmechanik und Basenbau. Im Jahr 1910 auf dem gefallenen Planeten Sophie angesiedelt, hat die Menschheit fortschrittliche Energiequellen genutzt, um unter dem Banner der Österreichisch-Ungarischen Monarchie die Sterne zu kolonisieren. Eine ökologische Katastrophe hat den Planeten jedoch in eine riesige, tückische Wüste verwandelt. Spieler schlüpfen in die Rolle von „Raidern“ aus Regionen wie Galizien, die versuchen, verlorene Reichtümer und Ressourcen zurückzugewinnen, während sie durch den wandernden Sand navigieren.
+
+**Video-Highlights:**
+- Detaillierte Charakteranpassung mit „Cowboy“-Kleidung im Stil des 19. Jahrhunderts.
+- Das komplexe Blaupausen-System zum Bauen und Modifizieren von Tramplern.
+- Echtzeit-Kampfbegegnungen gegen NPCs und rivalisierende Spieler-Crews.
+- Die hochintensive Extraktionsschleife, in der Serverstabilität und Koordination getestet werden.
+
+<YouTubeEmbed videoId="j2fyp5NX00w" title="Sands ALPTRAUM-Playtest | Sand Raiders of Sophie" />
+
+<Callout type="tip" title="Historischer Kontext">
+Die Charaktere des Spiels sind primär Ukrainer und Polen aus der Region Galizien der Österreichisch-Ungarischen Monarchie. Dieser kulturelle Hintergrund beeinflusst den architektonischen Stil und das Charakterdesign im gesamten Playtest.
+</Callout>
+
+| Merkmal | Beschreibung | Auswirkung auf das Gameplay |
+| :--- | :--- | :--- |
+| **Welt-Setting** | Postapokalyptischer Wüstenplanet Sophie | Hohe Umweltgefahren und begrenzte Sicht |
+| **Hauptfahrzeug** | Der Trampler (Lauf-Mech) | Dient als mobile Basis, Lager und Waffe |
+| **Herkunft des Spielers** | Galizien (Österreichisch-Ungarische Monarchie) | Bestimmt die Ästhetik und die anfängliche Motivation |
+| **Beutesystem** | Extraktionsbasiert (DMZ-Stil) | Hohes Risiko des Ausrüstungsverlusts bei Tod oder Zerstörung |
+| **Gegnertypen** | NPCs, Zombies und rivalisierende Raider | Erfordert vielseitige Loadouts für PvE und PvP |
+
+</Section>
+
+<Section icon={Settings} title="Trampler-Engineering und Anpassung">
+
+Im **SAND Raiders of Sophie Playtest** ist Ihr Trampler mehr als nur ein Fahrzeug; er ist Ihre Lebensader. Diese massiven Lauf-Mechs wurden ursprünglich für den Transport von Baumaterialien über die Inseln von Sophie entwickelt. Jetzt dienen sie als gepanzerte Festungen. Die Anpassung eines Tramplers erfordert ein Gleichgewicht zwischen Manövrierfähigkeit, Energieeffizienz und struktureller Integrität.
+
+<CardGrid cols={3}>
+  <Card title="Strukturelle Integrität">
+    - **Panzerplatten**: Schützt interne Komponenten vor Kanonenfeuer.
+    - **Erreichbarkeit**: Sicherstellen, dass sich die Crew schnell zwischen den Etagen bewegen kann.
+    - **Gewichtsmanagement**: Übermäßiges Gewicht reduziert die Gehgeschwindigkeit.
+  </Card>
+  <Card title="Energiesysteme">
+    - **Reaktorkern**: Das Herz des Schiffes; muss abgeschirmt werden.
+    - **Energieeffizienz**: Beeinflusst, wie viele Module gleichzeitig laufen können.
+    - **Verrohrung**: Verteilt die Energie; anfällig für interne Schäden.
+  </Card>
+  <Card title="Offensive Module">
+    - **Kanonen-Hardpoints**: Unterstützt 40mm, 70mm und 80mm Artillerie.
+    - **Turmplatzierung**: Entscheidend für die Abdeckung toter Winkel.
+    - **Munitionslager**: Muss zugänglich sein, aber vor Explosionen geschützt.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Konstruktionsfehler">
+Die Platzierung Ihres Reaktorkerns an den Außenkanten des Schiffes macht ihn zu einem leichten Ziel für rivalisierende Raider. Zentrieren Sie Ihre kritischsten Komponenten immer, um einen schnellen „Schiff zerstört“-Bildschirm zu vermeiden.
+</Callout>
+
+| Modultyp | Hauptfunktion | Häufige Fehler |
+| :--- | :--- | :--- |
+| **Struktur** | Bietet Bodenfläche und Wände | Überhangprobleme und Erreichbarkeitsprobleme |
+| **Energie** | Treibt Bewegung und Waffen an | Geringe Effizienz durch schlechte Reaktorplatzierung |
+| **Lagerung** | Hält Beute und Ersatzmunition | Während des Kampfes oder beim Entern unzugänglich |
+| **Schlafkoje** | Ermöglicht das Respawning | Das Vergessen eines Bettes verhindert Respawns im Match |
+
+</Section>
+
+<Section icon={Target} title="So starten Sie Ihre erste Expedition">
+
+Der erfolgreiche Start in den **SAND Raiders of Sophie Playtest** erfordert sorgfältige Vorbereitung. Bevor Sie auf der Oberfläche landen, müssen Sie Ihre Schiffsblaupause finalisieren und Ihr Start-Loadout auswählen. Das Versäumnis, wichtige Vorräte wie chemische Teile oder Granaten mitzubringen, kann einen Lauf beenden, bevor er richtig begonnen hat.
+
+<Steps>
+  <Step num="1" title="Charakter- und Schiffs-Setup">
+    Passen Sie das Aussehen Ihres Raiders an und stellen Sie sicher, dass Ihre Trampler-Blaupause gültig ist. Achten Sie auf rote Fehleranzeigen bezüglich Gewicht oder Erreichbarkeit.
+  </Step>
+  <Step num="2" title="Loadout-Auswahl">
+    Wählen Sie Waffen (wie die dreiläufige Schrotflinte oder die 80mm-Kanone) und decken Sie sich mit Munition ein. Vergessen Sie nicht ein Reparaturwerkzeug und Lebensmittel, um Ihren Hungerbalken zu verwalten.
+  </Step>
+  <Step num="3" title="Einsatz">
+    Treten Sie der Matchmaking-Warteschlange bei. Sobald der Server gefüllt ist, werden Sie per „Fortnite-Drop“ abspringen oder direkt auf Ihrem Trampler spawnen, während dieser in die Wüste einfährt.
+  </Step>
+  <Step num="4" title="Ressourcensammeln">
+    Navigieren Sie zu Forts oder Städten. Nutzen Sie Ihre Kanonen, um Türen aufzusprengen und Tresore nach Geld, Energiestäben und seltenen Waffenkomponenten zu durchsuchen.
+  </Step>
+  <Step num="5" title="Extraktion">
+    Sobald Ihre Fracht voll ist, suchen Sie einen Extraktionspunkt oder eine „Trampler-Eroberungszone“ auf, um Ihren Fortschritt zu sichern, bevor der Sturm oder Rivalen Sie finden.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Inventarmanagement">
+Wenn Sie einen seltenen Gegenstand wie einen Roten Energiestab finden, priorisieren Sie dessen Sicherheit. Diese Gegenstände können die Leistung Ihres Schiffes erheblich steigern oder am Ende eines Laufs für einen hohen Preis verkauft werden.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampftaktiken und Überlebensstrategie">
+
+Der Kampf im **SAND Raiders of Sophie Playtest** ist aufgeteilt in weitreichende Artillerie-Duelle und Nahkampf-Enteraktionen. Wenn zwei Trampler aufeinandertreffen, wird der Kampf oft zu einem Wettlauf, wer die internen Systeme des anderen zuerst zerstören kann.
+
+**Wichtige Kampfregeln:**
+- **Zielen Sie auf die Beine**: Die Beschädigung des Fahrgestells eines Tramplers kann ihn verlangsamen oder immobilisieren.
+- **Interne Sabotage**: Wenn Sie ein feindliches Schiff entern, konzentrieren Sie sich darauf, deren Reaktor oder Betten zu zerstören, um Respawns zu verhindern.
+- **Reparaturdienst**: Mindestens ein Crewmitglied sollte immer ein Multi-Tool ausgerüstet haben, um Rohre und Wände während eines Kampfes zu reparieren.
+
+| Waffentyp | Reichweite | Bester Anwendungsfall |
+| :--- | :--- | :--- |
+| **80mm-Kanone** | Weit | Hoher Schaden gegen Schiffshüllen und Fort-Türen |
+| **40mm-Autokanone** | Mittel | Schnellfeuer zur Ausschaltung von NPCs und Zombies |
+| **Schrotflinte** | Nah | Verteidigung Ihres Schiffes gegen Enterer |
+| **Orbital-Schlag-Bombe** | Taktisch | Massiver Flächenschaden; erfordert manuelle Aktivierung |
+
+<Callout type="info" title="Umweltgefahren">
+Um Forts herum sind Minen verteilt. Obwohl sie unscheinbar wirken, kann eine einzige Mine den Beinen Ihres Tramplers erheblichen Schaden zufügen und Sie zur leichten Beute für andere Spieler machen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Playtest-Ziele und Checkliste">
+
+Um das Beste aus dem **SAND Raiders of Sophie Playtest** herauszuholen, sollten sich Spieler auf bestimmte Meilensteine konzentrieren, die die Tiefe des Spiels demonstrieren. Vom Kapern feindlicher Schiffe bis zum Meistern des Technologiebaums gibt es viel zu entdecken.
+
+<Checklist
+  id="playtest-goals"
+  title="Raider-Ziele:"
+  items={[
+    "Erfolgreich einen Trampler mit 100 % Erreichbarkeit bauen",
+    "Einen hochrangigen Stadttresor plündern, ohne das Schiff zu verlieren",
+    "Einen kritischen Rohrbruch während des Kampfes erfolgreich reparieren",
+    "Den Trampler eines rivalisierenden Spielers kapern oder zerstören",
+    "Den Extraktionspunkt mit einer legendären Waffe erreichen"
+  ]}
+/>
+
+<Callout type="warning" title="Hunger und Tod">
+Behalten Sie Ihren Hungerbalken im Auge. Wenn Sie verhungern, erleiden Sie über Zeit Schaden. Sterben in der Wüste ohne Bett auf Ihrem Schiff bedeutet, dass Sie nicht respawnen können und Ihre Beute für jeden Vorbeikommenden freigegeben ist.
+</Callout>
+
+| Ressource | Hauptverwendung | Fundort |
+| :--- | :--- | :--- |
+| **Chemische Teile** | Handwerk und Reparaturen | Industriekisten in Städten |
+| **Energiestäbe** | Antrieb von Schiffsmodulen | Tresore und Hochsicherheitsforts |
+| **Granaten** | Munition für Kanonen | Militärposten und Beutekisten |
+| **Metallschrott** | Strukturelle Reparaturen | Aus zerstörten Schiffen geborgen |
+
+</Section>
+
+<Section icon={Sparkles} title="Fazit und FAQ">
+
+Der **SAND Raiders of Sophie Playtest** zeigt eine vielversprechende Zukunft für das Extraktionsgenre und verbindet historische Ästhetik mit tiefgreifender mechanischer Anpassung. Egal, ob Sie ein Solo-Ingenieur oder Teil einer koordinierten Crew sind, das Verständnis der Grenzen Ihres Tramplers ist der Schlüssel zur Eroberung des Planeten Sophie.
+
+<Callout type="tip" title="Abschließender Rat">
+Schauen Sie immer im offiziellen Discord nach Updates zur Serverwartung. Während des Playtests können Server für Optimierungen häufig offline gehen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Was passiert, wenn mein Trampler zerstört wird?",
+    answer: "Wenn Ihr Trampler zerstört wird, verlieren Sie das Schiff und die darin gelagerte Beute. Sie müssen ein neues Schiff mit Ihren gespeicherten Blaupausen und verfügbaren Ressourcen bauen."
+  },
+  {
+    question: "Kann ich den SAND Raiders of Sophie Playtest solo spielen?",
+    answer: "Ja, aber es ist deutlich schwieriger. Sie müssen das Fahren, Schießen und Reparieren ganz alleine bewältigen, was Sie anfällig für größere Crews macht."
+  },
+  {
+    question: "Wie spawne ich während eines Matches neu?",
+    answer: "Sie müssen eine 'Schlafkoje' (Bett) in Ihren Trampler eingebaut haben. Wenn Sie sterben und ein Bett haben, können Sie auf Ihrem Schiff respawnen. Wenn das Bett zerstört ist, können Sie nicht neu spawnen."
+  },
+  {
+    question: "Was ist die beste Waffe für den Trampler?",
+    answer: "Die 80mm-Kanone gilt im Allgemeinen als die beste für schweren Schaden, während die 40mm-Kanone besser für den Umgang mit Gruppen von NPCs und Zombies geeignet ist."
+  }
+]} />
+
+</Section>

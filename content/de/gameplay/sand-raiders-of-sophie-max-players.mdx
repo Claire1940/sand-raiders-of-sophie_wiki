@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "SAND: Raiders of Sophie – Maximale Spieleranzahl: Crew-Größe & Lobby-Guide",
+  description: "Entdecke das Limit für die maximale Spieleranzahl, die Crew-Größen und die Kapazität der Multiplayer-Lobby in SAND: Raiders of Sophie. Erfahre, wie du deine Trampler-Crew verwaltest.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Max+Players+Guide",
+  date: "2026-06-30",
+  author: "SAND Raiders of Sophie Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Hauptlimit**: Das Limit für die maximale Spieleranzahl pro Trupp in SAND: Raiders of Sophie liegt bei 4 Spielern.
+- **Lobby-Größe**: Multiplayer-Lobbys unterstützen bis zu 24 Spieler pro Sitzung in der Open-World-Wüste.
+- **Trampler-Crew**: Die Verwaltung eines riesigen, gehenden Mechs ist optimal auf kooperative Teams von 2 bis 4 Spielern ausgelegt.
+- **Solo-Spiel**: Solo-Matchmaking wird vollständig unterstützt, stellt dich jedoch vor extreme Überlebensherausforderungen gegenüber größeren Crews.
+</Callout>
+
+<Section icon={Map} title="Crew-Limits und Truppgrößen">
+
+In den weiten, trostlosen Wüsten des gefallenen Planeten Sophie hängt das Überleben ganz von deiner Fähigkeit ab, als geschlossene Einheit zusammenzuarbeiten. Das Multiplayer-Framework des Spiels ist um die kooperative Fahrzeugverwaltung und intensive PvPvE-Extraktionsschleifen herum aufgebaut. Zu verstehen, wie die Skalierung der Crew funktioniert, ist entscheidend für die Planung deiner Ausflüge in die sandige Einöde.
+
+Die maximale Truppgröße im Spiel ist auf **4 Spieler** begrenzt. Dieses Crew-Limit ist speziell auf das physische Layout und die betrieblichen Anforderungen der Trampler abgestimmt, die als deine mobilen Basen dienen. Obwohl du versuchen kannst, die Ruinen des Österreichisch-Ungarischen Kaiserreichs allein zu erkunden, bietet eine vollständige Crew von vier Personen die höchste betriebliche Effizienz und Kampfbereitschaft.
+
+| Crew-Größe | Steuerungseffizienz | Kampffähigkeit | Überlebensbewertung |
+| :--- | :--- | :--- | :--- |
+| Solo | Niedrig | Niedrig | Herausfordernd |
+| Duo | Mittel | Mittel | Moderat |
+| Trio | Hoch | Hoch | Gut |
+| Vierer (Quad) | Maximal | Maximal | Ausgezeichnet |
+
+<CardGrid cols={3}>
+  <Card title="Der Solo-Plünderer">
+    - **Hohes Risiko**
+    - Hohes Stealth-Potenzial
+    - Schwierige Fahrzeugverwaltung
+  </Card>
+  <Card title="Die Duo-Allianz">
+    - **Ausgewogene Geschwindigkeit**
+    - Geteilte Reparaturaufgaben
+    - Moderate Feuerkraft
+  </Card>
+  <Card title="Die vollständige Crew">
+    - **Maximale Effizienz**
+    - Dedizierte Kampfrollen
+    - Überlegene Verteidigungsfähigkeiten
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Profi-Tipp">
+Wenn du mit weniger als vier Spielern spielst, priorisiere zuerst das Upgrade deines Trampler-Motors und der automatisierten Verteidigungssysteme, um den Mangel an manueller Arbeitskraft der Crew auszugleichen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Lobby-Kapazität und PvPvE-Matchmaking">
+
+Abseits deiner unmittelbaren Crew ist die weite Welt von Sophie von rivalisierenden Plünderern, Ausgestoßenen und feindlichen Umweltbedrohungen bevölkert. Das Matchmaking-System platziert mehrere Trupps in einer einzigen Open-World-Instanz und schafft so eine hochgradig unbeständige PvPvE-Umgebung, in der Bündnisse fragil sind und Kämpfe häufig vorkommen.
+
+Die gesamte Lobby-Kapazität ist darauf ausgelegt, bis zu **24 Spieler** gleichzeitig aufzunehmen. Das bedeutet, dass du während eines einzelnen Einsatzes mit bis zu fünf anderen vollständigen Trupps oder einer größeren Anzahl kleinerer Teams rechnen musst. Das Matchmaking-System versucht aktiv, Lobbys auszubalancieren, aber Spieler müssen immer auf der Hut vor herannahenden feindlichen Tramplern sein.
+
+| Lobby-Metrik | Standardkapazität | Matchmaking-Regeln |
+| :--- | :--- | :--- |
+| Max. Spieler pro Match | 24 Spieler | Globales Limit für alle aktiven Trupps |
+| Max. Trupps pro Lobby | 6 Trupps | Geht von maximalen Crew-Größen von 4 aus |
+| Matchmaking-Pool | Global | Regionen nach Latenz priorisiert |
+| Instanzdauer | Dynamisch | Basierend auf Sturmzyklen und Extraktion |
+
+Da das Limit für die maximale Spieleranzahl in SAND: Raiders of Sophie groß angelegte Fahrzeugkämpfe ermöglicht, kann das Aufeinandertreffen mit mehreren Trupps gleichzeitig zu gewaltigen Schlachten zwischen mehreren Tramplern führen. Diese Gefechte erfordern eine sorgfältige Positionierung, präzises Schießen und schnelle Reparaturarbeiten, um zu überleben.
+
+<Callout type="warning" title="Warnung">
+Lobbys werden nicht nach Truppgröße aufgeteilt. Als Solo- oder Duo-Spieler wirst du in denselben Matchmaking-Pool wie vollständige Vier-Spieler-Crews eingeteilt. Passe deine taktische Herangehensweise entsprechend an.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Trampler-Verwaltung für Mehrspieler-Crews">
+
+Der Trampler ist mehr als nur ein Fahrzeug; er ist ein riesiges, gehendes, schiffsähnliches Gefährt, das ständige Wartung und Koordination erfordert. Mit einem Fahrgestell, das sowohl für die Land- als auch für die Wassernavigation ausgelegt ist, ist es eine Aufgabe für mehrere Personen, einen Trampler auf Höchstleistung zu halten. Hier glänzt das Trupplimit von vier Spielern erst richtig.
+
+Jeder Spieler in einer maximalen Crew von vier Personen muss auf Reisen und im Kampf bestimmte Aufgaben übernehmen. Wenn alle aufeinander eingestimmt sind, wird ein Trampler zu einer fast uneinnehmbaren Festung.
+
+| Station | Hauptverantwortung | Ideales Crew-Mitglied |
+| :--- | :--- | :--- |
+| Steuer | Lenkung und Navigation | Pilot |
+| Geschütz | Bedienen schwerer Waffen | Kampfspezialist |
+| Technik | Motorwartung und Reparaturen | Mechaniker |
+| Aufklärung | Aufspüren von Ressourcen und Bedrohungen | Navigator |
+
+Wenn man mit weniger als der maximalen Crew arbeitet, müssen die Spieler Multitasking betreiben und häufig zwischen Steuern, Schießen und Reparieren wechseln. Dies macht kleinere Crews bei Überraschungsangriffen von voll besetzten gegnerischen Trupps extrem anfällig.
+
+<Callout type="success" title="Erfolgstipp">
+Weise bestimmte Rollen zu, bevor du deinen Trampler aus dem Hangar startest. Einen festen Ingenieur zu haben, der sich während des Kampfes ausschließlich auf Reparaturen konzentriert, hält dein Fahrzeug in Bewegung, während die anderen das Feuer erwidern.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Kooperativer Fortschritt und Teilen von Ressourcen">
+
+Der Fortschritt im Spiel ist eng mit den Ressourcen verknüpft, die du aus den Ruinen von Sophie extrahierst. Wenn du in einem Trupp spielst, nutzt das Spiel kooperative Fortschrittsmechaniken, um sicherzustellen, dass alle Spieler von einem erfolgreichen Beutezug profitieren. Die Verwaltung eurer zusammengelegten Ressourcen erfordert jedoch klare Kommunikation und Planung.
+
+Um deine Crew auf die Wüste vorzubereiten, befolge diese wesentlichen Schritte, um deine Lobby einzurichten und dein Fahrzeug vorzubereiten.
+
+<Steps>
+  <Step num="1" title="Lobby erstellen">
+    Lade im Hauptmenü bis zu drei andere Spieler in deinen Trupp ein, bevor du die Sitzung startest.
+  </Step>
+  <Step num="2" title="Host-Trampler auswählen">
+    Wähle aus, welcher Trampler der Spieler als aktive mobile Basis für den bevorstehenden Einsatz dienen soll.
+  </Step>
+  <Step num="3" title="Ressourcen zusammenlegen">
+    Trage Materialien zum gemeinsamen Frachtraum bei, um notwendige Panzerungs- und Waffen-Upgrades zu finanzieren.
+  </Step>
+  <Step num="4" title="Auf Sophie landen">
+    Starte in den Matchmaking-Pool, um eine aktive PvPvE-Instanz mit 24 Spielern zu betreten.
+  </Step>
+</Steps>
+
+Das Teilen von Ressourcen wird über das Trampler-Inventar des Hosts geregelt. Während der individuelle Charakterfortschritt separat bleibt, muss physische Beute, die im Trampler gelagert wird, erfolgreich extrahiert werden, um für dauerhafte Upgrades verwendet werden zu können.
+
+| Ressourcentyp | Verteilungsregel | Lagerort |
+| :--- | :--- | :--- |
+| Rohstoffe | Werden bei der Extraktion unter der Crew aufgeteilt | Trampler-Frachtraum |
+| Waffen-Blaupausen | Für alle aktiven Crew-Mitglieder freigeschaltet | Individueller Kodex |
+| Charakter-Währung | Am Ende eines Matches gleichmäßig verteilt | Persönliches Inventar |
+
+<Callout type="info" title="Wichtig">
+Wenn dein Trampler vor der Extraktion zerstört wird, geht die gesamte im Frachtraum gelagerte physische Beute in der Wüste verloren. Stelle sicher, dass deine Crew Verteidigung vor Gier stellt, wenn sie wertvolle Fracht transportiert.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Matchmaking-Tipps und FAQ">
+
+Um deine Überlebenschancen in den unbarmherzigen Wüsten von Sophie zu maximieren, ist Vorbereitung der Schlüssel. Nutze diese Checkliste, um sicherzustellen, dass dein Trupp vor dem Start des Matchmakings vollständig bereit ist.
+
+<Checklist
+  id="pre-launch-checklist"
+  title="Checkliste vor dem Start:"
+  items={[
+    "Überprüfe, ob alle 4 Crew-Plätze besetzt oder eingeplant sind",
+    "Bestätige, dass der Trampler-Motor vollständig betankt ist",
+    "Rüste schwere Munition für die Hauptgeschütze aus",
+    "Weise dem Navigator sekundäre Reparaturaufgaben zu",
+    "Überprüfe nochmals, ob alle Truppmitglieder die Lobby-Einladung angenommen haben"
+  ]}
+/>
+
+<Callout type="warning" title="Warnung">
+Stelle sicher, dass deine Sprachkommunikation richtig eingerichtet ist. Der Text-Chat ist oft zu langsam, um sich während rasanter Trampler-Entermanöver abzustimmen.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Wie hoch ist das maximale Spielerlimit für kooperative Trupps in SAND: Raiders of Sophie?",
+    answer: "Die maximale Truppgröße beträgt 4 Spieler. Du kannst auch mit weniger Spielern spielen, aber eine volle Crew von vier Personen wird dringend empfohlen, um deinen Trampler effektiv zu verwalten."
+  },
+  {
+    question: "Wie viele Spieler können in einer einzigen Multiplayer-Lobby sein?",
+    answer: "Lobbys unterstützen bis zu 24 Spieler gleichzeitig. Dies kann aus verschiedenen Truppgrößen bestehen, von Solo-Spielern bis hin zu mehreren vollständigen 4-Spieler-Crews."
+  },
+  {
+    question: "Gibt es separate Matchmaking-Warteschlangen für Solo-Spieler?",
+    answer: "Nein, es gibt keine separaten Warteschlangen. Solo-Spieler teilen sich dieselben Lobbys mit 4-Spieler-Trupps, was Stealth und vorsichtige Navigation für das Solo-Überleben entscheidend macht."
+  },
+  {
+    question: "Was passiert mit unserer Beute, wenn ein Crew-Mitglied die Verbindung verliert?",
+    answer: "Die im Trampler-Frachtraum gelagerte Beute bleibt sicher, solange das Fahrzeug selbst erfolgreich extrahiert wird. Spieler, die die Verbindung verloren haben, können der aktiven Sitzung wieder beitreten, solange das Match noch läuft."
+  }
+]} />
+
+</Section>

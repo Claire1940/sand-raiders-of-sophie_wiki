@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de configuración de plataformas y crossplay de SAND: Raiders of Sophie",
+  description: "Obtén las últimas actualizaciones sobre el soporte de crossplay de SAND: Raiders of Sophie, configuraciones multijugador cooperativo, hojas de ruta para consolas y requisitos del sistema.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Crossplay+Setup+Guide",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de SAND: Raiders of Sophie",
+  keywords: "sand raiders of sophie crossplay, multijugador, guía de plataformas, cooperativo, requisitos del sistema"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Estado del Crossplay**: Actualmente, el **crossplay de sand raiders of sophie** está limitado a plataformas de PC, ya que el juego se encuentra en Acceso Anticipado de Steam.
+- **Enfoque Multijugador**: El juego presenta mecánicas profundas de extracción PvPvE donde los jugadores pueden formar escuadrones o explorar el desierto en solitario.
+- **Tripulación del Trampler**: El juego cooperativo permite que varios jugadores operen y defiendan una única fortaleza mecánica caminante personalizable.
+- **Hoja de Ruta para Consolas**: Los desarrolladores Hologryph y TowerHaus planean expandir las plataformas después del Acceso Anticipado, que se extenderá hasta 2026.
+- **Región del Servidor**: Asegúrate de que todos los miembros del escuadrón seleccionen la misma región de emparejamiento para evitar una latencia alta durante las incursiones de extracción.
+</Callout>
+
+<Section icon={Shield} title="Crossplay de sand raiders of sophie y disponibilidad de plataformas">
+
+Navegar por las desoladas dunas de Sophie requiere cooperación, estrategia y potencia de fuego. A medida que los carroñeros se despliegan en este mundo de ciencia ficción alternativo de 1910, comprender cómo funciona el **crossplay de sand raiders of sophie** es crucial para formar el equipo de asalto definitivo. Desarrollado actualmente por Hologryph y TowerHaus y publicado por tinyBuild, este shooter de extracción desafía a los jugadores a construir fortalezas caminantes personalizables llamadas Tramplers para sobrevivir tanto a los peligros ambientales como a los jugadores hostiles.
+
+Debido a que el juego se lanzó en Acceso Anticipado de Steam el 22 de junio de 2026, el lanzamiento inicial se centra exclusivamente en la plataforma PC. Esto significa que el verdadero juego multiplataforma entre PC y consolas aún no está activo. Sin embargo, comprender el panorama actual de las plataformas y lo que los desarrolladores han planeado para el futuro te ayudará a coordinarte con tus compañeros de escuadrón.
+
+| Plataforma | Disponibilidad | Soporte de Crossplay | Detalles |
+| --- | --- | --- | --- |
+| PC (Steam) | Disponible (Acceso Anticipado) | No Aplicable | Solo emparejamiento en una plataforma |
+| PlayStation 5 | Planeado (Post-1.0) | Planeado | Se espera después del lanzamiento completo |
+| Xbox Series X/S | Planeado (Post-1.0) | Planeado | Se espera después del lanzamiento completo |
+
+Los desarrolladores han expresado un fuerte compromiso con el desarrollo impulsado por la comunidad. Durante el período estimado de un año de Acceso Anticipado, se construirá de manera constante la infraestructura para un emparejamiento ampliado, estabilidad del servidor e integración multiplataforma. Por ahora, los jugadores de PC pueden disfrutar de un emparejamiento fluido dentro del ecosistema de Steam, utilizando los robustos sistemas de invitación y lobby de Steam para formar equipos.
+
+<Callout type="warning" title="Advertencia de Acceso Anticipado">
+Al ser un título en Acceso Anticipado, el mantenimiento del servidor y los hotfixes pueden interrumpir ocasionalmente las conexiones del lobby. Consulta siempre los anuncios oficiales de los desarrolladores antes de lanzar expediciones de alto riesgo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas Multijugador Cooperativas y de Escuadrón">
+
+En los brutales desiertos de Sophie, ir en solitario es un camino viable pero muy peligroso. Unir fuerzas con otros asaltantes aumenta significativamente tus posibilidades de sobrevivir a los encuentros tanto con jugadores rivales como con las amenazas sobrenaturales de muertos vivientes conocidos como Upiors. La arquitectura multijugador del juego está diseñada en torno a la gestión cooperativa de la tripulación, donde un equipo bien coordinado puede operar un Trampler masivo y fuertemente armado de manera mucho más eficiente que un solo piloto.
+
+Al jugar en un escuadrón, los roles deben distribuirse dinámicamente. Un jugador podría centrarse en pilotar la fortaleza caminante, mientras otros gestionan las torretas montadas, supervisan la estabilidad del reactor o repelen a los grupos de abordaje. La comunicación es clave, especialmente al pasar del combate vehicular al saqueo a pie dentro de ciudades en ruinas y naufragios.
+
+| Rol | Responsabilidad Principal | Equipo Clave | Utilidad en Combate |
+| --- | --- | --- | --- |
+| Piloto | Navega por las dunas, conduce el Trampler | Consola de mando, Radar | Posiciona el mech para ángulos de tiro óptimos |
+| Artillero | Opera torretas montadas y armas | Cañones montados, Ametralladoras | Suprime a asaltantes rivales y destruye módulos enemigos |
+| Ingeniero | Repara compartimentos y motores dañados | Herramienta de reparación, Repuestos | Mantiene el reactor estable bajo fuego intenso |
+| Carroñero | Aborda mechs enemigos, saquea ciudades | Escopetas, Rifles de asalto, Jetpacks | Asegura botín de alto nivel y elimina Upiors |
+
+Para adaptarse a diferentes estilos de juego, el juego admite varias configuraciones de escuadrón. Ya sea que prefieras un dúo sigiloso y rápido o una fortaleza rodante de cuatro jugadores fuertemente blindada, tu estrategia debe adaptarse al tamaño de tu equipo.
+
+<CardGrid cols={3}>
+  <Card title="Carroñero Solitario">
+    - **Altas capacidades de sigilo**
+    - Diseños de Trampler más pequeños y rápidos
+    - Alto riesgo, pero todo el botín es tuyo
+  </Card>
+  <Card title="Dúo de Asaltantes">
+    - **Ofensiva y defensa equilibradas**
+    - Consumo moderado de recursos
+    - Coordinación más fácil durante los tiroteos
+  </Card>
+  <Card title="Escuadrón Completo (3-4 Jugadores)">
+    - **Máxima potencia de fuego y durabilidad**
+    - Capacidad para tripular mechs caminantes masivos
+    - Enfoque en la extracción de botín de alto rendimiento
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Estrategia Pro">
+Incluso cuando juegues en un escuadrón completo, designa siempre a un jugador para que permanezca cerca del Trampler como vigía. Ser sorprendido mientras todo tu equipo está saqueando un naufragio es una forma rápida de perder tu fortaleza caminante.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para la Configuración Cooperativa">
+
+Configurar una sesión multijugador en el Acceso Anticipado de Steam es sencillo, pero asegurar una conexión estable y coincidir en los modos de juego con tus amigos requiere unos pasos específicos. Antes de desplegarte, asegúrate de que todos los miembros del escuadrón hayan actualizado su juego a la última versión del parche para evitar errores de desajuste de versión.
+
+El juego cuenta con dos modos de despliegue distintos: Modo Viaje (Voyage Mode) y Inmersión en la Tormenta (Storm Dive). El Modo Viaje ofrece un entorno de menor riesgo ideal para aprender los conceptos básicos, probar nuevos diseños de Trampler y recolectar recursos básicos. La Inmersión en la Tormenta aumenta significativamente las apuestas, introduciendo tormentas de arena invasoras que limitan la visibilidad, aumentan el riesgo de encontrarse con jugadores rivales y ofrecen recompensas de nivel mucho más alto.
+
+<Steps>
+  <Step num="1" title="Forma tu Lobby de Steam">
+    Inicia el juego y navega al menú principal. Abre tu lista de amigos de Steam (Shift+Tab por defecto) e invita a tus compañeros a tu lobby, o usa el menú social del juego para enviar invitaciones directas al escuadrón.
+  </Step>
+  <Step num="2" title="Selecciona tu Modo de Juego">
+    Como líder del lobby, selecciona el Modo Viaje o la Inmersión en la Tormenta dependiendo del nivel de equipo actual y la tolerancia al riesgo de tu escuadrón. Asegúrate de que todos estén preparados para los peligros seleccionados.
+  </Step>
+  <Step num="3" title="Configura el Plano de tu Trampler">
+    Accede al Editor de Trampler antes de desplegarte. Aquí, tu escuadrón puede construir una fortaleza caminante desde cero o cargar un plano guardado. Asegúrate de que tu diseño incluya compartimentos esenciales como motores, reactores, almacenamiento y puntos de aparición.
+  </Step>
+  <Step num="4" title="Despliégate en Sophie">
+    Una vez que todos los jugadores estén listos, inicia la secuencia de despliegue. Tu escuadrón descenderá desde la estación orbital directamente sobre las dunas del desierto generadas procedimentalmente.
+  </Step>
+</Steps>
+
+| Modo | Nivel de Riesgo | Calidad del Botín | Peligro de Tormenta | Ideal Para |
+| --- | --- | --- | --- | --- |
+| Modo Viaje | Bajo | Común a Raro | Mínimo | Jugadores solitarios, probar nuevos Tramplers |
+| Inmersión en la Tormenta | Alto | Raro a Legendario | Severo | Escuadrones cooperativos, progresión de alto nivel |
+
+Independientemente del modo que elijas, la coordinación dentro del Editor de Trampler es vital. Se recomienda encarecidamente guardar tus diseños como planos, ya que te permite reconstruir rápidamente tus fortalezas caminantes favoritas si son destruidas durante una incursión.
+
+<Callout type="success" title="Consejo de Extracción">
+Ubica siempre tu punto de extracción al principio de la partida. Cuando la tormenta de arena comience a cerrarse durante una Inmersión en la Tormenta, conocer la ruta más rápida de regreso a la seguridad salvará tu botín duramente ganado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Requisitos del Sistema de PC y Optimización del Rendimiento">
+
+Dado que el emparejamiento y el juego cooperativo se centran actualmente en la plataforma PC, ejecutar el juego sin problemas es esencial para mantener una ventaja competitiva durante los encuentros PvPvE de ritmo rápido. Las caídas de fotogramas o los tirones pueden provocar disparos fallidos o extracciones fallidas.
+
+El juego utiliza el Anti-Cheat BattlEye a nivel de núcleo para garantizar un campo de juego justo para todos los asaltantes. Este software requiere una eliminación manual si decides desinstalar el juego en el futuro. Para ayudarte a determinar si tu sistema puede manejar la exigente física y el renderizado de las fortalezas caminantes personalizables, consulta las especificaciones oficiales del sistema.
+
+| Componente de Hardware | Especificación Mínima | Especificación Recomendada |
+| --- | --- | --- |
+| SO | Windows 10 de 64 bits | Windows 11 de 64 bits |
+| Procesador | Intel Core i5 (8.ª Gen) / AMD Ryzen 5 (Serie 2000) | Intel Core i5 (13.ª Gen) / AMD Ryzen 5 (Serie 7000) |
+| Memoria | 16 GB de RAM | 32 GB de RAM |
+| Gráficos | NVIDIA GTX 1650 / AMD RX 570 / Intel Arc A380 | NVIDIA RTX 3080 / AMD RX 6800 XT |
+| DirectX | Versión 11 | Versión 11 |
+| Almacenamiento | 11 GB de espacio disponible | 11 GB de espacio disponible (Se recomienda SSD) |
+
+Para los jugadores que se acercan a las especificaciones mínimas, reducir la calidad de las sombras, disminuir la distancia de visión y optimizar el streaming de texturas puede mejorar significativamente los fotogramas por segundo durante las batallas caóticas que involucran múltiples Tramplers.
+
+<Callout type="info" title="Estabilidad de Red">
+Se recomienda encarecidamente una conexión a internet de banda ancha por cable para el multijugador. Las conexiones inalámbricas pueden experimentar pérdida de paquetes, lo que provoca "rubberbanding" durante las persecuciones de Tramplers a alta velocidad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Hoja de Ruta Futura y Expectativas de Portabilidad a Consolas">
+
+El viaje de desarrollo de este shooter de extracción único no ha hecho más que empezar. Los desarrolladores han trazado una sólida hoja de ruta para el período de Acceso Anticipado, que se prevé que dure aproximadamente un año. Durante este tiempo, los comentarios de la comunidad darán forma directa a las nuevas actualizaciones de contenido, ajustes de equilibrio y optimizaciones técnicas.
+
+Si bien el enfoque actual es refinar la experiencia en PC, la visión a largo plazo incluye llevar el juego a las consolas modernas. Una vez que las versiones para consolas se lancen oficialmente, la implementación del verdadero multijugador multiplataforma se convertirá en una prioridad absoluta, uniendo a los jugadores a través de diferentes ecosistemas de hardware.
+
+<Checklist
+  id="multiplayer-roadmap"
+  title="Próximas Funciones Multijugador:"
+  items={[
+    "Soporte de servidores dedicados para reducir la latencia",
+    "Tamaños de escuadrón ampliados y opciones de lobby personalizadas",
+    "Desarrollo de ports para consolas PlayStation 5 y Xbox Series X/S",
+    "Integración completa de crossplay vinculando los grupos de emparejamiento de PC y consolas",
+    "Soporte de progresión cruzada para compartir datos de cuenta entre plataformas"
+  ]}
+/>
+
+| Hito | Cronograma Estimado | Impacto en el Multijugador | Prioridad de la Comunidad |
+| --- | --- | --- | --- |
+| Servidores Dedicados | Finales de 2026 | Reduce la latencia, mejora la estabilidad | Alta |
+| Ports para Consolas | Mediados de 2027 | Expande significativamente la base de jugadores | Media |
+| Integración de Crossplay | Mediados de 2027 | Une los lobbies de PC y consolas | Alta |
+| Progresión Cruzada | Mediados de 2027 | Permite compartir cuentas sin problemas entre plataformas | Media |
+
+Al participar en la fase de Acceso Anticipado, los jugadores tienen la oportunidad única de expresar sus opiniones sobre las preferencias de emparejamiento, el equilibrio y las funciones deseadas, influyendo directamente en cómo será el ecosistema multiplataforma final.
+
+<Callout type="tip" title="Mantente Conectado">
+Únete al servidor oficial de Discord y sigue a los desarrolladores en plataformas sociales como X y Bilibili para estar al día con las últimas actualizaciones de la hoja de ruta y anuncios de pruebas de juego.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "¿Admite SAND: Raiders of Sophie el crossplay entre PC y consolas?",
+    answer: "Actualmente, el crossplay de sand raiders of sophie no es compatible porque el juego está disponible exclusivamente en Acceso Anticipado en PC a través de Steam. Los desarrolladores planean introducir versiones para consolas y emparejamiento multiplataforma después de que el juego pase a su lanzamiento completo 1.0."
+  },
+  {
+    question: "¿Puedo jugar al juego solo o necesito un escuadrón?",
+    answer: "Puedes jugar completamente solo o en escuadrones de hasta cuatro jugadores. Aunque jugar solo es muy desafiante, el Modo Viaje ofrece un entorno más seguro para recolectar recursos, completar contratos y probar tus diseños de Trampler a tu propio ritmo."
+  },
+  {
+    question: "¿Qué pasa con mi Trampler si mi escuadrón es eliminado?",
+    answer: "Si tu escuadrón es eliminado o no logra extraerse, tu Trampler físico actual y el botín almacenado en su interior se pierden. Sin embargo, puedes guardar tus diseños como planos en el Editor de Trampler, lo que te permite reconstruir fácilmente tu fortaleza caminante utilizando recursos recuperados."
+  },
+  {
+    question: "¿Requiere el juego una conexión a internet activa?",
+    answer: "Sí, el juego es un shooter de extracción PvPvE en línea que requiere una conexión a internet de banda ancha persistente y de alta velocidad para conectarse a los servidores de emparejamiento y guardar tu progresión."
+  }
+]} />
+
+<Callout type="success" title="Veredicto Final">
+Aunque el crossplay no está activo durante las primeras etapas del desarrollo, la comunidad de PC es muy activa. ¡Reúne a tu equipo, construye tu fortaleza caminante y comienza a dominar las dunas de Sophie hoy mismo!
+</Callout>
+
+</Section>

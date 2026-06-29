@@ -1,0 +1,195 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Heart } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Prueba de juego de Sand Raiders of Sophie: Guía de Mecánicas y Estrategia",
+  description: "Explora la prueba de juego de Sand Raiders of Sophie. Domina la personalización del Trampler, las tácticas de supervivencia y las estrategias de extracción en este mundo de ciencia ficción austrohúngaro.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Sand+Raiders+of+Sophie+Guide",
+  date: "2026-06-30",
+  author: "Equipo de la Wiki de SAND Raiders of Sophie",
+  keywords: "sand raiders of sophie, prueba de juego, trampler, guía, estrategia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Prueba de juego de sand raiders of sophie**: Una experiencia de extracción de alto riesgo con mechs caminantes personalizables conocidos como Tramplers.
+- **Mecánica Principal**: Diseñar y mantener tu Trampler es esencial para la supervivencia y el almacenamiento de botín.
+- **Ambientación**: El desolado planeta desértico Sophie, inspirado en una historia alternativa del Imperio Austrohúngaro.
+- **Penalización por Muerte**: Similar a otros shooters de extracción, morir sin un punto de reaparición (cama) resulta en la pérdida de todo el equipo transportado.
+- **Estrategia Clave**: Prioriza las reparaciones internas de la nave y la protección del núcleo del reactor durante los encuentros de combate.
+</Callout>
+
+<Section icon={Map} title="Descripción general de la prueba de juego de Sand Raiders of Sophie">
+
+La **prueba de juego de sand raiders of sophie** ofrece a los jugadores un primer vistazo a una combinación única de mecánicas de extracción y construcción de bases. Ambientado en 1910 en el planeta caído Sophie, la humanidad ha utilizado fuentes de energía avanzadas para colonizar las estrellas bajo el estandarte del Imperio Austrohúngaro. Sin embargo, un desastre ecológico ha convertido al planeta en un vasto y traicionero desierto. Los jugadores asumen el papel de "Raiders" (Incursores) originarios de regiones como Galitzia, buscando reclamar riquezas y recursos perdidos mientras navegan por las arenas movedizas.
+
+**Puntos destacados del video:**
+- Personalización detallada de personajes con vestimenta de "Cowboy" de estética del siglo XIX.
+- El complejo sistema de planos para construir y modificar Tramplers.
+- Encuentros de combate en tiempo real contra NPCs y tripulaciones de jugadores rivales.
+- El bucle de extracción de alta intensidad donde se ponen a prueba la estabilidad del servidor y la coordinación.
+
+<YouTubeEmbed videoId="j2fyp5NX00w" title="Sand's NIGHTMARE Playtest | Sand Raiders of Sophie" />
+
+<Callout type="tip" title="Contexto Histórico">
+Los personajes del juego son principalmente ucranianos y polacos de la región de Galitzia del Imperio Austrohúngaro. Este trasfondo cultural influye en el estilo arquitectónico y los diseños de personajes que se ven a lo largo de la prueba de juego.
+</Callout>
+
+| Característica | Descripción | Impacto en el juego |
+| :--- | :--- | :--- |
+| **Ambientación del mundo** | Planeta desértico postapocalíptico Sophie | Alto riesgo ambiental y visibilidad limitada |
+| **Vehículo principal** | El Trampler (Mech caminante) | Sirve como base móvil, almacenamiento y arma |
+| **Origen del jugador** | Galitzia (Imperio Austrohúngaro) | Dicta la estética y la motivación inicial del personaje |
+| **Sistema de botín** | Basado en extracción (estilo DMZ) | Alto riesgo de perder equipo al morir o al destruirse la nave |
+| **Tipos de enemigos** | NPCs, Zombis e Incursores rivales | Requiere equipamientos versátiles para PvE y PvP |
+
+</Section>
+
+<Section icon={Settings} title="Ingeniería y personalización del Trampler">
+
+En la **prueba de juego de sand raiders of sophie**, tu Trampler es más que un simple vehículo; es tu salvavidas. Estos enormes mechs caminantes fueron diseñados originalmente para transportar materiales de construcción a través de las islas de Sophie. Ahora, sirven como fortalezas blindadas. Personalizar un Trampler requiere equilibrar la maniobrabilidad, la eficiencia energética y la integridad estructural.
+
+<CardGrid cols={3}>
+  <Card title="Integridad Estructural">
+    - **Blindaje**: Protege los componentes internos del fuego de los cañones.
+    - **Accesibilidad**: Asegura que la tripulación pueda moverse entre pisos rápidamente.
+    - **Gestión de peso**: El peso excesivo reduce la velocidad al caminar.
+  </Card>
+  <Card title="Sistemas de Energía">
+    - **Núcleo del Reactor**: El corazón de la nave; debe estar blindado.
+    - **Eficiencia Energética**: Afecta a cuántos módulos pueden funcionar simultáneamente.
+    - **Tuberías**: Distribuyen la energía; vulnerables a daños internos.
+  </Card>
+  <Card title="Módulos Ofensivos">
+    - **Puntos de anclaje de cañones**: Soporta artillería de 40mm, 70mm y 80mm.
+    - **Colocación de torretas**: Crítico para cubrir puntos ciegos.
+    - **Almacenamiento de munición**: Debe ser accesible pero estar protegido de explosiones.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Errores de diseño">
+Colocar el núcleo del reactor en los bordes exteriores de la nave lo convierte en un objetivo fácil para los incursores rivales. Centra siempre tus componentes más críticos para evitar una pantalla rápida de "nave destruida".
+</Callout>
+
+| Tipo de módulo | Función principal | Errores comunes |
+| :--- | :--- | :--- |
+| **Estructura** | Proporciona espacio de suelo y paredes | Problemas de salientes y problemas de accesibilidad |
+| **Energía** | Alimenta el movimiento y las armas | Baja eficiencia debido a una mala colocación del reactor |
+| **Almacenamiento** | Contiene botín y munición de repuesto | Inaccesible durante el combate o el abordaje |
+| **Litera para dormir** | Permite la reaparición del jugador | Olvidar añadir una cama impide las reapariciones a mitad de partida |
+
+</Section>
+
+<Section icon={Target} title="Cómo comenzar tu primera expedición">
+
+Lanzarse con éxito a la **prueba de juego de sand raiders of sophie** requiere una preparación cuidadosa. Antes de aterrizar en la superficie, debes finalizar el plano de tu nave y seleccionar tu equipamiento inicial. No llevar suministros esenciales como piezas químicas o proyectiles puede terminar una incursión antes de que realmente comience.
+
+<Steps>
+  <Step num="1" title="Configuración de personaje y nave">
+    Personaliza la apariencia de tu incursor y asegúrate de que el plano de tu Trampler sea válido. Comprueba si hay indicadores de error rojos sobre el peso o la accesibilidad.
+  </Step>
+  <Step num="2" title="Selección de equipamiento">
+    Selecciona armas (como la escopeta de triple cañón o el cañón de 80mm) y abastécete de munición. No olvides una herramienta de reparación y alimentos para gestionar tu barra de hambre.
+  </Step>
+  <Step num="3" title="Despliegue">
+    Entra en la cola de emparejamiento. Una vez que el servidor se llene, harás un "salto estilo Fortnite" o aparecerás directamente en tu Trampler mientras entra en el desierto.
+  </Step>
+  <Step num="4" title="Recolección de recursos">
+    Navega hacia fuertes o ciudades. Usa tus cañones para volar puertas y saquear cajas fuertes en busca de dinero, varas de energía y componentes de armas raros.
+  </Step>
+  <Step num="5" title="Extracción">
+    Una vez que tu carga esté llena, localiza un punto de extracción o una zona de "captura de trampler" para asegurar tu progreso antes de que la tormenta o los rivales te encuentren.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Gestión de Inventario">
+Si encuentras un objeto raro como una Vara de Energía Roja, prioriza su seguridad. Estos objetos pueden mejorar significativamente el rendimiento de tu nave o venderse por un precio alto al final de una incursión.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Tácticas de combate y estrategia de supervivencia">
+
+El combate en la **prueba de juego de sand raiders of sophie** se divide entre duelos de artillería de largo alcance y acciones de abordaje a corta distancia. Cuando dos Tramplers se enfrentan, la batalla a menudo se convierte en una carrera para ver quién puede destruir primero los sistemas internos del otro.
+
+**Reglas clave de combate:**
+- **Apunta a las piernas**: Dañar el chasis de un Trampler puede ralentizarlo o inmovilizarlo.
+- **Sabotaje interno**: Si abordas una nave enemiga, concéntrate en destruir su reactor o sus camas para evitar que reaparezcan.
+- **Servicio de reparación**: Al menos un miembro de la tripulación debe tener siempre equipada una multiherramienta para arreglar tuberías y paredes durante una pelea.
+
+| Tipo de arma | Alcance | Mejor caso de uso |
+| :--- | :--- | :--- |
+| **Cañón de 80mm** | Largo | Daño pesado contra cascos de naves y puertas de fuertes |
+| **Autocañón de 40mm** | Medio | Fuego rápido para eliminar NPCs y zombis |
+| **Escopeta** | Corto | Defender tu nave contra abordajes |
+| **Bomba de ataque orbital** | Táctico | Daño de área masivo; requiere activación manual |
+
+<Callout type="info" title="Peligros Ambientales">
+Las minas están dispersas por los fuertes. Aunque no parecen gran cosa, una sola mina puede causar daños significativos a las piernas de tu Trampler, convirtiéndote en un blanco fácil para otros jugadores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos y lista de verificación de la prueba de juego">
+
+Para aprovechar al máximo la **prueba de juego de sand raiders of sophie**, los jugadores deben centrarse en hitos específicos que demuestren la profundidad del juego. Desde capturar naves enemigas hasta dominar el árbol tecnológico, hay mucho por explorar.
+
+<Checklist
+  id="playtest-goals"
+  title="Objetivos del Incursor:"
+  items={[
+    "Construir con éxito un Trampler con 100% de accesibilidad",
+    "Saquear una caja fuerte de una ciudad de alto nivel sin perder tu nave",
+    "Reparar con éxito un fallo crítico de tubería durante el combate",
+    "Capturar o destruir el Trampler de un jugador rival",
+    "Llegar al punto de extracción con un arma legendaria"
+  ]}
+/>
+
+<Callout type="warning" title="Hambre y Muerte">
+Vigila tu barra de hambre. Si mueres de hambre, recibirás daño con el tiempo. Morir en el desierto sin una cama en tu nave significa que no puedes reaparecer, y tu botín queda a merced de cualquiera que pase por allí.
+</Callout>
+
+| Recurso | Uso principal | Dónde encontrarlo |
+| :--- | :--- | :--- |
+| **Piezas químicas** | Fabricación y reparaciones | Cajas industriales en ciudades |
+| **Varas de energía** | Alimentación de módulos de la nave | Cajas fuertes y fuertes de alta seguridad |
+| **Proyectiles** | Munición para cañones | Puestos militares y cajas de botín |
+| **Chatarra de metal** | Reparaciones estructurales | Recuperada de naves destruidas |
+
+</Section>
+
+<Section icon={Sparkles} title="Conclusión y Preguntas frecuentes (FAQ)">
+
+La **prueba de juego de sand raiders of sophie** muestra un futuro prometedor para el género de extracción, combinando estética histórica con una profunda personalización mecánica. Ya seas un ingeniero solitario o parte de una tripulación coordinada, entender los límites de tu Trampler es la clave para conquistar el planeta Sophie.
+
+<Callout type="tip" title="Consejo Final">
+Consulta siempre el Discord oficial para ver las actualizaciones de mantenimiento del servidor. Durante la prueba de juego, los servidores pueden caerse con frecuencia para realizar optimizaciones.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Qué pasa si mi Trampler es destruido?",
+    answer: "Si tu Trampler es destruido, pierdes la nave y cualquier botín almacenado en su interior. Tendrás que construir uno nuevo usando tus planos guardados y los recursos disponibles."
+  },
+  {
+    question: "¿Puedo jugar la prueba de juego de sand raiders of sophie solo?",
+    answer: "Sí, pero es significativamente más difícil. Tendrás que gestionar la conducción, el disparo y las reparaciones por tu cuenta, lo que te hace vulnerable a tripulaciones más grandes."
+  },
+  {
+    question: "¿Cómo reaparezco durante una partida?",
+    answer: "Debes tener una 'litera para dormir' (cama) construida en tu Trampler. Si mueres y tienes una cama, puedes reaparecer en tu nave. Si la cama es destruida, no puedes reaparecer."
+  },
+  {
+    question: "¿Cuál es la mejor arma para el Trampler?",
+    answer: "El cañón de 80mm se considera generalmente el mejor para causar daños pesados, aunque el de 40mm es mejor para enfrentarse a grupos de NPCs y zombis."
+  }
+]} />
+
+</Section>
