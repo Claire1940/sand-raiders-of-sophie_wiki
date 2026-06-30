@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Info } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Sand Raiders of Sophie Demo: Gameplay-Analyse & Tipps",
+  description: "Meistere die Demo von Sand Raiders of Sophie mit unserem Leitfaden zur Trampler-Anpassung, zum Überleben in der Wüste und zu Extraktionsstrategien in dieser Steampunk-Welt.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/f59e0b?text=Sand+Raiders+of+Sophie+Guide",
+  date: "2026-07-01",
+  author: "SAND Raiders of Sophie Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- Die **Demo von Sand Raiders of Sophie** konzentriert sich auf Crew-basiertes Extraktions-Gameplay mit riesigen, laufenden Mechs namens Tramplern.
+- Die **Trampler-Anpassung** ist die Kern-Fortschrittsschleife, die es Spielern ermöglicht, Waffen, Rüstungen und Innenraum-Layouts zu modifizieren.
+- **Sophies Umgebung** ist ein gefallener Planet voller österreichisch-ungarischer Steampunk-Überreste und gefährlicher ökologischer Gefahren.
+- Die **Kampfstrategie** priorisiert Gefechte von Schiff zu Schiff gegenüber dem Entern, obwohl Scharmützel zu Fuß stattfinden, wenn die Maschinen zerstört sind.
+- Der **technische Status** im Jahr 2026 zeigt großes Potenzial, erfordert jedoch Geduld in Bezug auf Serverstabilität und Trefferregistrierung.
+</Callout>
+
+<Section icon={Map} title="Einführung in die Sophie-Wüste">
+
+Die **Demo von Sand Raiders of Sophie** führt Spieler in eine einzigartige Mischung aus Extraktions-Shooter-Mechaniken und Steampunk-Ästhetik ein. Auf dem trostlosen Planeten Sophie angesiedelt, müssen die Spieler an Bord von „Tramplern“ – riesigen, laufenden mechanischen Basen – durch ein riesiges Wüsten-Ödland navigieren. Im Gegensatz zu herkömmlichen Shootern, bei denen man sich ausschließlich auf die Ausrüstung seines Charakters verlässt, ist das Fahrzeug hier die wichtigste Lebensader. Die Demo zeigt eine Welt, in der das Österreichisch-Ungarische Kaiserreich in einem alternativen Jahr 1910 die Weltraumforschung anführte, nur um den Planeten nach einer mysteriösen ökologischen Katastrophe schließlich aufzugeben.
+
+**Video-Highlights:**
+- **Trampler-Mechaniken**: Lerne, wie die riesigen mechanischen Spinnen als deine mobile Basis und Waffenplattform dienen.
+- **Extraktionsschleife**: Verstehe das Risiko-Nutzen-System beim Plündern von Wracks und der Flucht mit der Beute.
+- **Crew-Koordination**: Warum Teamarbeit unerlässlich ist, um durch Sanddünen zu navigieren und Schiffskomponenten zu verwalten.
+
+<YouTubeEmbed videoId="NIoL2o6F51U" title="SAND Raiders of Sophie Review - Is This Extraction Shooter Worth Playing? | Demo Analysis" />
+
+Die Gameplay-Schleife dreht sich darum, eine Wüstenkarte zu laden, nach wertvollen Ressourcen zu suchen und sowohl gegen KI-Gegner als auch gegen rivalisierende Spieler-Crews zu kämpfen. Je länger du auf der Oberfläche bleibst, desto besser werden die Belohnungen, aber das Risiko, alles an eine andere Crew zu verlieren, steigt exponentiell.
+
+<Callout type="info" title="Kernkonzept">
+Dein Trampler ist nicht nur ein Fahrzeug; er ist deine mobile Festung. Ihn zu verlieren bedeutet oft, das Match zu verlieren, was die Schiffswartung ebenso wichtig macht wie deine Zielgenauigkeit.
+</Callout>
+
+| Feature | Beschreibung | Bedeutung |
+| :--- | :--- | :--- |
+| **Trampler** | Riesiger laufender Mech für Transport und Lagerung | Essenziell |
+| **Sophie** | Das Wüstenplaneten-Setting mit Steampunk-Vibe | Hauptkarte |
+| **Extraktion** | Der Prozess des Entkommens mit gesammelten Schätzen | Siegbedingung |
+| **Galizier** | Die primäre Fraktion der Charaktere aus dem Kaiserreich | Lore-Basis |
+
+</Section>
+
+<Section icon={Settings} title="Die Trampler-Mechaniken meistern">
+
+Der Trampler ist das Herzstück der **Demo von Sand Raiders of Sophie**. Diese Gefährte wurden ursprünglich in den 1870er Jahren entwickelt, um Baumaterialien über Land und Wasser zu transportieren. Im heutigen postapokalyptischen Setting wurden sie von Plünderern und Ausgestoßenen umfunktioniert.
+
+<CardGrid cols={3}>
+  <Card title="Mobile Basis">
+    Der Trampler dient als dein primäres Lager für alle während eines Raids gefundene Beute und schützt sie vor der rauen Umgebung.
+  </Card>
+  <Card title="Waffenplattform">
+    Rüste deinen Mech mit massiven Kanonen und Verteidigungstürmen aus, um rivalisierende Crews und Wüstenraubtiere abzuwehren.
+  </Card>
+  <Card title="Anpassungs-Hub">
+    Modifiziere das Innere und Äußere, um es dem Spielstil deiner Crew anzupassen, von schwerer Rüstung bis hin zu Hochgeschwindigkeits-Chassis.
+  </Card>
+</CardGrid>
+
+Die Anpassung in der Demo ist überraschend tiefgründig, bleibt aber zugänglich. Die Teile lassen sich logisch zusammenfügen, und wichtige Komponenten sind deutlich gekennzeichnet, um Frust durch „Ingenieurs-Hausaufgaben“ zu vermeiden. Spieler können im Laufe des Fortschritts Energiesysteme, Panzerungen und Offensivkapazitäten verbessern.
+
+<Callout type="warning" title="Wartungswarnung">
+Kritische Komponenten können im Kampf zerstört werden. Wenn deine Beine fahrunfähig sind, wirst du zur leichten Beute für Enterkommandos. Halte immer Reparaturwerkzeuge bereit.
+</Callout>
+
+| Komponente | Funktion | Upgrade-Priorität |
+| :--- | :--- | :--- |
+| **Chassis** | Bestimmt die Gesamtlebensdauer und Gewichtskapazität | Hoch |
+| **Beine** | Beeinflusst die Bewegungsgeschwindigkeit und Geländenavigation | Mittel |
+| **Waffenhalterungen** | Ermöglicht die Installation schwerer Artillerie | Hoch |
+| **Innenlagerung** | Erhöht die Menge an Beute, die du extrahieren kannst | Mittel |
+
+</Section>
+
+<Section icon={Swords} title="Kampf- und Überlebensstrategien">
+
+Der Kampf in der **Demo von Sand Raiders of Sophie** ist chaotisch und unvorhersehbar. Gefechte beginnen oft als Artillerie-Duelle von Schiff zu Schiff und können in verzweifelte Feuergefechte zu Fuß ausarten, wenn beide Maschinen zerstört sind. Eine der klügsten Designentscheidungen ist die Art und Weise, wie das Spiel mit Spielerinteraktionen umgeht; das Entern eines feindlichen Schiffes ist schwierig und erfordert erheblichen Aufwand, um verschlossene Türen und begrenzte Zugangspunkte zu überwinden.
+
+<Steps>
+  <Step num="1" title="Erstes Plündern">
+    Navigiere zu Ruinen und Schiffswracks, um grundlegende Ressourcen zu finden. Nutze die Höhe deines Tramplers, um nach rivalisierenden Crews Ausschau zu halten.
+  </Step>
+  <Step num="2" title="Gefechte von Schiff zu Schiff">
+    Wenn sich ein Rivale nähert, benutze Langstreckenkanonen, um seine Bewegung oder seine Waffensysteme fahr- bzw. kampfunfähig zu machen, bevor er zu nahe kommt.
+  </Step>
+  <Step num="3" title="Der Extraktions-Vorstoß">
+    Sobald dein Laderaum voll ist, begib dich zu einem Extraktionspunkt. Dies ist die gefährlichste Phase, da andere Spieler Jagd auf leichte Beute machen werden.
+  </Step>
+</Steps>
+
+Das Fortschrittssystem vermeidet die üblichen Kopfschmerzen bei der Inventarverwaltung, indem es die Beute fair unter den Crewmitgliedern aufteilt. Ungewollte Gegenstände können in Profit umgewandelt werden, der dann verwendet wird, um deinen Trampler für den nächsten Raid weiter zu verbessern.
+
+<Callout type="tip" title="Taktischer Rat">
+Bleibe nicht immer für die „ganz große“ Beute. In der Demo verlieren viele Spieler alles, weil sie zu lange bleiben. Zu wissen, wann man extrahieren sollte, ist das Zeichen eines echten Profi-Raiders.
+</Callout>
+
+| Kampfart | Beste Bewaffnung | Risikostufe |
+| :--- | :--- | :--- |
+| **Langstrecke** | Schwere Artillerie, Railguns | Niedrig |
+| **Mittlere Distanz** | Maschinenkanonen, Raketenwerfer | Mittel |
+| **Entern** | Schrotflinten, Maschinenpistolen | Hoch |
+| **KI-Verteidigung** | Nahbereichsverteidigungssysteme | Niedrig |
+
+</Section>
+
+<Section icon={Target} title="Charakter-Lore und Fraktionen">
+
+Die Charaktere in Sand Raiders of Sophie stammen aus Galizien, einer Region innerhalb des Österreichisch-Ungarischen Kaiserreichs. Dies verleiht dem Spiel eine einzigartige kulturelle Ebene mit Universitätsprofessoren, Ingenieuren und ehemaligen Soldaten, die alle nach Sophie gereist sind, um einzufordern, was ihnen ihrer Meinung nach zusteht.
+
+**Verfügbare Charakter-Hintergründe:**
+- **Die Ingenieure**: Spezialisiert darauf, Trampler unter extremem Druck am Laufen zu halten.
+- **Die Soldaten**: Ehemalige Angehörige der kaiserlichen Armee, erfahren im Umgang mit schweren Waffen.
+- **Die Okkultisten**: Mysteriöse Gestalten, die an den „mehrdeutigen Geheimnissen“ des kosmischen Österreich-Ungarns interessiert sind.
+
+Das Worldbuilding betont das Gefühl, „Gerechtigkeit wiederherzustellen“. Die Spieler werden ermutigt, ihre Trampler als Erweiterung ihrer selbst zu betrachten und sie mit Schmuck und Talismanen zu dekorieren, ähnlich wie ein geliebtes Pferd oder eine Lieblingswaffe. Diese persönliche Verbindung zur Maschinerie hebt das Spiel von klinischeren Sci-Fi-Shootern ab.
+
+<Callout type="success" title="Lore-Fakt">
+Das Österreichisch-Ungarische Kaiserreich entdeckte in dieser Zeitlinie im späten 19. Jahrhundert die Raumfahrt, was zu einem einzigartigen visuellen Stil im Sinne einer „viktorianischen Ära im Weltraum“ führt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Technische Leistung und Optimierung">
+
+Wie bei vielen Testphasen im Jahr 2026 steht die **Demo von Sand Raiders of Sophie** derzeit vor einigen technischen Hürden. Während das Kern-Gameplay solide ist, sollten sich die Spieler auf einige „Ecken und Kanten“ während ihrer Sitzungen einstellen.
+
+<Checklist
+  id="demo-stability"
+  title="Bekannte Leistungsprobleme:"
+  items={[
+    "Serverinstabilität und gelegentliche Verbindungsabbrüche",
+    "Rubberbanding bei intensiven Schiffskämpfen",
+    "Inkonsistente Trefferregistrierung bei Langstreckenwaffen",
+    "Spawning-Bugs in bestimmten Wüstenquadranten"
+  ]}
+/>
+
+Um diese Probleme zu mildern, wird empfohlen, mit einer festen Gruppe von Freunden zu spielen, anstatt sich auf die Solo-Spielersuche zu verlassen. Die Crew-basierte Natur des Spiels macht es viel verzeihlicher, wenn technische Fehler auftreten, da Teamkollegen sich bei Lag-Spitzen oft gegenseitig decken können.
+
+| Problem | Möglicher Workaround | Status |
+| :--- | :--- | :--- |
+| **Rubberbanding** | Sichtweite in den Einstellungen verringern | Wird untersucht |
+| **Trefferregistrierung** | Ziele etwas mehr als gewöhnlich vorhalten | Bekannter Fehler |
+| **Server-Lag** | Die Region mit dem niedrigsten Ping manuell auswählen | Persistent |
+
+<Callout type="tip" title="Optimierungs-Tipp">
+Das Verringern der Einstellungen für die „Physikqualität“ kann die Bildrate bei großflächigen Trampler-Kollisionen erheblich verbessern.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Fazit und FAQ">
+
+Die **Demo von Sand Raiders of Sophie** präsentiert eine vielversprechende Vision eines Steampunk-Extraktions-Shooters. Obwohl die technischen Probleme real sind, ist die Kernschleife, eine riesige mechanische Spinne anzupassen und durch eine wunderschöne, feindselige Wüste zu navigieren, unglaublich fesselnd. Für Spieler, die teambasiertes Gameplay und tiefgründige Fahrzeuganpassung schätzen, ist dies ein titel, den man auf dem Weg zum vollständigen Release genau im Auge behalten sollte.
+
+<FAQ items={[
+  {
+    question: "Ist Sand Raiders of Sophie solo spielbar?",
+    answer: "Es ist zwar möglich, aber das Spiel ist stark auf das Zusammenspiel in einer Crew ausgelegt. Solo-Spieler werden es schwer haben, gleichzeitig die Reparaturen am Trampler und den Kampf zu bewältigen."
+  },
+  {
+    question: "Was ist das Hauptziel der Demo?",
+    answer: "Das Hauptziel besteht darin, Ressourcen auf dem Wüstenplaneten Sophie zu plündern, deinen Trampler zu verbessern und erfolgreich zu entkommen, ohne von anderen Spielern zerstört zu werden."
+  },
+  {
+    question: "Wie bekomme ich in der Demo einen Trampler?",
+    answer: "Spieler erhalten zu Beginn ein einfaches Trampler-Chassis, das dann mit während der Raids gefundenen Ressourcen modifiziert und aufgerüstet werden kann."
+  },
+  {
+    question: "Gibt es KI-Gegner in der Demo?",
+    answer: "Ja, die Wüste ist mit verschiedenen KI-Bedrohungen und ökologischen Gefahren bevölkert, durch die du dich neben rivalisierenden Spieler-Crews navigieren musst."
+  }
+]} />
+
+</Section>

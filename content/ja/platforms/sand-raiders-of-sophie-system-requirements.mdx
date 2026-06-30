@@ -1,0 +1,125 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND: Raiders of Sophie 動作環境＆最適化ガイド",
+  description: "SAND: Raiders of Sophie をお使いのPCで快適にプレイするために、最低動作環境および推奨動作環境を確認してください。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/2563eb/fff?text=System+Requirements+Guide",
+  date: "2026-07-01",
+  author: "SAND Raiders of Sophie Wikiチーム"
+}
+
+<Callout type="info" title="クイックガイド">
+- **SAND: Raiders of Sophie の動作環境**は、最低構成と推奨構成で大きく異なります。
+- ドライブに少なくとも **11 GB の空き容量**があることを確認してください。
+- ゲームの実行には、**64ビットプロセッサおよびオペレーティングシステム**が必須です。
+- 大規模なPvPゾーンで安定した体験を得るには、**32 GB RAM** へのアップグレードを強く推奨します。
+- 最良の結果を得るために、**グラフィックスドライバーを最新の状態に更新**し、最新のパフォーマンスパッチを適用してください。
+</Callout>
+
+<Section icon={Settings} title="PCハードウェア仕様">
+
+移動式メカ要塞でソフィーの砂丘をスムーズに駆け巡るには、ゲームの基準となるハードウェア規格を満たす必要があります。以下の表は、開発元から提供された公式の動作環境を示しています。
+
+| コンポーネント | 最低動作環境 | 推奨動作環境 |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 64-bit | Windows 11 64-bit |
+| **プロセッサ** | Intel Core i5 (第8世代) / AMD Ryzen 5 (2000シリーズ) | Intel Core i5 (第13世代) / AMD Ryzen 5 (7000シリーズ) |
+| **メモリ** | 16 GB RAM | 32 GB RAM |
+| **グラフィックス** | NVIDIA GTX 1650 / AMD RX 570 / Intel Arc A380 | NVIDIA RTX 3080 / AMD RX 6800 XT |
+| **ストレージ** | 11 GB の空き容量 | 11 GB の空き容量 |
+
+<Callout type="tip" title="パフォーマンスに関する注意">
+ゲームの最低要件は 16 GB となっていますが、カスタマイズされた複数のトランプラーが入り乱れる大規模な戦闘では、フレームレートが低下する可能性があります。激しい戦闘中に安定性を維持するには、32 GB RAM へのアップグレードが最も効果的です。
+</Callout>
+
+**動画の見どころ：**
+- トランプラー・エディター・システムの詳細な紹介。
+- 砂丘でのPvP戦闘のデモンストレーション。
+- エクストラクション・シューターのゲームメカニクスの概要。
+
+<YouTubeEmbed videoId="VIDEO_ID_PLACEHOLDER" title="SAND: Raiders of Sophie ゲームプレイ概要" />
+
+</Section>
+
+<Section icon={Shield} title="セットアップの最適化">
+
+ハードウェアそのものだけでなく、ソフトウェア環境の設定もゲームのパフォーマンスに重要な役割を果たします。本作はカーネルレベルのアンチチートシステム「BattlEye」を採用しているため、競合するバックグラウンドプロセスがシステム上で実行されていないことを確認してください。
+
+| 最適化タスク | メリット |
+| :--- | :--- |
+| **GPUドライバーの更新** | 描画の乱れを防ぎ、フレームペーシングを改善します |
+| **SSDへのインストール** | ランダム生成される世界のロード時間を短縮します |
+| **バックグラウンドアプリのクリーンアップ** | 複雑なトランプラーの物理エンジン用にRAMを解放します |
+| **DirectX 11の確認** | ゲームのコアレンダリングAPIとの互換性を確保します |
+
+<Callout type="warning" title="アンチチートに関する情報">
+このゲームは、カーネルレベルのアンチチートシステムである BattlEye を使用しています。ゲームをアンインストールする場合は、システムから完全に削除するために BattlEye のファイルを手動で削除する必要がある場合があることに注意してください。
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="砂丘での第一歩">
+
+システムが要件を満たしていることを確認したら、以下の手順に従って、最初の遠征に向けてPCを準備しましょう。
+
+<Steps>
+  <Step num="1" title="システムファイルの整合性確認">
+    Steamクライアントを開き、ライブラリ内のゲームを右クリックして「プロパティ」を選択し、ゲームファイルの整合性を確認します。
+  </Step>
+  <Step num="2" title="グラフィック設定の調整">
+    ゲームを起動し、設定メニューに移動して、お使いのGPUスペックに合わせて解像度やテクスチャ品質を調整します。
+  </Step>
+  <Step num="3" title="ボヤージュモードでのテスト">
+    リスクの高い「ストームダイブ」に挑む前に、「ボヤージュモード」を使用して、リスクの低い環境でフレームレートとネットワークの安定性をテストしてください。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="スカベンジャー向けチェックリスト">
+
+軌道ステーションへの旅に出発する前に、以下の技術面およびゲームプレイ面の準備が整っていることを確認してください。
+
+<Checklist
+  id="prep-checklist"
+  title="出発前チェックリスト："
+  items={[
+    "Windowsを最新バージョンに更新する",
+    "不要なブラウザのタブやバックグラウンドタスクを閉じる",
+    "現在のトランプラーのデザインを設計図として保存する",
+    "Steamクライアントでゲームの最新アップデートを確認する"
+  ]}
+/>
+
+<Callout type="success" title="プロのヒント">
+カスタムしたトランプラーのデザインは、常に設計図（ブループリント）として保存しておきましょう。リスクの高いPvP戦で要塞が破壊されても、設計図が保存されていれば、次の出撃に向けて素早くビルドを再構築することができます。
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="よくある質問">
+
+<FAQ items={[
+  {
+    question: "古いプロセッサでもゲームを起動できますか？",
+    answer: "ゲームの実行には、最低でも第8世代の Intel Core i5 または同等以上のプロセッサが必要です。古いプロセッサでは、トランプラーの物理演算やランダム生成の処理に負荷がかかる可能性があります。"
+  },
+  {
+    question: "特定のストレージタイプ（SSDなど）は必須ですか？",
+    answer: "強制ではありませんが、広大でランダム生成される世界を効率的に読み込むため、ゲームをSSDにインストールすることを強く推奨します。"
+  },
+  {
+    question: "なぜ推奨設定に 32 GB の RAM が必要なのですか？",
+    answer: "複雑なモジュール式の建築システムや、広大なオープンワールドの砂丘では、激しいPvPセッション中にアセットやプレイヤーが建築した構造物をキャッシュするために、大容量のメモリが必要となるためです。"
+  }
+]} />
+
+</Section>

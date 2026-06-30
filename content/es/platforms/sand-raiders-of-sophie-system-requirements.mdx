@@ -1,0 +1,125 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de requisitos del sistema y optimización de SAND: Raiders of Sophie",
+  description: "Consulta los requisitos del sistema mínimos y recomendados para SAND: Raiders of Sophie para garantizar un juego fluido en tu equipo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2563eb/fff?text=System+Requirements+Guide",
+  date: "2026-07-01",
+  author: "Equipo de la Wiki de SAND: Raiders of Sophie"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Los requisitos del sistema de SAND: Raiders of Sophie** varían significativamente entre las configuraciones de hardware mínimas y recomendadas.
+- Asegúrate de tener al menos **11 GB de espacio de almacenamiento disponible** en tu unidad.
+- Se requiere estrictamente un **procesador y sistema operativo de 64 bits** para ejecutar el juego.
+- Se recomienda encarecidamente actualizar a **32 GB de RAM** para una experiencia estable en las zonas PvP a gran escala.
+- Mantén tus **controladores gráficos actualizados** para que coincidan con los últimos parches de rendimiento y obtener los mejores resultados.
+</Callout>
+
+<Section icon={Settings} title="Especificaciones de hardware de PC">
+
+Para asegurarte de que tu fortaleza mecha andante funcione sin problemas en las dunas de Sophie, debes cumplir con los estándares de hardware básicos del juego. Las siguientes tablas detallan los requisitos oficiales proporcionados por los desarrolladores.
+
+| Componente | Requisito mínimo | Requisito recomendado |
+| :--- | :--- | :--- |
+| **SO** | Windows 10 de 64 bits | Windows 11 de 64 bits |
+| **Procesador** | Intel Core i5 (8.ª gen.) / AMD Ryzen 5 (serie 2000) | Intel Core i5 (13.ª gen.) / AMD Ryzen 5 (serie 7000) |
+| **Memoria** | 16 GB de RAM | 32 GB de RAM |
+| **Gráficos** | NVIDIA GTX 1650 / AMD RX 570 / Intel Arc A380 | NVIDIA RTX 3080 / AMD RX 6800 XT |
+| **Almacenamiento** | 11 GB de espacio disponible | 11 GB de espacio disponible |
+
+<Callout type="tip" title="Nota de rendimiento">
+Aunque el juego indica 16 GB como mínimo, los jugadores que participan en batallas a gran escala con múltiples Tramplers personalizables pueden experimentar caídas de fotogramas. Actualizar a 32 GB de RAM es la forma más efectiva de mantener la estabilidad durante los combates intensos.
+</Callout>
+
+**Puntos destacados del video:**
+- Vistazo detallado al sistema del editor de Tramplers.
+- Demostración del combate PvP en las dunas.
+- Resumen de las mecánicas del shooter de extracción.
+
+<YouTubeEmbed videoId="VIDEO_ID_PLACEHOLDER" title="Resumen del juego SAND: Raiders of Sophie" />
+
+</Section>
+
+<Section icon={Shield} title="Optimización de tu configuración">
+
+Más allá del hardware puro, la configuración de tu entorno de software juega un papel fundamental en el rendimiento del juego. Dado que el juego utiliza el sistema antitrampas a nivel de kernel BattlEye, asegúrate de que tu sistema esté libre de procesos en segundo plano conflictivos.
+
+| Tarea de optimización | Beneficio |
+| :--- | :--- |
+| **Actualizar controladores de GPU** | Evita artefactos visuales y mejora el ritmo de fotogramas |
+| **Instalación en SSD** | Reduce los tiempos de carga del mundo generado procedimentalmente |
+| **Limpieza de aplicaciones en segundo plano** | Libera RAM para el complejo motor de físicas de los Tramplers |
+| **Comprobación de DirectX 11** | Garantiza la compatibilidad con la API de renderizado principal del juego |
+
+<Callout type="warning" title="Información del sistema antitrampas">
+Este juego utiliza BattlEye, un sistema antitrampas a nivel de kernel. Si decides desinstalar el juego, recuerda que es posible que debas eliminar manualmente los archivos de BattlEye para borrarlos por completo de tu sistema.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Primeros pasos en las dunas">
+
+Si has verificado que tu sistema cumple con los requisitos, sigue estos pasos para preparar tu PC para tu primera expedición.
+
+<Steps>
+  <Step num="1" title="Verificar archivos del sistema">
+    Abre el cliente de Steam, haz clic derecho en el juego en tu biblioteca, selecciona Propiedades y verifica la integridad de los archivos del juego.
+  </Step>
+  <Step num="2" title="Ajustar la configuración gráfica">
+    Inicia el juego y ve al menú de configuración para ajustar la resolución y la calidad de las texturas según tu gama de GPU específica.
+  </Step>
+  <Step num="3" title="Probar en el modo Voyage">
+    Antes de sumergirte en el modo de alto riesgo Storm Dive, usa el modo Voyage para probar tu tasa de fotogramas y la estabilidad de la red en un entorno de menor riesgo.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para recolectores">
+
+Antes de emprender tu viaje a la estación orbital, asegúrate de haber completado estas preparaciones técnicas y de juego.
+
+<Checklist
+  id="prep-checklist"
+  title="Lista de comprobación previa al vuelo:"
+  items={[
+    "Actualizar Windows a la última versión",
+    "Cerrar las pestañas innecesarias del navegador y las tareas en segundo plano",
+    "Guardar tu diseño actual de Trampler como un plano",
+    "Buscar actualizaciones recientes del juego a través del cliente de Steam"
+  ]}
+/>
+
+<Callout type="success" title="Consejo profesional">
+Guarda siempre tus diseños personalizados de Trampler como planos. Si tu fortaleza es destruida en un encuentro PvP de alto riesgo, tener un plano guardado te permitirá reconstruir rápidamente tu diseño para la siguiente incursión.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo ejecutar el juego con un procesador más antiguo?",
+    answer: "El juego requiere al menos un Intel Core i5 de 8.ª generación o equivalente. Los procesadores más antiguos pueden tener dificultades con la generación procedimental y los cálculos físicos de los Tramplers."
+  },
+  {
+    question: "¿Se requiere un tipo específico de almacenamiento?",
+    answer: "Aunque no es obligatorio, se recomienda encarecidamente instalar el juego en un SSD para gestionar de manera eficiente la carga del enorme mundo generado procedimentalmente."
+  },
+  {
+    question: "¿Por qué necesito 32 GB de RAM para la configuración recomendada?",
+    answer: "El complejo sistema de construcción modular y la naturaleza de mundo abierto a gran escala de las dunas requieren una cantidad significativa de memoria para almacenar en caché los recursos y las estructuras construidas por los jugadores durante las intensas sesiones de PvP."
+  }
+]} />
+
+</Section>

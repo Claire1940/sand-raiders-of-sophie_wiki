@@ -1,0 +1,125 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, BookOpen } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "SAND: Raiders of Sophie System Requirements & Optimization Guide",
+  description: "Check the minimum and recommended system requirements for SAND: Raiders of Sophie to ensure smooth gameplay on your machine.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2563eb/fff?text=System+Requirements+Guide",
+  date: "2026-07-01",
+  author: "SAND Raiders of Sophie Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **SAND: Raiders of Sophie system requirements** vary significantly between minimum and recommended hardware configurations.
+- Ensure you have at least **11 GB of available storage** space on your drive.
+- A **64-bit processor and operating system** are strictly required to run the game.
+- Upgrading to **32 GB of RAM** is highly recommended for a stable experience in large-scale PvP zones.
+- Keep your **graphics drivers updated** to match the latest performance patches for the best results.
+</Callout>
+
+<Section icon={Settings} title="PC Hardware Specifications">
+
+To ensure your walking mech fortress runs smoothly across the dunes of Sophie, you must meet the game's baseline hardware standards. The following tables outline the official requirements provided by the developers.
+
+| Component | Minimum Requirement | Recommended Requirement |
+| :--- | :--- | :--- |
+| **OS** | Windows 10 64-bit | Windows 11 64-bit |
+| **Processor** | Intel Core i5 (8th Gen) / AMD Ryzen 5 (2000 Series) | Intel Core i5 (13th Gen) / AMD Ryzen 5 (7000 Series) |
+| **Memory** | 16 GB RAM | 32 GB RAM |
+| **Graphics** | NVIDIA GTX 1650 / AMD RX 570 / Intel Arc A380 | NVIDIA RTX 3080 / AMD RX 6800 XT |
+| **Storage** | 11 GB available space | 11 GB available space |
+
+<Callout type="tip" title="Performance Note">
+While the game lists 16 GB as the minimum, players engaging in large-scale battles with multiple customizable Tramplers may experience frame drops. Upgrading to 32 GB of RAM is the most effective way to maintain stability during intense combat.
+</Callout>
+
+**Video Highlights:**
+- Detailed look at the Trampler Editor system.
+- Demonstration of PvP combat on the dunes.
+- Overview of the extraction shooter mechanics.
+
+<YouTubeEmbed videoId="VIDEO_ID_PLACEHOLDER" title="SAND: Raiders of Sophie Gameplay Overview" />
+
+</Section>
+
+<Section icon={Shield} title="Optimizing Your Setup">
+
+Beyond raw hardware, the configuration of your software environment plays a critical role in how well the game performs. Since the game utilizes the BattlEye kernel-level anti-cheat, ensure your system is free of conflicting background processes.
+
+| Optimization Task | Benefit |
+| :--- | :--- |
+| **Update GPU Drivers** | Prevents visual artifacts and improves frame pacing |
+| **SSD Installation** | Reduces loading times for the procedurally generated world |
+| **Background App Cleanup** | Frees up RAM for the complex Trampler physics engine |
+| **DirectX 11 Check** | Ensures compatibility with the game's core rendering API |
+
+<Callout type="warning" title="Anti-Cheat Information">
+This game uses BattlEye, a kernel-level anti-cheat system. If you decide to uninstall the game, remember that you may need to manually remove the BattlEye files to fully clear them from your system.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Getting Started on the Dunes">
+
+If you have verified your system meets the requirements, follow these steps to prepare your PC for your first expedition.
+
+<Steps>
+  <Step num="1" title="Verify System Files">
+    Open the Steam client, right-click the game in your library, select Properties, and verify the integrity of the game files.
+  </Step>
+  <Step num="2" title="Adjust Graphic Settings">
+    Launch the game and navigate to the settings menu to adjust resolution and texture quality based on your specific GPU tier.
+  </Step>
+  <Step num="3" title="Test in Voyage Mode">
+    Before diving into high-stakes Storm Dive, use Voyage Mode to test your frame rate and network stability in a lower-risk environment.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist for Scavengers">
+
+Before embarking on your journey to the orbital station, ensure you have completed these technical and gameplay preparations.
+
+<Checklist
+  id="prep-checklist"
+  title="Pre-Flight Checklist:"
+  items={[
+    "Update Windows to the latest version",
+    "Close unnecessary browser tabs and background tasks",
+    "Save your current Trampler design as a blueprint",
+    "Check for recent game updates via the Steam client"
+  ]}
+/>
+
+<Callout type="success" title="Pro Tip">
+Always save your custom Trampler designs as blueprints. If your fortress is destroyed in a high-stakes PvP encounter, having a saved blueprint allows you to quickly reconstruct your build for the next run.
+</Callout>
+
+</Section>
+
+<Section icon={BookOpen} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I run the game on an older processor?",
+    answer: "The game requires at least an 8th Gen Intel Core i5 or equivalent. Older processors may struggle with the procedural generation and physics calculations of the Tramplers."
+  },
+  {
+    question: "Is there a specific storage type required?",
+    answer: "While not strictly enforced, installing the game on an SSD is highly recommended to handle the streaming of the massive, procedurally generated world efficiently."
+  },
+  {
+    question: "Why do I need 32 GB of RAM for recommended settings?",
+    answer: "The complex modular building system and the large, open-world nature of the dunes require significant memory to cache assets and player-built structures during intense PvP sessions."
+  }
+]} />
+
+</Section>

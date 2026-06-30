@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "sand raiders of sophie protective dome: Verteidigungshandbuch",
+  description: "Erfahre, wie du die Domovyk-Schutzkuppel und andere einsetzbare Schilde in SAND: Raiders of Sophie findest, einsetzt und meisterst.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Protective+Dome+Guide",
+  date: "2026-07-01",
+  author: "SAND Raiders of Sophie Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **sand raiders of sophie protective dome** ist ein seltenes defensives einsatzbares Objekt, das ausschließlich in Roten Kisten zu finden ist.
+- Die **Domovyk-Schutzkuppel** erzeugt ein blaues Energieschild, das jeglichen eingehenden Schaden absorbiert, um deine Truppe zu schützen.
+- **Rote Kisten**, die diese Gegenstände enthalten, erscheinen zufällig in Städten, großen Gebäuden und industriellen Wahrzeichen auf ganz Sophie.
+- **Kombiniere Kuppeln** wie den Pestkop-Lorenz-Schadensverstärker mit Verteidigungsschilden, um in riskanten Evakuierungs-Feuergefechten die Oberhand zu behalten.
+</Callout>
+
+<Section icon={Shield} title="Die Schutzkuppel in sand raiders of sophie verstehen">
+
+In den unbarmherzigen Dieselpunk-Wüsten von Sophie hängt das Überleben davon ab, wie gut du deine Crew und deinen Trampler-Kampfläufer schützen kannst. Die **sand raiders of sophie protective dome** – im Spiel offiziell als **Domovyk-Schutzkuppel** bekannt – dient als das ultimative mobile Verteidigungsschild. Nach dem Aufstellen projiziert sie ein riesiges blaues Energiefeld, das jegliches feindliche Waffenfeuer und Kanonengeschosse absorbiert und dein Team bei intensiven Evakuierungskämpfen schützt.
+
+Im Gegensatz zu Standarddeckungen bietet diese aufstellbare Kuppel einen 360-Grad-Schutz, sodass sich deine Truppe neu formieren, gefallene Verbündete wiederbeleben oder kritische Trampler-Systeme unter schwerem Beschuss reparieren kann. In einem Spiel, in dem der Verlust deines Schiffs den Verlust deines hart erarbeiteten Fortschritts bedeutet, entscheidet die Platzierung dieser Verteidigungsbarrieren über eine erfolgreiche Evakuierung oder eine verheerende Niederlage.
+
+Es gibt vier verschiedene einsatzbare Kuppeltechnologien im Spiel, die jeweils einen einzigartigen taktischen Zweck während eines Raids erfüllen. Zu verstehen, wie sie sich im Vergleich schlagen, ist entscheidend für die Erstellung eines ausgewogenen Trupp-Loadouts.
+
+| Kuppel-Name | Farbe | Primäreffekt | Taktische Bewertung |
+| :--- | :--- | :--- | :--- |
+| **Domovyk-Schutzkuppel** | Blau | Absorbiert jeglichen eingehenden Schaden | ★★★★★ |
+| **Pestkop-Lorenz-Verstärker** | Gelb | Erhöht Schusswaffen- und Kanonenschaden um +100% | ★★★★★ |
+| **Podorozhnyk-Bio-Emitter** | Grün | Erzeugt eine Kuppel, die Spieler über Zeit heilt | ★★★★☆ |
+| **Von Liebig-Reflektor** | Metallisch | Projiziert ein gerichtetes Schild, das Schaden reflektiert | ★★★★☆ |
+
+<Callout type="tip" title="Profi-Tipp">
+Priorisiere immer das Aufstellen der Domovyk-Schutzkuppel, wenn die Rumpfintegrität deines Tramplers unter 30% fällt, um deinem Team Zeit für die Reparatur des Motors zu verschaffen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Rote Kisten für defensive Ausrüstung farmen">
+
+Um die begehrte Domovyk-Schutzkuppel zu ergattern, musst du Rote Kisten jagen. Rote Kisten stellen die höchste Stufe von Beutebehältern auf Sophie dar und übertreffen die gewöhnlichen weißen und grünen Kisten bei Weitem. Während Standardkisten einfache Handwerksmaterialien und minderwertige Waffen enthalten, bieten Rote Kisten experimentelle Technologie, durchschlagskräftige Kanonen und spielverändernde einsatzbare Objekte.
+
+Diese seltenen Behälter spawnen nicht in normalen Schiffswracks oder Gebieten mit niedrigem Level. Stattdessen musst du dich in Zonen mit hoher Gefahr und benannte Monumente wagen, um sie zu finden. Da die Beute zufällig verteilt wird, musst du möglicherweise mehrere Rote Kisten öffnen, bevor du die spezifische Schutzkuppel erhältst, die du benötigst.
+
+| Behältertyp | Seltenheit | Hauptfundorte | Wichtigste Beute |
+| :--- | :--- | :--- | :--- |
+| **Weiße Kiste** | Häufig | Verstreute Ruinen, einfache Schiffswracks | Handwerksmaterialien, Standardmunition |
+| **Grüne Kiste** | Ungewöhnlich | Benannte Monumente, äußere Gebäudebereiche | Mittlere Waffen, einfache Trampler-Teile |
+| **Rote Kiste** | Selten | Tiefe Stadtzentren, verschlossene Innenräume | Experimentelle Kanonen, Schutzkuppeln |
+
+<CardGrid cols={3}>
+  <Card title="Verlassene Städte">
+    Dicht bebaute städtische Gebiete bieten die höchste Konzentration an Gebäuden, welche die primären Spawnpunkte für Rote Kisten sind.
+  </Card>
+  <Card title="Industrielle Wahrzeichen">
+    Große Fabriken und Lagerhäuser enthalten oft versteckte Räume, in denen sich hochrangige defensive Ausrüstung befindet.
+  </Card>
+  <Card title="Verschlossene Innenräume">
+    Suche hinter mit Schlüsselkarten verschlossenen Türen in Monumenten, um garantiert Beutebehälter mit hoher Seltenheit zu finden.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Beute-Gefahr">
+Rote Kisten sind bei rivalisierenden Raidern heiß begehrt. Scanne immer die umliegenden Dächer in Städten, bevor du eilig einen Behälter öffnest.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Taktischer Einsatz und Trampler-Integration">
+
+Sobald du erfolgreich eine Schutzkuppel evakuiert hast, musst du sie in dein aktives Setup integrieren. Einsatzbare Objekte können nicht direkt aus deinem globalen Lager verwendet werden; sie müssen vor dem Start einer Runde in dein Loadout ausgerüstet werden. 
+
+An Bord deines anpassbaren Kampfläufers (Trampler) werden einsatzbare Objekte auf physischen Gegenstandsregalen gelagert. Während eines Feuergefechts muss ein Besatzungsmitglied das Gerät physisch aus dem Regal nehmen und werfen, um die Kuppel zu aktivieren. Diese physische Interaktion verleiht dem Kampf eine Ebene von Realismus und Dringlichkeit, was eine klare Kommunikation unter den Truppmitgliedern erfordert.
+
+<Steps>
+  <Step num="1" title="Plündern und Evakuieren">
+    Finde eine Rote Kiste in einem städtischen Monument, sichere dir die Domovyk-Schutzkuppel und evakuiere sie sicher in dein Lobby-Inventar.
+  </Step>
+  <Step num="2" title="Im aktiven Loadout ausrüsten">
+    Bevor du einen neuen Raid startest, navigiere zu deinem Charakterinventar und ziehe das Kuppel-Objekt in deinen aktiven Loadout-Slot.
+  </Step>
+  <Step num="3" title="Vom Trampler-Regal holen">
+    Sobald das Match beginnt, gehe zum Gegenstandsregal auf deinem Trampler-Kampfläufer, um deine eingepackte Schutzkuppel zu finden.
+  </Step>
+  <Step num="4" title="Im Kampf einsetzen">
+    Rüste das Gerät aus dem Regal aus und wirf es auf das Deck deines Tramplers oder auf den Boden, um das Schutzfeld zu aktivieren.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Einsatzmechanik">
+Einsatzbare Kuppeln haben eine festgelegte Dauer und Abklingzeit. Stimme deine Einsätze mit deinen Truppmitgliedern ab, um eine kontinuierliche Verteidigungsabdeckung zu gewährleisten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Kuppel-Synergien für die ultimative Truppverteidigung">
+
+Während eine einzelne Domovyk-Schutzkuppel bereits hervorragenden Schutz bietet, erschafft die Kombination mehrerer einsatzbarer Objekte eine unbezwingbare Festung. Das Stapeln verschiedenfarbiger Kuppeln ermöglicht es deiner Truppe, gleichzeitig zu heilen, Schaden zu absorbieren und eure Offensivkraft zu verdoppeln.
+
+Wenn du beispielsweise eine Domovyk-Kuppel (blau) zusammen mit einem Pestkop-Lorenz-Verstärker (gelb) platzierst, kann dein Team in einer geschützten Zone stehen, während es mit einem massiven Schadensbonus von +100% nach außen feuert. Diese Synergie ist besonders verheerend, wenn hochkarätige Fahrzeugwaffen wie die experimentelle 80-mm-Schiffskanone verwendet werden.
+
+| Kombinationsname | Kuppel-Kombination | Taktische Synergie | Kampfrolle |
+| :--- | :--- | :--- | :--- |
+| **Die Bastion** | Domovyk + Podorozhnyk | Bietet vollständige Schadensabsorption, während Verbündete geheilt werden | Defensiver Igel |
+| **Die Feuerkraft** | Domovyk + Pestkop-Lorenz | Schützt Schützen, während der ausgehende Schaden verdoppelt wird | Offensive Belagerung |
+| **Die Aegis** | Von Liebig + Pestkop-Lorenz | Reflektiert Frontalangriffe und verstärkt Flanken-Konter | Taktischer Konter |
+
+<Callout type="success" title="Schadenssynergie">
+Der Schadensboost von +100% des Pestkop-Lorenz-Verstärkers gilt für jeden innerhalb der gelben Kuppel, einschließlich der montierten Kanonen deines Tramplers.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Vorbereitungs-Checkliste für Sophie-Raider">
+
+Bevor du dich in die gefährlichen Ruinen von Sophie begibst, um hochrangige einsatzbare Objekte zu farmen, ist eine angemessene Vorbereitung erforderlich. Wenn dir der Inventarplatz ausgeht oder du unterausgerüstet in ein hochrangiges Monument gehst, führt das zu einer schnellen Rückkehr in die Lobby. 
+
+Stelle sicher, dass dein Trampler mit zuverlässigen Kanonen ausgestattet ist, um mit rivalisierenden Trupps fertigzuwerden, und behalte immer eine klare Inventarstruktur bei, damit du wertvolle Beute aus Roten Kisten nicht zurücklassen musst. Siehe den [SAND: Raiders of Sophie Destructoid-Guide](https://www.destructoid.com/all-red-box-items-in-sand-raiders-of-sophie-and-how-they-work/) für eine vollständige Aufschlüsselung aller seltenen Gegenstände und Waffenwerte.
+
+| Kanonentyp | Munitionskaliber | Primäres Kampfprofil | Ressourcenkosten |
+| :--- | :--- | :--- | :--- |
+| **Maschinenkanone** | 40 mm | Schnellfeuer-Unterdrückung, heizt sich auf, um schneller zu feuern | Niedrig |
+| **Schrotkanone** | 70 mm | Doppelschuss-Salve mit hohem Schaden auf kurze Distanz | Mittel |
+| **Schiffskanone** | 80 mm | Extremer Schaden und hohe Projektilgeschwindigkeit | Hoch |
+
+<Checklist
+  id="raid-preparation"
+  title="Pre-Raid-Checkliste für Sophie-Raider:"
+  items={[
+    "Rüste mindestens eine schwere Waffe wie die 80-mm-Schiffskanone aus.",
+    "Packe zwei zusätzliche Lagerkisten ein, um schwere Beute aus Roten Kisten zu sichern.",
+    "Überprüfe, ob dein aktives Loadout die Domovyk-Schutzkuppel enthält.",
+    "Überprüfe die Karte nach benannten Monumenten, um eine sichere Evakuierungsroute zu planen."
+  ]}
+/>
+
+<Callout type="tip" title="Inventarverwaltung">
+Bringe auf Plünderungstouren immer eine zusätzliche Holzkiste mit. Wenn du mehrere Gegenstände aus Roten Kisten findest, kannst du sie sicher zurücktransportieren, ohne wertvolle Beute zurücklassen zu müssen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Wo findet man die Schutzkuppel in sand raiders of sophie am besten?",
+    answer: "Die Domovyk-Schutzkuppel ist in seltenen Roten Kisten zu finden, die zufällig in Städten, großen Industrieanlagen und benannten städtischen Monumenten auf der ganzen Karte spawnen."
+  },
+  {
+    question: "Kann die Schutzkuppel meinen gesamten Trampler schützen?",
+    answer: "Ja! Wenn sie auf dem Deck deines Tramplers platziert wird, dehnt sich die blaue Kuppel über einen großen Radius aus und absorbiert jegliches feindliche Kanonenfeuer und normale Kugeln."
+  },
+  {
+    question: "Erhöht der Pestkop-Lorenz-Verstärker den Kanonenschaden meiner Truppe?",
+    answer: "Absolut. Die gelbe Kuppel des Pestkop-Lorenz-Verstärkers erhöht den Schaden aller Kanonen und Schusswaffen in ihrem Radius um +100 %, und dieser Effekt gilt für alle Verbündeten im Inneren."
+  },
+  {
+    question: "Was ist der Unterschied zwischen der Domovyk-Kuppel und dem Von Liebig-Reflektor?",
+    answer: "Die Domovyk-Schutzkuppel erzeugt ein blaues 360-Grad-Schild, das jeglichen eingehenden Schaden absorbiert, während der Von Liebig-Reflektor ein gerichtetes Schild projiziert, das eingehende Angriffe auf den Gegner zurückwirft."
+  }
+]} />
+
+<Callout type="info" title="Beitrag der Wiki-Community">
+Unsere Wiki-Datenbank wird regelmäßig von aktiven Spielern aktualisiert. Wenn du neue Spawn-Koordinaten für Rote Kisten entdeckst, kannst du gerne zu unserem Community-Guide beitragen.
+</Callout>
+
+</Section>
